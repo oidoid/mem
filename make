@@ -1,5 +1,5 @@
 #!/bin/sh
-exec make -f- --warn-undefined-variables "$@" << 'eof'
+exec make -f- --warn-undefined-variables -j8 "$@" << 'eof'
 
 src_dir := src
 out_dir := out
@@ -35,8 +35,8 @@ define export_pngs_scheme :=
   )
 endef
 
-.ONESHELL:
-.SECONDARY:
+.ONESHELL .SECONDARY:
+
 .PHONY: all
 all: $(out_file)
 
