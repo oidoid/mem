@@ -1,0 +1,26 @@
+#!/bin/sh
+''''exec fontforge -script "$0" "$@" #'''
+
+import fontforge
+import sys
+
+sfd = sys.argv[1]
+ttf = sys.argv[2]
+svgs = sys.argv[3:]
+
+def filenameToCharCode(filename):
+  (b16, b1) = filename.replace('.svg', '').split('_')[1:]
+  return int(b16) * 16 + int(b1)
+
+charToFilename = {}
+for svg in svgs:
+  charToFilename[filenameToCharCode(svg)] = svg
+
+font = fontforge.font()
+
+for char, filename in charToFilename.iteritems():
+  glyph = font.createMappedChar(char)
+  glyph.importOutlines(filename)
+
+font.generate(ttf)
+font.save(sfd)

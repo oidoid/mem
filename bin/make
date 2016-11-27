@@ -22,7 +22,7 @@ svg_files := $(tbl:%=$(svg_dir)/_%.svg)
 all: $(out_file)
 
 $(out_file): $(svg_files)
-	touch '$@'
+	$(root_dir)/bin/fontforge-import-svgs '$@' '$(@:%.sfd=%.ttf)' $^
 
 $(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
 	convert -flatten '$<' bmp:-|potrace -sa 0 -O 0 -o '$@'
