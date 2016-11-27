@@ -1,8 +1,9 @@
 #!/bin/sh
-exec make -f- --warn-undefined-variables -j8 "$@" << 'eof'
+exec make -f- --warn-undefined-variables -j8 \
+  root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
 
-src_dir := src
-out_dir := out
+src_dir := $(root_dir)/src
+out_dir := $(root_dir)/out
 png_dir := $(out_dir)/png
 svg_dir := $(out_dir)/svg
 
@@ -52,4 +53,4 @@ $(subst .png,%png,$(png_files)): $(src_file) | $(out_dir)
 $(out_dir) $(svg_dir):; mkdir -p '$@'
 
 .PHONY: clean
-clean:; rm -rf $(out_dir)
+clean:; rm -rf '$(out_dir)'
