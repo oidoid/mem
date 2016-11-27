@@ -1,4 +1,16 @@
+<img style='image-rendering: pixelated; max-width: 400px;'
+  src='readme.png' alt='mem character map'>
+
 # mem
+4x4 fixed width pixel font
+
+## Build Dependencies
+- fontforge
+- imagemagick
+- potrace
+
+Initial Gimp guidelines were drawn using the
+[Grid of guides script](http://registry.gimp.org/node/12003)
 
 ## License (GPLv3)
 © 2016 Stephen Niedzielski
