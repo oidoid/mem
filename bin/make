@@ -16,26 +16,6 @@ tbl := $(foreach row,$(rows),$(foreach col,$(cols),$(row)_$(col)))
 png_files := $(tbl:%=$(png_dir)/_%.png)
 svg_files := $(tbl:%=$(svg_dir)/_%.svg)
 
-define export_pngs_scheme :=
-  (let* (
-      (image (car (gimp-image-list)))
-      (drawable (car (gimp-image-get-active-drawable image)))
-      (scale 10)
-    )
-
-    ; potrace doesn't trace tiny inputs well
-    (gimp-context-set-interpolation INTERPOLATION-NONE)
-    (gimp-image-scale
-      image
-      (* (car (gimp-image-width image)) scale)
-      (* (car (gimp-image-height image)) scale))
-
-    (python-fu-slice RUN-NONINTERACTIVE image 0 \"$(png_dir)\" \"index.htm\" \"\" \"png\" 0 \"\" 0 0 0)
-
-    (gimp-quit TRUE)
-  )
-endef
-
 .ONESHELL .SECONDARY:
 
 .PHONY: all
@@ -48,7 +28,7 @@ $(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
 	convert -flatten '$<' bmp:-|potrace -sa 0 -O 0 -o '$@'
 
 $(subst .png,%png,$(png_files)): $(src_file) | $(out_dir)
-	gimp -idfb "$(export_pngs_scheme)" '$<'
+	$(root_dir)/bin/gimp-export-pngs '$(png_dir)' '$<'
 
 $(out_dir) $(svg_dir):; mkdir -p '$@'
 

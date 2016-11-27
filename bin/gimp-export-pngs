@@ -1,0 +1,22 @@
+#!/bin/sh
+# $1 out dir
+# $2 xcf
+exec gimp -idf "$2" -b '
+(let* (
+    (img (car (gimp-image-list)))
+    (drawable (car (gimp-image-get-active-drawable img)))
+    (scale 10)
+  )
+
+  ; potrace does not trace tiny inputs well
+  (gimp-context-set-interpolation INTERPOLATION-NONE)
+  (gimp-image-scale
+    img
+    (* (car (gimp-image-width img)) scale)
+    (* (car (gimp-image-height img)) scale))
+
+  (python-fu-slice RUN-NONINTERACTIVE img 0 "'"$1"'" "index.htm" "" "png" 0 "" 0 0 0)
+
+  (gimp-quit TRUE)
+)
+'
