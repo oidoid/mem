@@ -3,10 +3,12 @@
 # $2 xcf
 exec gimp -idf "$2" -b '
 (let* (
-    (img (car (gimp-image-list)))
-    (drawable (car (gimp-image-get-active-drawable img)))
+    (img (car (gimp-image-list))) ; $2
     (scale 10)
   )
+
+  ; only the active layer is exported
+  (gimp-image-flatten img)
 
   ; potrace does not trace tiny inputs well
   (gimp-context-set-interpolation INTERPOLATION-NONE)
@@ -15,6 +17,7 @@ exec gimp -idf "$2" -b '
     (* (car (gimp-image-width img)) scale)
     (* (car (gimp-image-height img)) scale))
 
+  ; export a png per guide grid tile
   (python-fu-slice RUN-NONINTERACTIVE img 0 "'"$1"'" "index.htm" "" "png" 0 "" 0 0 0)
 
   (gimp-quit TRUE)
