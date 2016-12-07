@@ -5,12 +5,13 @@ import fontforge
 import sys
 
 sfd = sys.argv[1]
-ttf = sys.argv[2]
-svgs = sys.argv[3:]
+svgs = sys.argv[2:]
 
+# accepts a filename in the following format _xx_yy.svg where xx is row [0, 15]
+# and yy is column [0, 15]
 def filenameToCharCode(filename):
-  (b16, b1) = filename.replace('.svg', '').split('_')[1:]
-  return int(b16) * 16 + int(b1)
+  (hexs, units) = filename.replace('.svg', '').split('_')[1:]
+  return int(hexs) * 16 + int(units)
 
 charToFilename = {}
 for svg in svgs:
@@ -22,5 +23,4 @@ for char, filename in charToFilename.iteritems():
   glyph = font.createMappedChar(char)
   glyph.importOutlines(filename)
 
-font.generate(ttf)
 font.save(sfd)

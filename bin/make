@@ -8,29 +8,35 @@ png_dir := $(out_dir)/png
 svg_dir := $(out_dir)/svg
 
 src_file := $(src_dir)/mem.xcf
-out_file := $(subst $(src_dir),$(out_dir),$(src_file:%.xcf=%.sfd))
+sfd_file := $(src_file:$(src_dir)%.xcf=$(out_dir)%.sfd)
+ttf_file := $(sfd_file:%.sfd=%.ttf)
 
+# generate a 16x16 table
 cols := 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 rows := $(cols)
-tbl := $(foreach row,$(rows),$(foreach col,$(cols),$(row)_$(col)))
-png_files := $(tbl:%=$(png_dir)/_%.png)
-svg_files := $(tbl:%=$(svg_dir)/_%.svg)
+matrix := $(foreach row,$(rows),$(foreach col,$(cols),$(row)_$(col)))
+
+png_files := $(matrix:%=$(png_dir)/_%.png)
+svg_files := $(matrix:%=$(svg_dir)/_%.svg)
 
 .ONESHELL .SECONDARY:
 
-.PHONY: all
-all: $(out_file)
+.PHONY: build
+build: $(ttf_file)
 
-$(out_file): $(svg_files)
-	$(root_dir)/bin/fontforge-import-svgs '$@' '$(@:%.sfd=%.ttf)' $^
+$(out_dir)/%.ttf: $(out_dir)/%.sfd
+	$(root_dir)/bin/fontforge-export-ttf '$@' '$<'
+
+$(sfd_file): $(svg_files) | $(out_dir)
+	$(root_dir)/bin/fontforge-import-svgs '$@' $^
 
 $(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
 	convert -flatten '$<' bmp:-|potrace -sa 0 -O 0 -o '$@'
 
-$(subst .png,%png,$(png_files)): $(src_file) | $(out_dir)
+$(subst .png,%png,$(png_files)): $(src_file) | $(png_dir)
 	$(root_dir)/bin/gimp-export-pngs '$(png_dir)' '$<'
 
-$(out_dir) $(svg_dir):; mkdir -p '$@'
+$(out_dir) $(png_dir) $(svg_dir):; mkdir -p '$@'
 
 .PHONY: clean
 clean:; rm -rf '$(out_dir)'

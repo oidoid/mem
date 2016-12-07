@@ -1,0 +1,10 @@
+#!/bin/sh
+''''exec fontforge -script "$0" "$@" #'''
+
+import fontforge
+import sys
+
+ttf = sys.argv[1]
+sfd = sys.argv[2]
+font = fontforge.open(sfd)
+font.generate(ttf)
