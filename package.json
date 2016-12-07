@@ -6,6 +6,14 @@
   "homepage": "https://github.com/rndmem/mem-font",
   "repository": "github:rndmem/mem-font",
   "bugs": "https://github.com/rndmem/mem-font/issues",
+  "scripts": {
+    "build": "bin/make",
+    "release": "bin/make release",
+    "preversion": "[ -z \"$(git status --porcelain)\" ]",
+    "postversion": "git push origin master --follow-tags && npm publish",
+    "clean": "bin/make clean",
+    "clobber": "npm run -s clean && rm -rf node_modules"
+  },
   "engines": {
     "node": "7.1.0"
   },
