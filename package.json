@@ -1,8 +1,16 @@
 {
   "name": "mem-font",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "4x4 fixed width pixel font",
-  "keywords": ["font", "pixel", "fixed width", "8-bit", "retro", "game", "minimal"],
+  "keywords": [
+    "font",
+    "pixel",
+    "fixed width",
+    "8-bit",
+    "retro",
+    "game",
+    "minimal"
+  ],
   "homepage": "https://github.com/rndmem/mem-font",
   "repository": "github:rndmem/mem-font",
   "bugs": "https://github.com/rndmem/mem-font/issues",
