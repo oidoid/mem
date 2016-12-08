@@ -21,7 +21,7 @@
     "build": "bin/make",
     "rebuild": "bin/make rebuild",
     "clean": "bin/make clean",
-    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm run -s rebuild",
+    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm run -s rebuild && git add build",
     "postversion": "git push origin master --follow-tags && npm publish",
     "clobber": "npm run -s clean && rm -rf node_modules"
   },
