@@ -14,19 +14,22 @@
   "homepage": "https://github.com/rndmem/mem-font",
   "repository": "github:rndmem/mem-font",
   "bugs": "https://github.com/rndmem/mem-font/issues",
+  "files": [
+    "/build/"
+  ],
   "scripts": {
     "build": "bin/make",
-    "release": "bin/make release",
-    "preversion": "[ -z \"$(git status --porcelain)\" ]",
-    "postversion": "git push origin master --follow-tags && npm publish",
+    "rebuild": "bin/make rebuild",
     "clean": "bin/make clean",
+    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm run -s rebuild",
+    "postversion": "git push origin master --follow-tags && npm publish",
     "clobber": "npm run -s clean && rm -rf node_modules"
   },
   "engines": {
     "node": "7.1.0"
   },
-  "license": "GPL-3.0",
   "devDependencies": {
     "jq-cli-wrapper": "0.4.0"
-  }
+  },
+  "license": "GPL-3.0"
 }

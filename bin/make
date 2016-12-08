@@ -3,13 +3,13 @@ exec make -f- --warn-undefined-variables -j8 \
   exe="$0" root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
 
 src_dir := $(root_dir)/src
-out_dir := $(root_dir)/out
-png_dir := $(out_dir)/png
-svg_dir := $(out_dir)/svg
-release_dir := $(root_dir)/release
+build_dir := $(root_dir)/build
+intermediate_dir := $(build_dir)/intermediate
+png_dir := $(intermediate_dir)/png
+svg_dir := $(intermediate_dir)/svg
 
 src_file := $(src_dir)/mem.xcf
-sfd_file := $(src_file:$(src_dir)%.xcf=$(out_dir)%.sfd)
+sfd_file := $(src_file:$(src_dir)%.xcf=$(build_dir)%.sfd)
 ttf_file := $(sfd_file:%.sfd=%.ttf)
 
 # generate a 16x16 table
@@ -25,10 +25,10 @@ svg_files := $(matrix:%=$(svg_dir)/_%.svg)
 .PHONY: build
 build: $(ttf_file)
 
-$(out_dir)/%.ttf: $(out_dir)/%.sfd
+$(build_dir)/%.ttf: $(build_dir)/%.sfd
 	$(root_dir)/bin/fontforge-export-ttf '$@' '$<'
 
-$(sfd_file): $(svg_files) | $(out_dir)
+$(sfd_file): $(svg_files) | $(build_dir)/
 	$(root_dir)/bin/fontforge-import-svgs '$@' $^
 
 $(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
@@ -37,16 +37,10 @@ $(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
 $(subst .png,%png,$(png_files)): $(src_file) | $(png_dir)
 	$(root_dir)/bin/gimp-export-pngs '$(png_dir)' '$<'
 
-$(out_dir) $(png_dir) $(svg_dir):; mkdir -p '$@'
+$(build_dir)/ $(png_dir) $(svg_dir):; mkdir -p '$@'
 
 .PHONY: clean
-clean:; rm -rf '$(out_dir)'
+clean:; rm -rf '$(build_dir)'
 
 .PHONY: rebuild
 rebuild:; '$(exe)' clean && '$(exe)' build
-
-.PHONY: release
-release: rebuild
-	dir="$(release_dir)/$$(jq -r .version '$(root_dir)/package.json')+$$(git show -s --date=format:%Y%m%dT%H%M --format=%cd.%h HEAD)" &&
-	mkdir "$$dir" &&
-	mv '$(ttf_file)' '$(sfd_file)' "$$dir"
