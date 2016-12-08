@@ -14,9 +14,6 @@
   "homepage": "https://github.com/rndmem/mem-font",
   "repository": "github:rndmem/mem-font",
   "bugs": "https://github.com/rndmem/mem-font/issues",
-  "files": [
-    "/build/"
-  ],
   "scripts": {
     "build": "bin/make",
     "rebuild": "bin/make clean && bin/make",

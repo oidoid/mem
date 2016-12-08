@@ -20,9 +20,11 @@ Initial Gimp guidelines were drawn using the
 
 ## Changelog
 
+### v1.0.3
+- Fix: exclude intermediate build files from NPM package
+
 ### v1.0.2
 - Fix: include build folder in Git version commit
-- Fix: exclude intermediate build files from NPM package
 
 ### v1.0.1
 - Fix: include binary in NPM package
