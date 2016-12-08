@@ -8,7 +8,7 @@
 4x4 fixed width pixel font
 
 ## Installing
- npm i -S mem-font
+```npm i -S mem-font```
 
 ## Build Dependencies
 - fontforge
