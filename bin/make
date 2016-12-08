@@ -1,6 +1,6 @@
 #!/bin/sh
 exec make -f- --warn-undefined-variables -j8 \
-  exe="$0" root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
+  root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
 
 src_dir := $(root_dir)/src
 build_dir := $(root_dir)/build
@@ -41,6 +41,3 @@ $(build_dir)/ $(png_dir) $(svg_dir):; mkdir -p '$@'
 
 .PHONY: clean
 clean:; rm -rf '$(build_dir)'
-
-.PHONY: rebuild
-rebuild:; '$(exe)' clean && '$(exe)' build

@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "bin/make",
-    "rebuild": "bin/make rebuild",
+    "rebuild": "bin/make clean && bin/make",
     "clean": "bin/make clean",
     "preversion": "[ -z \"$(git status --porcelain)\" ] && npm run -s rebuild && git add build",
     "postversion": "git push origin master --follow-tags && npm publish",
