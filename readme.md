@@ -20,6 +20,9 @@ Initial Gimp guidelines were drawn using the
 
 ## Changelog
 
+### v1.0.4
+- Update: crop 1px padding
+
 ### v1.0.3
 - Fix: exclude intermediate build files from NPM package
 

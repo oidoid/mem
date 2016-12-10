@@ -31,8 +31,9 @@ $(build_dir)/%.ttf: $(build_dir)/%.sfd
 $(sfd_file): $(svg_files) | $(build_dir)/
 	$(root_dir)/bin/fontforge-import-svgs '$@' $^
 
+# scale is 10; font is 4x4 with 1px padding in xcf
 $(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
-	convert -flatten '$<' bmp:-|potrace -sa 0 -O 0 -o '$@'
+	convert -crop 40x40+10+10 '$<' bmp:-|potrace -sa 0 -O 0 -o '$@'
 
 $(subst .png,%png,$(png_files)): $(src_file) | $(png_dir)
 	$(root_dir)/bin/gimp-export-pngs '$(png_dir)' '$<'
