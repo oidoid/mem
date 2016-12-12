@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 # $1 out dir
 # $2 xcf
 exec gimp -idf "$2" -b '

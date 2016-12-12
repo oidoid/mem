@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 ''''exec fontforge -script "$0" "$@" #'''
 
 import fontforge

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 exec make -f- --warn-undefined-variables -j8 \
   root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
 
