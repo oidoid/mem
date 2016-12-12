@@ -11,12 +11,21 @@
 <a href='build/mem.png'><img style='image-rendering: pixelated;' width='400'
   src='build/mem.png' alt='mem character map'></a>
 
-## Build Dependencies
+## Building
+
+### Dependencies
 - fontforge
 - imagemagick
 - potrace
 
-Initial Gimp guidelines were drawn using the
+### GIMP Layout
+- ASCII only :[ Characters are positioned by code on a 16x16 grid
+- Characters are each 6x6 but cropped to 4x4 when exported
+- Characters are scaled by 10 when exported for accurate SVG tracing
+- Exported filename convention is ```_xx_yy.svg``` where xx is row [0, 15]
+  and yy is column [0, 15]
+
+Initial guidelines were drawn using the
 [Grid of Guides script](http://registry.gimp.org/node/12003)
 
 ## Changelog
