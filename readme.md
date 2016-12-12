@@ -22,6 +22,7 @@ Initial Gimp guidelines were drawn using the
 
 ### v1.0.4
 - Update: crop 1px padding
+- New: sprite sheet
 
 ### v1.0.3
 - Fix: exclude intermediate build files from NPM package

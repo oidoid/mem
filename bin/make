@@ -11,6 +11,7 @@ svg_dir := $(intermediate_dir)/svg
 src_file := $(src_dir)/mem.xcf
 sfd_file := $(src_file:$(src_dir)%.xcf=$(build_dir)%.sfd)
 ttf_file := $(sfd_file:%.sfd=%.ttf)
+png_sheet_file := $(sfd_file:%.sfd=%.png)
 
 # generate a 16x16 table
 cols := 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
@@ -23,7 +24,10 @@ svg_files := $(matrix:%=$(svg_dir)/_%.svg)
 .ONESHELL .SECONDARY:
 
 .PHONY: build
-build: $(ttf_file)
+build: $(ttf_file) $(png_sheet_file)
+
+$(png_sheet_file): $(src_file) | $(build_dir)/
+	$(root_dir)/bin/gimp-export-png '$@' '$<'
 
 $(build_dir)/%.ttf: $(build_dir)/%.sfd
 	$(root_dir)/bin/fontforge-export-ttf '$@' '$<'
