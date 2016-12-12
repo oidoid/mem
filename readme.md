@@ -8,8 +8,8 @@
 ```npm i -S mem-font```
 
 ## Character Map
-<img style='image-rendering: pixelated;' width='400' src='build/mem.png'
-  alt='mem character map'>
+<a href='build/mem.png'><img style='image-rendering: pixelated;' width='400'
+  src='build/mem.png' alt='mem character map'></a>
 
 ## Build Dependencies
 - fontforge
