@@ -13,6 +13,8 @@ sfd_file := $(src_file:$(src_dir)%.xcf=$(build_dir)%.sfd)
 ttf_file := $(sfd_file:%.sfd=%.ttf)
 png_sheet_file := $(sfd_file:%.sfd=%.png)
 
+scale := 10
+
 # generate a 16x16 table
 cols := 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 rows := $(cols)
@@ -35,12 +37,12 @@ $(build_dir)/%.ttf: $(build_dir)/%.sfd
 $(sfd_file): $(svg_files) | $(build_dir)/
 	$(root_dir)/bin/fontforge-import-svgs '$@' $^
 
-# scale is 10; font is 4x4 with 1px padding in xcf
+# $(scale) is 10; font is 4x4 with 1px padding in xcf
 $(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
 	convert -crop 40x40+10+10 '$<' bmp:-|potrace -sa 0 -O 0 -o '$@'
 
 $(subst .png,%png,$(png_files)): $(src_file) | $(png_dir)
-	$(root_dir)/bin/gimp-export-pngs '$(png_dir)' '$<'
+	$(root_dir)/bin/gimp-export-pngs '$(scale)' '$(png_dir)' '$<'
 
 $(build_dir)/ $(png_dir) $(svg_dir):; mkdir -p '$@'
 

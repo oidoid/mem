@@ -1,25 +1,30 @@
 #!/usr/bin/env sh
-# $1 out dir
-# $2 xcf
-exec gimp -idf "$2" -b '
-(let* (
-    (img (car (gimp-image-list))) ; $2
-    (scale 10)
-  )
+export SCALE="$1"
+export OUT_DIR="$2"
 
-  ; only the active layer is exported
-  (gimp-image-flatten img)
+# when passed as an argument, gimp_image_list() returns an INT32 id but there
+# doesn't seem to be a way to get the IMAGE type
+export XCF_FILENAME="$3"
 
-  ; potrace does not trace tiny inputs well
-  (gimp-context-set-interpolation INTERPOLATION-NONE)
-  (gimp-image-scale
-    img
-    (* (car (gimp-image-width img)) scale)
-    (* (car (gimp-image-height img)) scale))
+gimp --batch-interpreter=python-fu-eval -idfb - << 'eof'
 
-  ; export a png per guide grid tile
-  (python-fu-slice RUN-NONINTERACTIVE img 0 "'"$1"'" "index.htm" "" "png" 0 "" 0 0 0)
+import gimpfu
+import os
 
-  (gimp-quit TRUE)
-)
-'
+scale = int(os.environ['SCALE'])
+out_dir = os.environ['OUT_DIR']
+xcf_filename = os.environ['XCF_FILENAME']
+
+img = pdb.gimp_file_load(xcf_filename, xcf_filename)
+
+layer = pdb.gimp_image_flatten(img)
+
+# potrace does not trace tiny inputs well
+pdb.gimp_context_set_interpolation(INTERPOLATION_NONE)
+pdb.gimp_image_scale(img, pdb.gimp_image_width(img) * scale,
+  pdb.gimp_image_height(img) * scale)
+
+# export a png per guide grid tile
+pdb.python_fu_slice(img, layer, out_dir, 'index.htm', '', 'png', 0, '', 0, 0, 0)
+
+pdb.gimp_quit(True)

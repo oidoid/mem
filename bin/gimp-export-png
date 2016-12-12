@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 export PNG_FILENAME="$1"
 export XCF_FILENAME="$2"
 gimp --batch-interpreter=python-fu-eval -idfb - << 'eof'
