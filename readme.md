@@ -1,14 +1,15 @@
 <img style='image-rendering: pixelated; max-width: 400px;'
   src='doc/logo.png' alt='logo'>
 
-<img style='image-rendering: pixelated; max-width: 400px;'
-  src='doc/char.png' alt='mem character map'>
-
 # mem-font
 4x4 fixed width pixel font
 
 ## Installing
 ```npm i -S mem-font```
+
+## Character Map
+<img style='image-rendering: pixelated; width: 400px;'
+  src='build/mem.png' alt='mem character map'>
 
 ## Build Dependencies
 - fontforge
