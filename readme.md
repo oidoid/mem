@@ -30,9 +30,10 @@ Initial guidelines were drawn using the
 
 ## Changelog
 
-### v1.1.4
-- Update: crop 1px padding
+### v1.1.0
 - New: sprite sheet and .fnt character map
+- Update: crop 1px padding
+- Update: thicken right leg of w's and push grave accent (`) right one pixel
 
 ### v1.0.3
 - Fix: exclude intermediate build files from NPM package
