@@ -2,7 +2,7 @@
   alt='logo'>
 
 # mem-font
-4x4 fixed width pixel font
+4x4 monospaced pixel font
 
 ## Installing
 ```npm i -S mem-font```
@@ -13,7 +13,7 @@
 
 ## Building
 
-### Dependencies
+### System Dependencies
 - fontforge
 - imagemagick
 - potrace
