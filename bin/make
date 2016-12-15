@@ -12,6 +12,7 @@ src_file := $(src_dir)/mem.xcf
 sfd_file := $(src_file:$(src_dir)%.xcf=$(build_dir)%.sfd)
 ttf_file := $(sfd_file:%.sfd=%.ttf)
 png_sheet_file := $(sfd_file:%.sfd=%.png)
+fnt_file := $(sfd_file:%.sfd=%.fnt)
 
 scale := 10
 
@@ -26,7 +27,10 @@ svg_files := $(matrix:%=$(svg_dir)/_%.svg)
 .ONESHELL .SECONDARY:
 
 .PHONY: build
-build: $(ttf_file) $(png_sheet_file)
+build: $(ttf_file) $(png_sheet_file) $(fnt_file)
+
+$(build_dir)/%.fnt: $(src_dir)/%.fnt | $(build_dir)/
+	cp '$<' '$@'
 
 $(png_sheet_file): $(src_file) | $(build_dir)/
 	$(root_dir)/bin/gimp-export-png '$@' '$<'

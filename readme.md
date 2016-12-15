@@ -30,9 +30,9 @@ Initial guidelines were drawn using the
 
 ## Changelog
 
-### v1.0.4
+### v1.1.4
 - Update: crop 1px padding
-- New: sprite sheet
+- New: sprite sheet and .fnt character map
 
 ### v1.0.3
 - Fix: exclude intermediate build files from NPM package
