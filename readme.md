@@ -30,6 +30,9 @@ Initial GIMP guidelines were drawn using the
 
 ## Changelog
 
+### v2.0.1
+- Fix: add space character to FontForge and .ttf output
+
 ### v2.0.0
 - New: (partial) implementation of Code Page 437
 

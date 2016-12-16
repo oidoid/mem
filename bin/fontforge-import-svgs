@@ -23,4 +23,8 @@ for char, filename in charToFilename.iteritems():
   glyph = font.createMappedChar(char)
   glyph.importOutlines(filename)
 
+# todo: rename this script or move this to a new script
+icon = font.createChar(32, 'space')
+icon.width = 1000
+
 font.save(sfd)
