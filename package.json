@@ -10,7 +10,8 @@
     "8-bit",
     "retro",
     "game",
-    "minimal"
+    "minimal",
+    "code page 437"
   ],
   "homepage": "https://github.com/rndmem/mem-font",
   "repository": "github:rndmem/mem-font",

@@ -2,16 +2,16 @@
   alt='logo'>
 
 # mem-font
-4x4 monospaced pixel font
+4x4 monospaced pixel font for [Code Page 437](https://en.wikipedia.org/wiki/Code_page_437)
 
-## Installing
+## Install
 ```npm i -S mem-font```
 
 ## Character Map
 <a href='build/mem.png'><img style='image-rendering: pixelated;' width='400'
   src='build/mem.png' alt='mem character map'></a>
 
-## Building
+## Build
 
 ### System Dependencies
 - fontforge
@@ -19,16 +19,19 @@
 - potrace
 
 ### GIMP Layout
-- ASCII only :[ Characters are positioned by code on a 16x16 grid
+- Characters are positioned by CP437 code on a 16x16 grid
 - Characters are each 6x6 but cropped to 4x4 when exported
 - Characters are scaled by 10 when exported for accurate SVG tracing
 - Exported filename convention is ```_xx_yy.svg``` where xx is row [0, 15]
   and yy is column [0, 15]
 
-Initial guidelines were drawn using the
+Initial GIMP guidelines were drawn using the
 [Grid of Guides script](http://registry.gimp.org/node/12003)
 
 ## Changelog
+
+### v2.0.0
+- New: (partial) implementation of Code Page 437
 
 ### v1.1.0
 - New: sprite sheet and .fnt character map
