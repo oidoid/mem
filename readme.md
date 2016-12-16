@@ -28,6 +28,23 @@
 Initial GIMP guidelines were drawn using the
 [Grid of Guides script](http://registry.gimp.org/node/12003)
 
+### Image Diff
+
+Image diffing in Git requires a custom configuration. One possible configuration
+is to add a shell script to your path, `git-diff-img`:
+
+```sh
+#!/usr/bin/env sh
+# $@ images
+exec git difftool -x '
+  compare "$LOCAL" "$REMOTE" png:- |
+  montage "$LOCAL" png:- "$REMOTE" png:- |
+  display -title "$LOCAL: Local | Diff | Remote" png:-
+' "$@"
+```
+
+Execute against images only: ```git diff-img **.png```
+
 ## Changelog
 
 ### v2.0.1
