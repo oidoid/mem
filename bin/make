@@ -1,18 +1,18 @@
 #!/usr/bin/env sh
 exec make -f- --warn-undefined-variables -j8 \
-  root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
+	root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
 
 src_dir := $(root_dir)/src
 build_dir := $(root_dir)/build
 intermediate_dir := $(build_dir)/intermediate
-png_dir := $(intermediate_dir)/png
-svg_dir := $(intermediate_dir)/svg
+mono_png_dir := $(intermediate_dir)/mono/png
+mono_svg_dir := $(intermediate_dir)/mono/svg
 
 src_file := $(src_dir)/mem.xcf
 sfd_file := $(src_file:$(src_dir)%.xcf=$(build_dir)%.sfd)
 ttf_file := $(sfd_file:%.sfd=%.ttf)
 png_sheet_file := $(sfd_file:%.sfd=%.png)
-fnt_file := $(sfd_file:%.sfd=%.fnt)
+mono_fnt_file := $(sfd_file:%.sfd=%-mono.fnt)
 
 scale := 10
 
@@ -21,13 +21,16 @@ cols := 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 rows := $(cols)
 matrix := $(foreach row,$(rows),$(foreach col,$(cols),$(row)_$(col)))
 
-png_files := $(matrix:%=$(png_dir)/_%.png)
-svg_files := $(matrix:%=$(svg_dir)/_%.svg)
+mono_png_files := $(matrix:%=$(mono_png_dir)/_%.png)
+mono_svg_files := $(matrix:%=$(mono_svg_dir)/_%.svg)
 
 .ONESHELL .SECONDARY:
 
 .PHONY: build
-build: $(ttf_file) $(png_sheet_file) $(fnt_file)
+build: $(ttf_file) $(png_sheet_file) $(mono_fnt_file)
+
+.PHONY: clean
+clean:; rm -rf '$(build_dir)'
 
 $(build_dir)/%.fnt: $(src_dir)/%.fnt | $(build_dir)/
 	cp '$<' '$@'
@@ -38,17 +41,17 @@ $(png_sheet_file): $(src_file) | $(build_dir)/
 $(build_dir)/%.ttf: $(build_dir)/%.sfd
 	$(root_dir)/bin/fontforge-export-ttf '$@' '$<'
 
-$(sfd_file): $(svg_files) | $(build_dir)/
+$(sfd_file): $(mono_svg_files) | $(build_dir)/
 	$(root_dir)/bin/fontforge-import-svgs '$@' $^
 
-# $(scale) is 10; font is 4x4 with 1px padding in xcf
-$(svg_dir)/%.svg: $(png_dir)/%.png | $(svg_dir)
-	convert -crop 40x40+10+10 '$<' bmp:-|potrace -sa 0 -O 0 -o '$@'
+# font is 4x4 with 1px padding in xcf
+$(mono_svg_dir)/%.svg: $(mono_png_dir)/%.png | $(mono_svg_dir)
+	convert -crop 4x4+1+1 -scale $$(($(scale) * 100))% '$<' bmp:- |
+	potrace -sa 0 -O 0 -o '$@'
 
-$(subst .png,%png,$(png_files)): $(src_file) | $(png_dir)
-	$(root_dir)/bin/gimp-export-pngs '$(scale)' '$(png_dir)' '$<'
 
-$(build_dir)/ $(png_dir) $(svg_dir):; mkdir -p '$@'
 
-.PHONY: clean
-clean:; rm -rf '$(build_dir)'
+$(subst .png,%png,$(mono_png_files)): $(src_file) | $(mono_png_dir)
+	$(root_dir)/bin/gimp-export-pngs '$(mono_png_dir)' '$<'
+
+$(build_dir)/ $(mono_png_dir) $(mono_svg_dir):; mkdir -p '$@'
