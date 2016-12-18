@@ -9,8 +9,8 @@
 ```npm i -S mem-font```
 
 ## Character Map
-<a href='build/mem.png'><img style='image-rendering: pixelated;' width='400'
-  src='build/mem.png' alt='mem character map'></a>
+<a href='build/mem-10x.png'><img style='image-rendering: pixelated;' width='400'
+  src='build/mem-10x.png' alt='mem character map'></a>
 
 ## [Changelog](doc/changelog.md)
 
