@@ -4,7 +4,7 @@ FullName: Untitled1
 FamilyName: Untitled1
 Weight: Medium
 Copyright: Created by stephen,,, with FontForge 2.0 (http://fontforge.sf.net)
-UComments: "2016-12-17: Created." 
+UComments: "2016-12-18: Created." 
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -14,12 +14,12 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-XUID: [1021 491 969020360 13057414]
+XUID: [1021 260 490994217 7933876]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1481977516
-ModificationTime: 1481977516
+CreationTime: 1482096666
+ModificationTime: 1482096666
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
