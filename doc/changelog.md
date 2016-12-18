@@ -1,10 +1,16 @@
 ## Changelog
 
+### v3.0.0
+- Breaking: split font into mem mono and mem (proportional)
+- Fix: character codes 240 - 246
+- Update: improve glyphs for beamed eighth note (♫), one (1), lowercase f,
+  uppercase G, uppercase J, uppercase M, lower and uppercase W
+
 ### v2.0.1
 - Fix: add space character to FontForge and .ttf output
 
 ### v2.0.0
-- New: (partial) implementation of Code Page 437
+- Breaking: (partial) implementation of Code Page 437
 
 ### v1.1.0
 - New: sprite sheet and .fnt character map

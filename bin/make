@@ -13,6 +13,7 @@ sfd_file := $(src_file:$(src_dir)%.xcf=$(build_dir)%.sfd)
 ttf_file := $(sfd_file:%.sfd=%.ttf)
 png_sheet_file := $(sfd_file:%.sfd=%.png)
 mono_fnt_file := $(sfd_file:%.sfd=%-mono.fnt)
+prop_fnt_file := $(sfd_file:%.sfd=%.fnt)
 
 scale := 10
 
@@ -27,7 +28,7 @@ mono_svg_files := $(matrix:%=$(mono_svg_dir)/_%.svg)
 .ONESHELL .SECONDARY:
 
 .PHONY: build
-build: $(ttf_file) $(png_sheet_file) $(mono_fnt_file)
+build: $(ttf_file) $(png_sheet_file) $(mono_fnt_file) $(prop_fnt_file)
 
 .PHONY: clean
 clean:; rm -rf '$(build_dir)'
@@ -48,8 +49,6 @@ $(sfd_file): $(mono_svg_files) | $(build_dir)/
 $(mono_svg_dir)/%.svg: $(mono_png_dir)/%.png | $(mono_svg_dir)
 	convert -crop 4x4+1+1 -scale $$(($(scale) * 100))% '$<' bmp:- |
 	potrace -sa 0 -O 0 -o '$@'
-
-
 
 $(subst .png,%png,$(mono_png_files)): $(src_file) | $(mono_png_dir)
 	$(root_dir)/bin/gimp-export-pngs '$(mono_png_dir)' '$<'

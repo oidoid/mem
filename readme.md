@@ -2,7 +2,8 @@
   alt='logo'>
 
 # mem-font
-4x4 monospaced pixel font for [Code Page 437](https://en.wikipedia.org/wiki/Code_page_437)
+4x4 monospaced and proportional pixel fonts for
+[Code Page 437](https://en.wikipedia.org/wiki/Code_page_437)
 
 ## Install
 ```npm i -S mem-font```
@@ -22,7 +23,9 @@
 
 ### GIMP Layout
 - Characters are positioned by CP437 code on a 16x16 grid
-- Characters are each 6x6 but cropped to 4x4 when exported
+- Characters are each 6x6 but cropped to 4x4 when exported; for the proportional
+  font, character widths are further cropped to their occupancy and may be
+  kerned
 - Characters are scaled by 10 when exported for accurate SVG tracing
 - Exported filename convention is ```_yy_xx.svg``` where yy is row [0, 15]
   and xx is column [0, 15]
