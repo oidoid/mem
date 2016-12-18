@@ -14,12 +14,12 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-XUID: [1021 260 490994217 7933876]
+XUID: [1021 441 663527970 16221549]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1482096666
-ModificationTime: 1482096666
+CreationTime: 1482098611
+ModificationTime: 1482098611
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -521,27 +521,23 @@ Flags: H
 LayerCount: 2
 Fore
 SplineSet
-250 550 m 1
+250 675 m 1
  250 800 l 1
  625 800 l 1
  1000 800 l 1
  1000 300 l 1
  1000 -200 l 1
- 875 -200 l 1
  750 -200 l 1
- 750 -75 l 1
- 750 50 l 1
- 625 50 l 1
- 500 50 l 1
- 500 -75 l 1
  500 -200 l 1
- 250 -200 l 1
- 0 -200 l 1
+ 500 -75 l 1
+ 500 50 l 1
+ 250 50 l 1
  0 50 l 1
  0 300 l 1
- 125 300 l 1
- 250 300 l 1
+ 0 550 l 1
+ 125 550 l 1
  250 550 l 1
+ 250 675 l 1
 750 425 m 1
  750 550 l 1
  625 550 l 1
@@ -1194,19 +1190,11 @@ SplineSet
  500 800 l 1
  625 800 l 1
  750 800 l 1
- 750 425 l 1
- 750 50 l 1
- 875 50 l 1
- 1000 50 l 1
- 1000 -75 l 1
- 1000 -200 l 1
+ 750 300 l 1
+ 750 -200 l 1
  625 -200 l 1
- 250 -200 l 1
- 250 -75 l 1
- 250 50 l 1
- 375 50 l 1
+ 500 -200 l 1
  500 50 l 1
- 500 175 l 1
  500 300 l 1
  375 300 l 1
  250 300 l 1
@@ -1927,31 +1915,27 @@ Flags: H
 LayerCount: 2
 Fore
 SplineSet
-0 300 m 1
- 0 800 l 1
- 375 800 l 1
- 750 800 l 1
- 750 675 l 1
+250 300 m 1
+ 250 800 l 1
+ 625 800 l 1
+ 1000 800 l 1
+ 1000 675 l 1
+ 1000 550 l 1
  750 550 l 1
  500 550 l 1
- 250 550 l 1
- 250 300 l 1
- 250 50 l 1
- 375 50 l 1
- 500 50 l 1
- 500 175 l 1
  500 300 l 1
- 750 300 l 1
- 1000 300 l 1
- 1000 175 l 1
- 1000 50 l 1
- 875 50 l 1
+ 500 50 l 1
+ 625 50 l 1
  750 50 l 1
- 750 -75 l 1
- 750 -200 l 1
- 375 -200 l 1
- 0 -200 l 1
- 0 300 l 1
+ 750 175 l 1
+ 750 300 l 1
+ 875 300 l 1
+ 1000 300 l 1
+ 1000 50 l 1
+ 1000 -200 l 1
+ 625 -200 l 1
+ 250 -200 l 1
+ 250 300 l 1
 EndSplineSet
 EndChar
 
@@ -2035,15 +2019,11 @@ Flags: H
 LayerCount: 2
 Fore
 SplineSet
-250 675 m 1
- 250 800 l 1
+500 425 m 1
+ 500 800 l 1
  625 800 l 1
- 1000 800 l 1
- 1000 675 l 1
- 1000 550 l 1
- 875 550 l 1
- 750 550 l 1
- 750 175 l 1
+ 750 800 l 1
+ 750 300 l 1
  750 -200 l 1
  375 -200 l 1
  0 -200 l 1
@@ -2055,11 +2035,7 @@ SplineSet
  250 50 l 1
  375 50 l 1
  500 50 l 1
- 500 300 l 1
- 500 550 l 1
- 375 550 l 1
- 250 550 l 1
- 250 675 l 1
+ 500 425 l 1
 EndSplineSet
 EndChar
 
@@ -2141,9 +2117,13 @@ Fore
 SplineSet
 0 300 m 1
  0 800 l 1
- 500 800 l 1
- 1000 800 l 1
- 1000 300 l 1
+ 375 800 l 1
+ 750 800 l 1
+ 750 675 l 1
+ 750 550 l 1
+ 875 550 l 1
+ 1000 550 l 1
+ 1000 175 l 1
  1000 -200 l 1
  750 -200 l 1
  500 -200 l 1
@@ -2499,9 +2479,13 @@ SplineSet
  500 800 l 1
  750 800 l 1
  1000 800 l 1
- 1000 300 l 1
- 1000 -200 l 1
- 625 -200 l 1
+ 1000 425 l 1
+ 1000 50 l 1
+ 875 50 l 1
+ 750 50 l 1
+ 750 -75 l 1
+ 750 -200 l 1
+ 500 -200 l 1
  250 -200 l 1
  250 -75 l 1
  250 50 l 1
@@ -3028,11 +3012,11 @@ Fore
 SplineSet
 500 675 m 1
  500 800 l 1
+ 625 800 l 1
  750 800 l 1
- 1000 800 l 1
- 1000 675 l 1
- 1000 550 l 1
+ 750 675 l 1
  750 550 l 1
+ 625 550 l 1
  500 550 l 1
  500 425 l 1
  500 300 l 1
@@ -3634,9 +3618,13 @@ SplineSet
  500 550 l 1
  750 550 l 1
  1000 550 l 1
- 1000 175 l 1
- 1000 -200 l 1
- 625 -200 l 1
+ 1000 300 l 1
+ 1000 50 l 1
+ 875 50 l 1
+ 750 50 l 1
+ 750 -75 l 1
+ 750 -200 l 1
+ 500 -200 l 1
  250 -200 l 1
  250 -75 l 1
  250 50 l 1
@@ -4239,8 +4227,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ntilde
-Encoding: 241 241 118
+StartChar: eth
+Encoding: 240 240 118
 Width: 1000
 VWidth: 0
 Flags: H
@@ -4268,8 +4256,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ograve
-Encoding: 242 242 119
+StartChar: ntilde
+Encoding: 241 241 119
 Width: 1000
 VWidth: 0
 Flags: H
@@ -4312,8 +4300,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oacute
-Encoding: 243 243 120
+StartChar: ograve
+Encoding: 242 242 120
 Width: 1000
 VWidth: 0
 Flags: H
@@ -4356,8 +4344,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ocircumflex
-Encoding: 244 244 121
+StartChar: oacute
+Encoding: 243 243 121
 Width: 1000
 VWidth: 0
 Flags: H
@@ -4400,8 +4388,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: divide
-Encoding: 247 247 122
+StartChar: odieresis
+Encoding: 246 246 122
 Width: 1000
 VWidth: 0
 Flags: H
