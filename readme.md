@@ -14,6 +14,8 @@
 
 ## [Changelog](doc/changelog.md)
 
+## [Todo](doc/todo.md)
+
 ## Build
 
 ### System Dependencies
