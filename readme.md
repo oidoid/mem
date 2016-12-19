@@ -52,6 +52,19 @@ exec git difftool -x '
 
 Execute against images only: ```git diff-img **.png```
 
+## Links
+
+### Alternatives
+- [creep](https://github.com/romeovs/creep)
+- [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
+
+### References
+- [Creating a Pixel Font for Your Game](http://monsterfacegames.blogspot.com/2013/10/creating-pixel-font-for-your-game.html)
+- [.fnt File Format](www.angelcode.com/products/bmfont/doc/file_format.html)
+- [FontForge Documentation](https://fontforge.github.io/en-US/documentation/)
+- [FontForge Python Scripting](https://fontforge.github.io/en-US/documentation/scripting/python/#Font)
+- [FontForge Bitmap Strikes Documentation](https://fontforge.github.io/editexample8.html)
+
 ## License (GPLv3)
 © 2016 Stephen Niedzielski
 
