@@ -45,7 +45,7 @@ is to add a shell script to your path, `git-diff-img`:
 # $@ images
 exec git difftool -x '
   compare "$LOCAL" "$REMOTE" png:- |
-  montage "$LOCAL" png:- "$REMOTE" png:- |
+  montage -mode concatenate "$LOCAL" png:- "$REMOTE" png:- |
   display -title "$LOCAL: Local | Diff | Remote" png:-
 ' "$@"
 ```
