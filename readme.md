@@ -16,10 +16,12 @@
 
 ## Build
 
-### System Dependencies
+### System Prerequisites
 - fontforge
 - imagemagick
 - potrace
+
+You can install the lot with: `sudo apt install fontforge imagemagick potrace`
 
 ### GIMP Layout
 - Characters are positioned by CP437 code on a 16x16 grid
@@ -35,20 +37,9 @@ Initial GIMP guidelines were drawn using the
 
 ### Image Diff
 
-Image diffing in Git requires a custom configuration. One possible configuration
-is to add a shell script to your path, `git-diff-img`:
-
-```sh
-#!/usr/bin/env sh
-# $@ images
-exec git difftool -x '
-  compare "$LOCAL" "$REMOTE" png:- |
-  montage -mode concatenate "$LOCAL" png:- "$REMOTE" png:- |
-  display -title "$LOCAL: Local | Diff | Remote" png:-
-' "$@"
-```
-
-Execute against images only: ```git diff-img **.png```
+Image diffing with Git is useful for verifying changes but requires a custom
+configuration. One possible setup is described in
+[git-diff-img](https://github.com/niedzielski/git-diff-img)
 
 ## Links
 
