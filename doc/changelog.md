@@ -1,5 +1,10 @@
 ## Changelog
 
+### v3.0.1
+- Fix: f geometry in proportional .fnt file
+- Update: improve glyphs for @, B, D, R
+- Update: recenter D, E, K, and guillemets («, »)
+
 ### v3.0.0
 - Breaking: split font into mem mono and mem (proportional)
 - Fix: character codes 240 - 246
