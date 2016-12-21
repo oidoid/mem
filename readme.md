@@ -1,5 +1,4 @@
-<img style='image-rendering: pixelated;' width='400' src='doc/logo.png'
-  alt='logo'>
+![logo](doc/logo.png)
 
 # mem-font
 4x4 monospaced and proportional pixel fonts for
@@ -9,8 +8,7 @@
 ```npm i -S mem-font```
 
 ## Character Map
-<a href='build/mem-10x.png'><img style='image-rendering: pixelated;' width='400'
-  src='build/mem-10x.png' alt='mem character map'></a>
+![mem character map](build/mem-10x.png)
 
 ## [Changelog](doc/changelog.md)
 
