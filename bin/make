@@ -10,7 +10,7 @@ mono_png_dir := $(intermediate_dir)/mono/png
 mono_svg_dir := $(intermediate_dir)/mono/svg
 
 src_file := $(src_dir)/mem.xcf
-sfd_file := $(src_file:$(src_dir)%.xcf=$(build_dir)%.sfd)
+sfd_file := $(src_file:$(src_dir)/%.xcf=$(build_dir)/%.sfd)
 ttf_file := $(sfd_file:%.sfd=%.ttf)
 png_sheet_file := $(sfd_file:%.sfd=%.png)
 png_10x_sheet_file := $(sfd_file:%.sfd=%-10x.png)
