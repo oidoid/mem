@@ -3,7 +3,7 @@ exec make -f- --warn-undefined-variables -j8 \
 	root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
 
 src_dir := $(root_dir)/src
-static_dir := $(root_dir)/static
+static_dir := $(root_dir)/src/static
 build_dir := $(root_dir)/build
 intermediate_dir := $(build_dir)/intermediate
 mono_png_dir := $(intermediate_dir)/mono/png
