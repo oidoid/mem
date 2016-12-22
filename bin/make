@@ -3,6 +3,7 @@ exec make -f- --warn-undefined-variables -j8 \
 	root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
 
 src_dir := $(root_dir)/src
+static_dir := $(root_dir)/static
 build_dir := $(root_dir)/build
 intermediate_dir := $(build_dir)/intermediate
 mono_png_dir := $(intermediate_dir)/mono/png
@@ -34,8 +35,8 @@ build: $(ttf_file) $(png_sheet_file) $(png_10x_sheet_file) $(mono_fnt_file) $(pr
 .PHONY: clean
 clean:; rm -rf '$(build_dir)'
 
-$(build_dir)/%.fnt: $(src_dir)/%.fnt | $(build_dir)/
-	cp '$<' '$@'
+$(build_dir)/%: $(static_dir)/% | $(build_dir)/
+	cp -aLf '$<' '$@'
 
 $(png_10x_sheet_file): $(png_sheet_file)
 	convert -scale 1000% '$<' '$@'
