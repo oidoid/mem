@@ -1,7 +1,7 @@
 {
   "name": "mem-font",
   "version": "3.0.1",
-  "description": "4x4 fixed width pixel font",
+  "description": "4x4 monospaced and proportional pixel fonts",
   "keywords": [
     "font",
     "pixel",
