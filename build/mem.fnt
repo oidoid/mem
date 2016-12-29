@@ -144,6 +144,8 @@
     <kerning first='67' second='111' amount='-1' /> <!-- Co -->
     <kerning first='76' second='52' amount='-1' /> <!-- L4 -->
     <kerning first='76' second='55' amount='-1' /> <!-- L7 -->
+    <kerning first='76' second='84' amount='-1' /> <!-- LT -->
+    <kerning first='76' second='116' amount='-1' /> <!-- Lt -->
     <kerning first='70' second='105' amount='-1' /> <!-- Fi  -->
     <kerning first='70' second='100' amount='-1' /> <!-- Fd  -->
     <kerning first='70' second='111' amount='-1' /> <!-- Fo  -->
@@ -156,5 +158,7 @@
     <kerning first='104' second='55' amount='-1' /> <!-- h7 -->
     <kerning first='108' second='52' amount='-1' /> <!-- l4 -->
     <kerning first='108' second='55' amount='-1' /> <!-- l7 -->
+    <kerning first='108' second='84' amount='-1' /> <!-- lT -->
+    <kerning first='108' second='116' amount='-1' /> <!-- lt -->
   </kernings>
 </font>

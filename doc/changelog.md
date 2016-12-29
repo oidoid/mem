@@ -1,5 +1,8 @@
 ## Changelog
 
+### v3.0.2
+- Update: kern L and l to T and t
+
 ### v3.0.1
 - Fix: f geometry in proportional .fnt file
 - Update: improve glyphs for @, B, D, R
