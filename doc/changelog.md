@@ -1,5 +1,8 @@
 ## Changelog
 
+### v3.0.3
+- Update: increase height of n to match u and m
+
 ### v3.0.2
 - Update: kern L and l to T and t
 
