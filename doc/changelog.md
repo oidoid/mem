@@ -1,6 +1,10 @@
 ## Changelog
 
-### v3.0.3
+### v3.1.0
+- New: experimental 3x2, 3x3, and 3x5px sizes (not exported)
+- Update: r glyph
+
+### v3.0.4
 - Update: n and o glyphs
 
 ### v3.0.3

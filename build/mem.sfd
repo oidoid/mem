@@ -14,12 +14,12 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-XUID: [1021 20 547122785 4094301]
+XUID: [1021 930 1478664623 2550131]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1483313718
-ModificationTime: 1483313718
+CreationTime: 1483319608
+ModificationTime: 1483319608
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -3427,11 +3427,11 @@ SplineSet
  500 800 l 1
  500 675 l 1
  500 550 l 1
+ 625 550 l 1
  750 550 l 1
- 1000 550 l 1
- 1000 425 l 1
- 1000 300 l 1
+ 750 425 l 1
  750 300 l 1
+ 625 300 l 1
  500 300 l 1
  500 50 l 1
  500 -200 l 1

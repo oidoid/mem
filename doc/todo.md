@@ -6,4 +6,4 @@
   "Untitled1 Medium"
 - Add monospace font .sfd and .ttf files
 - Make monospace font characters occupy 4px wide where possible
-- Investigate 2 or 3px tall font subset
+- Make separate exports for different font sizes
