@@ -55,7 +55,7 @@ configuration. One possible setup is described in
 - [FontForge Bitmap Strikes Documentation](https://fontforge.github.io/editexample8.html)
 
 ## License (GPLv3)
-© 2016 Stephen Niedzielski
+© 2017 Stephen Niedzielski
 
 This program is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the
