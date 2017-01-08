@@ -1,5 +1,9 @@
 ## Changelog
 
+### v3.1.2
+• Update: redesign 4x4 q, s
+• Update: lighten 4x4 Q
+
 ### v3.1.1
 - Update: add and update 3x5 glyphs
 - Update: 4x4 glyphs

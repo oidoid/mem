@@ -108,7 +108,7 @@
     <char id='112' x='1' y='43' width='4' height='4' xoffset='-1' yoffset='0' xadvance='4' page='0' chnl='15' />
     <char id='113' x='7' y='43' width='4' height='4' xoffset='0' yoffset='0' xadvance='5' page='0' chnl='15' />
     <char id='114' x='13' y='43' width='4' height='4' xoffset='-1' yoffset='0' xadvance='3' page='0' chnl='15' />
-    <char id='115' x='19' y='43' width='4' height='4' xoffset='-1' yoffset='0' xadvance='3' page='0' chnl='15' />
+    <char id='115' x='19' y='43' width='4' height='4' xoffset='0' yoffset='0' xadvance='4' page='0' chnl='15' />
     <char id='116' x='25' y='43' width='4' height='4' xoffset='0' yoffset='0' xadvance='4' page='0' chnl='15' />
     <char id='117' x='31' y='43' width='4' height='4' xoffset='0' yoffset='0' xadvance='4' page='0' chnl='15' />
     <char id='118' x='37' y='43' width='4' height='4' xoffset='0' yoffset='0' xadvance='4' page='0' chnl='15' />
@@ -131,6 +131,7 @@
     <char id='242' x='13' y='91' width='4' height='4' xoffset='0' yoffset='0' xadvance='5' page='0' chnl='15' />
     <char id='243' x='19' y='91' width='4' height='4' xoffset='0' yoffset='0' xadvance='5' page='0' chnl='15' />
     <char id='246' x='37' y='91' width='4' height='4' xoffset='0' yoffset='0' xadvance='4' page='0' chnl='15' />
+
   </chars>
   <kernings>
     <kerning first='34' second='111' amount='-1' /> <!-- "o -->
