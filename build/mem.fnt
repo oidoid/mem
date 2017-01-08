@@ -131,7 +131,6 @@
     <char id='242' x='13' y='91' width='4' height='4' xoffset='0' yoffset='0' xadvance='5' page='0' chnl='15' />
     <char id='243' x='19' y='91' width='4' height='4' xoffset='0' yoffset='0' xadvance='5' page='0' chnl='15' />
     <char id='246' x='37' y='91' width='4' height='4' xoffset='0' yoffset='0' xadvance='4' page='0' chnl='15' />
-
   </chars>
   <kernings>
     <kerning first='34' second='111' amount='-1' /> <!-- "o -->
