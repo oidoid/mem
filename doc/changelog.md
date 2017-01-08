@@ -1,5 +1,15 @@
 ## Changelog
 
+### v3.1.1
+- Update: add and update 3x5 glyphs
+- Update: 4x4 glyphs
+  - Redesign: *, 3, 6, @, E, K, M, S, W, e
+  - Thicken: V, v
+  - Lighten: 7, 9, B, C, Q, U, j, l, o, s, u, z, ~
+- Update: 4x4 mono
+  - Thicken 4, G, a
+  - Lighten e, r
+
 ### v3.1.0
 - New: experimental 3x2, 3x3, and 3x5px sizes (not exported)
 - Update: r glyph
