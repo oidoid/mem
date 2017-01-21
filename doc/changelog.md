@@ -1,5 +1,8 @@
 ## Changelog
 
+### v3.1.3
+• Update: increase height of m
+
 ### v3.1.2
 • Update: redesign 4x4 q, s
 • Update: lighten 4x4 Q
