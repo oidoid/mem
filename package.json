@@ -1,11 +1,11 @@
 {
   "name": "mem-font",
   "version": "3.1.3",
-  "description": "4x4 monospaced and proportional pixel fonts",
+  "description": "4x4 monospace and proportional pixel fonts",
   "keywords": [
     "font",
     "pixel",
-    "monospaced",
+    "monospace",
     "fixed-width",
     "proportional",
     "8-bit",
