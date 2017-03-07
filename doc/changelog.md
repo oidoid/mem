@@ -1,11 +1,14 @@
 ## Changelog
 
+### v4.0.0
+- Breaking: fix font name in .ttf
+
 ### v3.1.3
-• Update: increase height of m
+- Update: increase height of m
 
 ### v3.1.2
-• Update: redesign 4x4 q, s
-• Update: lighten 4x4 Q
+- Update: redesign 4x4 q, s
+- Update: lighten 4x4 Q
 
 ### v3.1.1
 - Update: add and update 3x5 glyphs

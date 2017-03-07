@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
-FontName: Untitled1
-FullName: Untitled1
-FamilyName: Untitled1
+FontName: mem
+FullName: mem
+FamilyName: mem
 Weight: Medium
-Copyright: Created by stephen,,, with FontForge 2.0 (http://fontforge.sf.net)
-UComments: "2017-1-21: Created." 
+Copyright: Created by ,,, with FontForge 2.0 (http://fontforge.sf.net)
+UComments: "2017-3-6: Created." 
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -14,12 +14,12 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-XUID: [1021 890 1365350885 6222202]
+XUID: [1021 344 71745499 3869039]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1485036575
-ModificationTime: 1485036575
+CreationTime: 1488863481
+ModificationTime: 1488863481
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

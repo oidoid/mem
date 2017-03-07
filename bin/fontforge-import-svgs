@@ -19,6 +19,11 @@ for svg in svgs:
 
 font = fontforge.font()
 
+# todo: move this font metadata to a more appropriate place
+font.familyname = 'mem'
+font.fontname = 'mem' # todo: mem-mono
+font.fullname = 'mem' # todo: mem mono
+
 for char, filename in charToFilename.iteritems():
   glyph = font.createMappedChar(char)
   glyph.importOutlines(filename)
