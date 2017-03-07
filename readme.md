@@ -21,7 +21,8 @@
 - imagemagick
 - potrace
 
-You can install the lot with: `sudo apt install fontforge imagemagick potrace`
+You can install the lot on Ubuntu with:
+`sudo apt install fontforge imagemagick potrace`
 
 ### GIMP Layout
 - Characters are positioned by CP437 code on a 16x16 grid
@@ -36,10 +37,13 @@ Initial GIMP guidelines were drawn using the
 [Grid of Guides script](http://registry.gimp.org/node/12003)
 
 ### Image Diff
-
 Image diffing with Git is useful for verifying changes but requires a custom
 configuration. One possible setup is described in
 [git-diff-img](https://github.com/niedzielski/git-diff-img)
+
+### Testing the TTF
+On Ubuntu, symlink build/mem.ttf to ~/.fonts. You may need to regenerate your
+font cache depending on the change made: `fc-cache -f -v`
 
 ## Links
 
