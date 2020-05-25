@@ -1,0 +1,77 @@
+#!/usr/bin/env sh
+''''exec fontforge -quiet -script "$0" "$@" #'''
+
+import fontforge
+import json
+import re
+import sys
+
+# Python notes:
+# - Dump out an object with `print(dir(glyph))`.
+# - 1000 is the default font character width. If everything is a 1000, it means
+#   no rounding errors, same with 500. In Aseprite, when the font is mem-prop
+#   5x6 and the size is set to 6px, that means the 1000 is 6px wide.
+
+def main(sfd, ttf, fontName, fontMetricsFilename, svgs):
+  charCodeToFilename = {}
+  for svg in svgs:
+    charCodeToFilename[filenameToCharCode(svg)] = svg
+
+  font = fontforge.font()
+
+  font.familyname = fontName
+  font.fontname = fontName
+  font.fullname = fontName
+
+  fontMetrics = readJSON(fontMetricsFilename)
+  maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])
+  for char, filename in charCodeToFilename.items():
+    glyph = font.createMappedChar(char)
+    glyph.width = computeGlyphWidth(fontMetrics, chr(char))
+    glyph.importOutlines(filename)
+
+  # Force an empty space character.
+  glyph = font.createChar(32, 'space')
+  width = fontMetrics['letter_width'].get(' ', fontMetrics['default_letter_width'])
+  glyph.width = round(1000 * width / maxDimension)
+
+  font.addLookup('kern', 'gpos_pair', 0, [['kern', [["latn",["dflt"]]]]])
+  font.addLookupSubtable('kern', 'kern-lut')
+
+  for glyph in font.glyphs():
+    maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])
+    for key, val in fontMetrics['kerning'].items():
+      if key[0] == chr(glyph.unicode):
+        # remove the default kerning embedded in the font width workaround below.
+        kern = round(1000 * (val - fontMetrics['default_kerning']) / maxDimension)
+        glyph.addPosSub('kern-lut', key[1], 0, 0, kern, 0, 0, 0, 0, 0)
+
+  font.descent = round(1000 - font.ascent + 1000 * fontMetrics['leading'] / maxDimension)
+
+  font.save(sfd)
+  font.generate(ttf)
+
+def computeGlyphWidth(fontMetrics, char):
+  maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])
+  # Aseprite doesn't support kerning. Add the default here and subtract it for
+  # programs that support it https://github.com/aseprite/aseprite/issues/1877.
+  width = fontMetrics['letter_width'].get(char, fontMetrics['default_letter_width']) + fontMetrics['default_kerning']
+  return round(1000 * width / maxDimension)
+
+# Accepts a filename in the following format mem-fontxxx.svg where xxx is the
+# code without padding.
+def filenameToCharCode(filename):
+  hex = re.sub('dist/char/mem-(prop|mono)-\dx\d-([0-9a-f]+)-10x\.svg', r'\2', filename)
+  return int(hex, 16)
+
+def readJSON(filename):
+  with open(filename) as file:
+    return json.load(file)
+
+if __name__ == "__main__":
+  sfd = sys.argv[1]
+  ttf = sys.argv[2]
+  fontName = sys.argv[3]
+  fontMetricsFilename = sys.argv[4]
+  svgs = sys.argv[5:]
+  main(sfd, ttf, fontName, fontMetricsFilename, svgs)

@@ -1,0 +1,3601 @@
+SplineFontDB: 3.2
+FontName: mem-prop-5x5
+FullName: mem-prop-5x5
+FamilyName: mem-prop-5x5
+Weight: Regular
+Copyright: Copyright (c) 2020, 
+UComments: "2020-5-25: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 400
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 522 -812901542 16059073]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1590436222
+ModificationTime: 1590436222
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+Lookup: 258 0 0 "kern" { "kern-lut"  } ['kern' ('latn' <'dflt' > ) ]
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+OnlyBitmaps: 1
+BeginChars: 256 95
+
+StartChar: exclam
+Encoding: 33 33 0
+Width: 400
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+0 100 m 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: quotedbl
+Encoding: 34 34 1
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+400 600 m 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 600 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 600 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: numbersign
+Encoding: 35 35 2
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 700 l 1
+ 600 800 l 1
+ 700 800 l 1
+ 800 800 l 1
+ 800 700 l 1
+ 800 600 l 1
+ 900 600 l 1
+ 1000 600 l 1
+ 1000 500 l 1
+ 1000 400 l 1
+ 900 400 l 1
+ 800 400 l 1
+ 800 300 l 1
+ 800 200 l 1
+ 900 200 l 1
+ 1000 200 l 1
+ 1000 100 l 1
+ 1000 0 l 1
+ 900 0 l 1
+ 800 0 l 1
+ 800 -100 l 1
+ 800 -200 l 1
+ 700 -200 l 1
+ 600 -200 l 1
+ 600 -100 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 -100 l 1
+ 400 -200 l 1
+ 300 -200 l 1
+ 200 -200 l 1
+ 200 -100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+600 300 m 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: dollar
+Encoding: 36 36 3
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 -100 l 1
+ 400 -200 l 1
+ 300 -200 l 1
+ 200 -200 l 1
+ 200 -100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: percent
+Encoding: 37 37 4
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 400 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 200 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: ampersand
+Encoding: 38 38 5
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 600 m 1
+ 200 800 l 1
+ 500 800 l 1
+ 800 800 l 1
+ 800 500 l 1
+ 800 200 l 1
+ 700 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 700 0 l 1
+ 800 0 l 1
+ 800 -100 l 1
+ 800 -200 l 1
+ 400 -200 l 1
+ 0 -200 l 1
+ 0 100 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 600 l 1
+600 500 m 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 500 l 1
+400 100 m 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 300 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: quotesingle
+Encoding: 39 39 6
+Width: 400
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+EndSplineSet
+Kerns2: 67 -200 "kern-lut" 82 -200 "kern-lut"
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: parenleft
+Encoding: 40 40 7
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 300 l 1
+ 200 0 l 1
+ 300 0 l 1
+ 400 0 l 1
+ 400 -100 l 1
+ 400 -200 l 1
+ 300 -200 l 1
+ 200 -200 l 1
+ 200 -100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: parenright
+Encoding: 41 41 8
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 300 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 -100 l 1
+ 200 -200 l 1
+ 100 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 300 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: asterisk
+Encoding: 42 42 9
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 700 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: plus
+Encoding: 43 43 10
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 500 m 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: comma
+Encoding: 44 44 11
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 100 m 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 -100 l 1
+ 200 -200 l 1
+ 100 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ` dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" " dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ' dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 12
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 400 l 1
+ 300 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 300 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" - dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ` dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" " dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ' dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: period
+Encoding: 46 46 13
+Width: 400
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 100 m 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ` dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" " dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ' dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: slash
+Encoding: 47 47 14
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+600 700 m 1
+ 600 800 l 1
+ 700 800 l 1
+ 800 800 l 1
+ 800 700 l 1
+ 800 600 l 1
+ 700 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: zero
+Encoding: 48 48 15
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 400 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: one
+Encoding: 49 49 16
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 500 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: two
+Encoding: 50 50 17
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 200 l 1
+ 0 400 l 1
+ 200 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+ 400 600 l 1
+ 200 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: three
+Encoding: 51 51 18
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 200 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: four
+Encoding: 52 52 19
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 200 200 l 1
+ 0 200 l 1
+ 0 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: five
+Encoding: 53 53 20
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 400 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 400 400 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: six
+Encoding: 54 54 21
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 400 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: seven
+Encoding: 55 55 22
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 300 l 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: eight
+Encoding: 56 56 23
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 500 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: nine
+Encoding: 57 57 24
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 200 200 l 1
+ 0 200 l 1
+ 0 500 l 1
+400 500 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: colon
+Encoding: 58 58 25
+Width: 400
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+0 100 m 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" : dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: semicolon
+Encoding: 59 59 26
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 500 m 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+200 100 m 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 -100 l 1
+ 200 -200 l 1
+ 100 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ; dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" : dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: less
+Encoding: 60 60 27
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+400 700 m 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 500 0 l 1
+ 600 0 l 1
+ 600 -100 l 1
+ 600 -200 l 1
+ 500 -200 l 1
+ 400 -200 l 1
+ 400 -100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: equal
+Encoding: 61 61 28
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 600 l 1
+ 300 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 300 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+0 100 m 1
+ 0 200 l 1
+ 300 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: greater
+Encoding: 62 62 29
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 -100 l 1
+ 200 -200 l 1
+ 100 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: question
+Encoding: 63 63 30
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 500 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 200 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+400 500 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: at
+Encoding: 64 64 31
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 500 800 l 1
+ 800 800 l 1
+ 800 700 l 1
+ 800 600 l 1
+ 900 600 l 1
+ 1000 600 l 1
+ 1000 300 l 1
+ 1000 0 l 1
+ 900 0 l 1
+ 800 0 l 1
+ 800 -100 l 1
+ 800 -200 l 1
+ 500 -200 l 1
+ 200 -200 l 1
+ 200 -100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+800 300 m 1
+ 800 600 l 1
+ 500 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 400 400 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 600 0 l 1
+ 700 0 l 1
+ 800 0 l 1
+ 800 300 l 1
+400 100 m 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 300 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: A
+Encoding: 65 65 32
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+400 500 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: B
+Encoding: 66 66 33
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: C
+Encoding: 67 67 34
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 400 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 400 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: D
+Encoding: 68 68 35
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 400 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: E
+Encoding: 69 69 36
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 400 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 400 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: F
+Encoding: 70 70 37
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 400 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: G
+Encoding: 71 71 38
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 400 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: H
+Encoding: 72 72 39
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: I
+Encoding: 73 73 40
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 400 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: J
+Encoding: 74 74 41
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 500 800 l 1
+ 800 800 l 1
+ 800 700 l 1
+ 800 600 l 1
+ 700 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 200 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: K
+Encoding: 75 75 42
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 700 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: L
+Encoding: 76 76 43
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 500 l 1
+ 200 200 l 1
+ 400 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: M
+Encoding: 77 77 44
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 500 l 1
+ 600 600 l 1
+ 700 600 l 1
+ 800 600 l 1
+ 800 700 l 1
+ 800 800 l 1
+ 900 800 l 1
+ 1000 800 l 1
+ 1000 400 l 1
+ 1000 0 l 1
+ 900 0 l 1
+ 800 0 l 1
+ 800 200 l 1
+ 800 400 l 1
+ 700 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: N
+Encoding: 78 78 45
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 600 l 1
+ 600 800 l 1
+ 700 800 l 1
+ 800 800 l 1
+ 800 400 l 1
+ 800 0 l 1
+ 700 0 l 1
+ 600 0 l 1
+ 600 100 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: O
+Encoding: 79 79 46
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 400 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 700 600 l 1
+ 800 600 l 1
+ 800 400 l 1
+ 800 200 l 1
+ 700 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 400 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+600 400 m 1
+ 600 600 l 1
+ 400 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 400 200 l 1
+ 600 200 l 1
+ 600 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: P
+Encoding: 80 80 47
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 500 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: Q
+Encoding: 81 81 48
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 700 200 l 1
+ 800 200 l 1
+ 800 100 l 1
+ 800 0 l 1
+ 500 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 400 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+400 400 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: R
+Encoding: 82 82 49
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 500 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: S
+Encoding: 83 83 50
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 400 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: T
+Encoding: 84 84 51
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 300 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 300 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 300 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: U
+Encoding: 85 85 52
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 500 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 500 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: V
+Encoding: 86 86 53
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 500 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 500 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 500 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: W
+Encoding: 87 87 54
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 700 400 l 1
+ 800 400 l 1
+ 800 600 l 1
+ 800 800 l 1
+ 900 800 l 1
+ 1000 800 l 1
+ 1000 500 l 1
+ 1000 200 l 1
+ 900 200 l 1
+ 800 200 l 1
+ 800 100 l 1
+ 800 0 l 1
+ 700 0 l 1
+ 600 0 l 1
+ 600 100 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: X
+Encoding: 88 88 55
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 700 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 400 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: Y
+Encoding: 89 89 56
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 600 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 200 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: Z
+Encoding: 90 90 57
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 500 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 200 300 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: bracketleft
+Encoding: 91 91 58
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 300 l 1
+ 200 0 l 1
+ 300 0 l 1
+ 400 0 l 1
+ 400 -100 l 1
+ 400 -200 l 1
+ 200 -200 l 1
+ 0 -200 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: backslash
+Encoding: 92 92 59
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 700 200 l 1
+ 800 200 l 1
+ 800 100 l 1
+ 800 0 l 1
+ 700 0 l 1
+ 600 0 l 1
+ 600 100 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: bracketright
+Encoding: 93 93 60
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 300 l 1
+ 400 -200 l 1
+ 200 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 300 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: asciicircum
+Encoding: 94 94 61
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: underscore
+Encoding: 95 95 62
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 -100 m 1
+ 0 0 l 1
+ 300 0 l 1
+ 600 0 l 1
+ 600 -100 l 1
+ 600 -200 l 1
+ 300 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" _ dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ` dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" " dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ' dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: grave
+Encoding: 96 96 63
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: a
+Encoding: 97 97 64
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 500 m 1
+ 200 600 l 1
+ 400 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: b
+Encoding: 98 98 65
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: c
+Encoding: 99 99 66
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 300 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 400 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 400 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: d
+Encoding: 100 100 67
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+400 700 m 1
+ 400 800 l 1
+ 500 800 l 1
+ 600 800 l 1
+ 600 400 l 1
+ 600 0 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+ 200 600 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 700 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ; dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: e
+Encoding: 101 101 68
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 400 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+400 500 m 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: f
+Encoding: 102 102 69
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 300 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: g
+Encoding: 103 103 70
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 500 m 1
+ 200 600 l 1
+ 400 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 -100 l 1
+ 400 -200 l 1
+ 200 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: h
+Encoding: 104 104 71
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 700 l 1
+ 200 600 l 1
+ 400 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: i
+Encoding: 105 105 72
+Width: 400
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 300 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: j
+Encoding: 106 106 73
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+400 300 m 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 200 l 1
+ 600 -200 l 1
+ 300 -200 l 1
+ 0 -200 l 1
+ 0 0 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 300 0 l 1
+ 400 0 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: k
+Encoding: 107 107 74
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: l
+Encoding: 108 108 75
+Width: 400
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 400 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: m
+Encoding: 109 109 76
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 500 600 l 1
+ 1000 600 l 1
+ 1000 300 l 1
+ 1000 0 l 1
+ 900 0 l 1
+ 800 0 l 1
+ 800 200 l 1
+ 800 400 l 1
+ 700 400 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: n
+Encoding: 110 110 77
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 300 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" ' dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: o
+Encoding: 111 111 78
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 300 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: p
+Encoding: 112 112 79
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 200 m 1
+ 0 600 l 1
+ 200 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 -100 l 1
+ 200 -200 l 1
+ 100 -200 l 1
+ 0 -200 l 1
+ 0 200 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: q
+Encoding: 113 113 80
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 500 m 1
+ 200 600 l 1
+ 400 600 l 1
+ 600 600 l 1
+ 600 200 l 1
+ 600 -200 l 1
+ 500 -200 l 1
+ 400 -200 l 1
+ 400 -100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 500 l 1
+400 300 m 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: r
+Encoding: 114 114 81
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 200 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 300 400 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+EndSplineSet
+Kerns2: 82 -200 "kern-lut" 73 -200 "kern-lut"
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: s
+Encoding: 115 115 82
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 400 m 1
+ 200 600 l 1
+ 400 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 400 l 1
+EndSplineSet
+Kerns2: 82 -200 "kern-lut"
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" . dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: t
+Encoding: 116 116 83
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 200 800 l 1
+ 300 800 l 1
+ 400 800 l 1
+ 400 700 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 200 200 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 700 l 1
+EndSplineSet
+Kerns2: 82 -200 "kern-lut"
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: u
+Encoding: 117 117 84
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 300 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: v
+Encoding: 118 118 85
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 300 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 400 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: w
+Encoding: 119 119 86
+Width: 1200
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 300 m 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 400 l 1
+ 600 200 l 1
+ 700 200 l 1
+ 800 200 l 1
+ 800 400 l 1
+ 800 600 l 1
+ 900 600 l 1
+ 1000 600 l 1
+ 1000 300 l 1
+ 1000 0 l 1
+ 500 0 l 1
+ 0 0 l 1
+ 0 300 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: x
+Encoding: 120 120 87
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 500 l 1
+ 200 400 l 1
+ 300 400 l 1
+ 400 400 l 1
+ 400 500 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 500 l 1
+ 600 400 l 1
+ 500 400 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 100 l 1
+ 400 200 l 1
+ 300 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 100 l 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: y
+Encoding: 121 121 88
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 400 m 1
+ 0 600 l 1
+ 100 600 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 300 200 l 1
+ 400 200 l 1
+ 400 400 l 1
+ 400 600 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 300 l 1
+ 600 0 l 1
+ 500 0 l 1
+ 400 0 l 1
+ 400 -100 l 1
+ 400 -200 l 1
+ 200 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 400 l 1
+EndSplineSet
+Kerns2: 82 -200 "kern-lut"
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" . dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: z
+Encoding: 122 122 89
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 600 l 1
+ 200 600 l 1
+ 400 600 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 500 200 l 1
+ 600 200 l 1
+ 600 100 l 1
+ 600 0 l 1
+ 400 0 l 1
+ 200 0 l 1
+ 200 200 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: braceleft
+Encoding: 123 123 90
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 600 m 1
+ 200 800 l 1
+ 400 800 l 1
+ 600 800 l 1
+ 600 700 l 1
+ 600 600 l 1
+ 500 600 l 1
+ 400 600 l 1
+ 400 300 l 1
+ 400 0 l 1
+ 500 0 l 1
+ 600 0 l 1
+ 600 -100 l 1
+ 600 -200 l 1
+ 400 -200 l 1
+ 200 -200 l 1
+ 200 0 l 1
+ 200 200 l 1
+ 100 200 l 1
+ 0 200 l 1
+ 0 300 l 1
+ 0 400 l 1
+ 100 400 l 1
+ 200 400 l 1
+ 200 600 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: bar
+Encoding: 124 124 91
+Width: 400
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 600 m 1
+ 0 800 l 1
+ 100 800 l 1
+ 200 800 l 1
+ 200 600 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 600 l 1
+0 0 m 1
+ 0 200 l 1
+ 100 200 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 200 -200 l 1
+ 100 -200 l 1
+ 0 -200 l 1
+ 0 0 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: braceright
+Encoding: 125 125 92
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 700 m 1
+ 0 800 l 1
+ 200 800 l 1
+ 400 800 l 1
+ 400 600 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 500 200 l 1
+ 400 200 l 1
+ 400 0 l 1
+ 400 -200 l 1
+ 200 -200 l 1
+ 0 -200 l 1
+ 0 -100 l 1
+ 0 0 l 1
+ 100 0 l 1
+ 200 0 l 1
+ 200 300 l 1
+ 200 600 l 1
+ 100 600 l 1
+ 0 600 l 1
+ 0 700 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: asciitilde
+Encoding: 126 126 93
+Width: 800
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 500 m 1
+ 0 600 l 1
+ 200 600 l 1
+ 400 600 l 1
+ 400 500 l 1
+ 400 400 l 1
+ 500 400 l 1
+ 600 400 l 1
+ 600 300 l 1
+ 600 200 l 1
+ 400 200 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 200 400 l 1
+ 100 400 l 1
+ 0 400 l 1
+ 0 500 l 1
+EndSplineSet
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+
+StartChar: space
+Encoding: 32 32 94
+Width: 600
+VWidth: 0
+Flags: W
+LayerCount: 2
+PairPos2: "kern-lut" , dx=0 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar
+EndChars
+EndSplineFont

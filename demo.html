@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>mem-font</title>
+  </head>
+  <style>
+    /* Define each custom font. */
+    @font-face { font-family: 'mem-prop-5x6'; src: url('dist/mem-prop-5x6.ttf'); }
+    @font-face { font-family: 'mem-prop-5x5'; src: url('dist/mem-prop-5x5.ttf'); }
+    @font-face { font-family: 'mem-prop-3x5'; src: url('dist/mem-prop-3x5.ttf'); }
+    @font-face { font-family: 'mem-prop-4x4'; src: url('dist/mem-prop-4x4.ttf'); }
+    @font-face { font-family: 'mem-mono-4x4'; src: url('dist/mem-mono-4x4.ttf'); }
+    @font-face { font-family: 'mem-mono-3x3'; src: url('dist/mem-mono-3x3.ttf'); }
+
+    /* Add classes to use each font. The size is a 4x multiple of height. */
+    .mem-prop-5x6 { font: 24px 'mem-prop-5x6'; }
+    .mem-prop-5x5 { font: 20px 'mem-prop-5x5'; }
+    .mem-prop-3x5 { font: 20px 'mem-prop-3x5'; }
+    .mem-prop-4x4 { font: 16px 'mem-prop-4x4'; }
+    .mem-mono-4x4 { font: 16px 'mem-mono-4x4'; }
+    .mem-mono-3x3 { font: 12px 'mem-mono-3x3'; }
+
+    /* Presentation */
+    h1, h2, h3, h4, h5, h6 { color: #333; font-family: sans-serif; }
+    textarea { padding: 4px; }
+    .content {
+      max-width: 1024px;
+      margin: 1rem auto;
+    }
+  </style>
+  <body>
+    <body>
+      <div class="content">
+        <section>
+          <h2>mem-prop 5x6</h2>
+
+          <h3>Pangram</h3>
+          <p class="mem-prop-5x6">
+            The quick brown fox jumps over the lazy dog.
+          </p>
+
+          <h3>Character Set</h3>
+          <p class="mem-prop-5x6">
+            !"#$%&'()*+,-./0<br />
+            123456789:;&lt;=&gt;?@<br />
+            ABCDEFGHIJKLMNOP<br />
+            QRSTUVWXYZ[\]^_`<br />
+            abcdefghijklmnop<br />
+            qrstuvwxyz{|}~<br />
+          </p>
+
+          <h3>Variable Width</h3>
+          <p class="mem-prop-5x6">
+            wild<br />
+          </p>
+
+          <h3>Kerning</h3>
+          <p class="mem-prop-5x6">
+            zzz<br />
+            //<br />
+          </p>
+
+          <h3>Use Case</h3>
+          <p class="mem-prop-5x6">
+            nature elsewhere<br />
+            oddoid<br />
+            play<br />
+            leave<br />
+          </p>
+
+          <h3>Placholder</h3>
+          <p class="mem-prop-5x6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+          <h3>Custom</h3>
+          <textarea
+            class="mem-prop-5x6"
+            type="text"
+            cols="32"
+            rows="8"
+          ></textarea>
+        </section>
+      </div>
+  </body>
+</html>

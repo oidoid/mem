@@ -1,9 +1,11 @@
 {
   "name": "mem-font",
+  "author": "oddoid",
   "version": "4.0.0",
-  "description": "4x4 monospace and proportional pixel fonts",
+  "description": "Proportional and monospace pixel font family.",
   "keywords": [
     "font",
+    "TTF",
     "pixel",
     "monospace",
     "fixed-width",
@@ -13,21 +15,17 @@
     "FontForge",
     "game",
     "minimal",
-    "code page 437"
+    "code-page-437"
   ],
-  "homepage": "https://github.com/rndmem/mem-font",
-  "repository": "github:rndmem/mem-font",
-  "bugs": "https://github.com/rndmem/mem-font/issues",
+  "homepage": "https://github.com/oddoid/mem-font",
+  "repository": "github:oddoid/mem-font",
+  "bugs": "https://github.com/oddoid/mem-font/issues",
+  "license": "GPL-3.0-only",
   "scripts": {
     "build": "bin/make",
-    "rebuild": "bin/make clean && bin/make",
-    "clean": "bin/make clean",
-    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm run -s rebuild && git add build",
-    "postversion": "git push origin master --follow-tags && npm publish",
-    "clobber": "npm run -s clean && rm -rf node_modules"
-  },
-  "engines": {
-    "node": "7.3.0"
-  },
-  "license": "GPL-3.0"
+    "preversion": "[ -z \"$(git status -z)\" ]",
+    "version": "npm run build && git add dist",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin \"$(git rev-parse --abbrev-ref @)\" \"$(git tag --points-at @)\""
+  }
 }

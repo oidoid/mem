@@ -1,61 +1,69 @@
-#!/usr/bin/env sh
-exec make -f- --warn-undefined-variables -j8 \
-	root_dir="$(realpath "$(dirname "$0")/.." --relative-to=.)" "$@" << 'eof'
+#!/usr/bin/env bash
+set -euo pipefail
 
-src_dir := $(root_dir)/src
-static_dir := $(root_dir)/src/static
-build_dir := $(root_dir)/build
-intermediate_dir := $(build_dir)/intermediate
-mono_png_dir := $(intermediate_dir)/mono/png
-mono_svg_dir := $(intermediate_dir)/mono/svg
+dist_dir=dist
+char_dir="$dist_dir/char"
+sheet_dir="$dist_dir"
 
-src_file := $(src_dir)/mem.xcf
-sfd_file := $(src_file:$(src_dir)/%.xcf=$(build_dir)/%.sfd)
-ttf_file := $(sfd_file:%.sfd=%.ttf)
-png_sheet_file := $(sfd_file:%.sfd=%.png)
-png_10x_sheet_file := $(sfd_file:%.sfd=%-10x.png)
-mono_fnt_file := $(sfd_file:%.sfd=%-mono.fnt)
-prop_fnt_file := $(sfd_file:%.sfd=%.fnt)
+# Dump out every character as a 10x bmp _and_ a 10x sheet for for accurate SVG
+# tracing and demoing. The bmps use the index 0 background color (without
+# transparency) so that should be white for potrace. Also dump out a 10x sprite
+# sheet for demos.
+aseprite10x() {
+  aseprite \
+    -b \
+    --filename-format "$char_dir/{tag}-10x.bmp" \
+    --list-tags \
+    --list-slices \
+    --inner-padding 10 \
+    --sheet-pack \
+    --ignore-empty \
+    --sheet-type rows \
+    --sheet "$sheet_dir/$1-10x.png" \
+    --data "$sheet_dir/$1-10x.json" \
+    --sheet-columns 16 \
+    --sheet-rows 16 \
+    "src/$1.aseprite" \
+    --scale 10 \
+    --save-as "$char_dir/$1-10x.png"
+}
 
-scale := 10
+# Dump out a 1x sheet.
+aseprite1x() {
+  aseprite \
+  -b \
+  --list-tags \
+  --list-slices \
+  --inner-padding 1 \
+  --sheet-pack \
+  --sheet-type rows \
+  --sheet "$sheet_dir/$1.png" \
+  --data "$sheet_dir/$1.json" \
+  --sheet-columns 16 \
+  --sheet-rows 16 \
+  "src/$1.aseprite"
+}
 
-# generate a 16x16 table
-cols := 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-rows := $(cols)
-matrix := $(foreach row,$(rows),$(foreach col,$(cols),$(row)_$(col)))
+rm -rf "$dist_dir"
+mkdir -p "$dist_dir" "$char_dir" "$sheet_dir"
 
-mono_png_files := $(matrix:%=$(mono_png_dir)/_%.png)
-mono_svg_files := $(matrix:%=$(mono_svg_dir)/_%.svg)
+cp -a src/*.json "$dist_dir"
 
-.ONESHELL .SECONDARY:
+for ase in src/*.aseprite; do
+  stem="$(basename "$ase" .aseprite)"
 
-.PHONY: build
-build: $(ttf_file) $(png_sheet_file) $(png_10x_sheet_file) $(mono_fnt_file) $(prop_fnt_file)
+  aseprite10x "$stem"
+  aseprite1x "$stem"
 
-.PHONY: clean
-clean:; rm -rf '$(build_dir)'
+  for char in "$char_dir/$stem-"*-10x.bmp; do
+    # Convert each bmp to an SVG.
+    potrace -sa 0 -O 0 -o "${char%.bmp}.svg" "$char"
+  done
 
-$(build_dir)/%: $(static_dir)/% | $(build_dir)/
-	cp -aLf '$<' '$@'
-
-$(png_10x_sheet_file): $(png_sheet_file)
-	convert -scale 1000% '$<' '$@'
-
-$(png_sheet_file): $(src_file) | $(build_dir)/
-	$(root_dir)/bin/gimp-export-png '$@' '$<'
-
-$(build_dir)/%.ttf: $(build_dir)/%.sfd
-	$(root_dir)/bin/fontforge-export-ttf '$@' '$<'
-
-$(sfd_file): $(mono_svg_files) | $(build_dir)/
-	$(root_dir)/bin/fontforge-import-svgs '$@' $^
-
-# font is 4x4 with 1px padding in xcf
-$(mono_svg_dir)/%.svg: $(mono_png_dir)/%.png | $(mono_svg_dir)
-	convert -crop 4x4+1+1 -scale $$(($(scale) * 100))% '$<' bmp:- |
-	potrace -sa 0 -O 0 -o '$@'
-
-$(subst .png,%png,$(mono_png_files)): $(src_file) | $(mono_png_dir)
-	$(root_dir)/bin/gimp-export-pngs '$(mono_png_dir)' '$<'
-
-$(build_dir)/ $(mono_png_dir) $(mono_svg_dir):; mkdir -p '$@'
+  bin/fontforge-import \
+    "$dist_dir/$stem.sfd" \
+    "$dist_dir/$stem.ttf" \
+    "$stem" \
+    "src/$stem.json" \
+    "$char_dir/$stem-"*.svg
+done
