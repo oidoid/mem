@@ -3,6 +3,7 @@
 ### v6.0.0 (unreleased)
 - Breaking: drop dashes in name
 - Update: include kern table for compatibility
+- Fix: use line height in demo
 
 ### v5.0.0
 - Breaking: switch to Aseprite.
