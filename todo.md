@@ -17,3 +17,6 @@
   `//` is not being set correctly in FontForge. Setting kerning for `/a` works
   correctly but not `/^`.
 - Clean up these crufty build files.
+- The font sizes are split across TTF files instead of being in one. Can this be
+  fixed?
+

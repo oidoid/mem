@@ -86,17 +86,22 @@ See the [changelog](doc/changelog.md) for release notes.
   exhibit correct kerning in GIMP and other programs. As a workaround, these
   fonts includes the most prevalent kerning in the character widths and then
   subtracts it from the overall kerning for supporting programs.
+- Aseprite kind of supports leading in the sense that it tries to make room for
+  the ascenders and descenders but doesn't seem to support newlines. This means
+  the `line_height` is the correct font size to use in Aseprite not the wxh
+  size. For example, to use the 5x6 font in Aseprite, set the font size to 7px.
 
 See the [to-do](todo.md) for more issues.
 
 ## Development
 
 ### System Prerequisites
-- aseprite
-- fontforge
-- potrace
+- [Aseprite](https://www.aseprite.org/)
+- [FontForge](https://fontforge.org)
+- [Potrace](http://potrace.sourceforge.net)
 
-You can install the lot on Ubuntu with `sudo apt install fontforge potrace`.
+You can install the latter two on Ubuntu with
+`sudo apt install fontforge potrace`.
 
 ### Image Diff
 Image diffing with Git is useful for verifying changes but requires a custom

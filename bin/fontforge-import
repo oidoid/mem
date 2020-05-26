@@ -49,7 +49,7 @@ def main(sfd, ttf, fontName, fontMetricsFilename, svgs):
   font.descent = round(1000 - font.ascent + 1000 * fontMetrics['leading'] / maxDimension)
 
   font.save(sfd)
-  font.generate(ttf)
+  font.generate(ttf, flags=('opentype', 'winkern', 'old-kern'))
 
 def computeGlyphWidth(fontMetrics, char):
   maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])

@@ -1,5 +1,8 @@
 ## Changelog
 
+### v5.0.1 (unreleased)
+- Update: include kern table for compatibility
+
 ### v5.0.0
 - Breaking: switch to Aseprite.
 
