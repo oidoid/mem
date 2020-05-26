@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: mem-prop-5x6
-FullName: mem-prop-5x6
-FamilyName: mem-prop-5x6
+FontName: mem prop 5x6
+FullName: mem prop 5x6
+FamilyName: mem prop 5x6
 Weight: Regular
 Copyright: Copyright (c) 2020, 
 UComments: "2020-5-25: Created with FontForge (http://fontforge.org)"
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 454 584273140 13749919]
+XUID: [1021 104 -680445594 12215571]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1590453783
-ModificationTime: 1590453783
+CreationTime: 1590469678
+ModificationTime: 1590469678
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

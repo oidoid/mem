@@ -19,11 +19,12 @@ def main(sfd, ttf, fontName, fontMetricsFilename, svgs):
 
   font = fontforge.font()
 
-  font.familyname = fontName
-  font.fontname = fontName
-  font.fullname = fontName
-
   fontMetrics = readJSON(fontMetricsFilename)
+
+  font.familyname = fontMetrics['name']
+  font.fontname = fontMetrics['name']
+  font.fullname = fontMetrics['name']
+
   maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])
   for char, filename in charCodeToFilename.items():
     glyph = font.createMappedChar(char)

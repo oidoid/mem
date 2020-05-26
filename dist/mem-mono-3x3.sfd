@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: mem-mono-3x3
-FullName: mem-mono-3x3
-FamilyName: mem-mono-3x3
+FontName: mem mono 3x3
+FullName: mem mono 3x3
+FamilyName: mem mono 3x3
 Weight: Regular
 Copyright: Copyright (c) 2020, 
 UComments: "2020-5-25: Created with FontForge (http://fontforge.org)"
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 922 1607057862 4360950]
+XUID: [1021 504 1003861130 10352662]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1590453782
-ModificationTime: 1590453782
+CreationTime: 1590469678
+ModificationTime: 1590469678
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

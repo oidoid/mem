@@ -1,6 +1,7 @@
 ## Changelog
 
-### v5.0.1 (unreleased)
+### v6.0.0 (unreleased)
+- Breaking: drop dashes in name
 - Update: include kern table for compatibility
 
 ### v5.0.0
@@ -19,7 +20,7 @@
 ### v3.1.1
 - Update: add and update 3x5 glyphs
 - Update: 4x4 glyphs
-  - Redesign: *, 3, 6, @, E, K, M, S, W, e
+  - Redesign: \*, 3, 6, @, E, K, M, S, W, e
   - Thicken: V, v
   - Lighten: 7, 9, B, C, Q, U, j, l, o, s, u, z, ~
 - Update: 4x4 mono
