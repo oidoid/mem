@@ -1,13 +1,12 @@
 {
   "name": "mem mono 4x4",
-  "letter_height": 4,
+  "cel_width": 4,
+  "cel_height": 4,
   "leading": 1,
-  "line_height": 5,
   "kerning": {},
   "default_kerning": 1,
   "whitespace_kerning": 0,
   "end_of_line_kerning": 0,
   "letter_width": {},
-  "default_letter_width": 4,
-  "max_letter_width": 4
+  "default_letter_width": 4
 }

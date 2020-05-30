@@ -1,8 +1,8 @@
 {
   "name": "mem prop 4x4",
-  "letter_height": 4,
+  "cel_width": 4,
+  "cel_height": 4,
   "leading": 1,
-  "line_height": 5,
   "kerning": {
     ",'": 0,
     ",\"": 0,
@@ -198,6 +198,5 @@
     "w": 4,
     "|": 1
   },
-  "default_letter_width": 3,
-  "max_letter_width": 4
+  "default_letter_width": 3
 }

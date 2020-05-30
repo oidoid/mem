@@ -5,65 +5,96 @@ dist_dir=dist
 char_dir="$dist_dir/char"
 sheet_dir="$dist_dir"
 
-# Dump out every character as a 10x bmp _and_ a 10x sheet for for accurate SVG
-# tracing and demoing. The bmps use the index 0 background color (without
-# transparency) so that should be white for potrace. Also dump out a 10x sprite
-# sheet for demos.
-aseprite10x() {
+# Render a 10x bmp for every character. See also aseprite10x_sheet.
+#
+# $1 font (Aseprite file stem)
+#
+# - The characters are 10x for accurate tracing.
+# - All padding is 10x to match the rendering scale.
+# - Empty character frames are not output as this causes potrace to print a
+#   warning. aseprite10x_sheet and aseprite10x_chars could be combined
+#    otherwise.
+# - The bmps use the index 0 background color (without transparency) so that
+#   should be white for potrace.
+aseprite10x_chars() {
   aseprite \
     -b \
     --filename-format "$char_dir/{tag}-10x.bmp" \
+    --inner-padding 10 \
+    --ignore-empty \
+    "src/$1.aseprite" \
+    --scale 10 \
+    --save-as /dev/null
+}
+
+# Render a 10x spritesheet PNG and its Aseprite metadata JSON. See also
+# aseprite10x_chars.
+#
+# $1 font (Aseprite file stem)
+#
+# - The sheets are 10x for the readme.
+# - Sheet characters are in ASCII order and missing characters are represented.
+# - All padding is 10x to match the rendering scale.
+aseprite10x_sheet() {
+  aseprite \
+    -b \
     --list-tags \
-    --list-slices \
     --inner-padding 10 \
     --sheet-pack \
-    --ignore-empty \
     --sheet-type rows \
-    --sheet "$sheet_dir/$1-10x.png" \
-    --data "$sheet_dir/$1-10x.json" \
+    --sheet "$sheet_dir/$1-10x-sheet.png" \
+    --data "$sheet_dir/$1-10x-sheet.json" \
     --sheet-columns 16 \
     --sheet-rows 16 \
     "src/$1.aseprite" \
-    --scale 10 \
-    --save-as "$char_dir/$1-10x.png"
+    --scale 10
 }
 
-# Dump out a 1x sheet.
+# Render a 1x spritesheet PNG and its Aseprite metadata JSON
+#
+# $1 font (Aseprite file stem)
+#
+# - The sheets are for game use.
+# - Sheet characters are in ASCII order and missing characters are represented.
+# - Characters are each padded by 1 pixel.
 aseprite1x() {
   aseprite \
   -b \
   --list-tags \
-  --list-slices \
   --inner-padding 1 \
   --sheet-pack \
   --sheet-type rows \
-  --sheet "$sheet_dir/$1.png" \
-  --data "$sheet_dir/$1.json" \
+  --sheet "$sheet_dir/$1-sheet.png" \
+  --data "$sheet_dir/$1-sheet.json" \
   --sheet-columns 16 \
   --sheet-rows 16 \
   "src/$1.aseprite"
 }
 
+# No intermediate build support. Clean and remake the build directory every
+# time.
 rm -rf "$dist_dir"
 mkdir -p "$dist_dir" "$char_dir" "$sheet_dir"
 
+# Copy the font metadata JSON files directly into the dist folder without
+# alteration.
 cp -a src/*.json "$dist_dir"
 
-for ase in src/*.aseprite; do
-  stem="$(basename "$ase" .aseprite)"
+for aseprite_filename in src/*.aseprite; do
+  font="$(basename "$aseprite_filename" .aseprite)"
 
-  aseprite10x "$stem"
-  aseprite1x "$stem"
+  aseprite10x_sheet "$font"
+  aseprite10x_chars "$font"
+  aseprite1x "$font"
 
-  for char in "$char_dir/$stem-"*-10x.bmp; do
+  for char in "$char_dir/$font-"*-10x.bmp; do
     # Convert each bmp to an SVG.
     potrace -sa 0 -O 0 -o "${char%.bmp}.svg" "$char"
   done
 
   bin/fontforge-import \
-    "$dist_dir/$stem.sfd" \
-    "$dist_dir/$stem.ttf" \
-    "$stem" \
-    "src/$stem.json" \
-    "$char_dir/$stem-"*.svg
+    "$dist_dir/$font.sfd" \
+    "$dist_dir/$font.ttf" \
+    "src/$font.json" \
+    "$char_dir/$font-"*.svg
 done

@@ -10,12 +10,16 @@ Proportional and monospace pixel font family. See the
 
 - [Table of contents](#table-of-contents)
 - [Install](#install)
-- [mem-prop 5x6](#mem-prop-5x6)
-- [mem-prop 5x5](#mem-prop-5x5)
-- [mem-prop 3x5](#mem-prop-3x5)
-- [mem-prop 4x4](#mem-prop-4x4)
-- [mem-mono 4x4](#mem-mono-4x4)
-- [mem-mono 3x3](#mem-mono-3x3)
+- [Files](#files)
+- [Fonts](#fonts)
+  - [mem-prop 5x6](#mem-prop-5x6)
+  - [mem-prop 5x5](#mem-prop-5x5)
+  - [mem-prop 3x5](#mem-prop-3x5)
+  - [mem-prop 4x4](#mem-prop-4x4)
+  - [mem-mono 4x4](#mem-mono-4x4)
+  - [mem-mono 3x3](#mem-mono-3x3)
+- [Font Metadata](#font-metadata)
+- [Aseprite Metadata](#aseprite-metadata)
 - [Known issues](#known-issues)
 - [Development](#development)
   - [System Prerequisites](#system-prerequisites)
@@ -36,47 +40,79 @@ npm i mem-font
 
 See the [changelog](doc/changelog.md) for release notes.
 
-## mem-prop 5x6
-<a href="dist/mem-prop-5x6-10x.png">
-  <img alt="mem-prop 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x.png" width="640">
+## Files
+
+- **\*.ttf**: TrueType font file. The format is
+  `mem-<variable width>-<width>x<height>` where where "variable width" is `prop`
+  for proportional or `mono` for monospaced, and width and height are cel width
+  and height in pixels.
+- **\*.json**: font metadata (kerning and other metrics for games).
+- **\*-sheet.png**: 1x spritesheet (for games)
+- **\*-sheet.json**: 1x Aseprite metadata (for games)
+- \*.sfd: FontForge file (mostly for debugging the TTF).
+- \*-10x-sheet.png: 10x spritesheet (mostly for demoing in the readme).
+- \*-10x-sheet.json: Aseprite metadata for the 10x spritesheet.
+
+See also [font metadata](#font-metadata) and
+[Aseprite metadata](#aseprite-metadata) sections below.
+
+## Fonts
+
+All characters in each font set appear below. Blank cels are missing (undefined)
+characters. The fonts are ordered from greatest to least line height with tie
+breakers going to greatest width then proportional font.
+
+### mem-prop 5x6
+<a href="dist/mem-prop-5x6-10x-sheet.png">
+  <img alt="mem-prop 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x-sheet.png" width="560" height="320">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-5x6.ttf)**
 
-## mem-prop 5x5
-<a href="dist/mem-prop-5x5-10x.png">
-  <img alt="mem-prop 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x.png" width="640">
+### mem-prop 5x5
+<a href="dist/mem-prop-5x5-10x-sheet.png">
+  <img alt="mem-prop 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x-sheet.png" width="560" height="280">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-5x5.ttf)**
 
-## mem-prop 3x5
-<a href="dist/mem-prop-3x5-10x.png">
-  <img alt="mem-prop 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x.png" width="384">
+### mem-prop 3x5
+<a href="dist/mem-prop-3x5-10x-sheet.png">
+  <img alt="mem-prop 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x-sheet.png" width="400" height="280">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-3x5.ttf)**
 
-## mem-prop 4x4
-<a href="dist/mem-prop-4x4-10x.png">
-  <img alt="mem-prop 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x.png" width="512">
+### mem-prop 4x4
+<a href="dist/mem-prop-4x4-10x-sheet.png">
+  <img alt="mem-prop 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x-sheet.png" width="480" height="240">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-4x4.ttf)**
 
-## mem-mono 4x4
-<a href="dist/mem-mono-4x4-10x.png">
-  <img alt="mem-mono 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x.png" width="512">
+### mem-mono 4x4
+<a href="dist/mem-mono-4x4-10x-sheet.png">
+  <img alt="mem-mono 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-mono-4x4.ttf)**
 
-## mem-mono 3x3
-<a href="dist/mem-mono-3x3-10x.png">
-  <img alt="mem-mono 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x.png" width="384">
+### mem-mono 3x3
+<a href="dist/mem-mono-3x3-10x-sheet.png">
+  <img alt="mem-mono 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-mono-3x3.ttf)**
+
+## Font Metadata
+
+Additional information for the font including name, kerning, and other layout
+metrics.
+
+## Aseprite Metadata
+
+Additional information spritesheet interpretation. See the
+[aseprite-atlas definition](https://github.com/oddoid/aseprite-atlas/blob/master/src/types/Aseprite.ts).
 
 ## Known issues
 
@@ -95,8 +131,21 @@ See the [to-do](todo.md) for more issues.
 
 ## Development
 
+### Tests
+
+- Font metadata JSON is type-checked with TypeScript to ensure it conforms to
+  the shape expected.
+- Additional properties can leak in but the advertised API must be true.
+
+### Aseprite
+
+Aseprite is open-source and excellent for pixel graphics. A big chunk of this
+repo is making a workflow from Aseprite through FontForge.
+
+GIMP was used up through v4.0.0 but I like Aseprite a lot better for pixeling.
+
 ### System Prerequisites
-- [Aseprite](https://www.aseprite.org/)
+- [Aseprite](https://www.aseprite.org)
 - [FontForge](https://fontforge.org)
 - [Potrace](http://potrace.sourceforge.net)
 

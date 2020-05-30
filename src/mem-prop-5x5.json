@@ -1,8 +1,8 @@
 {
   "name": "mem prop 5x5",
-  "letter_height": 5,
+  "cel_width": 5,
+  "cel_height": 5,
   "leading": 1,
-  "line_height": 6,
   "kerning": {
     ",'": 0,
     ",\"": 0,
@@ -198,6 +198,5 @@
     "w": 5,
     "|": 1
   },
-  "default_letter_width": 3,
-  "max_letter_width": 5
+  "default_letter_width": 3
 }

@@ -5,6 +5,13 @@
 - \[update\] include kern table for compatibility
 - \[fix\] use line height in demo
 - \[dev\] test JSON types
+- \[dev\] add more examples to demo
+- \[breaking\]\[fix\]\[update\]\[dev\]\[build\] revise build scripts
+  - Breaking: add -sheet suffix to Aseprite metadata JSON
+  - Update: bump out most 5x6 capitals to four pixels wide
+  - Fix: non-alphanumeric kerning
+  - Fix: output missing character cels in 10x spritesheet
+  - Build: lots of miscellaneous improvements
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.

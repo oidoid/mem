@@ -1,13 +1,12 @@
 {
   "name": "mem mono 3x3",
-  "letter_height": 3,
+  "cel_width": 3,
+  "cel_height": 3,
   "leading": 1,
-  "line_height": 4,
   "kerning": {},
   "default_kerning": 1,
   "whitespace_kerning": 0,
   "end_of_line_kerning": 0,
   "letter_width": {},
-  "default_letter_width": 3,
-  "max_letter_width": 3
+  "default_letter_width": 3
 }

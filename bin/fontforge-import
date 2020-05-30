@@ -6,73 +6,83 @@ import json
 import re
 import sys
 
-# Python notes:
-# - Dump out an object with `print(dir(glyph))`.
-# - 1000 is the default font character width. If everything is a 1000, it means
-#   no rounding errors, same with 500. In Aseprite, when the font is mem-prop
-#   5x6 and the size is set to 6px, that means the 1000 is 6px wide.
+# 1000 is the default em size. If every cel is 1000, it means no rounding
+# errors occur on pixel grids, same with 500. In Aseprite, when the font is
+# mem prop 5x6 (+ 1px leading) and the size is set to 7px, that means the 1000
+# is 7px wide.
+em_size = 1000
 
-def main(sfd, ttf, fontName, fontMetricsFilename, svgs):
-  charCodeToFilename = {}
-  for svg in svgs:
-    charCodeToFilename[filenameToCharCode(svg)] = svg
+def main(sfd, ttf, metaFilename, svgFilenames):
+  meta = readJSON(metaFilename)
+  package = readJSON('package.json')
 
   font = fontforge.font()
+  font.version = package['version']
+  font.familyname = meta['name']
+  font.fontname = meta['name']
+  font.fullname = meta['name']
+  font.design_size = maxCelDimension(meta) + meta['leading']
+  font.em = em_size
 
-  fontMetrics = readJSON(fontMetricsFilename)
-
-  font.familyname = fontMetrics['name']
-  font.fontname = fontMetrics['name']
-  font.fullname = fontMetrics['name']
-
-  maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])
-  for char, filename in charCodeToFilename.items():
-    glyph = font.createMappedChar(char)
-    glyph.width = computeGlyphWidth(fontMetrics, chr(char))
-    glyph.importOutlines(filename)
-
-  # Force an empty space character.
-  glyph = font.createChar(32, 'space')
-  width = fontMetrics['letter_width'].get(' ', fontMetrics['default_letter_width'])
-  glyph.width = round(1000 * width / maxDimension)
-
-  font.addLookup('kern', 'gpos_pair', 0, [['kern', [["latn",["dflt"]]]]])
+  font.addLookup('kern', 'gpos_pair', 0, [['kern', [["dflt", ["dflt"]]]]])
   font.addLookupSubtable('kern', 'kern-lut')
 
-  for glyph in font.glyphs():
-    maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])
-    for key, val in fontMetrics['kerning'].items():
-      if key[0] == chr(glyph.unicode):
-        # remove the default kerning embedded in the font width workaround below.
-        kern = round(1000 * (val - fontMetrics['default_kerning']) / maxDimension)
-        glyph.addPosSub('kern-lut', key[1], 0, 0, kern, 0, 0, 0, 0, 0)
+  # Force an empty space character. This may not be generated since it usually
+  # is invisible. This is done first in case it does exist.
+  glyph = font.createChar(0x20)
+  glyph.width = round((em_size * letterWidth(meta, ' ')) / maxCelDimension(meta))
 
-  font.descent = round(1000 - font.ascent + 1000 * fontMetrics['leading'] / maxDimension)
+  for svgFilename in svgFilenames:
+    char = filenameToCharCode(svgFilename)
+    glyph = font.createChar(char)
+    glyph.width = glyphWidth(meta, chr(char))
+    glyph.importOutlines(svgFilename)
+
+    # These happen before in they htey are overridden.
+    # Remove the default kerning embedded in the glyphWidth() workaround below.
+    kern = round(em_size * (-meta['end_of_line_kerning'] - meta['default_kerning']) / maxCelDimension(meta))
+    glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord('\n')), 0, 0, kern, 0, 0, 0, 0, 0)
+    kern = round(em_size * (meta['whitespace_kerning'] - meta['default_kerning']) / maxCelDimension(meta))
+    glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord(' ')), 0, 0, kern, 0, 0, 0, 0, 0)
+    glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord('\t')), 0, 0, kern, 0, 0, 0, 0, 0)
+
+    for key, val in meta['kerning'].items():
+      # Remove the default kerning embedded in the glyphWidth() workaround below.
+      kern = round((em_size * (val - meta['default_kerning'])) / maxCelDimension(meta))
+      if key[0] == chr(glyph.unicode):
+        glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord(key[1])), 0, 0, kern, 0, 0, 0, 0, 0)
+
+  # This must be added last.
+  font.descent = round(em_size - font.ascent + em_size * meta['leading'] / maxCelDimension(meta))
 
   font.save(sfd)
   font.generate(ttf, flags=('opentype', 'winkern', 'old-kern'))
 
-def computeGlyphWidth(fontMetrics, char):
-  maxDimension = max(fontMetrics['max_letter_width'], fontMetrics['letter_height'])
+def glyphWidth(meta, char):
   # Aseprite doesn't support kerning. Add the default here and subtract it for
   # programs that support it https://github.com/aseprite/aseprite/issues/1877.
-  width = fontMetrics['letter_width'].get(char, fontMetrics['default_letter_width']) + fontMetrics['default_kerning']
-  return round(1000 * width / maxDimension)
+  width = letterWidth(meta, char) + meta['default_kerning']
+  return round((em_size * width) / maxCelDimension(meta))
+
+def letterWidth(meta, char):
+  return meta['letter_width'].get(char, meta['default_letter_width'])
+
+def maxCelDimension(meta):
+  return max(meta['cel_width'], meta['cel_height'])
 
 # Accepts a filename in the following format mem-fontxxx.svg where xxx is the
 # code without padding.
 def filenameToCharCode(filename):
-  hex = re.sub('dist/char/mem-(prop|mono)-\dx\d-([0-9a-f]+)-10x\.svg', r'\2', filename)
+  hex = re.sub('dist/char/mem-(?:prop|mono)-\dx\d-([0-9a-f]+)-10x\.svg', r'\1', filename)
   return int(hex, 16)
 
 def readJSON(filename):
   with open(filename) as file:
     return json.load(file)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
   sfd = sys.argv[1]
   ttf = sys.argv[2]
-  fontName = sys.argv[3]
-  fontMetricsFilename = sys.argv[4]
-  svgs = sys.argv[5:]
-  main(sfd, ttf, fontName, fontMetricsFilename, svgs)
+  metaFilename = sys.argv[3]
+  svgFilenames = sys.argv[4:]
+  main(sfd, ttf, metaFilename, svgFilenames)

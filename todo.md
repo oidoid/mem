@@ -1,5 +1,9 @@
 ## To-do
 
+- Clean up the readme. Summarize what's actually available, what works, how
+  (e.g., 7px tall in Aseprite but no kerning or Gimp 7px with kerning). Add that
+  real precise font info.
+- Consider not distributing dist since they're non-deterministic.
 - Fix up all the fonts. Only 5x6 has been used lately and the rest need
   maintenance.
 - Validate the sheets are usable in-game. For example, power of 2 sizes.

@@ -4,8 +4,8 @@ FullName: mem mono 3x3
 FamilyName: mem mono 3x3
 Weight: Regular
 Copyright: Copyright (c) 2020, 
-UComments: "2020-5-25: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+UComments: "2020-5-30: Created with FontForge (http://fontforge.org)"
+Version: 5.0.0
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 504 1003861130 10352662]
+XUID: [1021 267 230181474 7475848]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1590469678
-ModificationTime: 1590469678
+CreationTime: 1590877801
+ModificationTime: 1590877801
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,8 +35,9 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 258 0 0 "kern" { "kern-lut"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "kern" { "kern-lut"  } ['kern' ('dflt' <'dflt' > ) ]
 DEI: 91125
+DesignSize: 40
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -46,8 +47,16 @@ FitToEm: 0
 OnlyBitmaps: 1
 BeginChars: 256 70
 
+StartChar: space
+Encoding: 32 32 0
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
 StartChar: ampersand
-Encoding: 38 38 0
+Encoding: 38 38 1
 Width: 1333
 VWidth: 0
 Flags: W
@@ -72,10 +81,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 1
+Encoding: 40 40 2
 Width: 1333
 VWidth: 0
 Flags: W
@@ -108,10 +120,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 2
+Encoding: 41 41 3
 Width: 1333
 VWidth: 0
 Flags: W
@@ -144,10 +159,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: comma
-Encoding: 44 44 3
+Encoding: 44 44 4
 Width: 1333
 VWidth: 0
 Flags: W
@@ -172,10 +190,13 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: period
-Encoding: 46 46 4
+Encoding: 46 46 5
 Width: 1333
 VWidth: 0
 Flags: W
@@ -192,10 +213,13 @@ SplineSet
  0 -200 l 1
  0 -33.3330078125 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: zero
-Encoding: 48 48 5
+Encoding: 48 48 6
 Width: 1333
 VWidth: 0
 Flags: W
@@ -229,10 +253,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: one
-Encoding: 49 49 6
+Encoding: 49 49 7
 Width: 1333
 VWidth: 0
 Flags: W
@@ -257,10 +284,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: two
-Encoding: 50 50 7
+Encoding: 50 50 8
 Width: 1333
 VWidth: 0
 Flags: W
@@ -293,10 +323,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: three
-Encoding: 51 51 8
+Encoding: 51 51 9
 Width: 1333
 VWidth: 0
 Flags: W
@@ -321,10 +354,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: four
-Encoding: 52 52 9
+Encoding: 52 52 10
 Width: 1333
 VWidth: 0
 Flags: W
@@ -353,10 +389,13 @@ SplineSet
  0 133.333007812 l 1
  0 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: five
-Encoding: 53 53 10
+Encoding: 53 53 11
 Width: 1333
 VWidth: 0
 Flags: W
@@ -381,10 +420,13 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: six
-Encoding: 54 54 11
+Encoding: 54 54 12
 Width: 1333
 VWidth: 0
 Flags: W
@@ -405,10 +447,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: seven
-Encoding: 55 55 12
+Encoding: 55 55 13
 Width: 1333
 VWidth: 0
 Flags: W
@@ -429,10 +474,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: eight
-Encoding: 56 56 13
+Encoding: 56 56 14
 Width: 1333
 VWidth: 0
 Flags: W
@@ -453,10 +501,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: nine
-Encoding: 57 57 14
+Encoding: 57 57 15
 Width: 1333
 VWidth: 0
 Flags: W
@@ -477,10 +528,13 @@ SplineSet
  0 133.333007812 l 1
  0 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: colon
-Encoding: 58 58 15
+Encoding: 58 58 16
 Width: 1333
 VWidth: 0
 Flags: W
@@ -506,10 +560,13 @@ SplineSet
  0 -200 l 1
  0 -33.3330078125 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 16
+Encoding: 59 59 17
 Width: 1333
 VWidth: 0
 Flags: W
@@ -543,10 +600,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: A
-Encoding: 65 65 17
+Encoding: 65 65 18
 Width: 1333
 VWidth: 0
 Flags: W
@@ -579,10 +639,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: B
-Encoding: 66 66 18
+Encoding: 66 66 19
 Width: 1333
 VWidth: 0
 Flags: W
@@ -603,10 +666,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: C
-Encoding: 67 67 19
+Encoding: 67 67 20
 Width: 1333
 VWidth: 0
 Flags: W
@@ -631,10 +697,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: D
-Encoding: 68 68 20
+Encoding: 68 68 21
 Width: 1333
 VWidth: 0
 Flags: W
@@ -668,10 +737,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: E
-Encoding: 69 69 21
+Encoding: 69 69 22
 Width: 1333
 VWidth: 0
 Flags: W
@@ -696,10 +768,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: F
-Encoding: 70 70 22
+Encoding: 70 70 23
 Width: 1333
 VWidth: 0
 Flags: W
@@ -724,10 +799,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: G
-Encoding: 71 71 23
+Encoding: 71 71 24
 Width: 1333
 VWidth: 0
 Flags: W
@@ -757,10 +835,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: H
-Encoding: 72 72 24
+Encoding: 72 72 25
 Width: 1333
 VWidth: 0
 Flags: W
@@ -793,10 +874,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: I
-Encoding: 73 73 25
+Encoding: 73 73 26
 Width: 1333
 VWidth: 0
 Flags: W
@@ -829,10 +913,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: J
-Encoding: 74 74 26
+Encoding: 74 74 27
 Width: 1333
 VWidth: 0
 Flags: W
@@ -857,10 +944,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: K
-Encoding: 75 75 27
+Encoding: 75 75 28
 Width: 1333
 VWidth: 0
 Flags: W
@@ -901,10 +991,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: L
-Encoding: 76 76 28
+Encoding: 76 76 29
 Width: 1333
 VWidth: 0
 Flags: W
@@ -925,10 +1018,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: M
-Encoding: 77 77 29
+Encoding: 77 77 30
 Width: 1333
 VWidth: 0
 Flags: W
@@ -953,10 +1049,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: N
-Encoding: 78 78 30
+Encoding: 78 78 31
 Width: 1333
 VWidth: 0
 Flags: W
@@ -985,10 +1084,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: O
-Encoding: 79 79 31
+Encoding: 79 79 32
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1014,10 +1116,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: P
-Encoding: 80 80 32
+Encoding: 80 80 33
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1038,10 +1143,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: Q
-Encoding: 81 81 33
+Encoding: 81 81 34
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1079,10 +1187,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: R
-Encoding: 82 82 34
+Encoding: 82 82 35
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1111,10 +1222,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: S
-Encoding: 83 83 35
+Encoding: 83 83 36
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1139,10 +1253,13 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: T
-Encoding: 84 84 36
+Encoding: 84 84 37
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1167,10 +1284,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: U
-Encoding: 85 85 37
+Encoding: 85 85 38
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1195,10 +1315,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: V
-Encoding: 86 86 38
+Encoding: 86 86 39
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1231,10 +1354,13 @@ SplineSet
  0 133.333007812 l 1
  0 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: W
-Encoding: 87 87 39
+Encoding: 87 87 40
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1259,10 +1385,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: X
-Encoding: 88 88 40
+Encoding: 88 88 41
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1311,10 +1440,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: Y
-Encoding: 89 89 41
+Encoding: 89 89 42
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1347,10 +1479,13 @@ SplineSet
  0 133.333007812 l 1
  0 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: Z
-Encoding: 90 90 42
+Encoding: 90 90 43
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1375,10 +1510,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: a
-Encoding: 97 97 43
+Encoding: 97 97 44
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1412,10 +1550,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: b
-Encoding: 98 98 44
+Encoding: 98 98 45
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1436,10 +1577,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: c
-Encoding: 99 99 45
+Encoding: 99 99 46
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1468,10 +1612,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: d
-Encoding: 100 100 46
+Encoding: 100 100 47
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1492,10 +1639,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: e
-Encoding: 101 101 47
+Encoding: 101 101 48
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1516,10 +1666,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: f
-Encoding: 102 102 48
+Encoding: 102 102 49
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1548,10 +1701,13 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: g
-Encoding: 103 103 49
+Encoding: 103 103 50
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1572,10 +1728,13 @@ SplineSet
  0 133.333007812 l 1
  0 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: h
-Encoding: 104 104 50
+Encoding: 104 104 51
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1604,10 +1763,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: i
-Encoding: 105 105 51
+Encoding: 105 105 52
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1624,10 +1786,13 @@ SplineSet
  333.333007812 -200 l 1
  333.333007812 133.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: j
-Encoding: 106 106 52
+Encoding: 106 106 53
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1656,10 +1821,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: k
-Encoding: 107 107 53
+Encoding: 107 107 54
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1700,10 +1868,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: l
-Encoding: 108 108 54
+Encoding: 108 108 55
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1724,10 +1895,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: m
-Encoding: 109 109 55
+Encoding: 109 109 56
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1748,10 +1922,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: n
-Encoding: 110 110 56
+Encoding: 110 110 57
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1780,10 +1957,13 @@ SplineSet
  0 -200 l 1
  0 133.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: o
-Encoding: 111 111 57
+Encoding: 111 111 58
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1825,10 +2005,13 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: p
-Encoding: 112 112 58
+Encoding: 112 112 59
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1849,10 +2032,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: q
-Encoding: 113 113 59
+Encoding: 113 113 60
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1877,10 +2063,13 @@ SplineSet
  0 133.333007812 l 1
  0 466.666992188 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: r
-Encoding: 114 114 60
+Encoding: 114 114 61
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1901,10 +2090,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: s
-Encoding: 115 115 61
+Encoding: 115 115 62
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1929,10 +2121,13 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: t
-Encoding: 116 116 62
+Encoding: 116 116 63
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1957,10 +2152,13 @@ SplineSet
  0 133.333007812 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: u
-Encoding: 117 117 63
+Encoding: 117 117 64
 Width: 1333
 VWidth: 0
 Flags: W
@@ -1985,10 +2183,13 @@ SplineSet
  0 -200 l 1
  0 133.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: v
-Encoding: 118 118 64
+Encoding: 118 118 65
 Width: 1333
 VWidth: 0
 Flags: W
@@ -2021,10 +2222,13 @@ SplineSet
  0 133.333007812 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: w
-Encoding: 119 119 65
+Encoding: 119 119 66
 Width: 1333
 VWidth: 0
 Flags: W
@@ -2049,10 +2253,13 @@ SplineSet
  0 -200 l 1
  0 300 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: x
-Encoding: 120 120 66
+Encoding: 120 120 67
 Width: 1333
 VWidth: 0
 Flags: W
@@ -2101,10 +2308,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: y
-Encoding: 121 121 67
+Encoding: 121 121 68
 Width: 1333
 VWidth: 0
 Flags: W
@@ -2137,10 +2347,13 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: z
-Encoding: 122 122 68
+Encoding: 122 122 69
 Width: 1333
 VWidth: 0
 Flags: W
@@ -2165,14 +2378,9 @@ SplineSet
  0 133.333007812 l 1
  0 300 l 1
 EndSplineSet
-EndChar
-
-StartChar: space
-Encoding: 32 32 69
-Width: 1000
-VWidth: 0
-Flags: W
-LayerCount: 2
+Kerns2: 0 -333 "kern-lut"
+PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-333 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 EndChars
 EndSplineFont
