@@ -12,6 +12,10 @@
   - Fix: non-alphanumeric kerning
   - Fix: output missing character cels in 10x spritesheet
   - Build: lots of miscellaneous improvements
+- \[update\] improve capital width consistency
+  - Increase T, Y, and Z from three to four pixels wide.
+  - Reduce N from five to four pixels wide.
+
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
