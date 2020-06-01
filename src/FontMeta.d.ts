@@ -1,4 +1,10 @@
 interface FontMeta {
+  /**
+   * PostScript font name less than 63 characters and does not contain any of
+   * `(){}[]<>%/ `.
+   */
+  id: string
+
   /** The human readable font name. */
   name: string
 

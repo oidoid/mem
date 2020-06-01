@@ -19,7 +19,7 @@ def main(sfd, ttf, metaFilename, svgFilenames):
   font = fontforge.font()
   font.version = package['version']
   font.familyname = meta['name']
-  font.fontname = meta['name']
+  font.fontname = meta['id']
   font.fullname = meta['name']
   font.design_size = maxCelDimension(meta) + meta['leading']
   font.em = em_size

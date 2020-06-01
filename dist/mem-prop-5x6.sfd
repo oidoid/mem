@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: mem prop 5x6
-FullName: mem prop 5x6
-FamilyName: mem prop 5x6
+FontName: mem-prop-5x6
+FullName: mem proportional 5x6
+FamilyName: mem proportional 5x6
 Weight: Regular
 Copyright: Copyright (c) 2020, 
 UComments: "2020-5-31: Created with FontForge (http://fontforge.org)"
@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 870 1905711394 8764001]
+XUID: [1021 203 -1534178374 168507]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1590983476
-ModificationTime: 1590983476
+CreationTime: 1590986516
+ModificationTime: 1590986516
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -3526,7 +3526,7 @@ SplineSet
  166.666992188 133.333007812 l 1
  166.666992188 383.333007812 l 1
 EndSplineSet
-Kerns2: 83 -167 "kern-lut" 14 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 83 -167 "kern-lut" 74 -167 "kern-lut" 14 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar

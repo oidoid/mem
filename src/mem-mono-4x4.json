@@ -1,5 +1,6 @@
 {
-  "name": "mem mono 4x4",
+  "id": "mem-mono-4x4",
+  "name": "mem monospaced 4x4",
   "cel_width": 4,
   "cel_height": 4,
   "leading": 1,

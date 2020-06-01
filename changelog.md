@@ -19,6 +19,7 @@
 - \[dev\] add favicon to demo
 - \[update\] round c; add definition to &
 - \[dev\] add ttfdumps
+- \[fix\] font PostScript name
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.

@@ -1,5 +1,6 @@
 {
-  "name": "mem prop 5x6",
+  "id": "mem-prop-5x6",
+  "name": "mem proportional 5x6",
   "cel_width": 5,
   "cel_height": 6,
   "leading": 1,
@@ -34,6 +35,7 @@
     "rj": 0,
     "rs": 0,
     "s.": 0,
+    "sj": 0,
     "ss": 0,
     "ts": 0,
     "y.": 0,

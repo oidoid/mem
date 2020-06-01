@@ -1,5 +1,6 @@
 {
-  "name": "mem prop 4x4",
+  "id": "mem-prop-4x4",
+  "name": "mem proportional 4x4",
   "cel_width": 4,
   "cel_height": 4,
   "leading": 1,

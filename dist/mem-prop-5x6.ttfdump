@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0x907bc6f8, offset = 0x00002810, len =        28
-   1. 'GPOS' - checksum = 0x67626d1f, offset = 0x00002614, len =       508
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000025f4, len =        32
+   0. 'FFTM' - checksum = 0x907bdeb8, offset = 0x00002874, len =        28
+   1. 'GPOS' - checksum = 0x664a6c9c, offset = 0x00002664, len =       526
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00002644, len =        32
    3. 'OS/2' - checksum = 0x5b0d637f, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0xcc91a0d9, offset = 0x00000370, len =       322
    5. 'cvt ' - checksum = 0x002602e4, offset = 0x000004b4, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x000025ec, len =         8
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x0000263c, len =         8
    7. 'glyf' - checksum = 0x96ed6890, offset = 0x00000580, len =      6796
-   8. 'head' - checksum = 0x18599b4c, offset = 0x0000010c, len =        54
+   8. 'head' - checksum = 0x1859b30c, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x06cd0382, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0x064a0026, offset = 0x000001e8, len =       390
-  11. 'kern' - checksum = 0xe81de936, offset = 0x0000200c, len =       726
+  11. 'kern' - checksum = 0xe864e8f9, offset = 0x0000200c, len =       732
   12. 'loca' - checksum = 0x4bed4554, offset = 0x000004b8, len =       198
   13. 'maxp' - checksum = 0x00a70071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0x7a8d9c23, offset = 0x000022e4, len =       543
-  15. 'post' - checksum = 0x097a0962, offset = 0x00002504, len =       230
+  14. 'name' - checksum = 0x086d313f, offset = 0x000022e8, len =       618
+  15. 'post' - checksum = 0x097a0962, offset = 0x00002554, len =       230
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -416,12 +416,12 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 5.0
-	 checkSumAdjustment:	 0xa7c80f7e
+	 checkSumAdjustment:	 0x8daa85bb
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1167
-	 created:		 0x00000000dafa2bb4
-	 modified:		 0x00000000dafa2bb4
+	 created:		 0x00000000dafa3794
+	 modified:		 0x00000000dafa3794
 	 xMin:			 0
 	 yMin:			 -200
 	 xMax:			 834
@@ -692,41 +692,44 @@ Name table   1.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 1
-		 Length:	 12
-		 Offset:	 89
-		 6d 65 6d 20 70 72 6f 70 20 35  >  mem prop 5
-		 78 36                          > x6
+		 Length:	 20
+		 Offset:	 105
+		 6d 65 6d 20 70 72 6f 70 6f 72  >  mem propor
+		 74 69 6f 6e 61 6c 20 35 78 36  >  tional 5x6
+		                                > 
 Name table   2.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 2
-		 Length:	 7
-		 Offset:	 118
-		 52 65 67 75 6c 61 72           > Regular
+		 Length:	 8
+		 Offset:	 144
+		 70 72 6f 70 2d 35 78 36        > prop-5x6
 Name table   3.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 3
-		 Length:	 39
-		 Offset:	 206
+		 Length:	 47
+		 Offset:	 249
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
-		 70 72 6f 70 20 35 78 36 20 3a  >  prop 5x6 :
-		 20 31 2d 36 2d 32 30 32 30     >  1-6-2020
+		 70 72 6f 70 6f 72 74 69 6f 6e  >  proportion
+		 61 6c 20 35 78 36 20 3a 20 31  >  al 5x6 : 1
+		 2d 36 2d 32 30 32 30           > -6-2020
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 4
-		 Length:	 12
-		 Offset:	 272
-		 6d 65 6d 20 70 72 6f 70 20 35  >  mem prop 5
-		 78 36                          > x6
+		 Length:	 20
+		 Offset:	 339
+		 6d 65 6d 20 70 72 6f 70 6f 72  >  mem propor
+		 74 69 6f 6e 61 6c 20 35 78 36  >  tional 5x6
+		                                > 
 Name table   5.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 5
 		 Length:	 14
-		 Offset:	 315
+		 Offset:	 390
 		 56 65 72 73 69 6f 6e 20 35 2e  >  Version 5.
 		 30 2e 30 20                    > 0.0 
 Name table   6.	 PlatformID:	 1
@@ -734,8 +737,8 @@ Name table   6.	 PlatformID:	 1
 		 LanguageID:	 0
 		 NameID:	 6
 		 Length:	 12
-		 Offset:	 356
-		 6d 65 6d 20 70 72 6f 70 20 35  >  mem prop 5
+		 Offset:	 431
+		 6d 65 6d 2d 70 72 6f 70 2d 35  >  mem-prop-5
 		 78 36                          > x6
 Name table   7.	 PlatformID:	 3
 		 EncodingID:	 1
@@ -752,48 +755,54 @@ Name table   8.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 1
-		 Length:	 24
+		 Length:	 40
 		 Offset:	 63
 		 00 6d 00 65 00 6d 00 20 00 70  >  .m.e.m. .p
-		 00 72 00 6f 00 70 00 20 00 35  >  .r.o.p. .5
-		 00 78 00 36                    > .x.6
+		 00 72 00 6f 00 70 00 6f 00 72  >  .r.o.p.o.r
+		 00 74 00 69 00 6f 00 6e 00 61  >  .t.i.o.n.a
+		 00 6c 00 20 00 35 00 78 00 36  >  .l. .5.x.6
+		                                > 
 Name table   9.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 2
-		 Length:	 14
-		 Offset:	 102
-		 00 52 00 65 00 67 00 75 00 6c  >  .R.e.g.u.l
-		 00 61 00 72                    > .a.r
+		 Length:	 16
+		 Offset:	 126
+		 00 70 00 72 00 6f 00 70 00 2d  >  .p.r.o.p.-
+		 00 35 00 78 00 36              > .5.x.6
 Name table  10.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 3
-		 Length:	 78
-		 Offset:	 126
+		 Length:	 94
+		 Offset:	 153
 		 00 46 00 6f 00 6e 00 74 00 46  >  .F.o.n.t.F
 		 00 6f 00 72 00 67 00 65 00 20  >  .o.r.g.e. 
 		 00 32 00 2e 00 30 00 20 00 3a  >  .2...0. .:
 		 00 20 00 6d 00 65 00 6d 00 20  >  . .m.e.m. 
-		 00 70 00 72 00 6f 00 70 00 20  >  .p.r.o.p. 
-		 00 35 00 78 00 36 00 20 00 3a  >  .5.x.6. .:
-		 00 20 00 31 00 2d 00 36 00 2d  >  . .1.-.6.-
-		 00 32 00 30 00 32 00 30        > .2.0.2.0
+		 00 70 00 72 00 6f 00 70 00 6f  >  .p.r.o.p.o
+		 00 72 00 74 00 69 00 6f 00 6e  >  .r.t.i.o.n
+		 00 61 00 6c 00 20 00 35 00 78  >  .a.l. .5.x
+		 00 36 00 20 00 3a 00 20 00 31  >  .6. .:. .1
+		 00 2d 00 36 00 2d 00 32 00 30  >  .-.6.-.2.0
+		 00 32 00 30                    > .2.0
 Name table  11.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 4
-		 Length:	 24
-		 Offset:	 246
+		 Length:	 40
+		 Offset:	 297
 		 00 6d 00 65 00 6d 00 20 00 70  >  .m.e.m. .p
-		 00 72 00 6f 00 70 00 20 00 35  >  .r.o.p. .5
-		 00 78 00 36                    > .x.6
+		 00 72 00 6f 00 70 00 6f 00 72  >  .r.o.p.o.r
+		 00 74 00 69 00 6f 00 6e 00 61  >  .t.i.o.n.a
+		 00 6c 00 20 00 35 00 78 00 36  >  .l. .5.x.6
+		                                > 
 Name table  12.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 5
 		 Length:	 28
-		 Offset:	 285
+		 Offset:	 360
 		 00 56 00 65 00 72 00 73 00 69  >  .V.e.r.s.i
 		 00 6f 00 6e 00 20 00 35 00 2e  >  .o.n. .5..
 		 00 30 00 2e 00 30 00 20        > .0...0. 
@@ -802,9 +811,9 @@ Name table  13.	 PlatformID:	 3
 		 LanguageID:	 1033
 		 NameID:	 6
 		 Length:	 24
-		 Offset:	 330
-		 00 6d 00 65 00 6d 00 20 00 70  >  .m.e.m. .p
-		 00 72 00 6f 00 70 00 20 00 35  >  .r.o.p. .5
+		 Offset:	 405
+		 00 6d 00 65 00 6d 00 2d 00 70  >  .m.e.m.-.p
+		 00 72 00 6f 00 70 00 2d 00 35  >  .r.o.p.-.5
 		 00 78 00 36                    > .x.6
 
 'post' Table - PostScript
@@ -990,12 +999,12 @@ Number of subtables:	 1
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 722
+	 Bytes in subtable 	 728
 	 Coverage bits 	 0x1
-	 Number of pairs 118
+	 Number of pairs 119
 	 Search Range    384
 	 Entry Selector  6
-	 Range Shift     324
+	 Range Shift     330
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 4 		 3 		 -167
@@ -1100,6 +1109,7 @@ Number of subtables:	 1
 		 85 		 77 		 -167
 		 86 		 3 		 -167
 		 86 		 17 		 -167
+		 86 		 77 		 -167
 		 86 		 86 		 -167
 		 87 		 3 		 -167
 		 87 		 86 		 -167
@@ -1443,12 +1453,14 @@ Number of subtables:	 1
 		  value1: XAdvance = -167
 	       2. secondGlyph: 86
 		  value1: XAdvance = -167
-	  82. pairValueCount: 3
+	  82. pairValueCount: 4
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
 	       1. secondGlyph: 17
 		  value1: XAdvance = -167
-	       2. secondGlyph: 86
+	       2. secondGlyph: 77
+		  value1: XAdvance = -167
+	       3. secondGlyph: 86
 		  value1: XAdvance = -167
 	  83. pairValueCount: 2
 	       0. secondGlyph: 3
