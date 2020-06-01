@@ -16,6 +16,7 @@
   - Increase T, Y, and Z from three to four pixels wide.
   - Reduce N from five to four pixels wide.
 - \[update\] round C and Y; smooth M and W
+- \[dev\] add favicon to demo
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
