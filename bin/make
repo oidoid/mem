@@ -97,4 +97,6 @@ for aseprite_filename in src/*.aseprite; do
     "$dist_dir/$font.ttf" \
     "src/$font.json" \
     "$char_dir/$font-"*.svg
+
+  ttfdump -o "$dist_dir/$font.ttfdump" "$dist_dir/$font.ttf"
 done

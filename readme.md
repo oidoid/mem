@@ -50,8 +50,11 @@ See the [changelog](doc/changelog.md) for release notes.
 - **\*-sheet.png**: 1x spritesheet (for games)
 - **\*-sheet.json**: 1x Aseprite metadata (for games)
 - \*.sfd: FontForge file (mostly for debugging the TTF).
-- \*-10x-sheet.png: 10x spritesheet (mostly for demoing in the readme).
+- \*-10x-sheet.png: 10x spritesheet (mostly for demoing in the readme and easier
+  diffing).
 - \*-10x-sheet.json: Aseprite metadata for the 10x spritesheet.
+- \*.ttfdump: True Type Font File Dumper dumps for each TTF (for debugging and
+  tracking changes).
 
 See also [font metadata](#font-metadata) and
 [Aseprite metadata](#aseprite-metadata) sections below.
@@ -148,9 +151,10 @@ GIMP was used up through v4.0.0 but I like Aseprite a lot better for pixeling.
 - [Aseprite](https://www.aseprite.org)
 - [FontForge](https://fontforge.org)
 - [Potrace](http://potrace.sourceforge.net)
+- True Type Font File Dumper
 
-You can install the latter two on Ubuntu with
-`sudo apt install fontforge potrace`.
+You can install the latter three on Ubuntu with
+`sudo apt install fontforge potrace texlive-binaries`.
 
 ### Image Diff
 Image diffing with Git is useful for verifying changes but requires a custom

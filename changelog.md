@@ -18,6 +18,7 @@
 - \[update\] round C and Y; smooth M and W
 - \[dev\] add favicon to demo
 - \[update\] round c; add definition to &
+- \[dev\] add ttfdumps
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
