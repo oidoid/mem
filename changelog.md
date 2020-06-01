@@ -17,6 +17,7 @@
   - Reduce N from five to four pixels wide.
 - \[update\] round C and Y; smooth M and W
 - \[dev\] add favicon to demo
+- \[update\] round c; add definition to &
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
