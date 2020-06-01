@@ -7,7 +7,7 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0x907bdeb6, offset = 0x00001ac0, len =        28
+   0. 'FFTM' - checksum = 0x907bdfee, offset = 0x00001ac0, len =        28
    1. 'GPOS' - checksum = 0x5fc16567, offset = 0x000019cc, len =       242
    2. 'GSUB' - checksum = 0x64966c95, offset = 0x000019ac, len =        32
    3. 'OS/2' - checksum = 0x5c9666cb, offset = 0x00000188, len =        96
@@ -15,7 +15,7 @@ Offset Table
    5. 'cvt ' - checksum = 0x002c02f4, offset = 0x00000400, len =         4
    6. 'gasp' - checksum = 0xffff0003, offset = 0x000019a4, len =         8
    7. 'glyf' - checksum = 0xdf28a48c, offset = 0x00000498, len =      4176
-   8. 'head' - checksum = 0x18ffb3b0, offset = 0x0000010c, len =        54
+   8. 'head' - checksum = 0x18ffb4e8, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x07820473, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0x0e0b002c, offset = 0x000001e8, len =       156
   11. 'kern' - checksum = 0xdafcda09, offset = 0x000014e8, len =       432
@@ -405,12 +405,12 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 5.0
-	 checkSumAdjustment:	 0xc415a47d
+	 checkSumAdjustment:	 0xc4159f9d
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1333
-	 created:		 0x00000000dafa3793
-	 modified:		 0x00000000dafa3793
+	 created:		 0x00000000dafa382f
+	 modified:		 0x00000000dafa382f
 	 xMin:			 0
 	 yMin:			 -200
 	 xMax:			 1000

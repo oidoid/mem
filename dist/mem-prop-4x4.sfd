@@ -15,12 +15,12 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 289 -971432874 10892258]
+XUID: [1021 57 -375600593 5222731]
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1590986515
-ModificationTime: 1590986515
+CreationTime: 1590986672
+ModificationTime: 1590986672
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
