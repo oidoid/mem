@@ -129,6 +129,7 @@ Additional information spritesheet interpretation. See the
   the ascenders and descenders but doesn't seem to support newlines. This means
   the `line_height` is the correct font size to use in Aseprite not the wxh
   size. For example, to use the 5x6 font in Aseprite, set the font size to 7px.
+- [Sprite sheet dimensions are not powers of two](https://github.com/aseprite/aseprite/issues/2289).
 
 See the [to-do](todo.md) for more issues.
 

@@ -21,6 +21,7 @@
 - \[dev\] add ttfdumps
 - \[fix\] font PostScript name
 - \[update\] reduce kerning between s and j
+- \[docs\] note power of two sprite sheet size issue
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
