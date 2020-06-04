@@ -12,7 +12,7 @@ import sys
 # is 7px wide.
 em_size = 1000
 
-def main(sfd, ttf, metaFilename, svgFilenames):
+def main(sfd, metaFilename, svgFilenames):
   meta = readJSON(metaFilename)
   package = readJSON('package.json')
 
@@ -23,6 +23,9 @@ def main(sfd, ttf, metaFilename, svgFilenames):
   font.fullname = meta['name']
   font.design_size = maxCelDimension(meta) + meta['leading']
   font.em = em_size
+  # Suppress time-based comment and unique ID that hinder build determinism.
+  font.comment = None
+  font.xuid = None
 
   font.addLookup('kern', 'gpos_pair', 0, [['kern', [["dflt", ["dflt"]]]]])
   font.addLookupSubtable('kern', 'kern-lut')
@@ -56,7 +59,6 @@ def main(sfd, ttf, metaFilename, svgFilenames):
   font.descent = round(em_size - font.ascent + em_size * meta['leading'] / maxCelDimension(meta))
 
   font.save(sfd)
-  font.generate(ttf, flags=('opentype', 'winkern', 'old-kern'))
 
 def glyphWidth(meta, char):
   # Aseprite doesn't support kerning. Add the default here and subtract it for
@@ -82,7 +84,6 @@ def readJSON(filename):
 
 if __name__ == '__main__':
   sfd = sys.argv[1]
-  ttf = sys.argv[2]
-  metaFilename = sys.argv[3]
-  svgFilenames = sys.argv[4:]
-  main(sfd, ttf, metaFilename, svgFilenames)
+  metaFilename = sys.argv[2]
+  svgFilenames = sys.argv[3:]
+  main(sfd, metaFilename, svgFilenames)

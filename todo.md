@@ -14,12 +14,6 @@
 - Add more demos.
 - Add font to oddoid.com with aseprite-atlas.
 - Read through the FontForge docs.
-- The font metrics JSON is being clobbered by the sprite sheets from Aseprite
-  due to a naming conflict. Reevaluate the name of the JSON which seems to have
-  mostly font dimensional information.
-- Kerning from non-alphanumerical character to non-alphanumerical character like
-  `//` is not being set correctly in FontForge. Setting kerning for `/a` works
-  correctly but not `/^`.
 - Clean up these crufty build files.
 - The font sizes are split across TTF files instead of being in one. Can this be
   fixed?

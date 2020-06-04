@@ -92,11 +92,20 @@ for aseprite_filename in src/*.aseprite; do
     potrace -sa 0 -O 0 -o "${char%.bmp}.svg" "$char"
   done
 
+  # Generate a FontForge font from the SVGs.
   bin/fontforge-import \
     "$dist_dir/$font.sfd" \
-    "$dist_dir/$font.ttf" \
     "src/$font.json" \
     "$char_dir/$font-"*.svg
+
+  # Strip the creation and modification times for repeatable builds.
+  sed -ri 's%(Creation|Modification)Time: [0-9]+%\1Time: 0%' dist/*.sfd
+
+  # Generate a TrueType font.
+  fontforge -quiet -c "
+font = fontforge.open('dist/$font.sfd')
+font.generate('dist/$font.ttf', flags=('opentype', 'winkern', 'old-kern'))
+  "
 
   ttfdump -o "$dist_dir/$font.ttfdump" "$dist_dir/$font.ttf"
 done

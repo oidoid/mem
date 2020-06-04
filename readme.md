@@ -149,10 +149,10 @@ repo is making a workflow from Aseprite through FontForge.
 GIMP was used up through v4.0.0 but I like Aseprite a lot better for pixeling.
 
 ### System Prerequisites
-- [Aseprite](https://www.aseprite.org)
-- [FontForge](https://fontforge.org)
-- [Potrace](http://potrace.sourceforge.net)
-- True Type Font File Dumper
+- [Aseprite](https://www.aseprite.org) v1.2.19.2-x64
+- [FontForge](https://fontforge.org) v20190801
+- [Potrace](http://potrace.sourceforge.net) v1.16
+- True Type Font File Dumper (ttfdump) v2019.20190605.51237-3build2
 
 You can install the latter three on Ubuntu with
 `sudo apt install fontforge potrace texlive-binaries`.
