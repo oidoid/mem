@@ -24,6 +24,7 @@
 - \[docs\] note power of two sprite sheet size issue
 - \[dev\] add capital pangram to demo
 - \[dev\]\[fix\] non-deterministic builds
+- \[update\] round G, M, W, m, n, w; lighten J, j; raise W's tie; fix blurry favicon
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.

@@ -13,7 +13,7 @@ sheet_dir="$dist_dir"
 # - All padding is 10x to match the rendering scale.
 # - Empty character frames are not output as this causes potrace to print a
 #   warning. aseprite10x_sheet and aseprite10x_chars could be combined
-#    otherwise.
+#   otherwise.
 # - The bmps use the index 0 background color (without transparency) so that
 #   should be white for potrace.
 aseprite10x_chars() {

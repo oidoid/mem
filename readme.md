@@ -122,9 +122,9 @@ Additional information spritesheet interpretation. See the
 - [Aseprite does not support kerning](https://github.com/aseprite/aseprite/issues/1877),
   only variable widths. This means sequences such as "zz" and "rj" will be the
   same distance apart as any other sequence such as "ab". These fonts should
-  exhibit correct kerning in GIMP and other programs. As a workaround, these
-  fonts includes the most prevalent kerning in the character widths and then
-  subtracts it from the overall kerning for supporting programs.
+  exhibit correct kerning in a web browser, GIMP, and other programs. As a
+  workaround, these fonts includes the most prevalent kerning in the character
+  widths and then subtracts it from the overall kerning for supporting programs.
 - Aseprite kind of supports leading in the sense that it tries to make room for
   the ascenders and descenders but doesn't seem to support newlines. This means
   the `line_height` is the correct font size to use in Aseprite not the wxh
