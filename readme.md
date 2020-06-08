@@ -12,16 +12,20 @@ Proportional and monospace pixel font family. See the
 - [Install](#install)
 - [Files](#files)
 - [Fonts](#fonts)
-  - [mem-prop 5x6](#mem-prop-5x6)
-  - [mem-prop 5x5](#mem-prop-5x5)
-  - [mem-prop 3x5](#mem-prop-3x5)
-  - [mem-prop 4x4](#mem-prop-4x4)
-  - [mem-mono 4x4](#mem-mono-4x4)
-  - [mem-mono 3x3](#mem-mono-3x3)
+  - [mem proportional 5x6](#mem-proportional-5x6)
+  - [mem proportional 5x5](#mem-proportional-5x5)
+  - [mem proportional 3x5](#mem-proportional-3x5)
+  - [mem proportional 4x4](#mem-proportional-4x4)
+  - [mem monospaced 4x4](#mem-monospaced-4x4)
+  - [mem monospaced 3x3](#mem-monospaced-3x3)
 - [Font Metadata](#font-metadata)
 - [Aseprite Metadata](#aseprite-metadata)
 - [Known issues](#known-issues)
+- [Design Principles](#design-principles)
+  - [mem proportional 5x6](#mem-proportional-5x6-1)
 - [Development](#development)
+  - [Tests](#tests)
+  - [Aseprite](#aseprite)
   - [System Prerequisites](#system-prerequisites)
   - [Image Diff](#image-diff)
   - [Testing the TTF](#testing-the-ttf)
@@ -65,44 +69,44 @@ All characters in each font set appear below. Blank cels are missing (undefined)
 characters. The fonts are ordered from greatest to least line height with tie
 breakers going to greatest width then proportional font.
 
-### mem-prop 5x6
+### mem proportional 5x6
 <a href="dist/mem-prop-5x6-10x-sheet.png">
-  <img alt="mem-prop 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x-sheet.png" width="560" height="320">
+  <img alt="mem proportional 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x-sheet.png" width="560" height="320">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-5x6.ttf)**
 
-### mem-prop 5x5
+### mem proportional 5x5
 <a href="dist/mem-prop-5x5-10x-sheet.png">
-  <img alt="mem-prop 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x-sheet.png" width="560" height="280">
+  <img alt="mem proportional 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x-sheet.png" width="560" height="280">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-5x5.ttf)**
 
-### mem-prop 3x5
+### mem proportional 3x5
 <a href="dist/mem-prop-3x5-10x-sheet.png">
-  <img alt="mem-prop 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x-sheet.png" width="400" height="280">
+  <img alt="mem proportional 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x-sheet.png" width="400" height="280">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-3x5.ttf)**
 
-### mem-prop 4x4
+### mem proportional 4x4
 <a href="dist/mem-prop-4x4-10x-sheet.png">
-  <img alt="mem-prop 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x-sheet.png" width="480" height="240">
+  <img alt="mem proportional 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x-sheet.png" width="480" height="240">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-prop-4x4.ttf)**
 
-### mem-mono 4x4
+### mem monospaced 4x4
 <a href="dist/mem-mono-4x4-10x-sheet.png">
-  <img alt="mem-mono 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
+  <img alt="mem monospaced 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-mono-4x4.ttf)**
 
-### mem-mono 3x3
+### mem monospaced 3x3
 <a href="dist/mem-mono-3x3-10x-sheet.png">
-  <img alt="mem-mono 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
+  <img alt="mem monospaced 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
 </a>
 
 **[Download](https://mem-font.netlify.app/dist/mem-mono-3x3.ttf)**
@@ -132,6 +136,21 @@ Additional information spritesheet interpretation. See the
 - [Sprite sheet dimensions are not powers of two](https://github.com/aseprite/aseprite/issues/2289).
 
 See the [to-do](todo.md) for more issues.
+
+## Design Principles
+### mem proportional 5x6
+- Visual consistency and smoothness (pixel clustering) of the whole character
+  set at the expense of form adherence for individual characters. For example,
+  the lowercase o could be rounder but this comes at the cost of making the font
+  noisier and it is very legible square rather than round. As a counterexample,
+  the lowercase j could be smoother but it looks unbalanced, so in some cases
+  exceptions are made.
+- Favor 4x5 pixels for every capital character.
+- Favor 3x4 pixels for every lowercase character.
+- Every numeric is the same width and height, 3x5 pixels, so that countdowns
+  don't shift.
+- The preferred inflection for lowercase is one pixel from the top, for the sake
+  of e. Everything else is two pixels from the top.
 
 ## Development
 
