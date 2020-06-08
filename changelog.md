@@ -28,6 +28,7 @@
 - \[update\] favor smoothing to rounding for M, W, m, n, u, w; drop serif on T; round U; drop y. and _f kerning
 - \[update\] smooth c
 - \[mem prop 5x6\]\[docs\] add design principles
+- \[update\] shrink V's width
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
