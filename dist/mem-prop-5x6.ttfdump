@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x000029d0, len =        28
-   1. 'GPOS' - checksum = 0x67dc7020, offset = 0x000027c8, len =       518
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000027a8, len =        32
+   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x000029c0, len =        28
+   1. 'GPOS' - checksum = 0x67dc7020, offset = 0x000027b8, len =       518
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00002798, len =        32
    3. 'OS/2' - checksum = 0x5aee637e, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0x0162d086, offset = 0x00000378, len =       330
    5. 'cvt ' - checksum = 0x002602e4, offset = 0x000004c4, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x000027a0, len =         8
-   7. 'glyf' - checksum = 0xc1b12000, offset = 0x00000594, len =      7104
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x00002790, len =         8
+   7. 'glyf' - checksum = 0xe3535e46, offset = 0x00000594, len =      7088
    8. 'head' - checksum = 0x5ab0a4e4, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x06ce02de, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0x0b800026, offset = 0x000001e8, len =       398
-  11. 'kern' - checksum = 0xe80aea35, offset = 0x00002154, len =       738
-  12. 'loca' - checksum = 0x67316054, offset = 0x000004c8, len =       202
+  11. 'kern' - checksum = 0xe80aea35, offset = 0x00002144, len =       738
+  12. 'loca' - checksum = 0x66c15fe4, offset = 0x000004c8, len =       202
   13. 'maxp' - checksum = 0x00aa0071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0x086d3f3f, offset = 0x00002438, len =       618
-  15. 'post' - checksum = 0x47b379af, offset = 0x000026a4, len =       250
+  14. 'name' - checksum = 0x086d3f3f, offset = 0x00002428, len =       618
+  15. 'post' - checksum = 0x47b379af, offset = 0x00002694, len =       250
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -420,7 +420,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 5.0
-	 checkSumAdjustment:	 0x0583aa4b
+	 checkSumAdjustment:	 0xc31f2f1f
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1167
@@ -635,34 +635,34 @@ SubTable   1.	 Format 0 - Byte encoding table
 	 Idx     70 -> GlyphOffset 0x00001400
 	 Idx     71 -> GlyphOffset 0x00001448
 	 Idx     72 -> GlyphOffset 0x00001498
-	 Idx     73 -> GlyphOffset 0x000014d8
-	 Idx     74 -> GlyphOffset 0x00001528
-	 Idx     75 -> GlyphOffset 0x0000157c
-	 Idx     76 -> GlyphOffset 0x000015c4
-	 Idx     77 -> GlyphOffset 0x0000161c
-	 Idx     78 -> GlyphOffset 0x0000165c
-	 Idx     79 -> GlyphOffset 0x00001690
-	 Idx     80 -> GlyphOffset 0x000016e0
-	 Idx     81 -> GlyphOffset 0x00001730
-	 Idx     82 -> GlyphOffset 0x00001754
-	 Idx     83 -> GlyphOffset 0x00001798
-	 Idx     84 -> GlyphOffset 0x000017cc
-	 Idx     85 -> GlyphOffset 0x00001804
-	 Idx     86 -> GlyphOffset 0x00001850
-	 Idx     87 -> GlyphOffset 0x000018a8
-	 Idx     88 -> GlyphOffset 0x000018d0
-	 Idx     89 -> GlyphOffset 0x00001900
-	 Idx     90 -> GlyphOffset 0x00001948
-	 Idx     91 -> GlyphOffset 0x0000197c
-	 Idx     92 -> GlyphOffset 0x000019bc
-	 Idx     93 -> GlyphOffset 0x00001a00
-	 Idx     94 -> GlyphOffset 0x00001a60
-	 Idx     95 -> GlyphOffset 0x00001aac
-	 Idx     96 -> GlyphOffset 0x00001adc
-	 Idx     97 -> GlyphOffset 0x00001b1c
-	 Idx     98 -> GlyphOffset 0x00001b50
-	 Idx     99 -> GlyphOffset 0x00001b90
-	 Ended at 0x00001bc0
+	 Idx     73 -> GlyphOffset 0x000014c8
+	 Idx     74 -> GlyphOffset 0x00001518
+	 Idx     75 -> GlyphOffset 0x0000156c
+	 Idx     76 -> GlyphOffset 0x000015b4
+	 Idx     77 -> GlyphOffset 0x0000160c
+	 Idx     78 -> GlyphOffset 0x0000164c
+	 Idx     79 -> GlyphOffset 0x00001680
+	 Idx     80 -> GlyphOffset 0x000016d0
+	 Idx     81 -> GlyphOffset 0x00001720
+	 Idx     82 -> GlyphOffset 0x00001744
+	 Idx     83 -> GlyphOffset 0x00001788
+	 Idx     84 -> GlyphOffset 0x000017bc
+	 Idx     85 -> GlyphOffset 0x000017f4
+	 Idx     86 -> GlyphOffset 0x00001840
+	 Idx     87 -> GlyphOffset 0x00001898
+	 Idx     88 -> GlyphOffset 0x000018c0
+	 Idx     89 -> GlyphOffset 0x000018f0
+	 Idx     90 -> GlyphOffset 0x00001938
+	 Idx     91 -> GlyphOffset 0x0000196c
+	 Idx     92 -> GlyphOffset 0x000019ac
+	 Idx     93 -> GlyphOffset 0x000019f0
+	 Idx     94 -> GlyphOffset 0x00001a50
+	 Idx     95 -> GlyphOffset 0x00001a9c
+	 Idx     96 -> GlyphOffset 0x00001acc
+	 Idx     97 -> GlyphOffset 0x00001b0c
+	 Idx     98 -> GlyphOffset 0x00001b40
+	 Idx     99 -> GlyphOffset 0x00001b80
+	 Ended at 0x00001bb0
 
 'maxp' Table - Maximum Profile
 ------------------------------
@@ -6832,14 +6832,14 @@ Glyph     72.
 
 	 EndPoints
 	 ---------
-	  0: 23
+	  0: 15
 
 	 Length of Instructions:  0
 
 	 Flags
 	 -----
-	  0:        XDual                   X-Short On
-	  1: YDual  XDual           Y-Short         On
+	  0:        XDual   Repeat                  On
+	  1:        XDual   Repeat                  On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
@@ -6854,21 +6854,13 @@ Glyph     72.
 	 13:        XDual   Repeat  Y-Short         On
 	 14: YDual          Repeat          X-Short On
 	 15: YDual          Repeat          X-Short On
-	 16: YDual  XDual   Repeat  Y-Short         On
-	 17: YDual  XDual   Repeat  Y-Short         On
-	 18: YDual          Repeat          X-Short On
-	 19: YDual          Repeat          X-Short On
-	 20: YDual  XDual   Repeat  Y-Short         On
-	 21: YDual  XDual   Repeat  Y-Short         On
-	 22: YDual  XDual   Repeat          X-Short On
-	 23: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
-	  0 Rel (    167,    550) -> Abs (    167,    550)
-	  1 Rel (      0,     83) -> Abs (    167,    633)
-	  2 Rel (    166,      0) -> Abs (    333,    633)
-	  3 Rel (    167,      0) -> Abs (    500,    633)
+	  0 Rel (      0,    300) -> Abs (      0,    300)
+	  1 Rel (      0,    333) -> Abs (      0,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    633)
+	  3 Rel (    250,      0) -> Abs (    500,    633)
 	  4 Rel (      0,    -83) -> Abs (    500,    550)
 	  5 Rel (      0,    -83) -> Abs (    500,    467)
 	  6 Rel (   -167,      0) -> Abs (    333,    467)
@@ -6879,16 +6871,8 @@ Glyph     72.
 	 11 Rel (    167,      0) -> Abs (    500,    133)
 	 12 Rel (      0,    -83) -> Abs (    500,     50)
 	 13 Rel (      0,    -83) -> Abs (    500,    -33)
-	 14 Rel (   -167,      0) -> Abs (    333,    -33)
-	 15 Rel (   -166,      0) -> Abs (    167,    -33)
-	 16 Rel (      0,     83) -> Abs (    167,     50)
-	 17 Rel (      0,     83) -> Abs (    167,    133)
-	 18 Rel (    -84,      0) -> Abs (     83,    133)
-	 19 Rel (    -83,      0) -> Abs (      0,    133)
-	 20 Rel (      0,    167) -> Abs (      0,    300)
-	 21 Rel (      0,    167) -> Abs (      0,    467)
-	 22 Rel (     83,      0) -> Abs (     83,    467)
-	 23 Rel (     84,      0) -> Abs (    167,    467)
+	 14 Rel (   -250,      0) -> Abs (    250,    -33)
+	 15 Rel (   -250,      0) -> Abs (      0,    -33)
 
 Glyph     73.
 	 numberOfContours:	 2

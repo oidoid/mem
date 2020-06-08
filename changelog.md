@@ -26,6 +26,7 @@
 - \[dev\]\[fix\] non-deterministic builds
 - \[update\] round G, M, W, m, n, w; lighten J, j; raise W's tie; fix blurry favicon
 - \[update\] favor smoothing to rounding for M, W, m, n, u, w; drop serif on T; round U; drop y. and _f kerning
+- \[update\] smooth c
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
