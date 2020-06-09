@@ -30,6 +30,7 @@
 - \[mem prop 5x6\]\[docs\] add design principles
 - \[update\] shrink V's width
 - \[dev\] move demo.html to index.html
+- \[dev\] add CNAME record
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
