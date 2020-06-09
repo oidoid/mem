@@ -29,6 +29,7 @@
 - \[update\] smooth c
 - \[mem prop 5x6\]\[docs\] add design principles
 - \[update\] shrink V's width
+- \[dev\] move demo.html to index.html
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
