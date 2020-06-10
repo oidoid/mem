@@ -23,7 +23,7 @@
   "bugs": "https://github.com/oddoid/mem-font/issues",
   "license": "GPL-3.0-only",
   "scripts": {
-    "start": "live-server -q --wait=500",
+    "start": "live-server -q --wait=2000",
     "test": "tsc",
     "build": "bin/make",
     "preversion": "[ -z \"$(git status -z)\" ]",

@@ -134,6 +134,8 @@ Additional information spritesheet interpretation. See the
   the `line_height` is the correct font size to use in Aseprite not the wxh
   size. For example, to use the 5x6 font in Aseprite, set the font size to 7px.
 - [Sprite sheet dimensions are not powers of two](https://github.com/aseprite/aseprite/issues/2289).
+- [Live Server](https://github.com/tapio/live-server) now appears unmaintained.
+  Caching must be disabled via browser Dev Tools for changes to appear.
 
 See the [to-do](todo.md) for more issues.
 
