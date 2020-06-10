@@ -154,6 +154,14 @@ See the [to-do](todo.md) for more issues.
 
 ## Development
 
+The development workflow is based around the `start` NPM script:
+
+```lang=sh
+npm -s start
+```
+
+However, you must manually call `npm -s run build` to see any font changes.
+
 ### Tests
 
 - Font metadata JSON is type-checked with TypeScript to ensure it conforms to

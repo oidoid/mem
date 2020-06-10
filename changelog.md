@@ -31,6 +31,7 @@
 - \[update\] shrink V's width
 - \[dev\] move demo.html to index.html
 - \[dev\] add CNAME record
+- \[dev\] add start script
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.

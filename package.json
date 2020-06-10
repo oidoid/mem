@@ -23,6 +23,7 @@
   "bugs": "https://github.com/oddoid/mem-font/issues",
   "license": "GPL-3.0-only",
   "scripts": {
+    "start": "live-server -q --wait=500",
     "test": "tsc",
     "build": "bin/make",
     "preversion": "[ -z \"$(git status -z)\" ]",
@@ -31,6 +32,7 @@
     "prepublishOnly": "git push origin \"$(git rev-parse --abbrev-ref @)\" \"$(git tag --points-at @)\""
   },
   "devDependencies": {
+    "live-server": "1.2.1",
     "pre-commit": "1.2.2",
     "typescript": "3.9.3"
   }
