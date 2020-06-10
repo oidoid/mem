@@ -35,6 +35,7 @@
 - \[mem prop 5x6\]\[update\] shrink ?
 - \[dev\]\[fix\] increase live-server watch debounce duration
 - \[mem prop 5x6\]\[update\] emphasize % bowls
+- \[dev\] revise demo to be more presentable
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
