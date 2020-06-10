@@ -34,6 +34,7 @@
 - \[dev\] add start script
 - \[mem prop 5x6\]\[update\] shrink ?
 - \[dev\]\[fix\] increase live-server watch debounce duration
+- \[mem prop 5x6\]\[update\] emphasize % bowls
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
