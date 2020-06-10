@@ -32,6 +32,7 @@
 - \[dev\] move demo.html to index.html
 - \[dev\] add CNAME record
 - \[dev\] add start script
+- \[mem prop 5x6\]\[update\] shrink ?
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
