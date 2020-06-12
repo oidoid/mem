@@ -1,7 +1,7 @@
 # ![mem-font](logo.png)
 
 Proportional and monospace pixel font family. See the
-**[demo](https://mem-font.netlify.app/index.html)**.
+**[demo](https://rndmem.com)** or [download the fonts](#fonts).
 
 ## Table of contents
 
