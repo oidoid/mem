@@ -18,7 +18,6 @@
   `inkscape -z --verb SelectionTrace  -l foo.svg ../png/_3_4.png` instead of
   potrace?
 - Read through the FontForge docs.
-- Clean up these crufty build files.
 - The font sizes are split across TTF files instead of being in one. Can this be
   fixed?
 

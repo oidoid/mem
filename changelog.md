@@ -36,6 +36,7 @@
 - \[dev\]\[fix\] increase live-server watch debounce duration
 - \[mem prop 5x6\]\[update\] emphasize % bowls
 - \[dev\] revise demo to be more presentable
+- \[build\]\[dev\] upgrade to Aseprite v1.2.20-x64
 
 ### v5.0.0
 - \[breaking\] switch to Aseprite.
