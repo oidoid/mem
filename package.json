@@ -24,16 +24,20 @@
   "license": "GPL-3.0-only",
   "scripts": {
     "start": "live-server -q --wait=2000",
-    "test": "tsc",
+    "test": "tsc && npm -s run test:lint",
     "build": "bin/make",
-    "preversion": "[ -z \"$(git status -z)\" ]",
+    "format": "npm -s run linter -- --write",
     "version": "npm t && npm run build && git add dist",
+    "linter": "prettier './**/*.{html,json,md,ts}'",
+    "test:lint": "npm -s run linter -- -l",
+    "preversion": "[ -z \"$(git status -z)\" ]",
     "postversion": "npm publish",
     "prepublishOnly": "git push origin \"$(git rev-parse --abbrev-ref @)\" \"$(git tag --points-at @)\""
   },
   "devDependencies": {
     "live-server": "1.2.1",
     "pre-commit": "1.2.2",
+    "prettier": "2.0.5",
     "typescript": "3.9.3"
   }
 }

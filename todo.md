@@ -15,9 +15,8 @@
 - Add font to oddoid.com with aseprite-atlas.
 - Optimize the font loading strategy used in the demos.
 - Why did I consider but not use
-  `inkscape -z --verb SelectionTrace  -l foo.svg ../png/_3_4.png` instead of
+  `inkscape -z --verb SelectionTrace -l foo.svg ../png/_3_4.png` instead of
   potrace?
 - Read through the FontForge docs.
 - The font sizes are split across TTF files instead of being in one. Can this be
   fixed?
-
