@@ -146,7 +146,8 @@ See the [to-do](todo.md) for more issues.
   the lowercase o could be rounder but this comes at the cost of making the font
   noisier and it is very legible square rather than round. As a counterexample,
   the lowercase j could be smoother but it looks unbalanced, so in some cases
-  exceptions are made.
+  exceptions are made. Similarly, the lowercase p could be smoother but then it
+  looks too similar to the lowercase o.
 - Favor 4x5 pixels for every capital character.
 - Favor 3x4 pixels for every lowercase character.
 - Every numeric is the same width and height, 3x5 pixels, so that countdowns
