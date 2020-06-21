@@ -2,6 +2,8 @@
 
 ### v6.0.0 (unreleased)
 
+- [mem prop 5x6][update] shrink uppercase to 3px wide (A, B, C, D, E, F, G, H,
+  J, K, L, N, O, P, Q, R, S, T, U, V, X, Y, and Z); make 0 angular
 - [dev] format with Prettier
 - [mem prop 5x6][update] smooth smileys and most caps (&, A, B, C, G, J, N, O,
   P, Q, S, T, U, and Y); widen r

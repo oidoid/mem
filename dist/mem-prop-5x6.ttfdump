@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x000028e0, len =        28
-   1. 'GPOS' - checksum = 0x69846e19, offset = 0x000026d0, len =       528
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000026b0, len =        32
-   3. 'OS/2' - checksum = 0x5aee637e, offset = 0x00000188, len =        96
+   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x00002828, len =        28
+   1. 'GPOS' - checksum = 0x68b46e9d, offset = 0x00002604, len =       548
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000025e4, len =        32
+   3. 'OS/2' - checksum = 0x5aee6357, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0x0162d086, offset = 0x00000378, len =       330
    5. 'cvt ' - checksum = 0x002602e4, offset = 0x000004c4, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x000026a8, len =         8
-   7. 'glyf' - checksum = 0xe9b99979, offset = 0x00000594, len =      6848
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x000025dc, len =         8
+   7. 'glyf' - checksum = 0x954f3476, offset = 0x00000594, len =      6636
    8. 'head' - checksum = 0x5ab0a4e4, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x06ce02de, offset = 0x00000144, len =        36
-  10. 'hmtx' - checksum = 0x0b800026, offset = 0x000001e8, len =       398
-  11. 'kern' - checksum = 0xe800e9f0, offset = 0x00002054, len =       744
-  12. 'loca' - checksum = 0x592f5278, offset = 0x000004c8, len =       202
+  10. 'hmtx' - checksum = 0xfc960026, offset = 0x000001e8, len =       398
+  11. 'kern' - checksum = 0xe7bdea16, offset = 0x00001f80, len =       750
+  12. 'loca' - checksum = 0x4fcb4950, offset = 0x000004c8, len =       202
   13. 'maxp' - checksum = 0x00aa0071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0xbb92d348, offset = 0x0000233c, len =       621
-  15. 'post' - checksum = 0x47b379af, offset = 0x000025ac, len =       250
+  14. 'name' - checksum = 0xb98fd448, offset = 0x00002270, len =       621
+  15. 'post' - checksum = 0x47b379af, offset = 0x000024e0, len =       250
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -420,7 +420,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 5.0
-	 checkSumAdjustment:	 0x67efb750
+	 checkSumAdjustment:	 0x478c96e2
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1167
@@ -497,32 +497,32 @@ SubTable   1.	 Format 0 - Byte encoding table
 	   35. advWid:  667, LSBear:    0
 	   36. advWid:  833, LSBear:    0
 	   37. advWid: 1000, LSBear:    0
-	   38. advWid:  833, LSBear:    0
-	   39. advWid:  833, LSBear:    0
-	   40. advWid:  833, LSBear:    0
-	   41. advWid:  833, LSBear:    0
-	   42. advWid:  833, LSBear:    0
-	   43. advWid:  833, LSBear:    0
-	   44. advWid:  833, LSBear:    0
-	   45. advWid:  833, LSBear:    0
+	   38. advWid:  667, LSBear:    0
+	   39. advWid:  667, LSBear:    0
+	   40. advWid:  667, LSBear:    0
+	   41. advWid:  667, LSBear:    0
+	   42. advWid:  667, LSBear:    0
+	   43. advWid:  667, LSBear:    0
+	   44. advWid:  667, LSBear:    0
+	   45. advWid:  667, LSBear:    0
 	   46. advWid:  667, LSBear:    0
-	   47. advWid:  833, LSBear:    0
-	   48. advWid:  833, LSBear:    0
-	   49. advWid:  833, LSBear:    0
+	   47. advWid:  667, LSBear:    0
+	   48. advWid:  667, LSBear:    0
+	   49. advWid:  667, LSBear:    0
 	   50. advWid: 1000, LSBear:    0
-	   51. advWid:  833, LSBear:    0
-	   52. advWid:  833, LSBear:    0
-	   53. advWid:  833, LSBear:    0
-	   54. advWid:  833, LSBear:    0
-	   55. advWid:  833, LSBear:    0
-	   56. advWid:  833, LSBear:    0
-	   57. advWid:  833, LSBear:    0
-	   58. advWid:  833, LSBear:    0
-	   59. advWid:  833, LSBear:    0
+	   51. advWid:  667, LSBear:    0
+	   52. advWid:  667, LSBear:    0
+	   53. advWid:  667, LSBear:    0
+	   54. advWid:  667, LSBear:    0
+	   55. advWid:  667, LSBear:    0
+	   56. advWid:  667, LSBear:    0
+	   57. advWid:  667, LSBear:    0
+	   58. advWid:  667, LSBear:    0
+	   59. advWid:  667, LSBear:    0
 	   60. advWid: 1000, LSBear:    0
-	   61. advWid:  833, LSBear:    0
-	   62. advWid:  833, LSBear:    0
-	   63. advWid:  833, LSBear:    0
+	   61. advWid:  667, LSBear:    0
+	   62. advWid:  667, LSBear:    0
+	   63. advWid:  667, LSBear:    0
 	   64. advWid:  500, LSBear:    0
 	   65. advWid: 1000, LSBear:    0
 	   66. advWid:  500, LSBear:    0
@@ -584,85 +584,85 @@ SubTable   1.	 Format 0 - Byte encoding table
 	 Idx     19 -> GlyphOffset 0x0000051c
 	 Idx     20 -> GlyphOffset 0x0000053c
 	 Idx     21 -> GlyphOffset 0x000005a0
-	 Idx     22 -> GlyphOffset 0x000005d8
-	 Idx     23 -> GlyphOffset 0x0000061c
-	 Idx     24 -> GlyphOffset 0x0000065c
-	 Idx     25 -> GlyphOffset 0x000006a0
-	 Idx     26 -> GlyphOffset 0x000006dc
-	 Idx     27 -> GlyphOffset 0x0000071c
-	 Idx     28 -> GlyphOffset 0x00000760
-	 Idx     29 -> GlyphOffset 0x00000794
-	 Idx     30 -> GlyphOffset 0x000007e0
-	 Idx     31 -> GlyphOffset 0x00000820
-	 Idx     32 -> GlyphOffset 0x00000854
-	 Idx     33 -> GlyphOffset 0x00000898
-	 Idx     34 -> GlyphOffset 0x000008fc
-	 Idx     35 -> GlyphOffset 0x00000930
-	 Idx     36 -> GlyphOffset 0x00000990
-	 Idx     37 -> GlyphOffset 0x000009d4
-	 Idx     38 -> GlyphOffset 0x00000a54
-	 Idx     39 -> GlyphOffset 0x00000aa0
+	 Idx     22 -> GlyphOffset 0x000005e8
+	 Idx     23 -> GlyphOffset 0x0000062c
+	 Idx     24 -> GlyphOffset 0x0000066c
+	 Idx     25 -> GlyphOffset 0x000006b0
+	 Idx     26 -> GlyphOffset 0x000006ec
+	 Idx     27 -> GlyphOffset 0x0000072c
+	 Idx     28 -> GlyphOffset 0x00000770
+	 Idx     29 -> GlyphOffset 0x000007a4
+	 Idx     30 -> GlyphOffset 0x000007f0
+	 Idx     31 -> GlyphOffset 0x00000830
+	 Idx     32 -> GlyphOffset 0x00000864
+	 Idx     33 -> GlyphOffset 0x000008a8
+	 Idx     34 -> GlyphOffset 0x0000090c
+	 Idx     35 -> GlyphOffset 0x00000940
+	 Idx     36 -> GlyphOffset 0x000009a0
+	 Idx     37 -> GlyphOffset 0x000009e4
+	 Idx     38 -> GlyphOffset 0x00000a64
+	 Idx     39 -> GlyphOffset 0x00000aac
 	 Idx     40 -> GlyphOffset 0x00000b04
-	 Idx     41 -> GlyphOffset 0x00000b38
-	 Idx     42 -> GlyphOffset 0x00000b80
-	 Idx     43 -> GlyphOffset 0x00000bc4
-	 Idx     44 -> GlyphOffset 0x00000c00
-	 Idx     45 -> GlyphOffset 0x00000c44
-	 Idx     46 -> GlyphOffset 0x00000c88
-	 Idx     47 -> GlyphOffset 0x00000cc8
-	 Idx     48 -> GlyphOffset 0x00000d0c
-	 Idx     49 -> GlyphOffset 0x00000d7c
-	 Idx     50 -> GlyphOffset 0x00000da8
-	 Idx     51 -> GlyphOffset 0x00000df0
-	 Idx     52 -> GlyphOffset 0x00000e28
-	 Idx     53 -> GlyphOffset 0x00000e64
-	 Idx     54 -> GlyphOffset 0x00000ea4
-	 Idx     55 -> GlyphOffset 0x00000f00
-	 Idx     56 -> GlyphOffset 0x00000f60
-	 Idx     57 -> GlyphOffset 0x00000fa4
-	 Idx     58 -> GlyphOffset 0x00000fe0
-	 Idx     59 -> GlyphOffset 0x00001018
-	 Idx     60 -> GlyphOffset 0x0000106c
-	 Idx     61 -> GlyphOffset 0x000010b4
-	 Idx     62 -> GlyphOffset 0x00001114
-	 Idx     63 -> GlyphOffset 0x00001158
-	 Idx     64 -> GlyphOffset 0x000011b4
-	 Idx     65 -> GlyphOffset 0x000011e4
-	 Idx     66 -> GlyphOffset 0x00001244
-	 Idx     67 -> GlyphOffset 0x00001278
-	 Idx     68 -> GlyphOffset 0x000012b8
-	 Idx     69 -> GlyphOffset 0x000012d8
-	 Idx     70 -> GlyphOffset 0x00001308
-	 Idx     71 -> GlyphOffset 0x00001350
-	 Idx     72 -> GlyphOffset 0x000013a0
-	 Idx     73 -> GlyphOffset 0x000013d0
-	 Idx     74 -> GlyphOffset 0x00001420
-	 Idx     75 -> GlyphOffset 0x00001474
-	 Idx     76 -> GlyphOffset 0x000014bc
-	 Idx     77 -> GlyphOffset 0x00001514
-	 Idx     78 -> GlyphOffset 0x00001554
-	 Idx     79 -> GlyphOffset 0x00001588
-	 Idx     80 -> GlyphOffset 0x000015d8
-	 Idx     81 -> GlyphOffset 0x00001628
-	 Idx     82 -> GlyphOffset 0x0000164c
-	 Idx     83 -> GlyphOffset 0x00001690
-	 Idx     84 -> GlyphOffset 0x000016c4
-	 Idx     85 -> GlyphOffset 0x000016fc
-	 Idx     86 -> GlyphOffset 0x00001748
-	 Idx     87 -> GlyphOffset 0x000017a0
-	 Idx     88 -> GlyphOffset 0x000017d0
-	 Idx     89 -> GlyphOffset 0x00001800
-	 Idx     90 -> GlyphOffset 0x00001848
-	 Idx     91 -> GlyphOffset 0x0000187c
-	 Idx     92 -> GlyphOffset 0x000018bc
-	 Idx     93 -> GlyphOffset 0x00001900
-	 Idx     94 -> GlyphOffset 0x00001960
-	 Idx     95 -> GlyphOffset 0x000019ac
-	 Idx     96 -> GlyphOffset 0x000019dc
-	 Idx     97 -> GlyphOffset 0x00001a1c
-	 Idx     98 -> GlyphOffset 0x00001a50
-	 Idx     99 -> GlyphOffset 0x00001a90
-	 Ended at 0x00001ac0
+	 Idx     41 -> GlyphOffset 0x00000b34
+	 Idx     42 -> GlyphOffset 0x00000b7c
+	 Idx     43 -> GlyphOffset 0x00000bbc
+	 Idx     44 -> GlyphOffset 0x00000bf4
+	 Idx     45 -> GlyphOffset 0x00000c2c
+	 Idx     46 -> GlyphOffset 0x00000c70
+	 Idx     47 -> GlyphOffset 0x00000cb0
+	 Idx     48 -> GlyphOffset 0x00000ce4
+	 Idx     49 -> GlyphOffset 0x00000d34
+	 Idx     50 -> GlyphOffset 0x00000d60
+	 Idx     51 -> GlyphOffset 0x00000da8
+	 Idx     52 -> GlyphOffset 0x00000de0
+	 Idx     53 -> GlyphOffset 0x00000e18
+	 Idx     54 -> GlyphOffset 0x00000e58
+	 Idx     55 -> GlyphOffset 0x00000ea8
+	 Idx     56 -> GlyphOffset 0x00000edc
+	 Idx     57 -> GlyphOffset 0x00000f10
+	 Idx     58 -> GlyphOffset 0x00000f44
+	 Idx     59 -> GlyphOffset 0x00000f7c
+	 Idx     60 -> GlyphOffset 0x00000fc4
+	 Idx     61 -> GlyphOffset 0x0000100c
+	 Idx     62 -> GlyphOffset 0x0000106c
+	 Idx     63 -> GlyphOffset 0x000010ac
+	 Idx     64 -> GlyphOffset 0x000010e0
+	 Idx     65 -> GlyphOffset 0x00001110
+	 Idx     66 -> GlyphOffset 0x00001170
+	 Idx     67 -> GlyphOffset 0x000011a4
+	 Idx     68 -> GlyphOffset 0x000011e4
+	 Idx     69 -> GlyphOffset 0x00001204
+	 Idx     70 -> GlyphOffset 0x00001234
+	 Idx     71 -> GlyphOffset 0x0000127c
+	 Idx     72 -> GlyphOffset 0x000012cc
+	 Idx     73 -> GlyphOffset 0x000012fc
+	 Idx     74 -> GlyphOffset 0x0000134c
+	 Idx     75 -> GlyphOffset 0x000013a0
+	 Idx     76 -> GlyphOffset 0x000013e8
+	 Idx     77 -> GlyphOffset 0x00001440
+	 Idx     78 -> GlyphOffset 0x00001480
+	 Idx     79 -> GlyphOffset 0x000014b4
+	 Idx     80 -> GlyphOffset 0x00001504
+	 Idx     81 -> GlyphOffset 0x00001554
+	 Idx     82 -> GlyphOffset 0x00001578
+	 Idx     83 -> GlyphOffset 0x000015bc
+	 Idx     84 -> GlyphOffset 0x000015f0
+	 Idx     85 -> GlyphOffset 0x00001628
+	 Idx     86 -> GlyphOffset 0x00001674
+	 Idx     87 -> GlyphOffset 0x000016cc
+	 Idx     88 -> GlyphOffset 0x000016fc
+	 Idx     89 -> GlyphOffset 0x0000172c
+	 Idx     90 -> GlyphOffset 0x00001774
+	 Idx     91 -> GlyphOffset 0x000017a8
+	 Idx     92 -> GlyphOffset 0x000017e8
+	 Idx     93 -> GlyphOffset 0x0000182c
+	 Idx     94 -> GlyphOffset 0x0000188c
+	 Idx     95 -> GlyphOffset 0x000018d8
+	 Idx     96 -> GlyphOffset 0x00001908
+	 Idx     97 -> GlyphOffset 0x00001948
+	 Idx     98 -> GlyphOffset 0x0000197c
+	 Idx     99 -> GlyphOffset 0x000019bc
+	 Ended at 0x000019ec
 
 'maxp' Table - Maximum Profile
 ------------------------------
@@ -721,8 +721,8 @@ Name table   3.	 PlatformID:	 1
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
 		 70 72 6f 70 6f 72 74 69 6f 6e  >  proportion
-		 61 6c 20 35 78 36 20 3a 20 31  >  al 5x6 : 1
-		 34 2d 36 2d 32 30 32 30        > 4-6-2020
+		 61 6c 20 35 78 36 20 3a 20 32  >  al 5x6 : 2
+		 31 2d 36 2d 32 30 32 30        > 1-6-2020
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
@@ -791,8 +791,8 @@ Name table  10.	 PlatformID:	 3
 		 00 70 00 72 00 6f 00 70 00 6f  >  .p.r.o.p.o
 		 00 72 00 74 00 69 00 6f 00 6e  >  .r.t.i.o.n
 		 00 61 00 6c 00 20 00 35 00 78  >  .a.l. .5.x
-		 00 36 00 20 00 3a 00 20 00 31  >  .6. .:. .1
-		 00 34 00 2d 00 36 00 2d 00 32  >  .4.-.6.-.2
+		 00 36 00 20 00 3a 00 20 00 32  >  .6. .:. .2
+		 00 31 00 2d 00 36 00 2d 00 32  >  .1.-.6.-.2
 		 00 30 00 32 00 30              > .0.2.0
 Name table  11.	 PlatformID:	 3
 		 EncodingID:	 1
@@ -940,7 +940,7 @@ Name table  13.	 PlatformID:	 3
 'OS/2' Table - OS/2 and Windows Metrics
 ---------------------------------------
 	 'OS/2' version:	 4
-	 xAvgCharWidth:		 704
+	 xAvgCharWidth:		 665
 	 usWeightClass:		 400 	 'Normal'
 	 usWidthClass:		 5 	 'Medium'
 	 fsType:		 0
@@ -1009,12 +1009,12 @@ Number of subtables:	 1
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 740
+	 Bytes in subtable 	 746
 	 Coverage bits 	 0x1
-	 Number of pairs 121
+	 Number of pairs 122
 	 Search Range    384
 	 Entry Selector  6
-	 Range Shift     342
+	 Range Shift     348
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 3 		 5 		 -167
@@ -1090,6 +1090,7 @@ Number of subtables:	 1
 		 61 		 5 		 -167
 		 62 		 5 		 -167
 		 63 		 5 		 -167
+		 63 		 62 		 -167
 		 64 		 5 		 -167
 		 65 		 5 		 -167
 		 65 		 65 		 -500
@@ -1343,8 +1344,10 @@ Number of subtables:	 1
 	  48. pairValueCount: 1
 	       0. secondGlyph: 5
 		  value1: XAdvance = -167
-	  49. pairValueCount: 1
+	  49. pairValueCount: 2
 	       0. secondGlyph: 5
+		  value1: XAdvance = -167
+	       1. secondGlyph: 56
 		  value1: XAdvance = -167
 	  50. pairValueCount: 1
 	       0. secondGlyph: 5
@@ -1375,8 +1378,10 @@ Number of subtables:	 1
 	  58. pairValueCount: 1
 	       0. secondGlyph: 5
 		  value1: XAdvance = -167
-	  59. pairValueCount: 1
+	  59. pairValueCount: 2
 	       0. secondGlyph: 5
+		  value1: XAdvance = -167
+	       1. secondGlyph: 62
 		  value1: XAdvance = -167
 	  60. pairValueCount: 1
 	       0. secondGlyph: 5
@@ -3037,48 +3042,64 @@ Glyph     21.
 
 	 EndPoints
 	 ---------
-	  0:  7
-	  1: 15
+	  0: 15
+	  1: 23
 
 	 Length of Instructions:  0
 
 	 Flags
 	 -----
-	  0:        XDual   Repeat                  On
-	  1:        XDual   Repeat                  On
+	  0:        XDual                   X-Short On
+	  1: YDual  XDual           Y-Short         On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat                  On
 	  5:        XDual   Repeat                  On
 	  6: YDual          Repeat          X-Short On
 	  7: YDual          Repeat          X-Short On
-	  8:                                        On
-	  9: YDual  XDual           Y-Short         On
+	  8:        XDual   Repeat  Y-Short         On
+	  9:        XDual   Repeat  Y-Short         On
 	 10: YDual          Repeat          X-Short On
 	 11: YDual          Repeat          X-Short On
-	 12:        XDual   Repeat  Y-Short         On
-	 13:        XDual   Repeat  Y-Short         On
+	 12:        XDual   Repeat                  On
+	 13:        XDual   Repeat                  On
 	 14: YDual  XDual   Repeat          X-Short On
 	 15: YDual  XDual   Repeat          X-Short On
+	 16:        XDual           Y-Short X-Short On
+	 17: YDual  XDual           Y-Short         On
+	 18: YDual          Repeat          X-Short On
+	 19: YDual          Repeat          X-Short On
+	 20:        XDual   Repeat  Y-Short         On
+	 21:        XDual   Repeat  Y-Short         On
+	 22: YDual  XDual   Repeat          X-Short On
+	 23: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    383) -> Abs (      0,    383)
-	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    250,      0) -> Abs (    250,    800)
-	  3 Rel (    250,      0) -> Abs (    500,    800)
-	  4 Rel (      0,   -417) -> Abs (    500,    383)
-	  5 Rel (      0,   -416) -> Abs (    500,    -33)
-	  6 Rel (   -250,      0) -> Abs (    250,    -33)
-	  7 Rel (   -250,      0) -> Abs (      0,    -33)
-	  8 Rel (    333,    416) -> Abs (    333,    383)
-	  9 Rel (      0,    250) -> Abs (    333,    633)
-	 10 Rel (    -83,      0) -> Abs (    250,    633)
-	 11 Rel (    -83,      0) -> Abs (    167,    633)
-	 12 Rel (      0,   -250) -> Abs (    167,    383)
-	 13 Rel (      0,   -250) -> Abs (    167,    133)
-	 14 Rel (     83,      0) -> Abs (    250,    133)
-	 15 Rel (     83,      0) -> Abs (    333,    133)
+	  0 Rel (    167,    717) -> Abs (    167,    717)
+	  1 Rel (      0,     83) -> Abs (    167,    800)
+	  2 Rel (    166,      0) -> Abs (    333,    800)
+	  3 Rel (    167,      0) -> Abs (    500,    800)
+	  4 Rel (      0,   -333) -> Abs (    500,    467)
+	  5 Rel (      0,   -334) -> Abs (    500,    133)
+	  6 Rel (    -83,      0) -> Abs (    417,    133)
+	  7 Rel (    -84,      0) -> Abs (    333,    133)
+	  8 Rel (      0,    -83) -> Abs (    333,     50)
+	  9 Rel (      0,    -83) -> Abs (    333,    -33)
+	 10 Rel (   -166,      0) -> Abs (    167,    -33)
+	 11 Rel (   -167,      0) -> Abs (      0,    -33)
+	 12 Rel (      0,    333) -> Abs (      0,    300)
+	 13 Rel (      0,    333) -> Abs (      0,    633)
+	 14 Rel (     83,      0) -> Abs (     83,    633)
+	 15 Rel (     84,      0) -> Abs (    167,    633)
+	 16 Rel (    166,   -250) -> Abs (    333,    383)
+	 17 Rel (      0,    250) -> Abs (    333,    633)
+	 18 Rel (    -83,      0) -> Abs (    250,    633)
+	 19 Rel (    -83,      0) -> Abs (    167,    633)
+	 20 Rel (      0,   -250) -> Abs (    167,    383)
+	 21 Rel (      0,   -250) -> Abs (    167,    133)
+	 22 Rel (     83,      0) -> Abs (    250,    133)
+	 23 Rel (     83,      0) -> Abs (    333,    133)
 
 Glyph     22.
 	 numberOfContours:	 1
@@ -4222,7 +4243,7 @@ Glyph     38.
 	 numberOfContours:	 2
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -4236,8 +4257,8 @@ Glyph     38.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat                  On
 	  5:        XDual   Repeat                  On
 	  6: YDual          Repeat          X-Short On
@@ -4263,41 +4284,41 @@ Glyph     38.
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,   -417) -> Abs (    667,    383)
-	  5 Rel (      0,   -416) -> Abs (    667,    -33)
-	  6 Rel (    -84,      0) -> Abs (    583,    -33)
-	  7 Rel (    -83,      0) -> Abs (    500,    -33)
-	  8 Rel (      0,    166) -> Abs (    500,    133)
-	  9 Rel (      0,    167) -> Abs (    500,    300)
-	 10 Rel (   -167,      0) -> Abs (    333,    300)
-	 11 Rel (   -166,      0) -> Abs (    167,    300)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,   -417) -> Abs (    500,    383)
+	  5 Rel (      0,   -416) -> Abs (    500,    -33)
+	  6 Rel (    -83,      0) -> Abs (    417,    -33)
+	  7 Rel (    -84,      0) -> Abs (    333,    -33)
+	  8 Rel (      0,    166) -> Abs (    333,    133)
+	  9 Rel (      0,    167) -> Abs (    333,    300)
+	 10 Rel (    -83,      0) -> Abs (    250,    300)
+	 11 Rel (    -83,      0) -> Abs (    167,    300)
 	 12 Rel (      0,   -167) -> Abs (    167,    133)
 	 13 Rel (      0,   -166) -> Abs (    167,    -33)
 	 14 Rel (    -84,      0) -> Abs (     83,    -33)
 	 15 Rel (    -83,      0) -> Abs (      0,    -33)
-	 16 Rel (    500,    583) -> Abs (    500,    550)
-	 17 Rel (      0,     83) -> Abs (    500,    633)
-	 18 Rel (   -167,      0) -> Abs (    333,    633)
-	 19 Rel (   -166,      0) -> Abs (    167,    633)
+	 16 Rel (    333,    583) -> Abs (    333,    550)
+	 17 Rel (      0,     83) -> Abs (    333,    633)
+	 18 Rel (    -83,      0) -> Abs (    250,    633)
+	 19 Rel (    -83,      0) -> Abs (    167,    633)
 	 20 Rel (      0,    -83) -> Abs (    167,    550)
 	 21 Rel (      0,    -83) -> Abs (    167,    467)
-	 22 Rel (    166,      0) -> Abs (    333,    467)
-	 23 Rel (    167,      0) -> Abs (    500,    467)
+	 22 Rel (     83,      0) -> Abs (    250,    467)
+	 23 Rel (     83,      0) -> Abs (    333,    467)
 
 Glyph     39.
 	 numberOfContours:	 3
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 19
-	  1: 27
-	  2: 35
+	  0: 15
+	  1: 23
+	  2: 31
 
 	 Length of Instructions:  0
 
@@ -4309,36 +4330,32 @@ Glyph     39.
 	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
-	  6: YDual  XDual   Repeat          X-Short On
-	  7: YDual  XDual   Repeat          X-Short On
+	  6: YDual          Repeat          X-Short On
+	  7: YDual          Repeat          X-Short On
 	  8:        XDual   Repeat  Y-Short         On
 	  9:        XDual   Repeat  Y-Short         On
-	 10: YDual          Repeat          X-Short On
-	 11: YDual          Repeat          X-Short On
+	 10: YDual  XDual   Repeat          X-Short On
+	 11: YDual  XDual   Repeat          X-Short On
 	 12:        XDual   Repeat  Y-Short         On
 	 13:        XDual   Repeat  Y-Short         On
-	 14: YDual  XDual   Repeat          X-Short On
-	 15: YDual  XDual   Repeat          X-Short On
-	 16:        XDual   Repeat  Y-Short         On
-	 17:        XDual   Repeat  Y-Short         On
-	 18: YDual          Repeat                  On
-	 19: YDual          Repeat                  On
-	 20:                                        On
-	 21: YDual  XDual           Y-Short         On
-	 22: YDual          Repeat          X-Short On
-	 23: YDual          Repeat          X-Short On
-	 24:        XDual   Repeat  Y-Short         On
-	 25:        XDual   Repeat  Y-Short         On
-	 26: YDual  XDual   Repeat          X-Short On
-	 27: YDual  XDual   Repeat          X-Short On
-	 28:        XDual           Y-Short         On
-	 29: YDual  XDual           Y-Short         On
-	 30: YDual          Repeat          X-Short On
-	 31: YDual          Repeat          X-Short On
-	 32:        XDual   Repeat  Y-Short         On
-	 33:        XDual   Repeat  Y-Short         On
-	 34: YDual  XDual   Repeat          X-Short On
-	 35: YDual  XDual   Repeat          X-Short On
+	 14: YDual          Repeat          X-Short On
+	 15: YDual          Repeat          X-Short On
+	 16:                                        On
+	 17: YDual  XDual           Y-Short         On
+	 18: YDual          Repeat          X-Short On
+	 19: YDual          Repeat          X-Short On
+	 20:        XDual   Repeat  Y-Short         On
+	 21:        XDual   Repeat  Y-Short         On
+	 22: YDual  XDual   Repeat          X-Short On
+	 23: YDual  XDual   Repeat          X-Short On
+	 24:        XDual           Y-Short         On
+	 25: YDual  XDual           Y-Short         On
+	 26: YDual          Repeat          X-Short On
+	 27: YDual          Repeat          X-Short On
+	 28:        XDual   Repeat  Y-Short         On
+	 29:        XDual   Repeat  Y-Short         On
+	 30: YDual  XDual   Repeat          X-Short On
+	 31: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
@@ -4346,44 +4363,40 @@ Glyph     39.
 	  1 Rel (      0,    417) -> Abs (      0,    800)
 	  2 Rel (    250,      0) -> Abs (    250,    800)
 	  3 Rel (    250,      0) -> Abs (    500,    800)
-	  4 Rel (      0,    -83) -> Abs (    500,    717)
-	  5 Rel (      0,    -84) -> Abs (    500,    633)
-	  6 Rel (     83,      0) -> Abs (    583,    633)
-	  7 Rel (     84,      0) -> Abs (    667,    633)
-	  8 Rel (      0,    -83) -> Abs (    667,    550)
-	  9 Rel (      0,    -83) -> Abs (    667,    467)
-	 10 Rel (    -84,      0) -> Abs (    583,    467)
-	 11 Rel (    -83,      0) -> Abs (    500,    467)
-	 12 Rel (      0,    -84) -> Abs (    500,    383)
-	 13 Rel (      0,    -83) -> Abs (    500,    300)
-	 14 Rel (     83,      0) -> Abs (    583,    300)
-	 15 Rel (     84,      0) -> Abs (    667,    300)
-	 16 Rel (      0,   -167) -> Abs (    667,    133)
-	 17 Rel (      0,   -166) -> Abs (    667,    -33)
-	 18 Rel (   -334,      0) -> Abs (    333,    -33)
-	 19 Rel (   -333,      0) -> Abs (      0,    -33)
-	 20 Rel (    500,    583) -> Abs (    500,    550)
-	 21 Rel (      0,     83) -> Abs (    500,    633)
-	 22 Rel (   -167,      0) -> Abs (    333,    633)
-	 23 Rel (   -166,      0) -> Abs (    167,    633)
-	 24 Rel (      0,    -83) -> Abs (    167,    550)
-	 25 Rel (      0,    -83) -> Abs (    167,    467)
-	 26 Rel (    166,      0) -> Abs (    333,    467)
-	 27 Rel (    167,      0) -> Abs (    500,    467)
-	 28 Rel (      0,   -250) -> Abs (    500,    217)
-	 29 Rel (      0,     83) -> Abs (    500,    300)
-	 30 Rel (   -167,      0) -> Abs (    333,    300)
-	 31 Rel (   -166,      0) -> Abs (    167,    300)
-	 32 Rel (      0,    -83) -> Abs (    167,    217)
-	 33 Rel (      0,    -84) -> Abs (    167,    133)
-	 34 Rel (    166,      0) -> Abs (    333,    133)
-	 35 Rel (    167,      0) -> Abs (    500,    133)
+	  4 Rel (      0,   -167) -> Abs (    500,    633)
+	  5 Rel (      0,   -166) -> Abs (    500,    467)
+	  6 Rel (    -83,      0) -> Abs (    417,    467)
+	  7 Rel (    -84,      0) -> Abs (    333,    467)
+	  8 Rel (      0,    -84) -> Abs (    333,    383)
+	  9 Rel (      0,    -83) -> Abs (    333,    300)
+	 10 Rel (     84,      0) -> Abs (    417,    300)
+	 11 Rel (     83,      0) -> Abs (    500,    300)
+	 12 Rel (      0,   -167) -> Abs (    500,    133)
+	 13 Rel (      0,   -166) -> Abs (    500,    -33)
+	 14 Rel (   -250,      0) -> Abs (    250,    -33)
+	 15 Rel (   -250,      0) -> Abs (      0,    -33)
+	 16 Rel (    333,    583) -> Abs (    333,    550)
+	 17 Rel (      0,     83) -> Abs (    333,    633)
+	 18 Rel (    -83,      0) -> Abs (    250,    633)
+	 19 Rel (    -83,      0) -> Abs (    167,    633)
+	 20 Rel (      0,    -83) -> Abs (    167,    550)
+	 21 Rel (      0,    -83) -> Abs (    167,    467)
+	 22 Rel (     83,      0) -> Abs (    250,    467)
+	 23 Rel (     83,      0) -> Abs (    333,    467)
+	 24 Rel (      0,   -250) -> Abs (    333,    217)
+	 25 Rel (      0,     83) -> Abs (    333,    300)
+	 26 Rel (    -83,      0) -> Abs (    250,    300)
+	 27 Rel (    -83,      0) -> Abs (    167,    300)
+	 28 Rel (      0,    -83) -> Abs (    167,    217)
+	 29 Rel (      0,    -84) -> Abs (    167,    133)
+	 30 Rel (     83,      0) -> Abs (    250,    133)
+	 31 Rel (     83,      0) -> Abs (    333,    133)
 
 Glyph     40.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -4396,8 +4409,8 @@ Glyph     40.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
@@ -4408,33 +4421,33 @@ Glyph     40.
 	 11: YDual  XDual   Repeat          X-Short On
 	 12:        XDual   Repeat  Y-Short         On
 	 13:        XDual   Repeat  Y-Short         On
-	 14: YDual          Repeat                  On
-	 15: YDual          Repeat                  On
+	 14: YDual          Repeat          X-Short On
+	 15: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (   -250,      0) -> Abs (    417,    633)
-	  7 Rel (   -250,      0) -> Abs (    167,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,    -83) -> Abs (    500,    717)
+	  5 Rel (      0,    -84) -> Abs (    500,    633)
+	  6 Rel (   -167,      0) -> Abs (    333,    633)
+	  7 Rel (   -166,      0) -> Abs (    167,    633)
 	  8 Rel (      0,   -250) -> Abs (    167,    383)
 	  9 Rel (      0,   -250) -> Abs (    167,    133)
-	 10 Rel (    250,      0) -> Abs (    417,    133)
-	 11 Rel (    250,      0) -> Abs (    667,    133)
-	 12 Rel (      0,    -83) -> Abs (    667,     50)
-	 13 Rel (      0,    -83) -> Abs (    667,    -33)
-	 14 Rel (   -334,      0) -> Abs (    333,    -33)
-	 15 Rel (   -333,      0) -> Abs (      0,    -33)
+	 10 Rel (    166,      0) -> Abs (    333,    133)
+	 11 Rel (    167,      0) -> Abs (    500,    133)
+	 12 Rel (      0,    -83) -> Abs (    500,     50)
+	 13 Rel (      0,    -83) -> Abs (    500,    -33)
+	 14 Rel (   -250,      0) -> Abs (    250,    -33)
+	 15 Rel (   -250,      0) -> Abs (      0,    -33)
 
 Glyph     41.
 	 numberOfContours:	 2
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -4475,34 +4488,34 @@ Glyph     41.
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    250,      0) -> Abs (    250,    800)
-	  3 Rel (    250,      0) -> Abs (    500,    800)
-	  4 Rel (      0,    -83) -> Abs (    500,    717)
-	  5 Rel (      0,    -84) -> Abs (    500,    633)
-	  6 Rel (     83,      0) -> Abs (    583,    633)
-	  7 Rel (     84,      0) -> Abs (    667,    633)
-	  8 Rel (      0,   -250) -> Abs (    667,    383)
-	  9 Rel (      0,   -250) -> Abs (    667,    133)
-	 10 Rel (    -84,      0) -> Abs (    583,    133)
-	 11 Rel (    -83,      0) -> Abs (    500,    133)
-	 12 Rel (      0,    -83) -> Abs (    500,     50)
-	 13 Rel (      0,    -83) -> Abs (    500,    -33)
-	 14 Rel (   -250,      0) -> Abs (    250,    -33)
-	 15 Rel (   -250,      0) -> Abs (      0,    -33)
-	 16 Rel (    500,    416) -> Abs (    500,    383)
-	 17 Rel (      0,    250) -> Abs (    500,    633)
-	 18 Rel (   -167,      0) -> Abs (    333,    633)
-	 19 Rel (   -166,      0) -> Abs (    167,    633)
+	  2 Rel (    167,      0) -> Abs (    167,    800)
+	  3 Rel (    166,      0) -> Abs (    333,    800)
+	  4 Rel (      0,    -83) -> Abs (    333,    717)
+	  5 Rel (      0,    -84) -> Abs (    333,    633)
+	  6 Rel (     84,      0) -> Abs (    417,    633)
+	  7 Rel (     83,      0) -> Abs (    500,    633)
+	  8 Rel (      0,   -250) -> Abs (    500,    383)
+	  9 Rel (      0,   -250) -> Abs (    500,    133)
+	 10 Rel (    -83,      0) -> Abs (    417,    133)
+	 11 Rel (    -84,      0) -> Abs (    333,    133)
+	 12 Rel (      0,    -83) -> Abs (    333,     50)
+	 13 Rel (      0,    -83) -> Abs (    333,    -33)
+	 14 Rel (   -166,      0) -> Abs (    167,    -33)
+	 15 Rel (   -167,      0) -> Abs (      0,    -33)
+	 16 Rel (    333,    416) -> Abs (    333,    383)
+	 17 Rel (      0,    250) -> Abs (    333,    633)
+	 18 Rel (    -83,      0) -> Abs (    250,    633)
+	 19 Rel (    -83,      0) -> Abs (    167,    633)
 	 20 Rel (      0,   -250) -> Abs (    167,    383)
 	 21 Rel (      0,   -250) -> Abs (    167,    133)
-	 22 Rel (    166,      0) -> Abs (    333,    133)
-	 23 Rel (    167,      0) -> Abs (    500,    133)
+	 22 Rel (     83,      0) -> Abs (    250,    133)
+	 23 Rel (     83,      0) -> Abs (    333,    133)
 
 Glyph     42.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -4515,8 +4528,8 @@ Glyph     42.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
@@ -4535,41 +4548,41 @@ Glyph     42.
 	 19: YDual  XDual   Repeat          X-Short On
 	 20:        XDual   Repeat  Y-Short         On
 	 21:        XDual   Repeat  Y-Short         On
-	 22: YDual          Repeat                  On
-	 23: YDual          Repeat                  On
+	 22: YDual          Repeat          X-Short On
+	 23: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (   -250,      0) -> Abs (    417,    633)
-	  7 Rel (   -250,      0) -> Abs (    167,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,    -83) -> Abs (    500,    717)
+	  5 Rel (      0,    -84) -> Abs (    500,    633)
+	  6 Rel (   -167,      0) -> Abs (    333,    633)
+	  7 Rel (   -166,      0) -> Abs (    167,    633)
 	  8 Rel (      0,    -83) -> Abs (    167,    550)
 	  9 Rel (      0,    -83) -> Abs (    167,    467)
-	 10 Rel (    166,      0) -> Abs (    333,    467)
-	 11 Rel (    167,      0) -> Abs (    500,    467)
-	 12 Rel (      0,    -84) -> Abs (    500,    383)
-	 13 Rel (      0,    -83) -> Abs (    500,    300)
-	 14 Rel (   -167,      0) -> Abs (    333,    300)
-	 15 Rel (   -166,      0) -> Abs (    167,    300)
+	 10 Rel (     83,      0) -> Abs (    250,    467)
+	 11 Rel (     83,      0) -> Abs (    333,    467)
+	 12 Rel (      0,    -84) -> Abs (    333,    383)
+	 13 Rel (      0,    -83) -> Abs (    333,    300)
+	 14 Rel (    -83,      0) -> Abs (    250,    300)
+	 15 Rel (    -83,      0) -> Abs (    167,    300)
 	 16 Rel (      0,    -83) -> Abs (    167,    217)
 	 17 Rel (      0,    -84) -> Abs (    167,    133)
-	 18 Rel (    250,      0) -> Abs (    417,    133)
-	 19 Rel (    250,      0) -> Abs (    667,    133)
-	 20 Rel (      0,    -83) -> Abs (    667,     50)
-	 21 Rel (      0,    -83) -> Abs (    667,    -33)
-	 22 Rel (   -334,      0) -> Abs (    333,    -33)
-	 23 Rel (   -333,      0) -> Abs (      0,    -33)
+	 18 Rel (    166,      0) -> Abs (    333,    133)
+	 19 Rel (    167,      0) -> Abs (    500,    133)
+	 20 Rel (      0,    -83) -> Abs (    500,     50)
+	 21 Rel (      0,    -83) -> Abs (    500,    -33)
+	 22 Rel (   -250,      0) -> Abs (    250,    -33)
+	 23 Rel (   -250,      0) -> Abs (      0,    -33)
 
 Glyph     43.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -4582,8 +4595,8 @@ Glyph     43.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
@@ -4605,20 +4618,20 @@ Glyph     43.
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (   -250,      0) -> Abs (    417,    633)
-	  7 Rel (   -250,      0) -> Abs (    167,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,    -83) -> Abs (    500,    717)
+	  5 Rel (      0,    -84) -> Abs (    500,    633)
+	  6 Rel (   -167,      0) -> Abs (    333,    633)
+	  7 Rel (   -166,      0) -> Abs (    167,    633)
 	  8 Rel (      0,    -83) -> Abs (    167,    550)
 	  9 Rel (      0,    -83) -> Abs (    167,    467)
-	 10 Rel (    166,      0) -> Abs (    333,    467)
-	 11 Rel (    167,      0) -> Abs (    500,    467)
-	 12 Rel (      0,    -84) -> Abs (    500,    383)
-	 13 Rel (      0,    -83) -> Abs (    500,    300)
-	 14 Rel (   -167,      0) -> Abs (    333,    300)
-	 15 Rel (   -166,      0) -> Abs (    167,    300)
+	 10 Rel (     83,      0) -> Abs (    250,    467)
+	 11 Rel (     83,      0) -> Abs (    333,    467)
+	 12 Rel (      0,    -84) -> Abs (    333,    383)
+	 13 Rel (      0,    -83) -> Abs (    333,    300)
+	 14 Rel (    -83,      0) -> Abs (    250,    300)
+	 15 Rel (    -83,      0) -> Abs (    167,    300)
 	 16 Rel (      0,   -167) -> Abs (    167,    133)
 	 17 Rel (      0,   -166) -> Abs (    167,    -33)
 	 18 Rel (    -84,      0) -> Abs (     83,    -33)
@@ -4628,12 +4641,12 @@ Glyph     44.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 23
+	  0: 19
 
 	 Length of Instructions:  0
 
@@ -4641,8 +4654,8 @@ Glyph     44.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
@@ -4653,49 +4666,41 @@ Glyph     44.
 	 11: YDual  XDual   Repeat          X-Short On
 	 12: YDual  XDual   Repeat  Y-Short         On
 	 13: YDual  XDual   Repeat  Y-Short         On
-	 14: YDual          Repeat          X-Short On
-	 15: YDual          Repeat          X-Short On
-	 16: YDual  XDual   Repeat  Y-Short         On
-	 17: YDual  XDual   Repeat  Y-Short         On
-	 18: YDual  XDual   Repeat          X-Short On
-	 19: YDual  XDual   Repeat          X-Short On
-	 20:        XDual   Repeat  Y-Short         On
-	 21:        XDual   Repeat  Y-Short         On
-	 22: YDual          Repeat                  On
-	 23: YDual          Repeat                  On
+	 14: YDual  XDual   Repeat          X-Short On
+	 15: YDual  XDual   Repeat          X-Short On
+	 16:        XDual   Repeat  Y-Short         On
+	 17:        XDual   Repeat  Y-Short         On
+	 18: YDual          Repeat          X-Short On
+	 19: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (   -250,      0) -> Abs (    417,    633)
-	  7 Rel (   -250,      0) -> Abs (    167,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,    -83) -> Abs (    500,    717)
+	  5 Rel (      0,    -84) -> Abs (    500,    633)
+	  6 Rel (   -167,      0) -> Abs (    333,    633)
+	  7 Rel (   -166,      0) -> Abs (    167,    633)
 	  8 Rel (      0,   -250) -> Abs (    167,    383)
 	  9 Rel (      0,   -250) -> Abs (    167,    133)
-	 10 Rel (    166,      0) -> Abs (    333,    133)
-	 11 Rel (    167,      0) -> Abs (    500,    133)
-	 12 Rel (      0,     84) -> Abs (    500,    217)
-	 13 Rel (      0,     83) -> Abs (    500,    300)
-	 14 Rel (    -83,      0) -> Abs (    417,    300)
-	 15 Rel (    -84,      0) -> Abs (    333,    300)
-	 16 Rel (      0,     83) -> Abs (    333,    383)
-	 17 Rel (      0,     84) -> Abs (    333,    467)
-	 18 Rel (    167,      0) -> Abs (    500,    467)
-	 19 Rel (    167,      0) -> Abs (    667,    467)
-	 20 Rel (      0,   -250) -> Abs (    667,    217)
-	 21 Rel (      0,   -250) -> Abs (    667,    -33)
-	 22 Rel (   -334,      0) -> Abs (    333,    -33)
-	 23 Rel (   -333,      0) -> Abs (      0,    -33)
+	 10 Rel (     83,      0) -> Abs (    250,    133)
+	 11 Rel (     83,      0) -> Abs (    333,    133)
+	 12 Rel (      0,    167) -> Abs (    333,    300)
+	 13 Rel (      0,    167) -> Abs (    333,    467)
+	 14 Rel (     84,      0) -> Abs (    417,    467)
+	 15 Rel (     83,      0) -> Abs (    500,    467)
+	 16 Rel (      0,   -250) -> Abs (    500,    217)
+	 17 Rel (      0,   -250) -> Abs (    500,    -33)
+	 18 Rel (   -250,      0) -> Abs (    250,    -33)
+	 19 Rel (   -250,      0) -> Abs (      0,    -33)
 
 Glyph     45.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -4739,20 +4744,20 @@ Glyph     45.
 	  3 Rel (     84,      0) -> Abs (    167,    800)
 	  4 Rel (      0,   -167) -> Abs (    167,    633)
 	  5 Rel (      0,   -166) -> Abs (    167,    467)
-	  6 Rel (    166,      0) -> Abs (    333,    467)
-	  7 Rel (    167,      0) -> Abs (    500,    467)
-	  8 Rel (      0,    166) -> Abs (    500,    633)
-	  9 Rel (      0,    167) -> Abs (    500,    800)
-	 10 Rel (     83,      0) -> Abs (    583,    800)
-	 11 Rel (     84,      0) -> Abs (    667,    800)
-	 12 Rel (      0,   -417) -> Abs (    667,    383)
-	 13 Rel (      0,   -416) -> Abs (    667,    -33)
-	 14 Rel (    -84,      0) -> Abs (    583,    -33)
-	 15 Rel (    -83,      0) -> Abs (    500,    -33)
-	 16 Rel (      0,    166) -> Abs (    500,    133)
-	 17 Rel (      0,    167) -> Abs (    500,    300)
-	 18 Rel (   -167,      0) -> Abs (    333,    300)
-	 19 Rel (   -166,      0) -> Abs (    167,    300)
+	  6 Rel (     83,      0) -> Abs (    250,    467)
+	  7 Rel (     83,      0) -> Abs (    333,    467)
+	  8 Rel (      0,    166) -> Abs (    333,    633)
+	  9 Rel (      0,    167) -> Abs (    333,    800)
+	 10 Rel (     84,      0) -> Abs (    417,    800)
+	 11 Rel (     83,      0) -> Abs (    500,    800)
+	 12 Rel (      0,   -417) -> Abs (    500,    383)
+	 13 Rel (      0,   -416) -> Abs (    500,    -33)
+	 14 Rel (    -83,      0) -> Abs (    417,    -33)
+	 15 Rel (    -84,      0) -> Abs (    333,    -33)
+	 16 Rel (      0,    166) -> Abs (    333,    133)
+	 17 Rel (      0,    167) -> Abs (    333,    300)
+	 18 Rel (    -83,      0) -> Abs (    250,    300)
+	 19 Rel (    -83,      0) -> Abs (    167,    300)
 	 20 Rel (      0,   -167) -> Abs (    167,    133)
 	 21 Rel (      0,   -166) -> Abs (    167,    -33)
 	 22 Rel (    -84,      0) -> Abs (     83,    -33)
@@ -4829,79 +4834,63 @@ Glyph     47.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 23
+	  0: 15
 
 	 Length of Instructions:  0
 
 	 Flags
 	 -----
-	  0:        XDual                   X-Short On
-	  1: YDual  XDual           Y-Short         On
+	  0:                                        On
+	  1:        XDual                           On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
-	  4:        XDual   Repeat  Y-Short         On
-	  5:        XDual   Repeat  Y-Short         On
+	  4:        XDual   Repeat                  On
+	  5:        XDual   Repeat                  On
 	  6: YDual          Repeat          X-Short On
 	  7: YDual          Repeat          X-Short On
-	  8:        XDual   Repeat                  On
-	  9:        XDual   Repeat                  On
-	 10: YDual          Repeat          X-Short On
-	 11: YDual          Repeat          X-Short On
-	 12: YDual  XDual   Repeat  Y-Short         On
-	 13: YDual  XDual   Repeat  Y-Short         On
+	  8: YDual  XDual   Repeat  Y-Short         On
+	  9: YDual  XDual   Repeat  Y-Short         On
+	 10: YDual  XDual   Repeat          X-Short On
+	 11: YDual  XDual   Repeat          X-Short On
+	 12:        XDual   Repeat  Y-Short         On
+	 13:        XDual   Repeat  Y-Short         On
 	 14: YDual  XDual   Repeat          X-Short On
 	 15: YDual  XDual   Repeat          X-Short On
-	 16:        XDual   Repeat  Y-Short         On
-	 17:        XDual   Repeat  Y-Short         On
-	 18: YDual  XDual   Repeat          X-Short On
-	 19: YDual  XDual   Repeat          X-Short On
-	 20: YDual  XDual   Repeat  Y-Short         On
-	 21: YDual  XDual   Repeat  Y-Short         On
-	 22: YDual          Repeat          X-Short On
-	 23: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
-	  0 Rel (    167,    717) -> Abs (    167,    717)
-	  1 Rel (      0,     83) -> Abs (    167,    800)
-	  2 Rel (    250,      0) -> Abs (    417,    800)
-	  3 Rel (    250,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (    -84,      0) -> Abs (    583,    633)
-	  7 Rel (    -83,      0) -> Abs (    500,    633)
-	  8 Rel (      0,   -333) -> Abs (    500,    300)
-	  9 Rel (      0,   -333) -> Abs (    500,    -33)
-	 10 Rel (   -250,      0) -> Abs (    250,    -33)
-	 11 Rel (   -250,      0) -> Abs (      0,    -33)
-	 12 Rel (      0,    166) -> Abs (      0,    133)
-	 13 Rel (      0,    167) -> Abs (      0,    300)
-	 14 Rel (     83,      0) -> Abs (     83,    300)
-	 15 Rel (     84,      0) -> Abs (    167,    300)
-	 16 Rel (      0,    -83) -> Abs (    167,    217)
-	 17 Rel (      0,    -84) -> Abs (    167,    133)
-	 18 Rel (     83,      0) -> Abs (    250,    133)
-	 19 Rel (     83,      0) -> Abs (    333,    133)
-	 20 Rel (      0,    250) -> Abs (    333,    383)
-	 21 Rel (      0,    250) -> Abs (    333,    633)
-	 22 Rel (    -83,      0) -> Abs (    250,    633)
-	 23 Rel (    -83,      0) -> Abs (    167,    633)
+	  0 Rel (    333,    467) -> Abs (    333,    467)
+	  1 Rel (      0,    333) -> Abs (    333,    800)
+	  2 Rel (     84,      0) -> Abs (    417,    800)
+	  3 Rel (     83,      0) -> Abs (    500,    800)
+	  4 Rel (      0,   -417) -> Abs (    500,    383)
+	  5 Rel (      0,   -416) -> Abs (    500,    -33)
+	  6 Rel (   -250,      0) -> Abs (    250,    -33)
+	  7 Rel (   -250,      0) -> Abs (      0,    -33)
+	  8 Rel (      0,    166) -> Abs (      0,    133)
+	  9 Rel (      0,    167) -> Abs (      0,    300)
+	 10 Rel (     83,      0) -> Abs (     83,    300)
+	 11 Rel (     84,      0) -> Abs (    167,    300)
+	 12 Rel (      0,    -83) -> Abs (    167,    217)
+	 13 Rel (      0,    -84) -> Abs (    167,    133)
+	 14 Rel (     83,      0) -> Abs (    250,    133)
+	 15 Rel (     83,      0) -> Abs (    333,    133)
 
 Glyph     48.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 47
+	  0: 31
 
 	 Length of Instructions:  0
 
@@ -4919,42 +4908,26 @@ Glyph     48.
 	  9: YDual  XDual   Repeat  Y-Short         On
 	 10: YDual  XDual   Repeat          X-Short On
 	 11: YDual  XDual   Repeat          X-Short On
-	 12: YDual  XDual   Repeat  Y-Short         On
-	 13: YDual  XDual   Repeat  Y-Short         On
-	 14: YDual  XDual   Repeat          X-Short On
-	 15: YDual  XDual   Repeat          X-Short On
+	 12:        XDual   Repeat  Y-Short         On
+	 13:        XDual   Repeat  Y-Short         On
+	 14: YDual          Repeat          X-Short On
+	 15: YDual          Repeat          X-Short On
 	 16:        XDual   Repeat  Y-Short         On
 	 17:        XDual   Repeat  Y-Short         On
-	 18: YDual          Repeat          X-Short On
-	 19: YDual          Repeat          X-Short On
+	 18: YDual  XDual   Repeat          X-Short On
+	 19: YDual  XDual   Repeat          X-Short On
 	 20:        XDual   Repeat  Y-Short         On
 	 21:        XDual   Repeat  Y-Short         On
 	 22: YDual          Repeat          X-Short On
 	 23: YDual          Repeat          X-Short On
-	 24:        XDual   Repeat  Y-Short         On
-	 25:        XDual   Repeat  Y-Short         On
-	 26: YDual  XDual   Repeat          X-Short On
-	 27: YDual  XDual   Repeat          X-Short On
+	 24: YDual  XDual   Repeat  Y-Short         On
+	 25: YDual  XDual   Repeat  Y-Short         On
+	 26: YDual          Repeat          X-Short On
+	 27: YDual          Repeat          X-Short On
 	 28:        XDual   Repeat  Y-Short         On
 	 29:        XDual   Repeat  Y-Short         On
-	 30: YDual  XDual   Repeat          X-Short On
-	 31: YDual  XDual   Repeat          X-Short On
-	 32:        XDual   Repeat  Y-Short         On
-	 33:        XDual   Repeat  Y-Short         On
-	 34: YDual          Repeat          X-Short On
-	 35: YDual          Repeat          X-Short On
-	 36: YDual  XDual   Repeat  Y-Short         On
-	 37: YDual  XDual   Repeat  Y-Short         On
-	 38: YDual          Repeat          X-Short On
-	 39: YDual          Repeat          X-Short On
-	 40: YDual  XDual   Repeat  Y-Short         On
-	 41: YDual  XDual   Repeat  Y-Short         On
-	 42: YDual          Repeat          X-Short On
-	 43: YDual          Repeat          X-Short On
-	 44:        XDual   Repeat  Y-Short         On
-	 45:        XDual   Repeat  Y-Short         On
-	 46: YDual          Repeat          X-Short On
-	 47: YDual          Repeat          X-Short On
+	 30: YDual          Repeat          X-Short On
+	 31: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
@@ -4966,52 +4939,36 @@ Glyph     48.
 	  5 Rel (      0,   -166) -> Abs (    167,    467)
 	  6 Rel (     83,      0) -> Abs (    250,    467)
 	  7 Rel (     83,      0) -> Abs (    333,    467)
-	  8 Rel (      0,     83) -> Abs (    333,    550)
-	  9 Rel (      0,     83) -> Abs (    333,    633)
-	 10 Rel (     84,      0) -> Abs (    417,    633)
-	 11 Rel (     83,      0) -> Abs (    500,    633)
-	 12 Rel (      0,     84) -> Abs (    500,    717)
-	 13 Rel (      0,     83) -> Abs (    500,    800)
-	 14 Rel (     83,      0) -> Abs (    583,    800)
-	 15 Rel (     84,      0) -> Abs (    667,    800)
-	 16 Rel (      0,    -83) -> Abs (    667,    717)
-	 17 Rel (      0,    -84) -> Abs (    667,    633)
-	 18 Rel (    -84,      0) -> Abs (    583,    633)
-	 19 Rel (    -83,      0) -> Abs (    500,    633)
-	 20 Rel (      0,    -83) -> Abs (    500,    550)
-	 21 Rel (      0,    -83) -> Abs (    500,    467)
-	 22 Rel (    -83,      0) -> Abs (    417,    467)
-	 23 Rel (    -84,      0) -> Abs (    333,    467)
-	 24 Rel (      0,    -84) -> Abs (    333,    383)
-	 25 Rel (      0,    -83) -> Abs (    333,    300)
-	 26 Rel (     84,      0) -> Abs (    417,    300)
-	 27 Rel (     83,      0) -> Abs (    500,    300)
-	 28 Rel (      0,    -83) -> Abs (    500,    217)
-	 29 Rel (      0,    -84) -> Abs (    500,    133)
-	 30 Rel (     83,      0) -> Abs (    583,    133)
-	 31 Rel (     84,      0) -> Abs (    667,    133)
-	 32 Rel (      0,    -83) -> Abs (    667,     50)
-	 33 Rel (      0,    -83) -> Abs (    667,    -33)
-	 34 Rel (    -84,      0) -> Abs (    583,    -33)
-	 35 Rel (    -83,      0) -> Abs (    500,    -33)
-	 36 Rel (      0,     83) -> Abs (    500,     50)
-	 37 Rel (      0,     83) -> Abs (    500,    133)
-	 38 Rel (    -83,      0) -> Abs (    417,    133)
-	 39 Rel (    -84,      0) -> Abs (    333,    133)
-	 40 Rel (      0,     84) -> Abs (    333,    217)
-	 41 Rel (      0,     83) -> Abs (    333,    300)
-	 42 Rel (    -83,      0) -> Abs (    250,    300)
-	 43 Rel (    -83,      0) -> Abs (    167,    300)
-	 44 Rel (      0,   -167) -> Abs (    167,    133)
-	 45 Rel (      0,   -166) -> Abs (    167,    -33)
-	 46 Rel (    -84,      0) -> Abs (     83,    -33)
-	 47 Rel (    -83,      0) -> Abs (      0,    -33)
+	  8 Rel (      0,    166) -> Abs (    333,    633)
+	  9 Rel (      0,    167) -> Abs (    333,    800)
+	 10 Rel (     84,      0) -> Abs (    417,    800)
+	 11 Rel (     83,      0) -> Abs (    500,    800)
+	 12 Rel (      0,   -167) -> Abs (    500,    633)
+	 13 Rel (      0,   -166) -> Abs (    500,    467)
+	 14 Rel (    -83,      0) -> Abs (    417,    467)
+	 15 Rel (    -84,      0) -> Abs (    333,    467)
+	 16 Rel (      0,    -84) -> Abs (    333,    383)
+	 17 Rel (      0,    -83) -> Abs (    333,    300)
+	 18 Rel (     84,      0) -> Abs (    417,    300)
+	 19 Rel (     83,      0) -> Abs (    500,    300)
+	 20 Rel (      0,   -167) -> Abs (    500,    133)
+	 21 Rel (      0,   -166) -> Abs (    500,    -33)
+	 22 Rel (    -83,      0) -> Abs (    417,    -33)
+	 23 Rel (    -84,      0) -> Abs (    333,    -33)
+	 24 Rel (      0,    166) -> Abs (    333,    133)
+	 25 Rel (      0,    167) -> Abs (    333,    300)
+	 26 Rel (    -83,      0) -> Abs (    250,    300)
+	 27 Rel (    -83,      0) -> Abs (    167,    300)
+	 28 Rel (      0,   -167) -> Abs (    167,    133)
+	 29 Rel (      0,   -166) -> Abs (    167,    -33)
+	 30 Rel (    -84,      0) -> Abs (     83,    -33)
+	 31 Rel (    -83,      0) -> Abs (      0,    -33)
 
 Glyph     49.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -5032,8 +4989,8 @@ Glyph     49.
 	  7: YDual  XDual   Repeat          X-Short On
 	  8:        XDual   Repeat  Y-Short         On
 	  9:        XDual   Repeat  Y-Short         On
-	 10: YDual          Repeat                  On
-	 11: YDual          Repeat                  On
+	 10: YDual          Repeat          X-Short On
+	 11: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
@@ -5043,12 +5000,12 @@ Glyph     49.
 	  3 Rel (     84,      0) -> Abs (    167,    800)
 	  4 Rel (      0,   -333) -> Abs (    167,    467)
 	  5 Rel (      0,   -334) -> Abs (    167,    133)
-	  6 Rel (    250,      0) -> Abs (    417,    133)
-	  7 Rel (    250,      0) -> Abs (    667,    133)
-	  8 Rel (      0,    -83) -> Abs (    667,     50)
-	  9 Rel (      0,    -83) -> Abs (    667,    -33)
-	 10 Rel (   -334,      0) -> Abs (    333,    -33)
-	 11 Rel (   -333,      0) -> Abs (      0,    -33)
+	  6 Rel (    166,      0) -> Abs (    333,    133)
+	  7 Rel (    167,      0) -> Abs (    500,    133)
+	  8 Rel (      0,    -83) -> Abs (    500,     50)
+	  9 Rel (      0,    -83) -> Abs (    500,    -33)
+	 10 Rel (   -250,      0) -> Abs (    250,    -33)
+	 11 Rel (   -250,      0) -> Abs (      0,    -33)
 
 Glyph     50.
 	 numberOfContours:	 1
@@ -5121,7 +5078,7 @@ Glyph     51.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -5134,8 +5091,8 @@ Glyph     51.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat                  On
 	  5:        XDual   Repeat                  On
 	  6: YDual          Repeat          X-Short On
@@ -5153,16 +5110,16 @@ Glyph     51.
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,   -417) -> Abs (    667,    383)
-	  5 Rel (      0,   -416) -> Abs (    667,    -33)
-	  6 Rel (    -84,      0) -> Abs (    583,    -33)
-	  7 Rel (    -83,      0) -> Abs (    500,    -33)
-	  8 Rel (      0,    333) -> Abs (    500,    300)
-	  9 Rel (      0,    333) -> Abs (    500,    633)
-	 10 Rel (   -167,      0) -> Abs (    333,    633)
-	 11 Rel (   -166,      0) -> Abs (    167,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,   -417) -> Abs (    500,    383)
+	  5 Rel (      0,   -416) -> Abs (    500,    -33)
+	  6 Rel (    -83,      0) -> Abs (    417,    -33)
+	  7 Rel (    -84,      0) -> Abs (    333,    -33)
+	  8 Rel (      0,    333) -> Abs (    333,    300)
+	  9 Rel (      0,    333) -> Abs (    333,    633)
+	 10 Rel (    -83,      0) -> Abs (    250,    633)
+	 11 Rel (    -83,      0) -> Abs (    167,    633)
 	 12 Rel (      0,   -333) -> Abs (    167,    300)
 	 13 Rel (      0,   -333) -> Abs (    167,    -33)
 	 14 Rel (    -84,      0) -> Abs (     83,    -33)
@@ -5172,7 +5129,7 @@ Glyph     52.
 	 numberOfContours:	 2
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -5186,12 +5143,12 @@ Glyph     52.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat                  On
 	  5:        XDual   Repeat                  On
-	  6: YDual          Repeat                  On
-	  7: YDual          Repeat                  On
+	  6: YDual          Repeat          X-Short On
+	  7: YDual          Repeat          X-Short On
 	  8:                                        On
 	  9: YDual  XDual           Y-Short         On
 	 10: YDual          Repeat          X-Short On
@@ -5205,26 +5162,26 @@ Glyph     52.
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,   -417) -> Abs (    667,    383)
-	  5 Rel (      0,   -416) -> Abs (    667,    -33)
-	  6 Rel (   -334,      0) -> Abs (    333,    -33)
-	  7 Rel (   -333,      0) -> Abs (      0,    -33)
-	  8 Rel (    500,    416) -> Abs (    500,    383)
-	  9 Rel (      0,    250) -> Abs (    500,    633)
-	 10 Rel (   -167,      0) -> Abs (    333,    633)
-	 11 Rel (   -166,      0) -> Abs (    167,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,   -417) -> Abs (    500,    383)
+	  5 Rel (      0,   -416) -> Abs (    500,    -33)
+	  6 Rel (   -250,      0) -> Abs (    250,    -33)
+	  7 Rel (   -250,      0) -> Abs (      0,    -33)
+	  8 Rel (    333,    416) -> Abs (    333,    383)
+	  9 Rel (      0,    250) -> Abs (    333,    633)
+	 10 Rel (    -83,      0) -> Abs (    250,    633)
+	 11 Rel (    -83,      0) -> Abs (    167,    633)
 	 12 Rel (      0,   -250) -> Abs (    167,    383)
 	 13 Rel (      0,   -250) -> Abs (    167,    133)
-	 14 Rel (    166,      0) -> Abs (    333,    133)
-	 15 Rel (    167,      0) -> Abs (    500,    133)
+	 14 Rel (     83,      0) -> Abs (    250,    133)
+	 15 Rel (     83,      0) -> Abs (    333,    133)
 
 Glyph     53.
 	 numberOfContours:	 2
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -5238,8 +5195,8 @@ Glyph     53.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
@@ -5261,36 +5218,36 @@ Glyph     53.
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,   -250) -> Abs (    667,    550)
-	  5 Rel (      0,   -250) -> Abs (    667,    300)
-	  6 Rel (   -250,      0) -> Abs (    417,    300)
-	  7 Rel (   -250,      0) -> Abs (    167,    300)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,   -250) -> Abs (    500,    550)
+	  5 Rel (      0,   -250) -> Abs (    500,    300)
+	  6 Rel (   -167,      0) -> Abs (    333,    300)
+	  7 Rel (   -166,      0) -> Abs (    167,    300)
 	  8 Rel (      0,   -167) -> Abs (    167,    133)
 	  9 Rel (      0,   -166) -> Abs (    167,    -33)
 	 10 Rel (    -84,      0) -> Abs (     83,    -33)
 	 11 Rel (    -83,      0) -> Abs (      0,    -33)
-	 12 Rel (    500,    583) -> Abs (    500,    550)
-	 13 Rel (      0,     83) -> Abs (    500,    633)
-	 14 Rel (   -167,      0) -> Abs (    333,    633)
-	 15 Rel (   -166,      0) -> Abs (    167,    633)
+	 12 Rel (    333,    583) -> Abs (    333,    550)
+	 13 Rel (      0,     83) -> Abs (    333,    633)
+	 14 Rel (    -83,      0) -> Abs (    250,    633)
+	 15 Rel (    -83,      0) -> Abs (    167,    633)
 	 16 Rel (      0,    -83) -> Abs (    167,    550)
 	 17 Rel (      0,    -83) -> Abs (    167,    467)
-	 18 Rel (    166,      0) -> Abs (    333,    467)
-	 19 Rel (    167,      0) -> Abs (    500,    467)
+	 18 Rel (     83,      0) -> Abs (    250,    467)
+	 19 Rel (     83,      0) -> Abs (    333,    467)
 
 Glyph     54.
 	 numberOfContours:	 2
 	 xMin:			 0
 	 yMin:			 -200
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
 	  0: 19
-	  1: 31
+	  1: 27
 
 	 Length of Instructions:  0
 
@@ -5298,8 +5255,8 @@ Glyph     54.
 	 -----
 	  0:        XDual   Repeat                  On
 	  1:        XDual   Repeat                  On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat                  On
 	  5:        XDual   Repeat                  On
 	  6: YDual          Repeat          X-Short On
@@ -5324,57 +5281,48 @@ Glyph     54.
 	 25:        XDual   Repeat  Y-Short         On
 	 26: YDual  XDual   Repeat          X-Short On
 	 27: YDual  XDual   Repeat          X-Short On
-	 28: YDual  XDual   Repeat  Y-Short         On
-	 29: YDual  XDual   Repeat  Y-Short         On
-	 30: YDual  XDual   Repeat          X-Short On
-	 31: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (      0,    383) -> Abs (      0,    383)
 	  1 Rel (      0,    417) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,   -333) -> Abs (    667,    467)
-	  5 Rel (      0,   -334) -> Abs (    667,    133)
-	  6 Rel (    -84,      0) -> Abs (    583,    133)
-	  7 Rel (    -83,      0) -> Abs (    500,    133)
-	  8 Rel (      0,    -83) -> Abs (    500,     50)
-	  9 Rel (      0,    -83) -> Abs (    500,    -33)
-	 10 Rel (     83,      0) -> Abs (    583,    -33)
-	 11 Rel (     84,      0) -> Abs (    667,    -33)
-	 12 Rel (      0,    -84) -> Abs (    667,   -117)
-	 13 Rel (      0,    -83) -> Abs (    667,   -200)
-	 14 Rel (    -84,      0) -> Abs (    583,   -200)
-	 15 Rel (    -83,      0) -> Abs (    500,   -200)
-	 16 Rel (      0,     83) -> Abs (    500,   -117)
-	 17 Rel (      0,     84) -> Abs (    500,    -33)
-	 18 Rel (   -250,      0) -> Abs (    250,    -33)
-	 19 Rel (   -250,      0) -> Abs (      0,    -33)
-	 20 Rel (    500,    500) -> Abs (    500,    467)
-	 21 Rel (      0,    166) -> Abs (    500,    633)
-	 22 Rel (   -167,      0) -> Abs (    333,    633)
-	 23 Rel (   -166,      0) -> Abs (    167,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,   -333) -> Abs (    500,    467)
+	  5 Rel (      0,   -334) -> Abs (    500,    133)
+	  6 Rel (    -83,      0) -> Abs (    417,    133)
+	  7 Rel (    -84,      0) -> Abs (    333,    133)
+	  8 Rel (      0,    -83) -> Abs (    333,     50)
+	  9 Rel (      0,    -83) -> Abs (    333,    -33)
+	 10 Rel (     84,      0) -> Abs (    417,    -33)
+	 11 Rel (     83,      0) -> Abs (    500,    -33)
+	 12 Rel (      0,    -84) -> Abs (    500,   -117)
+	 13 Rel (      0,    -83) -> Abs (    500,   -200)
+	 14 Rel (    -83,      0) -> Abs (    417,   -200)
+	 15 Rel (    -84,      0) -> Abs (    333,   -200)
+	 16 Rel (      0,     83) -> Abs (    333,   -117)
+	 17 Rel (      0,     84) -> Abs (    333,    -33)
+	 18 Rel (   -166,      0) -> Abs (    167,    -33)
+	 19 Rel (   -167,      0) -> Abs (      0,    -33)
+	 20 Rel (    333,    416) -> Abs (    333,    383)
+	 21 Rel (      0,    250) -> Abs (    333,    633)
+	 22 Rel (    -83,      0) -> Abs (    250,    633)
+	 23 Rel (    -83,      0) -> Abs (    167,    633)
 	 24 Rel (      0,   -250) -> Abs (    167,    383)
 	 25 Rel (      0,   -250) -> Abs (    167,    133)
 	 26 Rel (     83,      0) -> Abs (    250,    133)
 	 27 Rel (     83,      0) -> Abs (    333,    133)
-	 28 Rel (      0,     84) -> Abs (    333,    217)
-	 29 Rel (      0,     83) -> Abs (    333,    300)
-	 30 Rel (     84,      0) -> Abs (    417,    300)
-	 31 Rel (     83,      0) -> Abs (    500,    300)
 
 Glyph     55.
-	 numberOfContours:	 2
+	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 27
-	  1: 35
+	  0: 15
 
 	 Length of Instructions:  0
 
@@ -5386,36 +5334,16 @@ Glyph     55.
 	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
-	  6: YDual  XDual   Repeat          X-Short On
-	  7: YDual  XDual   Repeat          X-Short On
-	  8:        XDual   Repeat  Y-Short         On
-	  9:        XDual   Repeat  Y-Short         On
+	  6: YDual          Repeat          X-Short On
+	  7: YDual          Repeat          X-Short On
+	  8: YDual  XDual   Repeat  Y-Short         On
+	  9: YDual  XDual   Repeat  Y-Short         On
 	 10: YDual          Repeat          X-Short On
 	 11: YDual          Repeat          X-Short On
-	 12:        XDual   Repeat  Y-Short         On
-	 13:        XDual   Repeat  Y-Short         On
-	 14: YDual  XDual   Repeat          X-Short On
-	 15: YDual  XDual   Repeat          X-Short On
-	 16:        XDual   Repeat  Y-Short         On
-	 17:        XDual   Repeat  Y-Short         On
-	 18: YDual          Repeat          X-Short On
-	 19: YDual          Repeat          X-Short On
-	 20: YDual  XDual   Repeat  Y-Short         On
-	 21: YDual  XDual   Repeat  Y-Short         On
-	 22: YDual          Repeat          X-Short On
-	 23: YDual          Repeat          X-Short On
-	 24:        XDual   Repeat  Y-Short         On
-	 25:        XDual   Repeat  Y-Short         On
-	 26: YDual          Repeat          X-Short On
-	 27: YDual          Repeat          X-Short On
-	 28:                                        On
-	 29: YDual  XDual           Y-Short         On
-	 30: YDual          Repeat          X-Short On
-	 31: YDual          Repeat          X-Short On
-	 32:        XDual   Repeat  Y-Short         On
-	 33:        XDual   Repeat  Y-Short         On
-	 34: YDual  XDual   Repeat          X-Short On
-	 35: YDual  XDual   Repeat          X-Short On
+	 12:        XDual   Repeat                  On
+	 13:        XDual   Repeat                  On
+	 14: YDual          Repeat          X-Short On
+	 15: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
@@ -5423,116 +5351,80 @@ Glyph     55.
 	  1 Rel (      0,    417) -> Abs (      0,    800)
 	  2 Rel (    250,      0) -> Abs (    250,    800)
 	  3 Rel (    250,      0) -> Abs (    500,    800)
-	  4 Rel (      0,    -83) -> Abs (    500,    717)
-	  5 Rel (      0,    -84) -> Abs (    500,    633)
-	  6 Rel (     83,      0) -> Abs (    583,    633)
-	  7 Rel (     84,      0) -> Abs (    667,    633)
-	  8 Rel (      0,    -83) -> Abs (    667,    550)
-	  9 Rel (      0,    -83) -> Abs (    667,    467)
-	 10 Rel (    -84,      0) -> Abs (    583,    467)
-	 11 Rel (    -83,      0) -> Abs (    500,    467)
-	 12 Rel (      0,    -84) -> Abs (    500,    383)
-	 13 Rel (      0,    -83) -> Abs (    500,    300)
-	 14 Rel (     83,      0) -> Abs (    583,    300)
-	 15 Rel (     84,      0) -> Abs (    667,    300)
-	 16 Rel (      0,   -167) -> Abs (    667,    133)
-	 17 Rel (      0,   -166) -> Abs (    667,    -33)
-	 18 Rel (    -84,      0) -> Abs (    583,    -33)
-	 19 Rel (    -83,      0) -> Abs (    500,    -33)
-	 20 Rel (      0,    166) -> Abs (    500,    133)
-	 21 Rel (      0,    167) -> Abs (    500,    300)
-	 22 Rel (   -167,      0) -> Abs (    333,    300)
-	 23 Rel (   -166,      0) -> Abs (    167,    300)
-	 24 Rel (      0,   -167) -> Abs (    167,    133)
-	 25 Rel (      0,   -166) -> Abs (    167,    -33)
-	 26 Rel (    -84,      0) -> Abs (     83,    -33)
-	 27 Rel (    -83,      0) -> Abs (      0,    -33)
-	 28 Rel (    500,    583) -> Abs (    500,    550)
-	 29 Rel (      0,     83) -> Abs (    500,    633)
-	 30 Rel (   -167,      0) -> Abs (    333,    633)
-	 31 Rel (   -166,      0) -> Abs (    167,    633)
-	 32 Rel (      0,    -83) -> Abs (    167,    550)
-	 33 Rel (      0,    -83) -> Abs (    167,    467)
-	 34 Rel (    166,      0) -> Abs (    333,    467)
-	 35 Rel (    167,      0) -> Abs (    500,    467)
+	  4 Rel (      0,   -167) -> Abs (    500,    633)
+	  5 Rel (      0,   -166) -> Abs (    500,    467)
+	  6 Rel (    -83,      0) -> Abs (    417,    467)
+	  7 Rel (    -84,      0) -> Abs (    333,    467)
+	  8 Rel (      0,     83) -> Abs (    333,    550)
+	  9 Rel (      0,     83) -> Abs (    333,    633)
+	 10 Rel (    -83,      0) -> Abs (    250,    633)
+	 11 Rel (    -83,      0) -> Abs (    167,    633)
+	 12 Rel (      0,   -333) -> Abs (    167,    300)
+	 13 Rel (      0,   -333) -> Abs (    167,    -33)
+	 14 Rel (    -84,      0) -> Abs (     83,    -33)
+	 15 Rel (    -83,      0) -> Abs (      0,    -33)
 
 Glyph     56.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 23
+	  0: 15
 
 	 Length of Instructions:  0
 
 	 Flags
 	 -----
-	  0:        XDual                           On
-	  1: YDual  XDual           Y-Short         On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  0:        XDual                   X-Short On
+	  1:        XDual                           On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
 	  7: YDual          Repeat          X-Short On
-	  8:        XDual   Repeat  Y-Short         On
-	  9:        XDual   Repeat  Y-Short         On
-	 10: YDual  XDual   Repeat          X-Short On
-	 11: YDual  XDual   Repeat          X-Short On
-	 12:        XDual   Repeat  Y-Short         On
-	 13:        XDual   Repeat  Y-Short         On
-	 14: YDual          Repeat                  On
-	 15: YDual          Repeat                  On
-	 16: YDual  XDual   Repeat  Y-Short         On
-	 17: YDual  XDual   Repeat  Y-Short         On
-	 18: YDual  XDual   Repeat          X-Short On
-	 19: YDual  XDual   Repeat          X-Short On
-	 20: YDual  XDual   Repeat  Y-Short         On
-	 21: YDual  XDual   Repeat  Y-Short         On
-	 22: YDual          Repeat          X-Short On
-	 23: YDual          Repeat          X-Short On
+	  8:        XDual   Repeat                  On
+	  9:        XDual   Repeat                  On
+	 10: YDual          Repeat          X-Short On
+	 11: YDual          Repeat          X-Short On
+	 12: YDual  XDual   Repeat  Y-Short         On
+	 13: YDual  XDual   Repeat  Y-Short         On
+	 14: YDual  XDual   Repeat          X-Short On
+	 15: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    550) -> Abs (      0,    550)
-	  1 Rel (      0,    250) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (   -250,      0) -> Abs (    417,    633)
-	  7 Rel (   -250,      0) -> Abs (    167,    633)
-	  8 Rel (      0,    -83) -> Abs (    167,    550)
-	  9 Rel (      0,    -83) -> Abs (    167,    467)
-	 10 Rel (    250,      0) -> Abs (    417,    467)
-	 11 Rel (    250,      0) -> Abs (    667,    467)
-	 12 Rel (      0,   -250) -> Abs (    667,    217)
-	 13 Rel (      0,   -250) -> Abs (    667,    -33)
-	 14 Rel (   -334,      0) -> Abs (    333,    -33)
-	 15 Rel (   -333,      0) -> Abs (      0,    -33)
-	 16 Rel (      0,     83) -> Abs (      0,     50)
-	 17 Rel (      0,     83) -> Abs (      0,    133)
-	 18 Rel (    250,      0) -> Abs (    250,    133)
-	 19 Rel (    250,      0) -> Abs (    500,    133)
-	 20 Rel (      0,     84) -> Abs (    500,    217)
-	 21 Rel (      0,     83) -> Abs (    500,    300)
-	 22 Rel (   -250,      0) -> Abs (    250,    300)
-	 23 Rel (   -250,      0) -> Abs (      0,    300)
+	  0 Rel (    167,    467) -> Abs (    167,    467)
+	  1 Rel (      0,    333) -> Abs (    167,    800)
+	  2 Rel (    166,      0) -> Abs (    333,    800)
+	  3 Rel (    167,      0) -> Abs (    500,    800)
+	  4 Rel (      0,    -83) -> Abs (    500,    717)
+	  5 Rel (      0,    -84) -> Abs (    500,    633)
+	  6 Rel (    -83,      0) -> Abs (    417,    633)
+	  7 Rel (    -84,      0) -> Abs (    333,    633)
+	  8 Rel (      0,   -333) -> Abs (    333,    300)
+	  9 Rel (      0,   -333) -> Abs (    333,    -33)
+	 10 Rel (   -166,      0) -> Abs (    167,    -33)
+	 11 Rel (   -167,      0) -> Abs (      0,    -33)
+	 12 Rel (      0,     83) -> Abs (      0,     50)
+	 13 Rel (      0,     83) -> Abs (      0,    133)
+	 14 Rel (     83,      0) -> Abs (     83,    133)
+	 15 Rel (     84,      0) -> Abs (    167,    133)
 
 Glyph     57.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 19
+	  0: 15
 
 	 Length of Instructions:  0
 
@@ -5540,53 +5432,45 @@ Glyph     57.
 	 -----
 	  0:        XDual                           On
 	  1: YDual  XDual           Y-Short         On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
 	  7: YDual          Repeat          X-Short On
-	  8:        XDual   Repeat  Y-Short         On
-	  9:        XDual   Repeat  Y-Short         On
-	 10: YDual  XDual   Repeat          X-Short On
-	 11: YDual  XDual   Repeat          X-Short On
-	 12:        XDual   Repeat  Y-Short         On
-	 13:        XDual   Repeat  Y-Short         On
+	  8:        XDual   Repeat                  On
+	  9:        XDual   Repeat                  On
+	 10: YDual          Repeat          X-Short On
+	 11: YDual          Repeat          X-Short On
+	 12:        XDual   Repeat                  On
+	 13:        XDual   Repeat                  On
 	 14: YDual          Repeat          X-Short On
 	 15: YDual          Repeat          X-Short On
-	 16:        XDual   Repeat                  On
-	 17:        XDual   Repeat                  On
-	 18: YDual          Repeat          X-Short On
-	 19: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (      0,    717) -> Abs (      0,    717)
 	  1 Rel (      0,     83) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (   -167,      0) -> Abs (    500,    633)
-	  7 Rel (   -167,      0) -> Abs (    333,    633)
-	  8 Rel (      0,   -250) -> Abs (    333,    383)
-	  9 Rel (      0,   -250) -> Abs (    333,    133)
-	 10 Rel (     84,      0) -> Abs (    417,    133)
-	 11 Rel (     83,      0) -> Abs (    500,    133)
-	 12 Rel (      0,    -83) -> Abs (    500,     50)
-	 13 Rel (      0,    -83) -> Abs (    500,    -33)
-	 14 Rel (   -167,      0) -> Abs (    333,    -33)
-	 15 Rel (   -166,      0) -> Abs (    167,    -33)
-	 16 Rel (      0,    333) -> Abs (    167,    300)
-	 17 Rel (      0,    333) -> Abs (    167,    633)
-	 18 Rel (    -84,      0) -> Abs (     83,    633)
-	 19 Rel (    -83,      0) -> Abs (      0,    633)
+	  2 Rel (    250,      0) -> Abs (    250,    800)
+	  3 Rel (    250,      0) -> Abs (    500,    800)
+	  4 Rel (      0,    -83) -> Abs (    500,    717)
+	  5 Rel (      0,    -84) -> Abs (    500,    633)
+	  6 Rel (    -83,      0) -> Abs (    417,    633)
+	  7 Rel (    -84,      0) -> Abs (    333,    633)
+	  8 Rel (      0,   -333) -> Abs (    333,    300)
+	  9 Rel (      0,   -333) -> Abs (    333,    -33)
+	 10 Rel (    -83,      0) -> Abs (    250,    -33)
+	 11 Rel (    -83,      0) -> Abs (    167,    -33)
+	 12 Rel (      0,    333) -> Abs (    167,    300)
+	 13 Rel (      0,    333) -> Abs (    167,    633)
+	 14 Rel (    -84,      0) -> Abs (     83,    633)
+	 15 Rel (    -83,      0) -> Abs (      0,    633)
 
 Glyph     58.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -5611,8 +5495,8 @@ Glyph     58.
 	 11: YDual  XDual   Repeat          X-Short On
 	 12:        XDual   Repeat                  On
 	 13:        XDual   Repeat                  On
-	 14: YDual          Repeat                  On
-	 15: YDual          Repeat                  On
+	 14: YDual          Repeat          X-Short On
+	 15: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
@@ -5622,99 +5506,83 @@ Glyph     58.
 	  3 Rel (     84,      0) -> Abs (    167,    800)
 	  4 Rel (      0,   -333) -> Abs (    167,    467)
 	  5 Rel (      0,   -334) -> Abs (    167,    133)
-	  6 Rel (    166,      0) -> Abs (    333,    133)
-	  7 Rel (    167,      0) -> Abs (    500,    133)
-	  8 Rel (      0,    334) -> Abs (    500,    467)
-	  9 Rel (      0,    333) -> Abs (    500,    800)
-	 10 Rel (     83,      0) -> Abs (    583,    800)
-	 11 Rel (     84,      0) -> Abs (    667,    800)
-	 12 Rel (      0,   -417) -> Abs (    667,    383)
-	 13 Rel (      0,   -416) -> Abs (    667,    -33)
-	 14 Rel (   -334,      0) -> Abs (    333,    -33)
-	 15 Rel (   -333,      0) -> Abs (      0,    -33)
+	  6 Rel (     83,      0) -> Abs (    250,    133)
+	  7 Rel (     83,      0) -> Abs (    333,    133)
+	  8 Rel (      0,    334) -> Abs (    333,    467)
+	  9 Rel (      0,    333) -> Abs (    333,    800)
+	 10 Rel (     84,      0) -> Abs (    417,    800)
+	 11 Rel (     83,      0) -> Abs (    500,    800)
+	 12 Rel (      0,   -417) -> Abs (    500,    383)
+	 13 Rel (      0,   -416) -> Abs (    500,    -33)
+	 14 Rel (   -250,      0) -> Abs (    250,    -33)
+	 15 Rel (   -250,      0) -> Abs (      0,    -33)
 
 Glyph     59.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 31
+	  0: 23
 
 	 Length of Instructions:  0
 
 	 Flags
 	 -----
-	  0:        XDual                           On
-	  1: YDual  XDual           Y-Short         On
+	  0:        XDual   Repeat                  On
+	  1:        XDual   Repeat                  On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
-	  4:        XDual   Repeat  Y-Short         On
-	  5:        XDual   Repeat  Y-Short         On
+	  4:        XDual   Repeat                  On
+	  5:        XDual   Repeat                  On
 	  6: YDual  XDual   Repeat          X-Short On
 	  7: YDual  XDual   Repeat          X-Short On
-	  8:        XDual   Repeat  Y-Short         On
-	  9:        XDual   Repeat  Y-Short         On
+	  8:        XDual   Repeat                  On
+	  9:        XDual   Repeat                  On
 	 10: YDual  XDual   Repeat          X-Short On
 	 11: YDual  XDual   Repeat          X-Short On
 	 12:        XDual   Repeat                  On
 	 13:        XDual   Repeat                  On
-	 14: YDual  XDual   Repeat          X-Short On
-	 15: YDual  XDual   Repeat          X-Short On
-	 16:        XDual   Repeat                  On
-	 17:        XDual   Repeat                  On
+	 14: YDual          Repeat          X-Short On
+	 15: YDual          Repeat          X-Short On
+	 16:        XDual   Repeat  Y-Short         On
+	 17:        XDual   Repeat  Y-Short         On
 	 18: YDual          Repeat          X-Short On
 	 19: YDual          Repeat          X-Short On
-	 20:        XDual   Repeat  Y-Short         On
-	 21:        XDual   Repeat  Y-Short         On
+	 20: YDual  XDual   Repeat  Y-Short         On
+	 21: YDual  XDual   Repeat  Y-Short         On
 	 22: YDual          Repeat          X-Short On
 	 23: YDual          Repeat          X-Short On
-	 24: YDual  XDual   Repeat  Y-Short         On
-	 25: YDual  XDual   Repeat  Y-Short         On
-	 26: YDual          Repeat          X-Short On
-	 27: YDual          Repeat          X-Short On
-	 28: YDual  XDual   Repeat  Y-Short         On
-	 29: YDual  XDual   Repeat  Y-Short         On
-	 30: YDual          Repeat          X-Short On
-	 31: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    550) -> Abs (      0,    550)
-	  1 Rel (      0,    250) -> Abs (      0,    800)
+	  0 Rel (      0,    467) -> Abs (      0,    467)
+	  1 Rel (      0,    333) -> Abs (      0,    800)
 	  2 Rel (     83,      0) -> Abs (     83,    800)
 	  3 Rel (     84,      0) -> Abs (    167,    800)
-	  4 Rel (      0,   -250) -> Abs (    167,    550)
-	  5 Rel (      0,   -250) -> Abs (    167,    300)
-	  6 Rel (     83,      0) -> Abs (    250,    300)
-	  7 Rel (     83,      0) -> Abs (    333,    300)
-	  8 Rel (      0,    -83) -> Abs (    333,    217)
-	  9 Rel (      0,    -84) -> Abs (    333,    133)
-	 10 Rel (     84,      0) -> Abs (    417,    133)
-	 11 Rel (     83,      0) -> Abs (    500,    133)
-	 12 Rel (      0,    334) -> Abs (    500,    467)
-	 13 Rel (      0,    333) -> Abs (    500,    800)
-	 14 Rel (     83,      0) -> Abs (    583,    800)
-	 15 Rel (     84,      0) -> Abs (    667,    800)
-	 16 Rel (      0,   -333) -> Abs (    667,    467)
-	 17 Rel (      0,   -334) -> Abs (    667,    133)
-	 18 Rel (    -84,      0) -> Abs (    583,    133)
-	 19 Rel (    -83,      0) -> Abs (    500,    133)
-	 20 Rel (      0,    -83) -> Abs (    500,     50)
-	 21 Rel (      0,    -83) -> Abs (    500,    -33)
-	 22 Rel (    -83,      0) -> Abs (    417,    -33)
-	 23 Rel (    -84,      0) -> Abs (    333,    -33)
-	 24 Rel (      0,     83) -> Abs (    333,     50)
-	 25 Rel (      0,     83) -> Abs (    333,    133)
-	 26 Rel (    -83,      0) -> Abs (    250,    133)
-	 27 Rel (    -83,      0) -> Abs (    167,    133)
-	 28 Rel (      0,     84) -> Abs (    167,    217)
-	 29 Rel (      0,     83) -> Abs (    167,    300)
-	 30 Rel (    -84,      0) -> Abs (     83,    300)
-	 31 Rel (    -83,      0) -> Abs (      0,    300)
+	  4 Rel (      0,   -333) -> Abs (    167,    467)
+	  5 Rel (      0,   -334) -> Abs (    167,    133)
+	  6 Rel (     83,      0) -> Abs (    250,    133)
+	  7 Rel (     83,      0) -> Abs (    333,    133)
+	  8 Rel (      0,    334) -> Abs (    333,    467)
+	  9 Rel (      0,    333) -> Abs (    333,    800)
+	 10 Rel (     84,      0) -> Abs (    417,    800)
+	 11 Rel (     83,      0) -> Abs (    500,    800)
+	 12 Rel (      0,   -333) -> Abs (    500,    467)
+	 13 Rel (      0,   -334) -> Abs (    500,    133)
+	 14 Rel (    -83,      0) -> Abs (    417,    133)
+	 15 Rel (    -84,      0) -> Abs (    333,    133)
+	 16 Rel (      0,    -83) -> Abs (    333,     50)
+	 17 Rel (      0,    -83) -> Abs (    333,    -33)
+	 18 Rel (    -83,      0) -> Abs (    250,    -33)
+	 19 Rel (    -83,      0) -> Abs (    167,    -33)
+	 20 Rel (      0,     83) -> Abs (    167,     50)
+	 21 Rel (      0,     83) -> Abs (    167,    133)
+	 22 Rel (    -84,      0) -> Abs (     83,    133)
+	 23 Rel (    -83,      0) -> Abs (      0,    133)
 
 Glyph     60.
 	 numberOfContours:	 1
@@ -5787,7 +5655,7 @@ Glyph     61.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -5847,28 +5715,28 @@ Glyph     61.
 	  3 Rel (     84,      0) -> Abs (    167,    800)
 	  4 Rel (      0,   -167) -> Abs (    167,    633)
 	  5 Rel (      0,   -166) -> Abs (    167,    467)
-	  6 Rel (    166,      0) -> Abs (    333,    467)
-	  7 Rel (    167,      0) -> Abs (    500,    467)
-	  8 Rel (      0,    166) -> Abs (    500,    633)
-	  9 Rel (      0,    167) -> Abs (    500,    800)
-	 10 Rel (     83,      0) -> Abs (    583,    800)
-	 11 Rel (     84,      0) -> Abs (    667,    800)
-	 12 Rel (      0,   -167) -> Abs (    667,    633)
-	 13 Rel (      0,   -166) -> Abs (    667,    467)
-	 14 Rel (    -84,      0) -> Abs (    583,    467)
-	 15 Rel (    -83,      0) -> Abs (    500,    467)
-	 16 Rel (      0,    -84) -> Abs (    500,    383)
-	 17 Rel (      0,    -83) -> Abs (    500,    300)
-	 18 Rel (     83,      0) -> Abs (    583,    300)
-	 19 Rel (     84,      0) -> Abs (    667,    300)
-	 20 Rel (      0,   -167) -> Abs (    667,    133)
-	 21 Rel (      0,   -166) -> Abs (    667,    -33)
-	 22 Rel (    -84,      0) -> Abs (    583,    -33)
-	 23 Rel (    -83,      0) -> Abs (    500,    -33)
-	 24 Rel (      0,    166) -> Abs (    500,    133)
-	 25 Rel (      0,    167) -> Abs (    500,    300)
-	 26 Rel (   -167,      0) -> Abs (    333,    300)
-	 27 Rel (   -166,      0) -> Abs (    167,    300)
+	  6 Rel (     83,      0) -> Abs (    250,    467)
+	  7 Rel (     83,      0) -> Abs (    333,    467)
+	  8 Rel (      0,    166) -> Abs (    333,    633)
+	  9 Rel (      0,    167) -> Abs (    333,    800)
+	 10 Rel (     84,      0) -> Abs (    417,    800)
+	 11 Rel (     83,      0) -> Abs (    500,    800)
+	 12 Rel (      0,   -167) -> Abs (    500,    633)
+	 13 Rel (      0,   -166) -> Abs (    500,    467)
+	 14 Rel (    -83,      0) -> Abs (    417,    467)
+	 15 Rel (    -84,      0) -> Abs (    333,    467)
+	 16 Rel (      0,    -84) -> Abs (    333,    383)
+	 17 Rel (      0,    -83) -> Abs (    333,    300)
+	 18 Rel (     84,      0) -> Abs (    417,    300)
+	 19 Rel (     83,      0) -> Abs (    500,    300)
+	 20 Rel (      0,   -167) -> Abs (    500,    133)
+	 21 Rel (      0,   -166) -> Abs (    500,    -33)
+	 22 Rel (    -83,      0) -> Abs (    417,    -33)
+	 23 Rel (    -84,      0) -> Abs (    333,    -33)
+	 24 Rel (      0,    166) -> Abs (    333,    133)
+	 25 Rel (      0,    167) -> Abs (    333,    300)
+	 26 Rel (    -83,      0) -> Abs (    250,    300)
+	 27 Rel (    -83,      0) -> Abs (    167,    300)
 	 28 Rel (      0,   -167) -> Abs (    167,    133)
 	 29 Rel (      0,   -166) -> Abs (    167,    -33)
 	 30 Rel (    -84,      0) -> Abs (     83,    -33)
@@ -5886,7 +5754,7 @@ Glyph     62.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
@@ -5909,14 +5777,14 @@ Glyph     62.
 	  9: YDual  XDual   Repeat  Y-Short         On
 	 10: YDual  XDual   Repeat          X-Short On
 	 11: YDual  XDual   Repeat          X-Short On
-	 12:        XDual   Repeat                  On
-	 13:        XDual   Repeat                  On
+	 12:        XDual   Repeat  Y-Short         On
+	 13:        XDual   Repeat  Y-Short         On
 	 14: YDual          Repeat          X-Short On
 	 15: YDual          Repeat          X-Short On
-	 16: YDual  XDual   Repeat  Y-Short         On
-	 17: YDual  XDual   Repeat  Y-Short         On
-	 18: YDual  XDual   Repeat          X-Short On
-	 19: YDual  XDual   Repeat          X-Short On
+	 16:        XDual   Repeat  Y-Short         On
+	 17:        XDual   Repeat  Y-Short         On
+	 18: YDual          Repeat          X-Short On
+	 19: YDual          Repeat          X-Short On
 	 20: YDual  XDual   Repeat  Y-Short         On
 	 21: YDual  XDual   Repeat  Y-Short         On
 	 22: YDual          Repeat          X-Short On
@@ -5930,35 +5798,35 @@ Glyph     62.
 	  3 Rel (     84,      0) -> Abs (    167,    800)
 	  4 Rel (      0,   -167) -> Abs (    167,    633)
 	  5 Rel (      0,   -166) -> Abs (    167,    467)
-	  6 Rel (    166,      0) -> Abs (    333,    467)
-	  7 Rel (    167,      0) -> Abs (    500,    467)
-	  8 Rel (      0,    166) -> Abs (    500,    633)
-	  9 Rel (      0,    167) -> Abs (    500,    800)
-	 10 Rel (     83,      0) -> Abs (    583,    800)
-	 11 Rel (     84,      0) -> Abs (    667,    800)
-	 12 Rel (      0,   -417) -> Abs (    667,    383)
-	 13 Rel (      0,   -416) -> Abs (    667,    -33)
-	 14 Rel (   -250,      0) -> Abs (    417,    -33)
-	 15 Rel (   -250,      0) -> Abs (    167,    -33)
-	 16 Rel (      0,     83) -> Abs (    167,     50)
-	 17 Rel (      0,     83) -> Abs (    167,    133)
-	 18 Rel (    166,      0) -> Abs (    333,    133)
-	 19 Rel (    167,      0) -> Abs (    500,    133)
-	 20 Rel (      0,     84) -> Abs (    500,    217)
-	 21 Rel (      0,     83) -> Abs (    500,    300)
-	 22 Rel (   -250,      0) -> Abs (    250,    300)
-	 23 Rel (   -250,      0) -> Abs (      0,    300)
+	  6 Rel (     83,      0) -> Abs (    250,    467)
+	  7 Rel (     83,      0) -> Abs (    333,    467)
+	  8 Rel (      0,    166) -> Abs (    333,    633)
+	  9 Rel (      0,    167) -> Abs (    333,    800)
+	 10 Rel (     84,      0) -> Abs (    417,    800)
+	 11 Rel (     83,      0) -> Abs (    500,    800)
+	 12 Rel (      0,   -250) -> Abs (    500,    550)
+	 13 Rel (      0,   -250) -> Abs (    500,    300)
+	 14 Rel (    -83,      0) -> Abs (    417,    300)
+	 15 Rel (    -84,      0) -> Abs (    333,    300)
+	 16 Rel (      0,   -167) -> Abs (    333,    133)
+	 17 Rel (      0,   -166) -> Abs (    333,    -33)
+	 18 Rel (    -83,      0) -> Abs (    250,    -33)
+	 19 Rel (    -83,      0) -> Abs (    167,    -33)
+	 20 Rel (      0,    166) -> Abs (    167,    133)
+	 21 Rel (      0,    167) -> Abs (    167,    300)
+	 22 Rel (    -84,      0) -> Abs (     83,    300)
+	 23 Rel (    -83,      0) -> Abs (      0,    300)
 
 Glyph     63.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -34
-	 xMax:			 667
+	 xMax:			 500
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 35
+	  0: 15
 
 	 Length of Instructions:  0
 
@@ -5966,79 +5834,39 @@ Glyph     63.
 	 -----
 	  0:        XDual                           On
 	  1: YDual  XDual           Y-Short         On
-	  2: YDual          Repeat                  On
-	  3: YDual          Repeat                  On
-	  4:        XDual   Repeat  Y-Short         On
-	  5:        XDual   Repeat  Y-Short         On
-	  6: YDual          Repeat          X-Short On
-	  7: YDual          Repeat          X-Short On
+	  2: YDual  XDual   Repeat          X-Short On
+	  3: YDual  XDual   Repeat          X-Short On
+	  4:        XDual   Repeat                  On
+	  5:        XDual   Repeat                  On
+	  6: YDual  XDual   Repeat          X-Short On
+	  7: YDual  XDual   Repeat          X-Short On
 	  8:        XDual   Repeat  Y-Short         On
 	  9:        XDual   Repeat  Y-Short         On
 	 10: YDual          Repeat          X-Short On
 	 11: YDual          Repeat          X-Short On
-	 12:        XDual   Repeat  Y-Short         On
-	 13:        XDual   Repeat  Y-Short         On
+	 12:        XDual   Repeat                  On
+	 13:        XDual   Repeat                  On
 	 14: YDual          Repeat          X-Short On
 	 15: YDual          Repeat          X-Short On
-	 16:        XDual   Repeat  Y-Short         On
-	 17:        XDual   Repeat  Y-Short         On
-	 18: YDual  XDual   Repeat          X-Short On
-	 19: YDual  XDual   Repeat          X-Short On
-	 20:        XDual   Repeat  Y-Short         On
-	 21:        XDual   Repeat  Y-Short         On
-	 22: YDual          Repeat                  On
-	 23: YDual          Repeat                  On
-	 24: YDual  XDual   Repeat  Y-Short         On
-	 25: YDual  XDual   Repeat  Y-Short         On
-	 26: YDual  XDual   Repeat          X-Short On
-	 27: YDual  XDual   Repeat          X-Short On
-	 28: YDual  XDual   Repeat  Y-Short         On
-	 29: YDual  XDual   Repeat  Y-Short         On
-	 30: YDual  XDual   Repeat          X-Short On
-	 31: YDual  XDual   Repeat          X-Short On
-	 32: YDual  XDual   Repeat  Y-Short         On
-	 33: YDual  XDual   Repeat  Y-Short         On
-	 34: YDual          Repeat          X-Short On
-	 35: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (      0,    717) -> Abs (      0,    717)
 	  1 Rel (      0,     83) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,    -83) -> Abs (    667,    717)
-	  5 Rel (      0,    -84) -> Abs (    667,    633)
-	  6 Rel (    -84,      0) -> Abs (    583,    633)
-	  7 Rel (    -83,      0) -> Abs (    500,    633)
-	  8 Rel (      0,    -83) -> Abs (    500,    550)
-	  9 Rel (      0,    -83) -> Abs (    500,    467)
-	 10 Rel (    -83,      0) -> Abs (    417,    467)
-	 11 Rel (    -84,      0) -> Abs (    333,    467)
-	 12 Rel (      0,    -84) -> Abs (    333,    383)
-	 13 Rel (      0,    -83) -> Abs (    333,    300)
-	 14 Rel (    -83,      0) -> Abs (    250,    300)
-	 15 Rel (    -83,      0) -> Abs (    167,    300)
-	 16 Rel (      0,    -83) -> Abs (    167,    217)
-	 17 Rel (      0,    -84) -> Abs (    167,    133)
-	 18 Rel (    250,      0) -> Abs (    417,    133)
-	 19 Rel (    250,      0) -> Abs (    667,    133)
-	 20 Rel (      0,    -83) -> Abs (    667,     50)
-	 21 Rel (      0,    -83) -> Abs (    667,    -33)
-	 22 Rel (   -334,      0) -> Abs (    333,    -33)
-	 23 Rel (   -333,      0) -> Abs (      0,    -33)
-	 24 Rel (      0,    166) -> Abs (      0,    133)
-	 25 Rel (      0,    167) -> Abs (      0,    300)
-	 26 Rel (     83,      0) -> Abs (     83,    300)
-	 27 Rel (     84,      0) -> Abs (    167,    300)
-	 28 Rel (      0,     83) -> Abs (    167,    383)
-	 29 Rel (      0,     84) -> Abs (    167,    467)
-	 30 Rel (     83,      0) -> Abs (    250,    467)
-	 31 Rel (     83,      0) -> Abs (    333,    467)
-	 32 Rel (      0,     83) -> Abs (    333,    550)
-	 33 Rel (      0,     83) -> Abs (    333,    633)
-	 34 Rel (   -166,      0) -> Abs (    167,    633)
-	 35 Rel (   -167,      0) -> Abs (      0,    633)
+	  2 Rel (    167,      0) -> Abs (    167,    800)
+	  3 Rel (    166,      0) -> Abs (    333,    800)
+	  4 Rel (      0,   -333) -> Abs (    333,    467)
+	  5 Rel (      0,   -334) -> Abs (    333,    133)
+	  6 Rel (     84,      0) -> Abs (    417,    133)
+	  7 Rel (     83,      0) -> Abs (    500,    133)
+	  8 Rel (      0,    -83) -> Abs (    500,     50)
+	  9 Rel (      0,    -83) -> Abs (    500,    -33)
+	 10 Rel (   -167,      0) -> Abs (    333,    -33)
+	 11 Rel (   -166,      0) -> Abs (    167,    -33)
+	 12 Rel (      0,    333) -> Abs (    167,    300)
+	 13 Rel (      0,    333) -> Abs (    167,    633)
+	 14 Rel (    -84,      0) -> Abs (     83,    633)
+	 15 Rel (    -83,      0) -> Abs (      0,    633)
 
 Glyph     64.
 	 numberOfContours:	 1

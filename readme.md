@@ -1,6 +1,6 @@
 # ![mem-font](logo.png)
 
-Proportional and monospace pixel font family. See the
+Proportional and monospace sans light pixel font family. See the
 **[demo](https://rndmem.com)** or [download the fonts](#fonts).
 
 ## Table of contents
@@ -150,19 +150,22 @@ See the [to-do](todo.md) for more issues.
 
 ### mem proportional 5x6
 
-- Visual consistency and smoothness (pixel clustering) of the whole character
-  set at the expense of form adherence for individual characters. For example,
-  the lowercase o could be rounder but this comes at the cost of making the font
-  noisier and it is very legible square rather than round. As a counterexample,
-  the lowercase j could be smoother but it looks unbalanced, so in some cases
-  exceptions are made. Similarly, the lowercase p could be smoother but then it
-  looks too similar to the lowercase o.
-- Favor 4x5 pixels for every capital character.
+- High- and low-scale readability, smoothness (pixel clustering), and visual
+  consistency of the whole character set at the expense of form adherence for
+  individual characters. For example, the lowercase o could be rounder but this
+  comes at the cost of making the font noisier and it is very legible square
+  rather than round. As a counterexample, the lowercase j could be smoother but
+  it looks unbalanced, so in some cases exceptions are made. Similarly, the
+  lowercase p could be smoother but then it looks too similar to the lowercase
+  o.
+- Favor 3x5 pixels for every capital character.
 - Favor 3x4 pixels for every lowercase character.
 - Every numeric is the same width and height, 3x5 pixels, so that countdowns
   don't shift.
 - The preferred inflection for lowercase is one pixel from the top, for the sake
   of e. Everything else is two pixels from the top.
+- The font is sans so avoid serifs.
+- The font is light so avoid pixel doubling.
 
 ## Development
 

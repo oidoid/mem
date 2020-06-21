@@ -6,7 +6,8 @@
   real precise font info.
 - Fix up all the fonts. Only 5x6 has been used lately and the rest need
   maintenance.
-- Make monospace font characters occupy 4px wide where possible.
+- Make monospace font characters occupy 4px wide where possible. The 5x6 font
+  has shown many opportunities for 4px consistency.
 - The font sizes are split across TTF files instead of being in one. Can this be
   fixed?
 - Validate the sheets are usable in-game.
@@ -20,3 +21,6 @@
 - Read through the FontForge docs.
 - The font sizes are split across TTF files instead of being in one. Can this be
   fixed?
+- Add a font that varies line width such as an X with uneven legs.
+- Fix the terminology: sans light, font family versus typography, terms around
+  stroke and tail and such.
