@@ -154,10 +154,8 @@ See the [to-do](todo.md) for more issues.
   consistency of the whole character set at the expense of form adherence for
   individual characters. For example, the lowercase o could be rounder but this
   comes at the cost of making the font noisier and it is very legible square
-  rather than round. As a counterexample, the lowercase j could be smoother but
-  it looks unbalanced, so in some cases exceptions are made. Similarly, the
-  lowercase p could be smoother but then it looks too similar to the lowercase
-  o.
+  rather than round. As a counterexample, the lowercase p could be smoother but
+  then it looks too similar to the lowercase o so some exceptions are made.
 - Favor 3x5 pixels for every capital character.
 - Favor 3x4 pixels for every lowercase character.
 - Every numeric is the same width and height, 3x5 pixels, so that countdowns
