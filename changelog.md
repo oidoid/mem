@@ -2,6 +2,7 @@
 
 ### v6.0.0 (unreleased)
 
+- [dev][fix] NPM keywords
 - [dev] add GitHub banner
 - [mem prop 5x6][update] add CP437 glyphs; raise serif on 1; add leg to R;
   smooth b, d, i, j, q; improve x's proportions
