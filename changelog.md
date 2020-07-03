@@ -2,6 +2,8 @@
 
 ### v6.0.0 (unreleased)
 
+- [mem prop 5x6][update] add CP437 glyphs; raise serif on 1; add leg to R;
+  smooth b, d, i, j, q; improve x's proportions
 - [mem prop 5x6][update] smooth V, h, j, p, and v
 - [mem prop 5x6][update] shrink uppercase to 3px wide (A, B, C, D, E, F, G, H,
   J, K, L, N, O, P, Q, R, S, T, U, V, X, Y, and Z); make 0 angular
