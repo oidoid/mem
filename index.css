@@ -29,34 +29,35 @@
 }
 
 /* Define each custom font. Set the display to block as the content is
-   incorrect with any substitute fonts. */
+   incorrect with any substitute fonts. Using a CSS variable for font family
+   doesn't seem to work on mobile Chrome. */
 @font-face {
-  font-family: var(--font-family-mem-prop-5x6);
+  font-family: 'mem proportional 5x6';
   src: url('dist/mem-prop-5x6.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: var(--font-family-mem-prop-5x5);
+  font-family: 'mem proportional 5x5';
   src: url('dist/mem-prop-5x5.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: var(--font-family-mem-prop-3x5);
+  font-family: 'mem proportional 3x5';
   src: url('dist/mem-prop-3x5.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: var(--font-family-mem-prop-4x4);
+  font-family: 'mem proportional 4x4';
   src: url('dist/mem-prop-4x4.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: var(--font-family-mem-mono-4x4);
+  font-family: 'mem monospaced 4x4';
   src: url('dist/mem-mono-4x4.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: var(--font-family-mem-mono-3x3);
+  font-family: 'mem monospaced 3x3';
   src: url('dist/mem-mono-3x3.ttf');
   font-display: block;
 }
