@@ -44,7 +44,7 @@ sprite sheets. Developed in FontForge and Aseprite.
 npm i mem-font
 ```
 
-See the [changelog](doc/changelog.md) for release notes.
+See the [changelog](changelog.md) for release notes.
 
 ## Files
 

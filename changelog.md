@@ -1,6 +1,10 @@
 ## Changelog
 
-### v6.0.0 (unreleased)
+### v6.0.1
+
+- [docs][fix] Changelog link
+
+### v6.0.0
 
 - [dev][fix] Chrome font rendering in demo
 - [dev] overhaul demo
