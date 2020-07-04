@@ -15,13 +15,13 @@ Offset Table
    5. 'cvt ' - checksum = 0x002902f7, offset = 0x000003fc, len =         4
    6. 'gasp' - checksum = 0xffff0003, offset = 0x0000238c, len =         8
    7. 'glyf' - checksum = 0xaaf82999, offset = 0x000004c8, len =      6460
-   8. 'head' - checksum = 0x5b56a537, offset = 0x0000010c, len =        54
+   8. 'head' - checksum = 0x5b57a537, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x077a0420, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0x0c2f0029, offset = 0x000001e8, len =       206
   11. 'kern' - checksum = 0xde67de7c, offset = 0x00001e04, len =       582
   12. 'loca' - checksum = 0x33c92d98, offset = 0x00000400, len =       198
   13. 'maxp' - checksum = 0x00a70061, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0xf938964d, offset = 0x0000204c, len =       600
+  14. 'name' - checksum = 0xfa39984d, offset = 0x0000204c, len =       600
   15. 'post' - checksum = 0x097a0962, offset = 0x000022a4, len =       230
 
 'cmap' Table - Character to Glyph Index Mapping Table
@@ -415,8 +415,8 @@ SubTable   1.	 Format 0 - Byte encoding table
 'head' Table - Font Header
 --------------------------
 	 'head' version:	 1.0
-	 fontReversion:		 5.0
-	 checkSumAdjustment:	 0x9c82b517
+	 fontReversion:		 6.0
+	 checkSumAdjustment:	 0x9a7eb117
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1250
@@ -712,7 +712,7 @@ Name table   3.	 PlatformID:	 1
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
 		 6d 6f 6e 6f 73 70 61 63 65 64  >  monospaced
-		 20 34 78 34 20 3a 20 33 2d 37  >   4x4 : 3-7
+		 20 34 78 34 20 3a 20 34 2d 37  >   4x4 : 4-7
 		 2d 32 30 32 30                 > -2020
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
@@ -728,7 +728,7 @@ Name table   5.	 PlatformID:	 1
 		 NameID:	 5
 		 Length:	 14
 		 Offset:	 372
-		 56 65 72 73 69 6f 6e 20 35 2e  >  Version 5.
+		 56 65 72 73 69 6f 6e 20 36 2e  >  Version 6.
 		 30 2e 30 20                    > 0.0 
 Name table   6.	 PlatformID:	 1
 		 EncodingID:	 0
@@ -780,7 +780,7 @@ Name table  10.	 PlatformID:	 3
 		 00 6d 00 6f 00 6e 00 6f 00 73  >  .m.o.n.o.s
 		 00 70 00 61 00 63 00 65 00 64  >  .p.a.c.e.d
 		 00 20 00 34 00 78 00 34 00 20  >  . .4.x.4. 
-		 00 3a 00 20 00 33 00 2d 00 37  >  .:. .3.-.7
+		 00 3a 00 20 00 34 00 2d 00 37  >  .:. .4.-.7
 		 00 2d 00 32 00 30 00 32 00 30  >  .-.2.0.2.0
 		                                > 
 Name table  11.	 PlatformID:	 3
@@ -800,7 +800,7 @@ Name table  12.	 PlatformID:	 3
 		 Length:	 28
 		 Offset:	 342
 		 00 56 00 65 00 72 00 73 00 69  >  .V.e.r.s.i
-		 00 6f 00 6e 00 20 00 35 00 2e  >  .o.n. .5..
+		 00 6f 00 6e 00 20 00 36 00 2e  >  .o.n. .6..
 		 00 30 00 2e 00 30 00 20        > .0...0. 
 Name table  13.	 PlatformID:	 3
 		 EncodingID:	 1
