@@ -1,0 +1,278 @@
+:root {
+  --background-color-demo--hover: #f9f9f9;
+  --border-color-demo: #eee;
+  --border-color-demo-header: #ccc;
+  --border-color-control-panel--focus: #000;
+  --border-color-control-panel__label--checked: #000;
+  --border-color-control-panel__label: #ccc;
+  --color-demo-header: #333;
+  --border-radius: 2px;
+  --font-family-mem-prop-5x6: 'mem proportional 5x6';
+  --font-family-mem-prop-5x5: 'mem proportional 5x5';
+  --font-family-mem-prop-3x5: 'mem proportional 3x5';
+  --font-family-mem-prop-4x4: 'mem proportional 4x4';
+  --font-family-mem-mono-4x4: 'mem monospaced 4x4';
+  --font-family-mem-mono-3x3: 'mem monospaced 3x3';
+  /* These are taken from the line heights. */
+  --font-size-mem-prop-5x6: 7px;
+  --font-size-mem-prop-5x5: 6px;
+  --font-size-mem-prop-3x5: 6px;
+  --font-size-mem-prop-4x4: 5px;
+  --font-size-mem-mono-4x4: 5px;
+  --font-size-mem-mono-3x3: 4px;
+  --transition-duration: 100ms;
+  --font-family: unset;
+  --font-scalar: unset;
+  --font-size: unset;
+  --font-size-scaled: unset;
+  --width-page: 1024px;
+}
+
+/* Define each custom font. Set the display to block as the content is
+   incorrect with any substitute fonts. */
+@font-face {
+  font-family: var(--font-family-mem-prop-5x6);
+  src: url('dist/mem-prop-5x6.ttf');
+  font-display: block;
+}
+@font-face {
+  font-family: var(--font-family-mem-prop-5x5);
+  src: url('dist/mem-prop-5x5.ttf');
+  font-display: block;
+}
+@font-face {
+  font-family: var(--font-family-mem-prop-3x5);
+  src: url('dist/mem-prop-3x5.ttf');
+  font-display: block;
+}
+@font-face {
+  font-family: var(--font-family-mem-prop-4x4);
+  src: url('dist/mem-prop-4x4.ttf');
+  font-display: block;
+}
+@font-face {
+  font-family: var(--font-family-mem-mono-4x4);
+  src: url('dist/mem-mono-4x4.ttf');
+  font-display: block;
+}
+@font-face {
+  font-family: var(--font-family-mem-mono-3x3);
+  src: url('dist/mem-mono-3x3.ttf');
+  font-display: block;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.demo {
+  --font-size-scaled: calc(var(--font-scalar) * var(--font-size));
+  font: var(--font-size-scaled) var(--font-family);
+}
+
+#scale-1x-radio:checked ~ .page-main .demo {
+  --font-scalar: 1;
+}
+#scale-4x-radio:checked ~ .page-main .demo {
+  --font-scalar: 4;
+}
+#scale-5x-radio:checked ~ .page-main .demo {
+  --font-scalar: 5;
+}
+#scale-6x-radio:checked ~ .page-main .demo {
+  --font-scalar: 6;
+}
+#scale-7x-radio:checked ~ .page-main .demo {
+  --font-scalar: 7;
+}
+#scale-8x-radio:checked ~ .page-main .demo {
+  --font-scalar: 8;
+}
+#scale-16x-radio:checked ~ .page-main .demo {
+  --font-scalar: 16;
+}
+
+#mem-prop-5x6-radio:checked ~ .page-main .demo {
+  --font-size: var(--font-size-mem-prop-5x6);
+  --font-family: var(--font-family-mem-prop-5x6);
+}
+#mem-prop-5x5-radio:checked ~ .page-main .demo {
+  --font-size: var(--font-size-mem-prop-5x5);
+  --font-family: var(--font-family-mem-prop-5x5);
+}
+#mem-prop-3x5-radio:checked ~ .page-main .demo {
+  --font-size: var(--font-size-mem-prop-3x5);
+  --font-family: var(--font-family-mem-prop-3x5);
+}
+#mem-prop-4x4-radio:checked ~ .page-main .demo {
+  --font-size: var(--font-size-mem-prop-4x4);
+  --font-family: var(--font-family-mem-prop-4x4);
+}
+#mem-mono-4x4-radio:checked ~ .page-main .demo {
+  --font-size: var(--font-size-mem-mono-4x4);
+  --font-family: var(--font-family-mem-mono-4x4);
+}
+#mem-mono-3x3-radio:checked ~ .page-main .demo {
+  --font-size: var(--font-size-mem-mono-3x3);
+  --font-family: var(--font-family-mem-mono-3x3);
+}
+
+#case-lower-radio:checked ~ .page-main .demo--transform-case {
+  text-transform: lowercase;
+}
+#case-upper-radio:checked ~ .page-main .demo--transform-case {
+  text-transform: uppercase;
+}
+#case-start-radio:checked ~ .page-main .demo--transform-case {
+  text-transform: capitalize;
+}
+
+.demo-box {
+  box-sizing: border-box;
+  max-width: 48rem;
+  margin: 16px auto;
+  padding: 16px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 0 1px var(--border-color-demo);
+  transition: background var(--transition-duration);
+}
+textarea.demo-box {
+  display: block;
+  width: 100%;
+}
+
+.demo-header {
+  border-bottom: 1px solid var(--border-color-demo-header);
+  color: var(--color-demo-header);
+  font-variant: small-caps;
+  font-size: 12px;
+}
+.demo-header__link {
+  text-decoration: none;
+  color: unset;
+}
+
+.page {
+  padding: 0 16px;
+}
+
+.page-main,
+.page-footer {
+  max-width: var(--width-page);
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 0;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  box-shadow: 0 1px 0 0 #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 0;
+  align-items: center; /* Vertical center alignment */
+}
+
+.mem-font-logo {
+  font: calc(6 * var(--font-size-mem-prop-5x6)) var(--font-family-mem-prop-5x6);
+  margin: 0;
+}
+
+.character-set {
+  overflow-x: auto;
+}
+.character-set__table {
+  box-shadow: 0 0 0 1px var(--border-color-demo);
+  margin: 8px auto;
+  caption-side: bottom;
+}
+.character-set__cell {
+  display: block;
+  width: var(--font-size-scaled);
+  margin: 0;
+  /* Center within the cell. */
+  text-align: center;
+  line-height: var(--font-size-scaled);
+  /* Account for the leading, descender, and right-kerning. */
+  padding: calc(var(--font-scalar) * 2px) 0 0 calc(var(--font-scalar) * 1px);
+}
+
+.control-panel {
+  border: 1px solid var(--border-color-demo);
+  border-radius: var(--border-radius);
+
+  /* Do not overlap when wrapping for small screens. */
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: 12px;
+  transition: border var(--transition-duration);
+}
+.control-panel__radio {
+  opacity: 0; /* Focusable but not visible for keyboard. */
+  position: fixed; /* Prevent page scrolling on focus. */
+  pointer-events: none; /* Disable all pointer interactions */
+}
+.control-panel__label {
+  border: 1px dotted var(--border-color-control-panel__label);
+  border-radius: var(--border-radius);
+  margin: 2px;
+  padding: 4px 8px;
+  /* Use hand cursor icongraphy. */
+  cursor: pointer;
+  transition: background var(--transition-duration),
+    border var(--transition-duration);
+}
+.control-panel__label:hover {
+  background: var(--background-color-demo--hover);
+}
+
+#mem-prop-5x6-radio:focus ~ .page-header #control-panel-font,
+#mem-prop-5x5-radio:focus ~ .page-header #control-panel-font,
+#mem-prop-3x5-radio:focus ~ .page-header #control-panel-font,
+#mem-prop-4x4-radio:focus ~ .page-header #control-panel-font,
+#mem-mono-4x4-radio:focus ~ .page-header #control-panel-font,
+#mem-mono-3x3-radio:focus ~ .page-header #control-panel-font,
+#case-initial-radio:focus ~ .page-header #control-panel-case,
+#case-lower-radio:focus ~ .page-header #control-panel-case,
+#case-upper-radio:focus ~ .page-header #control-panel-case,
+#case-start-radio:focus ~ .page-header #control-panel-case,
+#scale-1x-radio:focus ~ .page-header #control-panel-scale,
+#scale-5x-radio:focus ~ .page-header #control-panel-scale,
+#scale-4x-radio:focus ~ .page-header #control-panel-scale,
+#scale-6x-radio:focus ~ .page-header #control-panel-scale,
+#scale-7x-radio:focus ~ .page-header #control-panel-scale,
+#scale-8x-radio:focus ~ .page-header #control-panel-scale,
+#scale-16x-radio:focus ~ .page-header #control-panel-scale {
+  border-style: dotted;
+  border-color: var(--border-color-control-panel--focus);
+}
+
+/* prettier-ignore */
+#mem-prop-5x6-radio:checked ~ .page-header .control-panel__label[for='mem-prop-5x6-radio'],
+#mem-prop-5x5-radio:checked ~ .page-header .control-panel__label[for='mem-prop-5x5-radio'],
+#mem-prop-3x5-radio:checked ~ .page-header .control-panel__label[for='mem-prop-3x5-radio'],
+#mem-prop-4x4-radio:checked ~ .page-header .control-panel__label[for='mem-prop-4x4-radio'],
+#mem-mono-4x4-radio:checked ~ .page-header .control-panel__label[for='mem-mono-4x4-radio'],
+#mem-mono-3x3-radio:checked ~ .page-header .control-panel__label[for='mem-mono-3x3-radio'],
+#case-initial-radio:checked ~ .page-header .control-panel__label[for='case-initial-radio'],
+#case-lower-radio:checked ~ .page-header .control-panel__label[for='case-lower-radio'],
+#case-upper-radio:checked ~ .page-header .control-panel__label[for='case-upper-radio'],
+#case-start-radio:checked ~ .page-header .control-panel__label[for='case-start-radio'],
+#scale-1x-radio:checked ~ .page-header .control-panel__label[for='scale-1x-radio'],
+#scale-4x-radio:checked ~ .page-header .control-panel__label[for='scale-4x-radio'],
+#scale-5x-radio:checked ~ .page-header .control-panel__label[for='scale-5x-radio'],
+#scale-6x-radio:checked ~ .page-header .control-panel__label[for='scale-6x-radio'],
+#scale-7x-radio:checked ~ .page-header .control-panel__label[for='scale-7x-radio'],
+#scale-8x-radio:checked ~ .page-header .control-panel__label[for='scale-8x-radio'],
+#scale-16x-radio:checked ~ .page-header .control-panel__label[for='scale-16x-radio'] {
+  border-style: solid;
+  border-color: var(--border-color-control-panel__label--checked);
+}

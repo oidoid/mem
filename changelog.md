@@ -2,6 +2,7 @@
 
 ### v6.0.0 (unreleased)
 
+- [dev] overhaul demo
 - [mem prop 5x6][update] smooth / and \
 - [dev][fix] NPM keywords
 - [dev] add GitHub banner

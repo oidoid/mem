@@ -2,140 +2,365 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width" />
     <title>mem-font</title>
     <link rel="icon" href="favicon.png" />
-    <style>
-      /* Define each custom font. */
-      @font-face {
-        font-family: 'mem-prop-5x6';
-        src: url('dist/mem-prop-5x6.ttf');
-      }
-      @font-face {
-        font-family: 'mem-prop-5x5';
-        src: url('dist/mem-prop-5x5.ttf');
-      }
-      @font-face {
-        font-family: 'mem-prop-3x5';
-        src: url('dist/mem-prop-3x5.ttf');
-      }
-      @font-face {
-        font-family: 'mem-prop-4x4';
-        src: url('dist/mem-prop-4x4.ttf');
-      }
-      @font-face {
-        font-family: 'mem-mono-4x4';
-        src: url('dist/mem-mono-4x4.ttf');
-      }
-      @font-face {
-        font-family: 'mem-mono-3x3';
-        src: url('dist/mem-mono-3x3.ttf');
-      }
-
-      /*
-        Add classes to use each font. The size is a 4x multiple of _line_
-        height.
-      */
-      .mem-prop-5x6 {
-        font: 28px 'mem-prop-5x6';
-      }
-      .mem-prop-5x5 {
-        font: 24px 'mem-prop-5x5';
-      }
-      .mem-prop-3x5 {
-        font: 24px 'mem-prop-3x5';
-      }
-      .mem-prop-4x4 {
-        font: 20px 'mem-prop-4x4';
-      }
-      .mem-mono-4x4 {
-        font: 20px 'mem-mono-4x4';
-      }
-      .mem-mono-3x3 {
-        font: 16px 'mem-mono-3x3';
-      }
-
-      /* Presentation */
-      body {
-        font-family: sans-serif;
-        margin: 0;
-      }
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-variant: small-caps;
-      }
-      h3,
-      h4,
-      h5,
-      h6 {
-        color: #333;
-      }
-      .page {
-        max-width: 1024px;
-        box-shadow: -1px 0 0 0 #eee, 1px 0 0 0 #ddd;
-        margin: 0 auto;
-        padding: 8px 16px;
-      }
-      header {
-        margin: 0;
-      }
-      .mem-font {
-        font: 70px 'mem-prop-5x6';
-        margin: 0;
-      }
-      h2 {
-        border-bottom: 1px solid #ccc;
-      }
-      .sample {
-        max-width: 48rem;
-        margin: 16px auto;
-        padding: 16px;
-        border-radius: 4px;
-        box-shadow: 0 0 0 1px #f4f4f4;
-      }
-      textarea.sample {
-        display: block;
-        width: 100%;
-      }
-      .sample:hover {
-        background: #f9f9f9;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="page">
-      <header class="page-header">
-        <h1 class="mem-font">mem-font</h1>
-        Proportional and monospace pixel font family available as TTF and sprite
-        sheets. Developed in FontForge and Aseprite.
-      </header>
-      <main>
-        <section>
-          <h2>mem proportional 5x6</h2>
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="mem-prop-5x6-radio"
+        name="font"
+        checked
+        autofocus
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="mem-prop-5x5-radio"
+        name="font"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="mem-prop-3x5-radio"
+        name="font"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="mem-prop-4x4-radio"
+        name="font"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="mem-mono-4x4-radio"
+        name="font"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="mem-mono-3x3-radio"
+        name="font"
+      />
 
-          <h3>Pangram</h3>
-          <p class="mem-prop-5x6 sample">
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="case-initial-radio"
+        name="text-case"
+        checked
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="case-lower-radio"
+        name="text-case"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="case-upper-radio"
+        name="text-case"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="case-start-radio"
+        name="text-case"
+      />
+
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="scale-1x-radio"
+        name="text-scale"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="scale-4x-radio"
+        name="text-scale"
+        checked
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="scale-5x-radio"
+        name="text-scale"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="scale-6x-radio"
+        name="text-scale"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="scale-7x-radio"
+        name="text-scale"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="scale-8x-radio"
+        name="text-scale"
+      />
+      <input
+        class="control-panel__radio"
+        type="radio"
+        id="scale-16x-radio"
+        name="text-scale"
+      />
+
+      <header class="page-header">
+        <fieldset id="control-panel-font" class="control-panel">
+          <legend>Font</legend>
+          <label class="control-panel__label" for="mem-prop-5x6-radio"
+            >prop 5x6</label
+          >
+          <label class="control-panel__label" for="mem-prop-5x5-radio"
+            >prop 5x5</label
+          >
+          <label class="control-panel__label" for="mem-prop-3x5-radio"
+            >prop 3x5</label
+          >
+          <label class="control-panel__label" for="mem-prop-4x4-radio"
+            >prop 4x4</label
+          >
+          <label class="control-panel__label" for="mem-mono-4x4-radio"
+            >mono 4x4</label
+          >
+          <label class="control-panel__label" for="mem-mono-3x3-radio"
+            >mono 3x3</label
+          >
+        </fieldset>
+        <fieldset id="control-panel-case" class="control-panel">
+          <legend>Case</legend>
+          <label class="control-panel__label" for="case-initial-radio"
+            >Initial</label
+          >
+          <label class="control-panel__label" for="case-lower-radio"
+            >Lower</label
+          >
+          <label class="control-panel__label" for="case-upper-radio"
+            >Upper</label
+          >
+          <label class="control-panel__label" for="case-start-radio"
+            >Start</label
+          >
+        </fieldset>
+        <fieldset id="control-panel-scale" class="control-panel">
+          <legend>Scale</legend>
+          <label class="control-panel__label" for="scale-1x-radio">1x</label>
+          <label class="control-panel__label" for="scale-4x-radio">4x</label>
+          <label class="control-panel__label" for="scale-5x-radio">5x</label>
+          <label class="control-panel__label" for="scale-6x-radio">6x</label>
+          <label class="control-panel__label" for="scale-7x-radio">7x</label>
+          <label class="control-panel__label" for="scale-8x-radio">8x</label>
+          <label class="control-panel__label" for="scale-16x-radio">16x</label>
+        </fieldset>
+      </header>
+
+      <main class="page-main">
+        <h1 class="mem-font-logo">mem-font</h1>
+        Proportional and monospaced sans light pixel font family by
+        <a href="https://oddoid.com">oddoid</a>.
+        <strong
+          ><a href="https://github.com/oddoid/mem-font"
+            >Download on GitHub</a
+          ></strong
+        >.
+
+        <div class="character-set">
+          <table class="character-set__table">
+            <caption>
+              Character Set
+            </caption>
+            <tbody>
+              <tr>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+              </tr>
+              <tr>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+              </tr>
+              <tr>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+                <td><span class="demo character-set__cell">!</span></td>
+                <td><span class="demo character-set__cell">"</span></td>
+                <td><span class="demo character-set__cell">#</span></td>
+                <td><span class="demo character-set__cell">$</span></td>
+                <td><span class="demo character-set__cell">%</span></td>
+                <td><span class="demo character-set__cell">&</span></td>
+                <td><span class="demo character-set__cell">'</span></td>
+                <td><span class="demo character-set__cell">(</span></td>
+                <td><span class="demo character-set__cell">)</span></td>
+                <td><span class="demo character-set__cell">*</span></td>
+                <td><span class="demo character-set__cell">+</span></td>
+                <td><span class="demo character-set__cell">,</span></td>
+                <td><span class="demo character-set__cell">-</span></td>
+                <td><span class="demo character-set__cell">.</span></td>
+                <td><span class="demo character-set__cell">/</span></td>
+              </tr>
+              <tr>
+                <td><span class="demo character-set__cell">0</span></td>
+                <td><span class="demo character-set__cell">1</span></td>
+                <td><span class="demo character-set__cell">2</span></td>
+                <td><span class="demo character-set__cell">3</span></td>
+                <td><span class="demo character-set__cell">4</span></td>
+                <td><span class="demo character-set__cell">5</span></td>
+                <td><span class="demo character-set__cell">6</span></td>
+                <td><span class="demo character-set__cell">7</span></td>
+                <td><span class="demo character-set__cell">8</span></td>
+                <td><span class="demo character-set__cell">9</span></td>
+                <td><span class="demo character-set__cell">:</span></td>
+                <td><span class="demo character-set__cell">;</span></td>
+                <td><span class="demo character-set__cell">&lt;</span></td>
+                <td><span class="demo character-set__cell">=</span></td>
+                <td><span class="demo character-set__cell">&gt;</span></td>
+                <td><span class="demo character-set__cell">?</span></td>
+              </tr>
+              <tr>
+                <td><span class="demo character-set__cell">@</span></td>
+                <td><span class="demo character-set__cell">A</span></td>
+                <td><span class="demo character-set__cell">B</span></td>
+                <td><span class="demo character-set__cell">C</span></td>
+                <td><span class="demo character-set__cell">D</span></td>
+                <td><span class="demo character-set__cell">E</span></td>
+                <td><span class="demo character-set__cell">F</span></td>
+                <td><span class="demo character-set__cell">G</span></td>
+                <td><span class="demo character-set__cell">H</span></td>
+                <td><span class="demo character-set__cell">I</span></td>
+                <td><span class="demo character-set__cell">J</span></td>
+                <td><span class="demo character-set__cell">K</span></td>
+                <td><span class="demo character-set__cell">L</span></td>
+                <td><span class="demo character-set__cell">M</span></td>
+                <td><span class="demo character-set__cell">N</span></td>
+                <td><span class="demo character-set__cell">O</span></td>
+              </tr>
+              <tr>
+                <td><span class="demo character-set__cell">P</span></td>
+                <td><span class="demo character-set__cell">Q</span></td>
+                <td><span class="demo character-set__cell">R</span></td>
+                <td><span class="demo character-set__cell">S</span></td>
+                <td><span class="demo character-set__cell">T</span></td>
+                <td><span class="demo character-set__cell">U</span></td>
+                <td><span class="demo character-set__cell">V</span></td>
+                <td><span class="demo character-set__cell">W</span></td>
+                <td><span class="demo character-set__cell">X</span></td>
+                <td><span class="demo character-set__cell">Y</span></td>
+                <td><span class="demo character-set__cell">Z</span></td>
+                <td><span class="demo character-set__cell">[</span></td>
+                <td><span class="demo character-set__cell">\</span></td>
+                <td><span class="demo character-set__cell">]</span></td>
+                <td><span class="demo character-set__cell">^</span></td>
+                <td><span class="demo character-set__cell">_</span></td>
+              </tr>
+              <tr>
+                <td><span class="demo character-set__cell">`</span></td>
+                <td><span class="demo character-set__cell">a</span></td>
+                <td><span class="demo character-set__cell">b</span></td>
+                <td><span class="demo character-set__cell">c</span></td>
+                <td><span class="demo character-set__cell">d</span></td>
+                <td><span class="demo character-set__cell">e</span></td>
+                <td><span class="demo character-set__cell">f</span></td>
+                <td><span class="demo character-set__cell">g</span></td>
+                <td><span class="demo character-set__cell">h</span></td>
+                <td><span class="demo character-set__cell">i</span></td>
+                <td><span class="demo character-set__cell">j</span></td>
+                <td><span class="demo character-set__cell">k</span></td>
+                <td><span class="demo character-set__cell">l</span></td>
+                <td><span class="demo character-set__cell">m</span></td>
+                <td><span class="demo character-set__cell">n</span></td>
+                <td><span class="demo character-set__cell">o</span></td>
+              </tr>
+              <tr>
+                <td><span class="demo character-set__cell">p</span></td>
+                <td><span class="demo character-set__cell">q</span></td>
+                <td><span class="demo character-set__cell">r</span></td>
+                <td><span class="demo character-set__cell">s</span></td>
+                <td><span class="demo character-set__cell">t</span></td>
+                <td><span class="demo character-set__cell">u</span></td>
+                <td><span class="demo character-set__cell">v</span></td>
+                <td><span class="demo character-set__cell">w</span></td>
+                <td><span class="demo character-set__cell">x</span></td>
+                <td><span class="demo character-set__cell">y</span></td>
+                <td><span class="demo character-set__cell">z</span></td>
+                <td><span class="demo character-set__cell">{</span></td>
+                <td><span class="demo character-set__cell">|</span></td>
+                <td><span class="demo character-set__cell">}</span></td>
+                <td><span class="demo character-set__cell">~</span></td>
+                <td><span class="demo character-set__cell">&nbsp;</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <section>
+          <h2 class="demo-header">
+            <a class="demo-header__link" id="pangram" href="#pangram"
+              >Pangram</a
+            >
+          </h2>
+          <p class="demo demo-box demo--transform-case">
             the quick brown fox jumps over the lazy dog.
           </p>
-          <p class="mem-prop-5x6 sample">
-            THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
-          </p>
+        </section>
 
-          <h3>Character Set</h3>
-          <p class="mem-prop-5x6 sample">
-            ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
-            @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a
-            b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~
-          </p>
+        <section>
+          <h2 class="demo-header">
+            <a
+              class="demo-header__link"
+              id="variable-width"
+              href="#variable-width"
+              >Variable Width</a
+            >
+          </h2>
+          <p class="demo demo-box demo--transform-case">wild<br /></p>
+        </section>
 
-          <h3>Variable Width</h3>
-          <p class="mem-prop-5x6 sample">wild<br /></p>
-
-          <h3>Kerning</h3>
-          <p class="mem-prop-5x6 sample">
+        <section>
+          <h2 class="demo-header">
+            <a class="demo-header__link" id="kerning" href="#kerning"
+              >Kerning</a
+            >
+          </h2>
+          <p class="demo demo-box demo--transform-case">
             zzz<br />
             rj<br />
             rs<br />
@@ -156,18 +381,30 @@
             'foo'<br />
             "foo"<br />
           </p>
+        </section>
 
-          <h3>Use Case</h3>
-          <p class="mem-prop-5x6 sample">
+        <section>
+          <h2 class="demo-header">
+            <a class="demo-header__link" id="use-case" href="#use-case"
+              >Use Case</a
+            >
+          </h2>
+          <p class="demo demo-box demo--transform-case">
             mem-font<br />
             nature elsewhere<br />
             oddoid<br />
             play<br />
             end<br />
           </p>
+        </section>
 
-          <h3>Placeholder</h3>
-          <p class="mem-prop-5x6 sample">
+        <section>
+          <h2 class="demo-header">
+            <a class="demo-header__link" id="placeholder" href="#placeholder"
+              >Placeholder</a
+            >
+          </h2>
+          <p class="demo demo-box demo--transform-case">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -177,19 +414,24 @@
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
-          <p class="mem-prop-5x6 sample">
+          <p class="demo demo-box demo--transform-case">
             furu ike ya / kawazu tobikomu / mizu no oto<br />
           </p>
 
-          <p class="mem-prop-5x6 sample">
+          <p class="demo demo-box demo--transform-case">
             an ancient pond / a frog jumps in / the splash of water
           </p>
+        </section>
 
-          <h3>Custom</h3>
-          <textarea class="mem-prop-5x6 sample" rows="8"></textarea>
+        <section>
+          <h2 class="demo-header">
+            <a class="demo-header__link" id="custom" href="#custom">Custom</a>
+          </h2>
+          <textarea class="demo demo-box demo--transform-case"></textarea>
         </section>
       </main>
-      <footer>&nbsp;</footer>
+
+      <footer class="page-footer">© Stephen Niedzielski</footer>
     </div>
   </body>
 </html>
