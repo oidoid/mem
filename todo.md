@@ -10,7 +10,6 @@
 - The font sizes are split across TTF files instead of being in one. Can this be
   fixed?
 - Validate the sheets are usable in-game.
-- Note code page 437 and many missing characters in the readme.
 - Add font to oddoid.com with aseprite-atlas.
 - Why did I consider but not use
   `inkscape -z --verb SelectionTrace -l foo.svg ../png/_3_4.png` instead of
@@ -30,3 +29,4 @@
 - Add a font that varies line width such as an X with uneven legs.
 - Fix the terminology: sans light, font family versus typography, terms around
   stroke and tail and such.
+- Add watch script to automatically build.
