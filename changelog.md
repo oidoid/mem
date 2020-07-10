@@ -1,5 +1,9 @@
 ## Changelog
 
+### v6.0.2 (unreleased)
+
+- [mem prop 3x5][update] improve parity with 5x6
+
 ### v6.0.1
 
 - [docs][fix] Changelog link
