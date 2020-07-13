@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x00002624, len =        28
-   1. 'GPOS' - checksum = 0x65587023, offset = 0x00002404, len =       542
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000023e4, len =        32
+   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x00002858, len =        28
+   1. 'GPOS' - checksum = 0x6f7d7700, offset = 0x000025e4, len =       628
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000025c4, len =        32
    3. 'OS/2' - checksum = 0x5b0d6350, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0xcc91a0d9, offset = 0x00000370, len =       322
    5. 'cvt ' - checksum = 0x002602e4, offset = 0x000004b4, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x000023dc, len =         8
-   7. 'glyf' - checksum = 0x21b49be7, offset = 0x00000580, len =      6292
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x000025bc, len =         8
+   7. 'glyf' - checksum = 0x75250707, offset = 0x00000580, len =      6280
    8. 'head' - checksum = 0x5ab1a4e4, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x06cd0382, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0xf4c60026, offset = 0x000001e8, len =       390
-  11. 'kern' - checksum = 0xea5ce898, offset = 0x00001e14, len =       744
-  12. 'loca' - checksum = 0x36fd30da, offset = 0x000004b8, len =       198
+  11. 'kern' - checksum = 0xdd3ddaa6, offset = 0x00001e08, len =      1236
+  12. 'loca' - checksum = 0x35ef2fd2, offset = 0x000004b8, len =       198
   13. 'maxp' - checksum = 0x00a70071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0xa93b4e9f, offset = 0x000020fc, len =       504
-  15. 'post' - checksum = 0x097a0962, offset = 0x000022f4, len =       230
+  14. 'name' - checksum = 0xa93b4e9f, offset = 0x000022dc, len =       504
+  15. 'post' - checksum = 0x097a0962, offset = 0x000024d4, len =       230
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -416,7 +416,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x77fe51f5
+	 checkSumAdjustment:	 0xd92d7e31
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1167
@@ -566,95 +566,95 @@ SubTable   1.	 Format 0 - Byte encoding table
 	 Idx      7 -> GlyphOffset 0x00000150
 	 Idx      8 -> GlyphOffset 0x000001b0
 	 Idx      9 -> GlyphOffset 0x00000248
-	 Idx     10 -> GlyphOffset 0x000002b8
-	 Idx     11 -> GlyphOffset 0x000002d8
-	 Idx     12 -> GlyphOffset 0x00000318
-	 Idx     13 -> GlyphOffset 0x00000358
-	 Idx     14 -> GlyphOffset 0x000003b8
-	 Idx     15 -> GlyphOffset 0x000003f8
-	 Idx     16 -> GlyphOffset 0x00000428
-	 Idx     17 -> GlyphOffset 0x00000448
-	 Idx     18 -> GlyphOffset 0x00000468
-	 Idx     19 -> GlyphOffset 0x000004ac
-	 Idx     20 -> GlyphOffset 0x000004f4
-	 Idx     21 -> GlyphOffset 0x00000530
-	 Idx     22 -> GlyphOffset 0x00000570
-	 Idx     23 -> GlyphOffset 0x000005b4
-	 Idx     24 -> GlyphOffset 0x000005f0
-	 Idx     25 -> GlyphOffset 0x00000630
-	 Idx     26 -> GlyphOffset 0x00000674
-	 Idx     27 -> GlyphOffset 0x000006a8
-	 Idx     28 -> GlyphOffset 0x000006f4
-	 Idx     29 -> GlyphOffset 0x0000073c
-	 Idx     30 -> GlyphOffset 0x00000770
-	 Idx     31 -> GlyphOffset 0x000007b4
-	 Idx     32 -> GlyphOffset 0x00000818
-	 Idx     33 -> GlyphOffset 0x0000084c
-	 Idx     34 -> GlyphOffset 0x000008ac
-	 Idx     35 -> GlyphOffset 0x000008f0
-	 Idx     36 -> GlyphOffset 0x00000970
-	 Idx     37 -> GlyphOffset 0x000009b8
-	 Idx     38 -> GlyphOffset 0x00000a10
-	 Idx     39 -> GlyphOffset 0x00000a40
-	 Idx     40 -> GlyphOffset 0x00000a88
-	 Idx     41 -> GlyphOffset 0x00000ac8
-	 Idx     42 -> GlyphOffset 0x00000b00
-	 Idx     43 -> GlyphOffset 0x00000b38
-	 Idx     44 -> GlyphOffset 0x00000b7c
-	 Idx     45 -> GlyphOffset 0x00000bbc
-	 Idx     46 -> GlyphOffset 0x00000bf0
-	 Idx     47 -> GlyphOffset 0x00000c40
-	 Idx     48 -> GlyphOffset 0x00000c6c
-	 Idx     49 -> GlyphOffset 0x00000cb4
-	 Idx     50 -> GlyphOffset 0x00000cec
-	 Idx     51 -> GlyphOffset 0x00000d24
-	 Idx     52 -> GlyphOffset 0x00000d64
-	 Idx     53 -> GlyphOffset 0x00000db4
-	 Idx     54 -> GlyphOffset 0x00000e0c
-	 Idx     55 -> GlyphOffset 0x00000e40
-	 Idx     56 -> GlyphOffset 0x00000e74
-	 Idx     57 -> GlyphOffset 0x00000eac
-	 Idx     58 -> GlyphOffset 0x00000ef0
-	 Idx     59 -> GlyphOffset 0x00000f38
-	 Idx     60 -> GlyphOffset 0x00000f98
-	 Idx     61 -> GlyphOffset 0x00000fd8
-	 Idx     62 -> GlyphOffset 0x0000100c
-	 Idx     63 -> GlyphOffset 0x0000103c
-	 Idx     64 -> GlyphOffset 0x0000107c
-	 Idx     65 -> GlyphOffset 0x000010b0
-	 Idx     66 -> GlyphOffset 0x000010f0
-	 Idx     67 -> GlyphOffset 0x00001110
-	 Idx     68 -> GlyphOffset 0x00001140
-	 Idx     69 -> GlyphOffset 0x00001188
-	 Idx     70 -> GlyphOffset 0x000011c8
-	 Idx     71 -> GlyphOffset 0x000011f8
-	 Idx     72 -> GlyphOffset 0x00001238
-	 Idx     73 -> GlyphOffset 0x0000128c
-	 Idx     74 -> GlyphOffset 0x000012d4
-	 Idx     75 -> GlyphOffset 0x0000132c
-	 Idx     76 -> GlyphOffset 0x00001368
-	 Idx     77 -> GlyphOffset 0x0000138c
-	 Idx     78 -> GlyphOffset 0x000013c0
-	 Idx     79 -> GlyphOffset 0x00001410
-	 Idx     80 -> GlyphOffset 0x00001434
-	 Idx     81 -> GlyphOffset 0x00001478
-	 Idx     82 -> GlyphOffset 0x000014ac
-	 Idx     83 -> GlyphOffset 0x000014e4
-	 Idx     84 -> GlyphOffset 0x00001524
-	 Idx     85 -> GlyphOffset 0x00001574
-	 Idx     86 -> GlyphOffset 0x000015a4
-	 Idx     87 -> GlyphOffset 0x000015d4
-	 Idx     88 -> GlyphOffset 0x0000161c
-	 Idx     89 -> GlyphOffset 0x00001650
-	 Idx     90 -> GlyphOffset 0x00001690
-	 Idx     91 -> GlyphOffset 0x000016d4
-	 Idx     92 -> GlyphOffset 0x00001734
-	 Idx     93 -> GlyphOffset 0x00001780
-	 Idx     94 -> GlyphOffset 0x000017b0
-	 Idx     95 -> GlyphOffset 0x000017f0
-	 Idx     96 -> GlyphOffset 0x00001824
-	 Idx     97 -> GlyphOffset 0x00001864
-	 Ended at 0x00001894
+	 Idx     10 -> GlyphOffset 0x000002ac
+	 Idx     11 -> GlyphOffset 0x000002cc
+	 Idx     12 -> GlyphOffset 0x0000030c
+	 Idx     13 -> GlyphOffset 0x0000034c
+	 Idx     14 -> GlyphOffset 0x000003ac
+	 Idx     15 -> GlyphOffset 0x000003ec
+	 Idx     16 -> GlyphOffset 0x0000041c
+	 Idx     17 -> GlyphOffset 0x0000043c
+	 Idx     18 -> GlyphOffset 0x0000045c
+	 Idx     19 -> GlyphOffset 0x000004a0
+	 Idx     20 -> GlyphOffset 0x000004e8
+	 Idx     21 -> GlyphOffset 0x00000524
+	 Idx     22 -> GlyphOffset 0x00000564
+	 Idx     23 -> GlyphOffset 0x000005a8
+	 Idx     24 -> GlyphOffset 0x000005e4
+	 Idx     25 -> GlyphOffset 0x00000624
+	 Idx     26 -> GlyphOffset 0x00000668
+	 Idx     27 -> GlyphOffset 0x0000069c
+	 Idx     28 -> GlyphOffset 0x000006e8
+	 Idx     29 -> GlyphOffset 0x00000730
+	 Idx     30 -> GlyphOffset 0x00000764
+	 Idx     31 -> GlyphOffset 0x000007a8
+	 Idx     32 -> GlyphOffset 0x0000080c
+	 Idx     33 -> GlyphOffset 0x00000840
+	 Idx     34 -> GlyphOffset 0x000008a0
+	 Idx     35 -> GlyphOffset 0x000008e4
+	 Idx     36 -> GlyphOffset 0x00000964
+	 Idx     37 -> GlyphOffset 0x000009ac
+	 Idx     38 -> GlyphOffset 0x00000a04
+	 Idx     39 -> GlyphOffset 0x00000a34
+	 Idx     40 -> GlyphOffset 0x00000a7c
+	 Idx     41 -> GlyphOffset 0x00000abc
+	 Idx     42 -> GlyphOffset 0x00000af4
+	 Idx     43 -> GlyphOffset 0x00000b2c
+	 Idx     44 -> GlyphOffset 0x00000b70
+	 Idx     45 -> GlyphOffset 0x00000bb0
+	 Idx     46 -> GlyphOffset 0x00000be4
+	 Idx     47 -> GlyphOffset 0x00000c34
+	 Idx     48 -> GlyphOffset 0x00000c60
+	 Idx     49 -> GlyphOffset 0x00000ca8
+	 Idx     50 -> GlyphOffset 0x00000ce0
+	 Idx     51 -> GlyphOffset 0x00000d18
+	 Idx     52 -> GlyphOffset 0x00000d58
+	 Idx     53 -> GlyphOffset 0x00000da8
+	 Idx     54 -> GlyphOffset 0x00000e00
+	 Idx     55 -> GlyphOffset 0x00000e34
+	 Idx     56 -> GlyphOffset 0x00000e68
+	 Idx     57 -> GlyphOffset 0x00000ea0
+	 Idx     58 -> GlyphOffset 0x00000ee4
+	 Idx     59 -> GlyphOffset 0x00000f2c
+	 Idx     60 -> GlyphOffset 0x00000f8c
+	 Idx     61 -> GlyphOffset 0x00000fcc
+	 Idx     62 -> GlyphOffset 0x00001000
+	 Idx     63 -> GlyphOffset 0x00001030
+	 Idx     64 -> GlyphOffset 0x00001070
+	 Idx     65 -> GlyphOffset 0x000010a4
+	 Idx     66 -> GlyphOffset 0x000010e4
+	 Idx     67 -> GlyphOffset 0x00001104
+	 Idx     68 -> GlyphOffset 0x00001134
+	 Idx     69 -> GlyphOffset 0x0000117c
+	 Idx     70 -> GlyphOffset 0x000011bc
+	 Idx     71 -> GlyphOffset 0x000011ec
+	 Idx     72 -> GlyphOffset 0x0000122c
+	 Idx     73 -> GlyphOffset 0x00001280
+	 Idx     74 -> GlyphOffset 0x000012c8
+	 Idx     75 -> GlyphOffset 0x00001320
+	 Idx     76 -> GlyphOffset 0x0000135c
+	 Idx     77 -> GlyphOffset 0x00001380
+	 Idx     78 -> GlyphOffset 0x000013b4
+	 Idx     79 -> GlyphOffset 0x00001404
+	 Idx     80 -> GlyphOffset 0x00001428
+	 Idx     81 -> GlyphOffset 0x0000146c
+	 Idx     82 -> GlyphOffset 0x000014a0
+	 Idx     83 -> GlyphOffset 0x000014d8
+	 Idx     84 -> GlyphOffset 0x00001518
+	 Idx     85 -> GlyphOffset 0x00001568
+	 Idx     86 -> GlyphOffset 0x00001598
+	 Idx     87 -> GlyphOffset 0x000015c8
+	 Idx     88 -> GlyphOffset 0x00001610
+	 Idx     89 -> GlyphOffset 0x00001644
+	 Idx     90 -> GlyphOffset 0x00001684
+	 Idx     91 -> GlyphOffset 0x000016c8
+	 Idx     92 -> GlyphOffset 0x00001728
+	 Idx     93 -> GlyphOffset 0x00001774
+	 Idx     94 -> GlyphOffset 0x000017a4
+	 Idx     95 -> GlyphOffset 0x000017e4
+	 Idx     96 -> GlyphOffset 0x00001818
+	 Idx     97 -> GlyphOffset 0x00001858
+	 Ended at 0x00001888
 
 'maxp' Table - Maximum Profile
 ------------------------------
@@ -986,12 +986,12 @@ Number of subtables:	 1
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 740
+	 Bytes in subtable 	 1232
 	 Coverage bits 	 0x1
-	 Number of pairs 121
-	 Search Range    384
-	 Entry Selector  6
-	 Range Shift     342
+	 Number of pairs 203
+	 Search Range    768
+	 Entry Selector  7
+	 Range Shift     450
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 4 		 3 		 -167
@@ -1009,112 +1009,194 @@ Number of subtables:	 1
 		 15 		 3 		 -167
 		 15 		 5 		 -167
 		 15 		 10 		 -167
+		 15 		 15 		 -167
 		 16 		 3 		 -167
 		 16 		 5 		 -167
 		 16 		 10 		 -167
+		 16 		 15 		 -167
 		 16 		 16 		 -167
 		 17 		 3 		 -167
 		 17 		 5 		 -167
 		 17 		 10 		 -167
+		 17 		 15 		 -167
 		 18 		 3 		 -167
+		 18 		 15 		 -167
 		 18 		 18 		 -167
 		 19 		 3 		 -167
+		 19 		 15 		 -167
 		 20 		 3 		 -167
+		 20 		 15 		 -167
 		 21 		 3 		 -167
+		 21 		 15 		 -167
 		 22 		 3 		 -167
+		 22 		 15 		 -167
 		 23 		 3 		 -167
+		 23 		 15 		 -167
 		 24 		 3 		 -167
+		 24 		 15 		 -167
 		 25 		 3 		 -167
+		 25 		 15 		 -167
 		 26 		 3 		 -167
+		 26 		 15 		 -167
 		 27 		 3 		 -167
+		 27 		 15 		 -167
 		 28 		 3 		 -167
+		 28 		 15 		 -167
 		 29 		 3 		 -167
+		 29 		 15 		 -167
 		 29 		 29 		 -167
 		 30 		 3 		 -167
+		 30 		 15 		 -167
 		 30 		 29 		 -167
 		 30 		 30 		 -167
 		 31 		 3 		 -167
+		 31 		 15 		 -167
 		 32 		 3 		 -167
+		 32 		 15 		 -167
 		 33 		 3 		 -167
+		 33 		 15 		 -167
 		 34 		 3 		 -167
+		 34 		 15 		 -167
 		 35 		 3 		 -167
+		 35 		 15 		 -167
 		 36 		 3 		 -167
+		 36 		 15 		 -167
 		 37 		 3 		 -167
+		 37 		 15 		 -167
 		 38 		 3 		 -167
+		 38 		 15 		 -167
 		 39 		 3 		 -167
+		 39 		 15 		 -167
 		 40 		 3 		 -167
+		 40 		 15 		 -167
 		 41 		 3 		 -167
+		 41 		 15 		 -167
 		 42 		 3 		 -167
+		 42 		 15 		 -167
 		 43 		 3 		 -167
+		 43 		 15 		 -167
 		 44 		 3 		 -167
+		 44 		 15 		 -167
 		 45 		 3 		 -167
+		 45 		 15 		 -167
 		 46 		 3 		 -167
+		 46 		 15 		 -167
 		 47 		 3 		 -167
+		 47 		 15 		 -167
 		 48 		 3 		 -167
+		 48 		 15 		 -167
 		 49 		 3 		 -167
+		 49 		 15 		 -167
 		 50 		 3 		 -167
+		 50 		 15 		 -167
 		 51 		 3 		 -167
+		 51 		 15 		 -167
 		 52 		 3 		 -167
+		 52 		 15 		 -167
 		 53 		 3 		 -167
+		 53 		 15 		 -167
 		 54 		 3 		 -167
+		 54 		 15 		 -167
 		 55 		 3 		 -167
-		 55 		 15 		 -167
+		 55 		 15 		 -333
 		 56 		 3 		 -167
+		 56 		 15 		 -167
 		 57 		 3 		 -167
+		 57 		 15 		 -167
 		 58 		 3 		 -167
+		 58 		 15 		 -167
 		 59 		 3 		 -167
+		 59 		 15 		 -167
 		 60 		 3 		 -167
+		 60 		 15 		 -167
 		 61 		 3 		 -167
+		 61 		 15 		 -167
 		 61 		 60 		 -167
 		 62 		 3 		 -167
+		 62 		 15 		 -167
 		 63 		 3 		 -167
+		 63 		 15 		 -167
 		 63 		 63 		 -167
 		 64 		 3 		 -167
+		 64 		 15 		 -167
 		 65 		 3 		 -167
+		 65 		 15 		 -167
 		 66 		 3 		 -167
 		 66 		 5 		 -167
 		 66 		 10 		 -167
+		 66 		 15 		 -167
 		 66 		 66 		 -167
 		 67 		 3 		 -167
+		 67 		 15 		 -167
 		 68 		 3 		 -167
+		 68 		 15 		 -167
 		 69 		 3 		 -167
+		 69 		 15 		 -167
 		 70 		 3 		 -167
+		 70 		 15 		 -167
 		 71 		 3 		 -167
+		 71 		 15 		 -167
 		 71 		 30 		 -167
 		 72 		 3 		 -167
+		 72 		 15 		 -167
 		 73 		 3 		 -167
+		 73 		 15 		 -167
 		 74 		 3 		 -167
+		 74 		 15 		 -167
 		 75 		 3 		 -167
+		 75 		 15 		 -167
 		 76 		 3 		 -167
+		 76 		 15 		 -167
 		 77 		 3 		 -167
+		 77 		 15 		 -167
 		 78 		 3 		 -167
+		 78 		 15 		 -167
 		 79 		 3 		 -167
+		 79 		 15 		 -167
 		 80 		 3 		 -167
+		 80 		 15 		 -167
 		 81 		 3 		 -167
 		 81 		 10 		 -167
+		 81 		 15 		 -167
 		 82 		 3 		 -167
+		 82 		 15 		 -167
 		 83 		 3 		 -167
+		 83 		 15 		 -167
 		 84 		 3 		 -167
+		 84 		 15 		 -167
 		 85 		 3 		 -167
+		 85 		 15 		 -167
 		 85 		 77 		 -333
 		 86 		 3 		 -167
+		 86 		 15 		 -167
 		 86 		 17 		 -167
 		 86 		 77 		 -167
 		 86 		 86 		 -167
 		 87 		 3 		 -167
+		 87 		 15 		 -167
 		 87 		 86 		 -167
 		 88 		 3 		 -167
+		 88 		 15 		 -167
 		 89 		 3 		 -167
+		 89 		 15 		 -167
 		 90 		 3 		 -167
+		 90 		 15 		 -167
 		 91 		 3 		 -167
+		 91 		 15 		 -167
 		 92 		 3 		 -167
+		 92 		 15 		 -167
 		 92 		 86 		 -167
 		 93 		 3 		 -167
+		 93 		 15 		 -167
 		 93 		 93 		 -167
 		 94 		 3 		 -167
+		 94 		 15 		 -167
 		 95 		 3 		 -167
+		 95 		 15 		 -167
 		 96 		 3 		 -167
+		 96 		 15 		 -167
 		 97 		 3 		 -167
+		 97 		 15 		 -167
 
 'GPOS' Table - Glyph Positioning Data
 -------------------------------------
@@ -1138,363 +1220,549 @@ Number of subtables:	 1
 	  Coverage - rangeCount: 1
 	       0. start: 4, end: 97, startCoverageIndex: 0
 	  valueFormat1: 0x0004, valueFormat2: 0x0000, pairSetCount: 94
-	   0. pairValueCount: 1
+	   0. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	   1. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	   1. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	   2. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	   2. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
 	       1. secondGlyph: 6
 		  value1: XAdvance = -333
-	   3. pairValueCount: 1
+	       2. secondGlyph: 15
+		  value1: XAdvance = -167
+	   3. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	   4. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	   4. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	   5. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	   5. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	   6. pairValueCount: 3
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	   6. pairValueCount: 4
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 71
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	       2. secondGlyph: 86
+	       2. secondGlyph: 71
 		  value1: XAdvance = -167
-	   7. pairValueCount: 1
+	       3. secondGlyph: 86
+		  value1: XAdvance = -167
+	   7. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	   8. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	   8. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	   9. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	   9. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  10. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  10. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  11. pairValueCount: 4
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  11. pairValueCount: 5
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
 	       1. secondGlyph: 5
 		  value1: XAdvance = -167
 	       2. secondGlyph: 10
 		  value1: XAdvance = -167
-	       3. secondGlyph: 67
-		  value1: XAdvance = -167
-	  12. pairValueCount: 5
-	       0. secondGlyph: 3
-		  value1: XAdvance = -167
-	       1. secondGlyph: 5
-		  value1: XAdvance = -167
-	       2. secondGlyph: 10
-		  value1: XAdvance = -167
-	       3. secondGlyph: 16
+	       3. secondGlyph: 15
 		  value1: XAdvance = -167
 	       4. secondGlyph: 67
 		  value1: XAdvance = -167
-	  13. pairValueCount: 4
+	  12. pairValueCount: 6
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
 	       1. secondGlyph: 5
 		  value1: XAdvance = -167
 	       2. secondGlyph: 10
 		  value1: XAdvance = -167
-	       3. secondGlyph: 67
+	       3. secondGlyph: 15
 		  value1: XAdvance = -167
-	  14. pairValueCount: 2
+	       4. secondGlyph: 16
+		  value1: XAdvance = -167
+	       5. secondGlyph: 67
+		  value1: XAdvance = -167
+	  13. pairValueCount: 5
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 18
+	       1. secondGlyph: 5
 		  value1: XAdvance = -167
-	  15. pairValueCount: 1
+	       2. secondGlyph: 10
+		  value1: XAdvance = -167
+	       3. secondGlyph: 15
+		  value1: XAdvance = -167
+	       4. secondGlyph: 67
+		  value1: XAdvance = -167
+	  14. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  16. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	       2. secondGlyph: 18
+		  value1: XAdvance = -167
+	  15. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  17. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  16. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  18. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  17. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  19. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  18. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  20. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  19. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  21. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  20. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  22. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  21. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  23. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  22. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  24. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  23. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  25. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  24. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 29
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  26. pairValueCount: 3
+	  25. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 29
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	       2. secondGlyph: 30
+	       2. secondGlyph: 29
 		  value1: XAdvance = -167
-	  27. pairValueCount: 1
+	  26. pairValueCount: 4
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  28. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	       2. secondGlyph: 29
+		  value1: XAdvance = -167
+	       3. secondGlyph: 30
+		  value1: XAdvance = -167
+	  27. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  29. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  28. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  30. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  29. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  31. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  30. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  32. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  31. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  33. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  32. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  34. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  33. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  35. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  34. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  36. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  35. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  37. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  36. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  38. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  37. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  39. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  38. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  40. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  39. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  41. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  40. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  42. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  41. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  43. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  42. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  44. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  43. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  45. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  44. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  46. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  45. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  47. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  46. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 54
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  48. pairValueCount: 1
+	  47. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  49. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	       2. secondGlyph: 54
+		  value1: XAdvance = -167
+	  48. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  50. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  49. pairValueCount: 2
 	       0. secondGlyph: 3
+		  value1: XAdvance = -167
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  50. pairValueCount: 2
+	       0. secondGlyph: 3
+		  value1: XAdvance = -167
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
 	  51. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
 	       1. secondGlyph: 15
-		  value1: XAdvance = -167
-	  52. pairValueCount: 1
+		  value1: XAdvance = -333
+	  52. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  53. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  53. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  54. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  54. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  55. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  55. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  56. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  56. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  57. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  57. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 60
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  58. pairValueCount: 1
+	       2. secondGlyph: 60
+		  value1: XAdvance = -167
+	  58. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  59. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  59. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 63
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  60. pairValueCount: 1
+	       2. secondGlyph: 63
+		  value1: XAdvance = -167
+	  60. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  61. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  61. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  62. pairValueCount: 6
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  62. pairValueCount: 7
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
 	       1. secondGlyph: 5
 		  value1: XAdvance = -167
 	       2. secondGlyph: 10
 		  value1: XAdvance = -167
-	       3. secondGlyph: 66
+	       3. secondGlyph: 15
 		  value1: XAdvance = -167
-	       4. secondGlyph: 67
+	       4. secondGlyph: 66
 		  value1: XAdvance = -167
-	       5. secondGlyph: 87
+	       5. secondGlyph: 67
 		  value1: XAdvance = -167
-	  63. pairValueCount: 1
+	       6. secondGlyph: 87
+		  value1: XAdvance = -167
+	  63. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  64. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  64. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  65. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  65. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  66. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  66. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  67. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  67. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 30
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  68. pairValueCount: 1
+	       2. secondGlyph: 30
+		  value1: XAdvance = -167
+	  68. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  69. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  69. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  70. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  70. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  71. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  71. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  72. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  72. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  73. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  73. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  74. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  74. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  75. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  75. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  76. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  76. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  77. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  77. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
 	       1. secondGlyph: 10
 		  value1: XAdvance = -167
-	  78. pairValueCount: 1
+	       2. secondGlyph: 15
+		  value1: XAdvance = -167
+	  78. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  79. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  79. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  80. pairValueCount: 3
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  80. pairValueCount: 4
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 85
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	       2. secondGlyph: 88
+	       2. secondGlyph: 85
 		  value1: XAdvance = -167
-	  81. pairValueCount: 3
+	       3. secondGlyph: 88
+		  value1: XAdvance = -167
+	  81. pairValueCount: 4
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 77
-		  value1: XAdvance = -333
-	       2. secondGlyph: 86
-		  value1: XAdvance = -167
-	  82. pairValueCount: 4
-	       0. secondGlyph: 3
-		  value1: XAdvance = -167
-	       1. secondGlyph: 17
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
 	       2. secondGlyph: 77
-		  value1: XAdvance = -167
+		  value1: XAdvance = -333
 	       3. secondGlyph: 86
 		  value1: XAdvance = -167
-	  83. pairValueCount: 2
+	  82. pairValueCount: 5
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 86
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  84. pairValueCount: 1
+	       2. secondGlyph: 17
+		  value1: XAdvance = -167
+	       3. secondGlyph: 77
+		  value1: XAdvance = -167
+	       4. secondGlyph: 86
+		  value1: XAdvance = -167
+	  83. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  85. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	       2. secondGlyph: 86
+		  value1: XAdvance = -167
+	  84. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  86. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  85. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  87. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  86. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  88. pairValueCount: 2
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  87. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 86
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  89. pairValueCount: 2
+	  88. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	       1. secondGlyph: 93
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
-	  90. pairValueCount: 1
+	       2. secondGlyph: 86
+		  value1: XAdvance = -167
+	  89. pairValueCount: 3
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  91. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	       2. secondGlyph: 93
+		  value1: XAdvance = -167
+	  90. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  92. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  91. pairValueCount: 2
 	       0. secondGlyph: 3
 		  value1: XAdvance = -167
-	  93. pairValueCount: 1
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  92. pairValueCount: 2
 	       0. secondGlyph: 3
+		  value1: XAdvance = -167
+	       1. secondGlyph: 15
+		  value1: XAdvance = -167
+	  93. pairValueCount: 2
+	       0. secondGlyph: 3
+		  value1: XAdvance = -167
+	       1. secondGlyph: 15
 		  value1: XAdvance = -167
 
 'GSUB' Table - Glyph Substitution Data
@@ -2155,15 +2423,15 @@ Glyph      8.
 Glyph      9.
 	 numberOfContours:	 3
 	 xMin:			 0
-	 yMin:			 -200
+	 yMin:			 -34
 	 xMax:			 667
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 27
-	  1: 35
-	  2: 43
+	  0: 19
+	  1: 27
+	  2: 35
 
 	 Length of Instructions:  0
 
@@ -2183,21 +2451,21 @@ Glyph      9.
 	 11: YDual  XDual   Repeat          X-Short On
 	 12:        XDual   Repeat  Y-Short         On
 	 13:        XDual   Repeat  Y-Short         On
-	 14: YDual          Repeat          X-Short On
-	 15: YDual          Repeat          X-Short On
-	 16:        XDual   Repeat  Y-Short         On
-	 17:        XDual   Repeat  Y-Short         On
-	 18: YDual          Repeat          X-Short On
-	 19: YDual          Repeat          X-Short On
-	 20: YDual  XDual   Repeat  Y-Short         On
-	 21: YDual  XDual   Repeat  Y-Short         On
+	 14: YDual          Repeat                  On
+	 15: YDual          Repeat                  On
+	 16: YDual  XDual   Repeat  Y-Short         On
+	 17: YDual  XDual   Repeat  Y-Short         On
+	 18: YDual  XDual   Repeat          X-Short On
+	 19: YDual  XDual   Repeat          X-Short On
+	 20: YDual                  Y-Short         On
+	 21: YDual  XDual           Y-Short         On
 	 22: YDual          Repeat          X-Short On
 	 23: YDual          Repeat          X-Short On
-	 24: YDual  XDual   Repeat  Y-Short         On
-	 25: YDual  XDual   Repeat  Y-Short         On
+	 24:        XDual   Repeat  Y-Short         On
+	 25:        XDual   Repeat  Y-Short         On
 	 26: YDual  XDual   Repeat          X-Short On
 	 27: YDual  XDual   Repeat          X-Short On
-	 28: YDual                  Y-Short         On
+	 28:                        Y-Short X-Short On
 	 29: YDual  XDual           Y-Short         On
 	 30: YDual          Repeat          X-Short On
 	 31: YDual          Repeat          X-Short On
@@ -2205,14 +2473,6 @@ Glyph      9.
 	 33:        XDual   Repeat  Y-Short         On
 	 34: YDual  XDual   Repeat          X-Short On
 	 35: YDual  XDual   Repeat          X-Short On
-	 36:                        Y-Short X-Short On
-	 37: YDual  XDual           Y-Short         On
-	 38: YDual          Repeat          X-Short On
-	 39: YDual          Repeat          X-Short On
-	 40:        XDual   Repeat  Y-Short         On
-	 41:        XDual   Repeat  Y-Short         On
-	 42: YDual  XDual   Repeat          X-Short On
-	 43: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
@@ -2230,36 +2490,28 @@ Glyph      9.
 	 11 Rel (     84,      0) -> Abs (    667,    133)
 	 12 Rel (      0,    -83) -> Abs (    667,     50)
 	 13 Rel (      0,    -83) -> Abs (    667,    -33)
-	 14 Rel (    -84,      0) -> Abs (    583,    -33)
-	 15 Rel (    -83,      0) -> Abs (    500,    -33)
-	 16 Rel (      0,    -84) -> Abs (    500,   -117)
-	 17 Rel (      0,    -83) -> Abs (    500,   -200)
-	 18 Rel (    -83,      0) -> Abs (    417,   -200)
-	 19 Rel (    -84,      0) -> Abs (    333,   -200)
-	 20 Rel (      0,     83) -> Abs (    333,   -117)
-	 21 Rel (      0,     84) -> Abs (    333,    -33)
-	 22 Rel (   -166,      0) -> Abs (    167,    -33)
-	 23 Rel (   -167,      0) -> Abs (      0,    -33)
-	 24 Rel (      0,    250) -> Abs (      0,    217)
-	 25 Rel (      0,    250) -> Abs (      0,    467)
-	 26 Rel (     83,      0) -> Abs (     83,    467)
-	 27 Rel (     84,      0) -> Abs (    167,    467)
-	 28 Rel (    333,     83) -> Abs (    500,    550)
-	 29 Rel (      0,     83) -> Abs (    500,    633)
-	 30 Rel (    -83,      0) -> Abs (    417,    633)
-	 31 Rel (    -84,      0) -> Abs (    333,    633)
-	 32 Rel (      0,    -83) -> Abs (    333,    550)
-	 33 Rel (      0,    -83) -> Abs (    333,    467)
-	 34 Rel (     84,      0) -> Abs (    417,    467)
-	 35 Rel (     83,      0) -> Abs (    500,    467)
-	 36 Rel (   -167,   -250) -> Abs (    333,    217)
-	 37 Rel (      0,     83) -> Abs (    333,    300)
-	 38 Rel (    -83,      0) -> Abs (    250,    300)
-	 39 Rel (    -83,      0) -> Abs (    167,    300)
-	 40 Rel (      0,    -83) -> Abs (    167,    217)
-	 41 Rel (      0,    -84) -> Abs (    167,    133)
-	 42 Rel (     83,      0) -> Abs (    250,    133)
-	 43 Rel (     83,      0) -> Abs (    333,    133)
+	 14 Rel (   -334,      0) -> Abs (    333,    -33)
+	 15 Rel (   -333,      0) -> Abs (      0,    -33)
+	 16 Rel (      0,    250) -> Abs (      0,    217)
+	 17 Rel (      0,    250) -> Abs (      0,    467)
+	 18 Rel (     83,      0) -> Abs (     83,    467)
+	 19 Rel (     84,      0) -> Abs (    167,    467)
+	 20 Rel (    333,     83) -> Abs (    500,    550)
+	 21 Rel (      0,     83) -> Abs (    500,    633)
+	 22 Rel (    -83,      0) -> Abs (    417,    633)
+	 23 Rel (    -84,      0) -> Abs (    333,    633)
+	 24 Rel (      0,    -83) -> Abs (    333,    550)
+	 25 Rel (      0,    -83) -> Abs (    333,    467)
+	 26 Rel (     84,      0) -> Abs (    417,    467)
+	 27 Rel (     83,      0) -> Abs (    500,    467)
+	 28 Rel (   -167,   -250) -> Abs (    333,    217)
+	 29 Rel (      0,     83) -> Abs (    333,    300)
+	 30 Rel (    -83,      0) -> Abs (    250,    300)
+	 31 Rel (    -83,      0) -> Abs (    167,    300)
+	 32 Rel (      0,    -83) -> Abs (    167,    217)
+	 33 Rel (      0,    -84) -> Abs (    167,    133)
+	 34 Rel (     83,      0) -> Abs (    250,    133)
+	 35 Rel (     83,      0) -> Abs (    333,    133)
 
 Glyph     10.
 	 numberOfContours:	 1

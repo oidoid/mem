@@ -81,6 +81,7 @@ SplineSet
  0 50 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -113,6 +114,7 @@ SplineSet
  333.333007812 633.333007812 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -193,6 +195,7 @@ SplineSet
  500 383.333007812 l 1
 EndSplineSet
 Kerns2: 3 -333 "kern-lut" 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -248,6 +251,7 @@ SplineSet
  166.666992188 716.666992188 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -329,6 +333,7 @@ SplineSet
  666.666992188 216.666992188 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -355,15 +360,7 @@ SplineSet
  666.666992188 133.333007812 l 1
  666.666992188 50 l 1
  666.666992188 -33.3330078125 l 1
- 583.333007812 -33.3330078125 l 1
- 500 -33.3330078125 l 1
- 500 -116.666992188 l 1
- 500 -200 l 1
- 416.666992188 -200 l 1
- 333.333007812 -200 l 1
- 333.333007812 -116.666992188 l 1
  333.333007812 -33.3330078125 l 1
- 166.666992188 -33.3330078125 l 1
  0 -33.3330078125 l 1
  0 216.666992188 l 1
  0 466.666992188 l 1
@@ -390,6 +387,7 @@ SplineSet
  333.333007812 216.666992188 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -413,6 +411,7 @@ SplineSet
  0 633.333007812 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" d dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" s dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -454,6 +453,7 @@ SplineSet
  166.666992188 716.666992188 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -493,6 +493,7 @@ SplineSet
  0 716.666992188 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -548,6 +549,7 @@ SplineSet
  0 716.666992188 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -587,6 +589,7 @@ SplineSet
  166.666992188 550 l 1
 EndSplineSet
 Kerns2: 0 -167 "kern-lut"
+PairPos2: "kern-lut" comma dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -617,7 +620,7 @@ SplineSet
  166.666992188 -33.3330078125 l 1
  166.666992188 50 l 1
 EndSplineSet
-Kerns2: 2 -167 "kern-lut" 7 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 2 -167 "kern-lut" 7 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" grave dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -641,7 +644,7 @@ SplineSet
  0 300 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 13 -167 "kern-lut" 2 -167 "kern-lut" 7 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 13 -167 "kern-lut" 2 -167 "kern-lut" 7 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" grave dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -665,7 +668,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 50 l 1
 EndSplineSet
-Kerns2: 2 -167 "kern-lut" 7 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 2 -167 "kern-lut" 7 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" grave dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -705,7 +708,7 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 633.333007812 l 1
 EndSplineSet
-Kerns2: 15 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 15 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -745,7 +748,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -780,7 +783,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -819,7 +822,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -858,7 +861,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -893,7 +896,7 @@ SplineSet
  0 300 l 1
  0 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -932,7 +935,7 @@ SplineSet
  0 300 l 1
  0 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -972,7 +975,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 216.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1003,7 +1006,7 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1044,7 +1047,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 216.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1084,7 +1087,7 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1116,7 +1119,7 @@ SplineSet
  0 133.333007812 l 1
  0 216.666992188 l 1
 EndSplineSet
-Kerns2: 26 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 26 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1156,7 +1159,7 @@ SplineSet
  166.666992188 133.333007812 l 1
  166.666992188 216.666992188 l 1
 EndSplineSet
-Kerns2: 27 -167 "kern-lut" 26 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 27 -167 "kern-lut" 26 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1211,7 +1214,7 @@ SplineSet
  333.333007812 633.333007812 l 1
  333.333007812 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1243,7 +1246,7 @@ SplineSet
  0 133.333007812 l 1
  0 216.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1298,7 +1301,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1338,7 +1341,7 @@ SplineSet
  166.666992188 -33.3330078125 l 1
  166.666992188 50 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1407,7 +1410,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 216.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1447,7 +1450,7 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1496,7 +1499,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 216.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1527,7 +1530,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1567,7 +1570,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1606,7 +1609,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1641,7 +1644,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1676,7 +1679,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1715,7 +1718,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1754,7 +1757,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1785,7 +1788,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 466.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1832,7 +1835,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1859,7 +1862,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1898,7 +1901,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1929,7 +1932,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1961,7 +1964,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -1997,7 +2000,7 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" S dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -2042,7 +2045,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2090,7 +2093,7 @@ SplineSet
  333.333007812 466.666992188 l 1
  333.333007812 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2121,7 +2124,7 @@ SplineSet
  166.666992188 133.333007812 l 1
  166.666992188 466.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2152,7 +2155,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -333 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2183,7 +2186,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2222,7 +2225,7 @@ SplineSet
  0 133.333007812 l 1
  0 466.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2261,7 +2264,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2316,7 +2319,7 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2355,7 +2358,7 @@ SplineSet
  0 300 l 1
  0 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2386,7 +2389,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 57 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 57 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2417,7 +2420,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2456,7 +2459,7 @@ SplineSet
  0 466.666992188 l 1
  0 633.333007812 l 1
 EndSplineSet
-Kerns2: 60 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 60 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2487,7 +2490,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2526,7 +2529,7 @@ SplineSet
  166.666992188 633.333007812 l 1
  166.666992188 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2549,7 +2552,7 @@ SplineSet
  0 -200 l 1
  0 -116.666992188 l 1
 EndSplineSet
-Kerns2: 63 -167 "kern-lut" 7 -167 "kern-lut" 2 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 63 -167 "kern-lut" 7 -167 "kern-lut" 2 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" t dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" grave dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -2582,7 +2585,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2622,7 +2625,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2658,7 +2661,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2689,7 +2692,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2725,7 +2728,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 27 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 27 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2773,7 +2776,7 @@ SplineSet
  333.333007812 300 l 1
  333.333007812 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2816,7 +2819,7 @@ SplineSet
  166.666992188 466.666992188 l 1
  166.666992188 633.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2864,7 +2867,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2899,7 +2902,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2922,7 +2925,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -2953,7 +2956,7 @@ SplineSet
  333.333007812 -33.3330078125 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3000,7 +3003,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3023,7 +3026,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3062,7 +3065,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3093,7 +3096,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 300 l 1
 EndSplineSet
-Kerns2: 7 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 7 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3125,7 +3128,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3161,7 +3164,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3205,7 +3208,7 @@ SplineSet
  333.333007812 133.333007812 l 1
  333.333007812 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" u dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" r dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -3238,7 +3241,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 300 l 1
 EndSplineSet
-Kerns2: 74 -333 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 74 -333 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" s dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -3270,7 +3273,7 @@ SplineSet
  166.666992188 133.333007812 l 1
  166.666992188 383.333007812 l 1
 EndSplineSet
-Kerns2: 83 -167 "kern-lut" 74 -167 "kern-lut" 14 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 83 -167 "kern-lut" 74 -167 "kern-lut" 14 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3313,7 +3316,7 @@ SplineSet
  166.666992188 633.333007812 l 1
  166.666992188 716.666992188 l 1
 EndSplineSet
-Kerns2: 83 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 83 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3344,7 +3347,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3383,7 +3386,7 @@ SplineSet
  0 133.333007812 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3422,7 +3425,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 300 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3477,7 +3480,7 @@ SplineSet
  0 466.666992188 l 1
  0 550 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3520,7 +3523,7 @@ SplineSet
  0 133.333007812 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 83 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 83 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3551,7 +3554,7 @@ SplineSet
  0 466.666992188 l 1
  0 550 l 1
 EndSplineSet
-Kerns2: 90 -167 "kern-lut" 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 90 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3590,7 +3593,7 @@ SplineSet
  166.666992188 466.666992188 l 1
  166.666992188 633.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3622,7 +3625,7 @@ SplineSet
  0 -33.3330078125 l 1
  0 133.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3661,7 +3664,7 @@ SplineSet
  0 633.333007812 l 1
  0 716.666992188 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
@@ -3692,7 +3695,7 @@ SplineSet
  0 300 l 1
  0 383.333007812 l 1
 EndSplineSet
-Kerns2: 0 -167 "kern-lut"
+Kerns2: 12 -167 "kern-lut" 0 -167 "kern-lut"
 PairPos2: "kern-lut" uni0009 dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "kern-lut" uni000A dx=0 dy=0 dh=-167 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
