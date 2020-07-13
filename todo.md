@@ -14,8 +14,6 @@
   `inkscape -z --verb SelectionTrace -l foo.svg ../png/_3_4.png` instead of
   potrace?
 - Read through the FontForge docs.
-- The font sizes are split across TTF files instead of being in one. Can this be
-  fixed?
 - Review other font references such as those in the links and earth20 folder.
 - Is the old makefile kaput? Why? It was challenging to work with commands that
   don't have 1:1 inputs and outputs, make is generally super limited and

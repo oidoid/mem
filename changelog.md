@@ -2,6 +2,7 @@
 
 ### v6.0.2 (unreleased)
 
+- [update] rename all monospaced fonts
 - [mem prop 5x6][update] reduce all , kerning; trim & descender
 - [update] rename all proportional fonts
 - [dev] drop empty glyph ranges from demo

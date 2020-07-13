@@ -17,8 +17,8 @@ sprite sheets. Developed in FontForge and Aseprite.
   - [mem 5x5](#mem-5x5)
   - [mem 3x5](#mem-3x5)
   - [mem 4x4](#mem-4x4)
-  - [mem monospaced 4x4](#mem-monospaced-4x4)
-  - [mem monospaced 3x3](#mem-monospaced-3x3)
+  - [mem mono 4x4](#mem-mono-4x4)
+  - [mem mono 3x3](#mem-mono-3x3)
 - [Font Metadata](#font-metadata)
 - [Aseprite Metadata](#aseprite-metadata)
 - [Known issues](#known-issues)
@@ -104,18 +104,18 @@ breakers going to greatest width then proportional font.
 
 **[Download](dist/mem-prop-4x4.ttf)**
 
-### mem monospaced 4x4
+### mem mono 4x4
 
 <a href="dist/mem-mono-4x4-10x-sheet.png">
-  <img alt="mem monospaced 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
+  <img alt="mem mono 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
 </a>
 
 **[Download](dist/mem-mono-4x4.ttf)**
 
-### mem monospaced 3x3
+### mem mono 3x3
 
 <a href="dist/mem-mono-3x3-10x-sheet.png">
-  <img alt="mem monospaced 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
+  <img alt="mem mono 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
 </a>
 
 **[Download](dist/mem-mono-3x3.ttf)**

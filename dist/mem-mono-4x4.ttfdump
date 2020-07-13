@@ -7,13 +7,13 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x000024dc, len =        28
-   1. 'GPOS' - checksum = 0x6f7a773e, offset = 0x000023b8, len =       292
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00002398, len =        32
+   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x000024a8, len =        28
+   1. 'GPOS' - checksum = 0x6f7a773e, offset = 0x00002384, len =       292
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00002364, len =        32
    3. 'OS/2' - checksum = 0x5bd36567, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0xcc91a0d9, offset = 0x000002b8, len =       322
    5. 'cvt ' - checksum = 0x002902f7, offset = 0x000003fc, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x00002390, len =         8
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x0000235c, len =         8
    7. 'glyf' - checksum = 0xaaf82999, offset = 0x000004c8, len =      6460
    8. 'head' - checksum = 0x5b57a537, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x077a0420, offset = 0x00000144, len =        36
@@ -21,8 +21,8 @@ Offset Table
   11. 'kern' - checksum = 0xde67de7c, offset = 0x00001e04, len =       582
   12. 'loca' - checksum = 0x33c92d98, offset = 0x00000400, len =       198
   13. 'maxp' - checksum = 0x00a70061, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0x86697133, offset = 0x0000204c, len =       603
-  15. 'post' - checksum = 0x097a0962, offset = 0x000022a8, len =       230
+  14. 'name' - checksum = 0xa112c7ab, offset = 0x0000204c, len =       549
+  15. 'post' - checksum = 0x097a0962, offset = 0x00002274, len =       230
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -416,7 +416,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x821eff34
+	 checkSumAdjustment:	 0x4ccc537e
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1250
@@ -692,42 +692,42 @@ Name table   1.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 1
-		 Length:	 18
-		 Offset:	 101
-		 6d 65 6d 20 6d 6f 6e 6f 73 70  >  mem monosp
-		 61 63 65 64 20 34 78 34        > aced 4x4
+		 Length:	 12
+		 Offset:	 89
+		 6d 65 6d 20 6d 6f 6e 6f 20 34  >  mem mono 4
+		 78 34                          > x4
 Name table   2.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 2
 		 Length:	 8
-		 Offset:	 138
+		 Offset:	 120
 		 6d 6f 6e 6f 2d 34 78 34        > mono-4x4
 Name table   3.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 3
-		 Length:	 46
-		 Offset:	 241
+		 Length:	 40
+		 Offset:	 211
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
-		 6d 6f 6e 6f 73 70 61 63 65 64  >  monospaced
-		 20 34 78 34 20 3a 20 31 33 2d  >   4x4 : 13-
-		 37 2d 32 30 32 30              > 7-2020
+		 6d 6f 6e 6f 20 34 78 34 20 3a  >  mono 4x4 :
+		 20 31 33 2d 37 2d 32 30 32 30  >   13-7-2020
+		                                > 
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 4
-		 Length:	 18
-		 Offset:	 326
-		 6d 65 6d 20 6d 6f 6e 6f 73 70  >  mem monosp
-		 61 63 65 64 20 34 78 34        > aced 4x4
+		 Length:	 12
+		 Offset:	 278
+		 6d 65 6d 20 6d 6f 6e 6f 20 34  >  mem mono 4
+		 78 34                          > x4
 Name table   5.	 PlatformID:	 1
 		 EncodingID:	 0
 		 LanguageID:	 0
 		 NameID:	 5
 		 Length:	 14
-		 Offset:	 375
+		 Offset:	 321
 		 56 65 72 73 69 6f 6e 20 36 2e  >  Version 6.
 		 30 2e 31 20                    > 0.1 
 Name table   6.	 PlatformID:	 1
@@ -735,7 +735,7 @@ Name table   6.	 PlatformID:	 1
 		 LanguageID:	 0
 		 NameID:	 6
 		 Length:	 12
-		 Offset:	 416
+		 Offset:	 362
 		 6d 65 6d 2d 6d 6f 6e 6f 2d 34  >  mem-mono-4
 		 78 34                          > x4
 Name table   7.	 PlatformID:	 3
@@ -753,52 +753,49 @@ Name table   8.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 1
-		 Length:	 36
+		 Length:	 24
 		 Offset:	 63
 		 00 6d 00 65 00 6d 00 20 00 6d  >  .m.e.m. .m
-		 00 6f 00 6e 00 6f 00 73 00 70  >  .o.n.o.s.p
-		 00 61 00 63 00 65 00 64 00 20  >  .a.c.e.d. 
-		 00 34 00 78 00 34              > .4.x.4
+		 00 6f 00 6e 00 6f 00 20 00 34  >  .o.n.o. .4
+		 00 78 00 34                    > .x.4
 Name table   9.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 2
 		 Length:	 16
-		 Offset:	 120
+		 Offset:	 102
 		 00 6d 00 6f 00 6e 00 6f 00 2d  >  .m.o.n.o.-
 		 00 34 00 78 00 34              > .4.x.4
 Name table  10.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 3
-		 Length:	 92
-		 Offset:	 147
+		 Length:	 80
+		 Offset:	 129
 		 00 46 00 6f 00 6e 00 74 00 46  >  .F.o.n.t.F
 		 00 6f 00 72 00 67 00 65 00 20  >  .o.r.g.e. 
 		 00 32 00 2e 00 30 00 20 00 3a  >  .2...0. .:
 		 00 20 00 6d 00 65 00 6d 00 20  >  . .m.e.m. 
-		 00 6d 00 6f 00 6e 00 6f 00 73  >  .m.o.n.o.s
-		 00 70 00 61 00 63 00 65 00 64  >  .p.a.c.e.d
-		 00 20 00 34 00 78 00 34 00 20  >  . .4.x.4. 
-		 00 3a 00 20 00 31 00 33 00 2d  >  .:. .1.3.-
-		 00 37 00 2d 00 32 00 30 00 32  >  .7.-.2.0.2
-		 00 30                          > .0
+		 00 6d 00 6f 00 6e 00 6f 00 20  >  .m.o.n.o. 
+		 00 34 00 78 00 34 00 20 00 3a  >  .4.x.4. .:
+		 00 20 00 31 00 33 00 2d 00 37  >  . .1.3.-.7
+		 00 2d 00 32 00 30 00 32 00 30  >  .-.2.0.2.0
+		                                > 
 Name table  11.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 4
-		 Length:	 36
-		 Offset:	 288
+		 Length:	 24
+		 Offset:	 252
 		 00 6d 00 65 00 6d 00 20 00 6d  >  .m.e.m. .m
-		 00 6f 00 6e 00 6f 00 73 00 70  >  .o.n.o.s.p
-		 00 61 00 63 00 65 00 64 00 20  >  .a.c.e.d. 
-		 00 34 00 78 00 34              > .4.x.4
+		 00 6f 00 6e 00 6f 00 20 00 34  >  .o.n.o. .4
+		 00 78 00 34                    > .x.4
 Name table  12.	 PlatformID:	 3
 		 EncodingID:	 1
 		 LanguageID:	 1033
 		 NameID:	 5
 		 Length:	 28
-		 Offset:	 345
+		 Offset:	 291
 		 00 56 00 65 00 72 00 73 00 69  >  .V.e.r.s.i
 		 00 6f 00 6e 00 20 00 36 00 2e  >  .o.n. .6..
 		 00 30 00 2e 00 31 00 20        > .0...1. 
@@ -807,7 +804,7 @@ Name table  13.	 PlatformID:	 3
 		 LanguageID:	 1033
 		 NameID:	 6
 		 Length:	 24
-		 Offset:	 390
+		 Offset:	 336
 		 00 6d 00 65 00 6d 00 2d 00 6d  >  .m.e.m.-.m
 		 00 6f 00 6e 00 6f 00 2d 00 34  >  .o.n.o.-.4
 		 00 78 00 34                    > .x.4

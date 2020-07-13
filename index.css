@@ -11,8 +11,8 @@
   --font-family-mem-prop-5x5: 'mem 5x5';
   --font-family-mem-prop-3x5: 'mem 3x5';
   --font-family-mem-prop-4x4: 'mem 4x4';
-  --font-family-mem-mono-4x4: 'mem monospaced 4x4';
-  --font-family-mem-mono-3x3: 'mem monospaced 3x3';
+  --font-family-mem-mono-4x4: 'mem mono 4x4';
+  --font-family-mem-mono-3x3: 'mem mono 3x3';
   /* These are taken from the line heights. */
   --font-size-mem-prop-5x6: 7px;
   --font-size-mem-prop-5x5: 6px;
@@ -52,12 +52,12 @@
   font-display: block;
 }
 @font-face {
-  font-family: 'mem monospaced 4x4';
+  font-family: 'mem mono 4x4';
   src: url('dist/mem-mono-4x4.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: 'mem monospaced 3x3';
+  font-family: 'mem mono 3x3';
   src: url('dist/mem-mono-3x3.ttf');
   font-display: block;
 }

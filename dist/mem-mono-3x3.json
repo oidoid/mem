@@ -1,6 +1,6 @@
 {
   "id": "mem-mono-3x3",
-  "name": "mem monospaced 3x3",
+  "name": "mem mono 3x3",
   "cel_width": 3,
   "cel_height": 3,
   "leading": 1,
