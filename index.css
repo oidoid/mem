@@ -7,10 +7,10 @@
   --border-color-control-panel__label: #ccc;
   --color-demo-header: #333;
   --border-radius: 2px;
-  --font-family-mem-prop-5x6: 'mem proportional 5x6';
-  --font-family-mem-prop-5x5: 'mem proportional 5x5';
-  --font-family-mem-prop-3x5: 'mem proportional 3x5';
-  --font-family-mem-prop-4x4: 'mem proportional 4x4';
+  --font-family-mem-prop-5x6: 'mem 5x6';
+  --font-family-mem-prop-5x5: 'mem 5x5';
+  --font-family-mem-prop-3x5: 'mem 3x5';
+  --font-family-mem-prop-4x4: 'mem 4x4';
   --font-family-mem-mono-4x4: 'mem monospaced 4x4';
   --font-family-mem-mono-3x3: 'mem monospaced 3x3';
   /* These are taken from the line heights. */
@@ -32,22 +32,22 @@
    incorrect with any substitute fonts. Using a CSS variable for font family
    doesn't seem to work on mobile Chrome. */
 @font-face {
-  font-family: 'mem proportional 5x6';
+  font-family: 'mem 5x6';
   src: url('dist/mem-prop-5x6.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: 'mem proportional 5x5';
+  font-family: 'mem 5x5';
   src: url('dist/mem-prop-5x5.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: 'mem proportional 3x5';
+  font-family: 'mem 3x5';
   src: url('dist/mem-prop-3x5.ttf');
   font-display: block;
 }
 @font-face {
-  font-family: 'mem proportional 4x4';
+  font-family: 'mem 4x4';
   src: url('dist/mem-prop-4x4.ttf');
   font-display: block;
 }
@@ -181,7 +181,7 @@ textarea.demo-box {
   align-items: center; /* Vertical center alignment */
 }
 
-.mem-font-logo {
+.mem-logo {
   font: calc(6 * var(--font-size-mem-prop-5x6)) var(--font-family-mem-prop-5x6);
   margin: 0;
 }

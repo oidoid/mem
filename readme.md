@@ -1,4 +1,4 @@
-# ![mem-font](logo.png)
+# ![mem](logo.png)
 
 Proportional and monospaced sans light pixel font family. See the
 **[demo](https://rndmem.com)** or [download the fonts](#fonts) as TTFs and
@@ -13,18 +13,19 @@ sprite sheets. Developed in FontForge and Aseprite.
 - [Install](#install)
 - [Files](#files)
 - [Fonts](#fonts)
-  - [mem proportional 5x6](#mem-proportional-5x6)
-  - [mem proportional 5x5](#mem-proportional-5x5)
-  - [mem proportional 3x5](#mem-proportional-3x5)
-  - [mem proportional 4x4](#mem-proportional-4x4)
+  - [mem 5x6](#mem-5x6)
+  - [mem 5x5](#mem-5x5)
+  - [mem 3x5](#mem-3x5)
+  - [mem 4x4](#mem-4x4)
   - [mem monospaced 4x4](#mem-monospaced-4x4)
   - [mem monospaced 3x3](#mem-monospaced-3x3)
 - [Font Metadata](#font-metadata)
 - [Aseprite Metadata](#aseprite-metadata)
 - [Known issues](#known-issues)
 - [Design Principles](#design-principles)
-  - [mem proportional 5x6](#mem-proportional-5x6-1)
+  - [mem 5x6](#mem-5x6-1)
 - [Development](#development)
+  - [NPM scripts](#npm-scripts)
   - [Tests](#tests)
   - [Aseprite](#aseprite)
   - [System Prerequisites](#system-prerequisites)
@@ -49,9 +50,9 @@ See the [changelog](changelog.md) for release notes.
 ## Files
 
 - **\*.ttf**: TrueType font file. The format is
-  `mem-<variable width>-<width>x<height>` where where "variable width" is `prop`
-  for proportional or `mono` for monospaced, and width and height are cel width
-  and height in pixels.
+  `mem-<variable width>-<width>x<height>` where "variable width" is `prop` for
+  proportional or `mono` for monospaced, and width and height are cel width and
+  height in pixels.
 - **\*.json**: font metadata (kerning and other metrics for games).
 - **\*-sheet.png**: 1x spritesheet (for games)
 - **\*-sheet.json**: 1x Aseprite metadata (for games)
@@ -71,37 +72,37 @@ All characters in each font set appear below. Blank cels are missing (undefined)
 characters. The fonts are ordered from greatest to least line height with tie
 breakers going to greatest width then proportional font.
 
-### mem proportional 5x6
+### mem 5x6
 
 <a href="dist/mem-prop-5x6-10x-sheet.png">
-  <img alt="mem proportional 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x-sheet.png" width="560" height="320">
+  <img alt="mem 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x-sheet.png" width="560" height="320">
 </a>
 
-**[Download](https://mem-font.netlify.app/dist/mem-prop-5x6.ttf)**
+**[Download](dist/mem-prop-5x6.ttf)**
 
-### mem proportional 5x5
+### mem 5x5
 
 <a href="dist/mem-prop-5x5-10x-sheet.png">
-  <img alt="mem proportional 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x-sheet.png" width="560" height="280">
+  <img alt="mem 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x-sheet.png" width="560" height="280">
 </a>
 
-**[Download](https://mem-font.netlify.app/dist/mem-prop-5x5.ttf)**
+**[Download](dist/mem-prop-5x5.ttf)**
 
-### mem proportional 3x5
+### mem 3x5
 
 <a href="dist/mem-prop-3x5-10x-sheet.png">
-  <img alt="mem proportional 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x-sheet.png" width="400" height="280">
+  <img alt="mem 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x-sheet.png" width="400" height="280">
 </a>
 
-**[Download](https://mem-font.netlify.app/dist/mem-prop-3x5.ttf)**
+**[Download](dist/mem-prop-3x5.ttf)**
 
-### mem proportional 4x4
+### mem 4x4
 
 <a href="dist/mem-prop-4x4-10x-sheet.png">
-  <img alt="mem proportional 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x-sheet.png" width="480" height="240">
+  <img alt="mem 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x-sheet.png" width="480" height="240">
 </a>
 
-**[Download](https://mem-font.netlify.app/dist/mem-prop-4x4.ttf)**
+**[Download](dist/mem-prop-4x4.ttf)**
 
 ### mem monospaced 4x4
 
@@ -109,7 +110,7 @@ breakers going to greatest width then proportional font.
   <img alt="mem monospaced 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
 </a>
 
-**[Download](https://mem-font.netlify.app/dist/mem-mono-4x4.ttf)**
+**[Download](dist/mem-mono-4x4.ttf)**
 
 ### mem monospaced 3x3
 
@@ -117,7 +118,7 @@ breakers going to greatest width then proportional font.
   <img alt="mem monospaced 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
 </a>
 
-**[Download](https://mem-font.netlify.app/dist/mem-mono-3x3.ttf)**
+**[Download](dist/mem-mono-3x3.ttf)**
 
 ## Font Metadata
 
@@ -149,7 +150,7 @@ See the [to-do](todo.md) for more issues.
 
 ## Design Principles
 
-### mem proportional 5x6
+### mem 5x6
 
 - Excellent high- and low-scale readability, smoothness (pixel clustering), and
   visual consistency of the whole character set at the expense of form adherence

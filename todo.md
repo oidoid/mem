@@ -10,7 +10,6 @@
 - The font sizes are split across TTF files instead of being in one. Can this be
   fixed?
 - Validate the sheets are usable in-game.
-- Add font to oddoid.com with aseprite-atlas.
 - Why did I consider but not use
   `inkscape -z --verb SelectionTrace -l foo.svg ../png/_3_4.png` instead of
   potrace?

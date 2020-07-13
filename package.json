@@ -18,9 +18,9 @@
     "minimal",
     "sans"
   ],
-  "homepage": "https://github.com/oddoid/mem-font",
-  "repository": "github:oddoid/mem-font",
-  "bugs": "https://github.com/oddoid/mem-font/issues",
+  "homepage": "https://github.com/oddoid/mem",
+  "repository": "github:oddoid/mem",
+  "bugs": "https://github.com/oddoid/mem/issues",
   "license": "GPL-3.0-only",
   "scripts": {
     "start": "live-server -q --wait=2000",
