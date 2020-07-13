@@ -2,6 +2,7 @@
 
 ### v6.0.2 (unreleased)
 
+- [dev] fix favicon for dark backgrounds
 - [mem prop 5x6][update] drop code page 437; make 9 a rotated 6; make W a
   flipped M; descend &
 - [mem prop 3x5][update] improve parity with 5x6
