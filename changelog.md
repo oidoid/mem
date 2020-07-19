@@ -2,6 +2,7 @@
 
 ### v6.0.2 (unreleased)
 
+- [mem mono 3x3][update] center ., :, and ~; widen c; raise n; smooth N
 - [update] rename all monospaced fonts
 - [mem prop 5x6][update] reduce all , kerning; trim & descender
 - [update] rename all proportional fonts

@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x00001a90, len =        28
-   1. 'GPOS' - checksum = 0x5fc16567, offset = 0x0000199c, len =       242
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x0000197c, len =        32
-   3. 'OS/2' - checksum = 0x5c9666cb, offset = 0x00000188, len =        96
-   4. 'cmap' - checksum = 0xced371c5, offset = 0x00000284, len =       378
-   5. 'cvt ' - checksum = 0x002c02f4, offset = 0x00000400, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x00001974, len =         8
-   7. 'glyf' - checksum = 0xdf28a48c, offset = 0x00000498, len =      4176
+   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x00001ae8, len =        28
+   1. 'GPOS' - checksum = 0x5efd674e, offset = 0x000019f4, len =       244
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000019d4, len =        32
+   3. 'OS/2' - checksum = 0x5c9666cf, offset = 0x00000188, len =        96
+   4. 'cmap' - checksum = 0x17ef7283, offset = 0x00000288, len =       386
+   5. 'cvt ' - checksum = 0x002c02f4, offset = 0x0000040c, len =         4
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x000019cc, len =         8
+   7. 'glyf' - checksum = 0x9bcf1eb7, offset = 0x000004a8, len =      4236
    8. 'head' - checksum = 0x5b57a58a, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x07820473, offset = 0x00000144, len =        36
-  10. 'hmtx' - checksum = 0x0e0b002c, offset = 0x000001e8, len =       156
-  11. 'kern' - checksum = 0xdafcda09, offset = 0x000014e8, len =       432
-  12. 'loca' - checksum = 0x8f1e933c, offset = 0x00000404, len =       148
-  13. 'maxp' - checksum = 0x008d0059, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0x9d0bc3a6, offset = 0x00001698, len =       549
-  15. 'post' - checksum = 0x072e078a, offset = 0x000018c0, len =       180
+  10. 'hmtx' - checksum = 0x0f580179, offset = 0x000001e8, len =       158
+  11. 'kern' - checksum = 0xd9feda13, offset = 0x00001534, len =       438
+  12. 'loca' - checksum = 0x976c9342, offset = 0x00000410, len =       150
+  13. 'maxp' - checksum = 0x008e0059, offset = 0x00000168, len =        32
+  14. 'name' - checksum = 0xa311c3a6, offset = 0x000016ec, len =       549
+  15. 'post' - checksum = 0x0790078a, offset = 0x00001914, len =       182
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -36,19 +36,19 @@ Encoding   0.	 PlatformID:  0
 
 Encoding   1.	 PlatformID:  1
 		 EcodingID:   0
-		 SubTable: 1, Offset: 0x00000074
+		 SubTable: 1, Offset: 0x0000007c
 
 Encoding   2.	 PlatformID:  3
 		 EcodingID:   1
 		 SubTable: 0, Offset: 0x0000001c
 
 SubTable   0.	 Format 4 - Segment mapping to delta values
-		 Length:      88
+		 Length:      96
 		 Version:      0
-		 segCount:	 9
+		 segCount:	 10
 		 searchRange:	 16
 		 entrySelector:	 3
-		 rangeShift:	 2
+		 rangeShift:	 4
 		 Seg     0 : St = 0020, En = 0020, D =  65507, RO =      0, gId# = N/A
 		 Seg     1 : St = 0026, En = 0026, D =  65502, RO =      0, gId# = N/A
 		 Seg     2 : St = 0028, En = 0029, D =  65501, RO =      0, gId# = N/A
@@ -57,7 +57,8 @@ SubTable   0.	 Format 4 - Segment mapping to delta values
 		 Seg     5 : St = 0030, En = 003b, D =  65497, RO =      0, gId# = N/A
 		 Seg     6 : St = 0041, En = 005a, D =  65492, RO =      0, gId# = N/A
 		 Seg     7 : St = 0061, En = 007a, D =  65486, RO =      0, gId# = N/A
-		 Seg     8 : St = ffff, En = ffff, D =      1, RO =      0, gId# = N/A
+		 Seg     8 : St = 007e, En = 007e, D =  65483, RO =      0, gId# = N/A
+		 Seg     9 : St = ffff, En = ffff, D =      1, RO =      0, gId# = N/A
 		 Number of glyphIndex 0
 Segment 0:
 		Char 0x0020 -> Index 3
@@ -138,6 +139,8 @@ Segment 7:
 		Char 0x0079 -> Index 71
 		Char 0x007a -> Index 72
 Segment 8:
+		Char 0x007e -> Index 73
+Segment 9:
 		Char 0xffff -> Index 0
 
 SubTable   1.	 Format 0 - Byte encoding table
@@ -269,7 +272,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 		 Char 123 -> Index    0
 		 Char 124 -> Index    0
 		 Char 125 -> Index    0
-		 Char 126 -> Index    0
+		 Char 126 -> Index   73
 		 Char 127 -> Index    0
 		 Char 128 -> Index    0
 		 Char 129 -> Index    0
@@ -405,7 +408,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x570b7384
+	 checkSumAdjustment:	 0x2f027450
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1333
@@ -452,7 +455,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 	    5. LSbear:    0
 	    6. LSbear:    0
 	    7. LSbear:    0
-	    8. LSbear:    0
+	    8. LSbear:  333
 	    9. LSbear:    0
 	   10. LSbear:    0
 	   11. LSbear:    0
@@ -463,7 +466,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 	   16. LSbear:    0
 	   17. LSbear:    0
 	   18. LSbear:    0
-	   19. LSbear:    0
+	   19. LSbear:  333
 	   20. LSbear:    0
 	   21. LSbear:    0
 	   22. LSbear:    0
@@ -517,6 +520,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 	   70. LSbear:    0
 	   71. LSbear:    0
 	   72. LSbear:    0
+	   73. LSbear:    0
 
 'loca' Table - Index to Location
 --------------------------------
@@ -555,50 +559,51 @@ SubTable   1.	 Format 0 - Byte encoding table
 	 Idx     32 -> GlyphOffset 0x000006cc
 	 Idx     33 -> GlyphOffset 0x000006fc
 	 Idx     34 -> GlyphOffset 0x00000730
-	 Idx     35 -> GlyphOffset 0x00000770
-	 Idx     36 -> GlyphOffset 0x000007ac
-	 Idx     37 -> GlyphOffset 0x000007dc
-	 Idx     38 -> GlyphOffset 0x00000830
-	 Idx     39 -> GlyphOffset 0x0000086c
-	 Idx     40 -> GlyphOffset 0x000008a4
-	 Idx     41 -> GlyphOffset 0x000008dc
-	 Idx     42 -> GlyphOffset 0x00000914
-	 Idx     43 -> GlyphOffset 0x0000095c
-	 Idx     44 -> GlyphOffset 0x00000990
-	 Idx     45 -> GlyphOffset 0x000009f0
-	 Idx     46 -> GlyphOffset 0x00000a34
-	 Idx     47 -> GlyphOffset 0x00000a6c
-	 Idx     48 -> GlyphOffset 0x00000ab8
-	 Idx     49 -> GlyphOffset 0x00000ae4
-	 Idx     50 -> GlyphOffset 0x00000b24
-	 Idx     51 -> GlyphOffset 0x00000b54
-	 Idx     52 -> GlyphOffset 0x00000b84
-	 Idx     53 -> GlyphOffset 0x00000bc4
-	 Idx     54 -> GlyphOffset 0x00000bf0
-	 Idx     55 -> GlyphOffset 0x00000c2c
-	 Idx     56 -> GlyphOffset 0x00000c50
-	 Idx     57 -> GlyphOffset 0x00000c90
-	 Idx     58 -> GlyphOffset 0x00000ce0
-	 Idx     59 -> GlyphOffset 0x00000d0c
-	 Idx     60 -> GlyphOffset 0x00000d3c
-	 Idx     61 -> GlyphOffset 0x00000d78
-	 Idx     62 -> GlyphOffset 0x00000dd0
-	 Idx     63 -> GlyphOffset 0x00000dfc
-	 Idx     64 -> GlyphOffset 0x00000e34
-	 Idx     65 -> GlyphOffset 0x00000e64
-	 Idx     66 -> GlyphOffset 0x00000e9c
-	 Idx     67 -> GlyphOffset 0x00000ed0
-	 Idx     68 -> GlyphOffset 0x00000f04
-	 Idx     69 -> GlyphOffset 0x00000f44
-	 Idx     70 -> GlyphOffset 0x00000f78
-	 Idx     71 -> GlyphOffset 0x00000fd8
-	 Idx     72 -> GlyphOffset 0x0000101c
-	 Ended at 0x00001050
+	 Idx     35 -> GlyphOffset 0x00000768
+	 Idx     36 -> GlyphOffset 0x000007a4
+	 Idx     37 -> GlyphOffset 0x000007d4
+	 Idx     38 -> GlyphOffset 0x00000828
+	 Idx     39 -> GlyphOffset 0x00000864
+	 Idx     40 -> GlyphOffset 0x0000089c
+	 Idx     41 -> GlyphOffset 0x000008d4
+	 Idx     42 -> GlyphOffset 0x0000090c
+	 Idx     43 -> GlyphOffset 0x00000954
+	 Idx     44 -> GlyphOffset 0x00000988
+	 Idx     45 -> GlyphOffset 0x000009e8
+	 Idx     46 -> GlyphOffset 0x00000a2c
+	 Idx     47 -> GlyphOffset 0x00000a64
+	 Idx     48 -> GlyphOffset 0x00000ab0
+	 Idx     49 -> GlyphOffset 0x00000adc
+	 Idx     50 -> GlyphOffset 0x00000b28
+	 Idx     51 -> GlyphOffset 0x00000b58
+	 Idx     52 -> GlyphOffset 0x00000b88
+	 Idx     53 -> GlyphOffset 0x00000bc8
+	 Idx     54 -> GlyphOffset 0x00000bf4
+	 Idx     55 -> GlyphOffset 0x00000c30
+	 Idx     56 -> GlyphOffset 0x00000c54
+	 Idx     57 -> GlyphOffset 0x00000c94
+	 Idx     58 -> GlyphOffset 0x00000ce4
+	 Idx     59 -> GlyphOffset 0x00000d10
+	 Idx     60 -> GlyphOffset 0x00000d40
+	 Idx     61 -> GlyphOffset 0x00000d80
+	 Idx     62 -> GlyphOffset 0x00000dd8
+	 Idx     63 -> GlyphOffset 0x00000e04
+	 Idx     64 -> GlyphOffset 0x00000e3c
+	 Idx     65 -> GlyphOffset 0x00000e6c
+	 Idx     66 -> GlyphOffset 0x00000ea4
+	 Idx     67 -> GlyphOffset 0x00000ed8
+	 Idx     68 -> GlyphOffset 0x00000f0c
+	 Idx     69 -> GlyphOffset 0x00000f4c
+	 Idx     70 -> GlyphOffset 0x00000f80
+	 Idx     71 -> GlyphOffset 0x00000fe0
+	 Idx     72 -> GlyphOffset 0x00001024
+	 Idx     73 -> GlyphOffset 0x00001058
+	 Ended at 0x0000108c
 
 'maxp' Table - Maximum Profile
 ------------------------------
 	 'maxp' version:	 1.0
-	 numGlyphs:		 73
+	 numGlyphs:		 74
 	 maxPoints:		 40
 	 maxContours:		 2
 	 maxCompositePoints:	 0
@@ -651,7 +656,7 @@ Name table   3.	 PlatformID:	 1
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
 		 6d 6f 6e 6f 20 33 78 33 20 3a  >  mono 3x3 :
-		 20 31 33 2d 37 2d 32 30 32 30  >   13-7-2020
+		 20 31 39 2d 37 2d 32 30 32 30  >   19-7-2020
 		                                > 
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
@@ -717,7 +722,7 @@ Name table  10.	 PlatformID:	 3
 		 00 20 00 6d 00 65 00 6d 00 20  >  . .m.e.m. 
 		 00 6d 00 6f 00 6e 00 6f 00 20  >  .m.o.n.o. 
 		 00 33 00 78 00 33 00 20 00 3a  >  .3.x.3. .:
-		 00 20 00 31 00 33 00 2d 00 37  >  . .1.3.-.7
+		 00 20 00 31 00 39 00 2d 00 37  >  . .1.9.-.7
 		 00 2d 00 32 00 30 00 32 00 30  >  .-.2.0.2.0
 		                                > 
 Name table  11.	 PlatformID:	 3
@@ -760,7 +765,7 @@ Name table  13.	 PlatformID:	 3
 	 minMemType1:		 0d
 	 maxMemType1:		 0d
 	 Format 2.0:  Non-Standard (for PostScript) TrueType Glyph Set.
-		 numGlyphs:	 73
+		 numGlyphs:	 74
 		 Glyf   0  -> Mac Glyph #   0
 		 Glyf   1  -> Mac Glyph #   1
 		 Glyf   2  -> Mac Glyph #   2
@@ -834,6 +839,7 @@ Name table  13.	 PlatformID:	 3
 		 Glyf  70  -> Mac Glyph #  91
 		 Glyf  71  -> Mac Glyph #  92
 		 Glyf  72  -> Mac Glyph #  93
+		 Glyf  73  -> Mac Glyph #  97
 'OS/2' Table - OS/2 and Windows Metrics
 ---------------------------------------
 	 'OS/2' version:	 4
@@ -870,7 +876,7 @@ Name table  13.	 PlatformID:	 3
 	 achVendID:		 'PfEd'
 	 fsSelection:		 0x0080 	 ''
 	 usFirstCharIndex:	 0x0020
- 	 usLastCharIndex:	 0x007a
+ 	 usLastCharIndex:	 0x007e
 	 sTypoAscender:		 800
 	 sTypoDescender:	 -533
 	 sTypoLineGap:		 120
@@ -906,12 +912,12 @@ Number of subtables:	 1
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 428
+	 Bytes in subtable 	 434
 	 Coverage bits 	 0x1
-	 Number of pairs 69
+	 Number of pairs 70
 	 Search Range    384
 	 Entry Selector  6
-	 Range Shift     30
+	 Range Shift     36
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 4 		 3 		 -333
@@ -983,6 +989,7 @@ Number of subtables:	 1
 		 70 		 3 		 -333
 		 71 		 3 		 -333
 		 72 		 3 		 -333
+		 73 		 3 		 -333
 
 'GPOS' Table - Glyph Positioning Data
 -------------------------------------
@@ -1004,8 +1011,8 @@ Number of subtables:	 1
 	subTableCount:	1
        0. lookupFormat: 1 - Pair Adjustment List
 	  Coverage - rangeCount: 1
-	       0. start: 4, end: 72, startCoverageIndex: 0
-	  valueFormat1: 0x0004, valueFormat2: 0x0000, pairSetCount: 69
+	       0. start: 4, end: 73, startCoverageIndex: 0
+	  valueFormat1: 0x0004, valueFormat2: 0x0000, pairSetCount: 70
 	   0. pairValueCount: 1
 	       0. secondGlyph: 3
 		  value1: XAdvance = -333
@@ -1211,6 +1218,9 @@ Number of subtables:	 1
 	       0. secondGlyph: 3
 		  value1: XAdvance = -333
 	  68. pairValueCount: 1
+	       0. secondGlyph: 3
+		  value1: XAdvance = -333
+	  69. pairValueCount: 1
 	       0. secondGlyph: 3
 		  value1: XAdvance = -333
 
@@ -1607,9 +1617,9 @@ Glyph      7.
 
 Glyph      8.
 	 numberOfContours:	 1
-	 xMin:			 0
+	 xMin:			 333
 	 yMin:			 -200
-	 xMax:			 334
+	 xMax:			 667
 	 yMax:			 134
 
 	 EndPoints
@@ -1620,7 +1630,7 @@ Glyph      8.
 
 	 Flags
 	 -----
-	  0:        XDual           Y-Short         On
+	  0:                        Y-Short         On
 	  1: YDual  XDual           Y-Short         On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
@@ -1631,14 +1641,14 @@ Glyph      8.
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    -33) -> Abs (      0,    -33)
-	  1 Rel (      0,    166) -> Abs (      0,    133)
-	  2 Rel (    167,      0) -> Abs (    167,    133)
-	  3 Rel (    166,      0) -> Abs (    333,    133)
-	  4 Rel (      0,   -166) -> Abs (    333,    -33)
-	  5 Rel (      0,   -167) -> Abs (    333,   -200)
-	  6 Rel (   -166,      0) -> Abs (    167,   -200)
-	  7 Rel (   -167,      0) -> Abs (      0,   -200)
+	  0 Rel (    333,    -33) -> Abs (    333,    -33)
+	  1 Rel (      0,    166) -> Abs (    333,    133)
+	  2 Rel (    167,      0) -> Abs (    500,    133)
+	  3 Rel (    167,      0) -> Abs (    667,    133)
+	  4 Rel (      0,   -166) -> Abs (    667,    -33)
+	  5 Rel (      0,   -167) -> Abs (    667,   -200)
+	  6 Rel (   -167,      0) -> Abs (    500,   -200)
+	  7 Rel (   -167,      0) -> Abs (    333,   -200)
 
 Glyph      9.
 	 numberOfContours:	 2
@@ -2161,9 +2171,9 @@ Glyph     18.
 
 Glyph     19.
 	 numberOfContours:	 2
-	 xMin:			 0
+	 xMin:			 333
 	 yMin:			 -200
-	 xMax:			 334
+	 xMax:			 667
 	 yMax:			 800
 
 	 EndPoints
@@ -2175,7 +2185,7 @@ Glyph     19.
 
 	 Flags
 	 -----
-	  0:        XDual                           On
+	  0:                                        On
 	  1: YDual  XDual           Y-Short         On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
@@ -2194,22 +2204,22 @@ Glyph     19.
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    633) -> Abs (      0,    633)
-	  1 Rel (      0,    167) -> Abs (      0,    800)
-	  2 Rel (    167,      0) -> Abs (    167,    800)
-	  3 Rel (    166,      0) -> Abs (    333,    800)
-	  4 Rel (      0,   -167) -> Abs (    333,    633)
-	  5 Rel (      0,   -166) -> Abs (    333,    467)
-	  6 Rel (   -166,      0) -> Abs (    167,    467)
-	  7 Rel (   -167,      0) -> Abs (      0,    467)
-	  8 Rel (      0,   -500) -> Abs (      0,    -33)
-	  9 Rel (      0,    166) -> Abs (      0,    133)
-	 10 Rel (    167,      0) -> Abs (    167,    133)
-	 11 Rel (    166,      0) -> Abs (    333,    133)
-	 12 Rel (      0,   -166) -> Abs (    333,    -33)
-	 13 Rel (      0,   -167) -> Abs (    333,   -200)
-	 14 Rel (   -166,      0) -> Abs (    167,   -200)
-	 15 Rel (   -167,      0) -> Abs (      0,   -200)
+	  0 Rel (    333,    633) -> Abs (    333,    633)
+	  1 Rel (      0,    167) -> Abs (    333,    800)
+	  2 Rel (    167,      0) -> Abs (    500,    800)
+	  3 Rel (    167,      0) -> Abs (    667,    800)
+	  4 Rel (      0,   -167) -> Abs (    667,    633)
+	  5 Rel (      0,   -166) -> Abs (    667,    467)
+	  6 Rel (   -167,      0) -> Abs (    500,    467)
+	  7 Rel (   -167,      0) -> Abs (    333,    467)
+	  8 Rel (      0,   -500) -> Abs (    333,    -33)
+	  9 Rel (      0,    166) -> Abs (    333,    133)
+	 10 Rel (    167,      0) -> Abs (    500,    133)
+	 11 Rel (    167,      0) -> Abs (    667,    133)
+	 12 Rel (      0,   -166) -> Abs (    667,    -33)
+	 13 Rel (      0,   -167) -> Abs (    667,   -200)
+	 14 Rel (   -167,      0) -> Abs (    500,   -200)
+	 15 Rel (   -167,      0) -> Abs (    333,   -200)
 
 Glyph     20.
 	 numberOfContours:	 2
@@ -3041,7 +3051,7 @@ Glyph     34.
 
 	 EndPoints
 	 ---------
-	  0: 19
+	  0: 15
 
 	 Length of Instructions:  0
 
@@ -3051,10 +3061,10 @@ Glyph     34.
 	  1:        XDual   Repeat                  On
 	  2: YDual          Repeat                  On
 	  3: YDual          Repeat                  On
-	  4:        XDual   Repeat  Y-Short         On
-	  5:        XDual   Repeat  Y-Short         On
-	  6: YDual  XDual   Repeat          X-Short On
-	  7: YDual  XDual   Repeat          X-Short On
+	  4:        XDual   Repeat                  On
+	  5:        XDual   Repeat                  On
+	  6: YDual          Repeat          X-Short On
+	  7: YDual          Repeat          X-Short On
 	  8:        XDual   Repeat                  On
 	  9:        XDual   Repeat                  On
 	 10: YDual          Repeat          X-Short On
@@ -3063,33 +3073,25 @@ Glyph     34.
 	 13:        XDual   Repeat                  On
 	 14: YDual          Repeat          X-Short On
 	 15: YDual          Repeat          X-Short On
-	 16:        XDual   Repeat                  On
-	 17:        XDual   Repeat                  On
-	 18: YDual          Repeat          X-Short On
-	 19: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (      0,    300) -> Abs (      0,    300)
 	  1 Rel (      0,    500) -> Abs (      0,    800)
-	  2 Rel (    333,      0) -> Abs (    333,    800)
-	  3 Rel (    334,      0) -> Abs (    667,    800)
-	  4 Rel (      0,   -167) -> Abs (    667,    633)
-	  5 Rel (      0,   -166) -> Abs (    667,    467)
-	  6 Rel (    166,      0) -> Abs (    833,    467)
-	  7 Rel (    167,      0) -> Abs (   1000,    467)
-	  8 Rel (      0,   -334) -> Abs (   1000,    133)
-	  9 Rel (      0,   -333) -> Abs (   1000,   -200)
-	 10 Rel (   -167,      0) -> Abs (    833,   -200)
-	 11 Rel (   -166,      0) -> Abs (    667,   -200)
-	 12 Rel (      0,    333) -> Abs (    667,    133)
-	 13 Rel (      0,    334) -> Abs (    667,    467)
-	 14 Rel (   -167,      0) -> Abs (    500,    467)
-	 15 Rel (   -167,      0) -> Abs (    333,    467)
-	 16 Rel (      0,   -334) -> Abs (    333,    133)
-	 17 Rel (      0,   -333) -> Abs (    333,   -200)
-	 18 Rel (   -166,      0) -> Abs (    167,   -200)
-	 19 Rel (   -167,      0) -> Abs (      0,   -200)
+	  2 Rel (    500,      0) -> Abs (    500,    800)
+	  3 Rel (    500,      0) -> Abs (   1000,    800)
+	  4 Rel (      0,   -500) -> Abs (   1000,    300)
+	  5 Rel (      0,   -500) -> Abs (   1000,   -200)
+	  6 Rel (   -167,      0) -> Abs (    833,   -200)
+	  7 Rel (   -166,      0) -> Abs (    667,   -200)
+	  8 Rel (      0,    333) -> Abs (    667,    133)
+	  9 Rel (      0,    334) -> Abs (    667,    467)
+	 10 Rel (   -167,      0) -> Abs (    500,    467)
+	 11 Rel (   -167,      0) -> Abs (    333,    467)
+	 12 Rel (      0,   -334) -> Abs (    333,    133)
+	 13 Rel (      0,   -333) -> Abs (    333,   -200)
+	 14 Rel (   -166,      0) -> Abs (    167,   -200)
+	 15 Rel (   -167,      0) -> Abs (      0,   -200)
 
 Glyph     35.
 	 numberOfContours:	 2
@@ -3924,12 +3926,12 @@ Glyph     49.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -200
-	 xMax:			 667
+	 xMax:			 1000
 	 yMax:			 800
 
 	 EndPoints
 	 ---------
-	  0: 19
+	  0: 23
 
 	 Length of Instructions:  0
 
@@ -3937,47 +3939,55 @@ Glyph     49.
 	 -----
 	  0:                                        On
 	  1: YDual  XDual           Y-Short         On
-	  2: YDual  XDual   Repeat          X-Short On
-	  3: YDual  XDual   Repeat          X-Short On
+	  2: YDual          Repeat                  On
+	  3: YDual          Repeat                  On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
-	  6: YDual          Repeat          X-Short On
-	  7: YDual          Repeat          X-Short On
+	  6: YDual          Repeat                  On
+	  7: YDual          Repeat                  On
 	  8:        XDual   Repeat  Y-Short         On
 	  9:        XDual   Repeat  Y-Short         On
-	 10: YDual  XDual   Repeat          X-Short On
-	 11: YDual  XDual   Repeat          X-Short On
+	 10: YDual          Repeat                  On
+	 11: YDual          Repeat                  On
 	 12:        XDual   Repeat  Y-Short         On
 	 13:        XDual   Repeat  Y-Short         On
 	 14: YDual          Repeat                  On
 	 15: YDual          Repeat                  On
-	 16:        XDual   Repeat                  On
-	 17:        XDual   Repeat                  On
-	 18: YDual  XDual   Repeat          X-Short On
-	 19: YDual  XDual   Repeat          X-Short On
+	 16: YDual  XDual   Repeat  Y-Short         On
+	 17: YDual  XDual   Repeat  Y-Short         On
+	 18: YDual          Repeat          X-Short On
+	 19: YDual          Repeat          X-Short On
+	 20: YDual  XDual   Repeat  Y-Short         On
+	 21: YDual  XDual   Repeat  Y-Short         On
+	 22: YDual  XDual   Repeat          X-Short On
+	 23: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
 	  0 Rel (    333,    633) -> Abs (    333,    633)
 	  1 Rel (      0,    167) -> Abs (    333,    800)
-	  2 Rel (    167,      0) -> Abs (    500,    800)
-	  3 Rel (    167,      0) -> Abs (    667,    800)
-	  4 Rel (      0,   -167) -> Abs (    667,    633)
-	  5 Rel (      0,   -166) -> Abs (    667,    467)
-	  6 Rel (   -167,      0) -> Abs (    500,    467)
-	  7 Rel (   -167,      0) -> Abs (    333,    467)
+	  2 Rel (    334,      0) -> Abs (    667,    800)
+	  3 Rel (    333,      0) -> Abs (   1000,    800)
+	  4 Rel (      0,   -167) -> Abs (   1000,    633)
+	  5 Rel (      0,   -166) -> Abs (   1000,    467)
+	  6 Rel (   -333,      0) -> Abs (    667,    467)
+	  7 Rel (   -334,      0) -> Abs (    333,    467)
 	  8 Rel (      0,   -167) -> Abs (    333,    300)
 	  9 Rel (      0,   -167) -> Abs (    333,    133)
-	 10 Rel (    167,      0) -> Abs (    500,    133)
-	 11 Rel (    167,      0) -> Abs (    667,    133)
-	 12 Rel (      0,   -166) -> Abs (    667,    -33)
-	 13 Rel (      0,   -167) -> Abs (    667,   -200)
-	 14 Rel (   -334,      0) -> Abs (    333,   -200)
-	 15 Rel (   -333,      0) -> Abs (      0,   -200)
-	 16 Rel (      0,    333) -> Abs (      0,    133)
-	 17 Rel (      0,    334) -> Abs (      0,    467)
-	 18 Rel (    167,      0) -> Abs (    167,    467)
-	 19 Rel (    166,      0) -> Abs (    333,    467)
+	 10 Rel (    334,      0) -> Abs (    667,    133)
+	 11 Rel (    333,      0) -> Abs (   1000,    133)
+	 12 Rel (      0,   -166) -> Abs (   1000,    -33)
+	 13 Rel (      0,   -167) -> Abs (   1000,   -200)
+	 14 Rel (   -333,      0) -> Abs (    667,   -200)
+	 15 Rel (   -334,      0) -> Abs (    333,   -200)
+	 16 Rel (      0,    167) -> Abs (    333,    -33)
+	 17 Rel (      0,    166) -> Abs (    333,    133)
+	 18 Rel (   -166,      0) -> Abs (    167,    133)
+	 19 Rel (   -167,      0) -> Abs (      0,    133)
+	 20 Rel (      0,    167) -> Abs (      0,    300)
+	 21 Rel (      0,    167) -> Abs (      0,    467)
+	 22 Rel (    167,      0) -> Abs (    167,    467)
+	 23 Rel (    166,      0) -> Abs (    333,    467)
 
 Glyph     50.
 	 numberOfContours:	 1
@@ -4494,7 +4504,7 @@ Glyph     60.
 	 xMin:			 0
 	 yMin:			 -200
 	 xMax:			 1000
-	 yMax:			 467
+	 yMax:			 800
 
 	 EndPoints
 	 ---------
@@ -4504,47 +4514,47 @@ Glyph     60.
 
 	 Flags
 	 -----
-	  0: YDual  XDual           Y-Short         On
-	  1:        XDual                           On
+	  0:        XDual   Repeat                  On
+	  1:        XDual   Repeat                  On
 	  2: YDual          Repeat                  On
 	  3: YDual          Repeat                  On
 	  4:        XDual   Repeat  Y-Short         On
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual  XDual   Repeat          X-Short On
 	  7: YDual  XDual   Repeat          X-Short On
-	  8:        XDual   Repeat  Y-Short         On
-	  9:        XDual   Repeat  Y-Short         On
+	  8:        XDual   Repeat                  On
+	  9:        XDual   Repeat                  On
 	 10: YDual          Repeat          X-Short On
 	 11: YDual          Repeat          X-Short On
-	 12: YDual  XDual   Repeat  Y-Short         On
-	 13: YDual  XDual   Repeat  Y-Short         On
+	 12:        XDual   Repeat                  On
+	 13:        XDual   Repeat                  On
 	 14: YDual          Repeat          X-Short On
 	 15: YDual          Repeat          X-Short On
-	 16:        XDual   Repeat  Y-Short         On
-	 17:        XDual   Repeat  Y-Short         On
+	 16:        XDual   Repeat                  On
+	 17:        XDual   Repeat                  On
 	 18: YDual          Repeat          X-Short On
 	 19: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    133) -> Abs (      0,    133)
-	  1 Rel (      0,    334) -> Abs (      0,    467)
-	  2 Rel (    333,      0) -> Abs (    333,    467)
-	  3 Rel (    334,      0) -> Abs (    667,    467)
-	  4 Rel (      0,   -167) -> Abs (    667,    300)
-	  5 Rel (      0,   -167) -> Abs (    667,    133)
-	  6 Rel (    166,      0) -> Abs (    833,    133)
-	  7 Rel (    167,      0) -> Abs (   1000,    133)
-	  8 Rel (      0,   -166) -> Abs (   1000,    -33)
-	  9 Rel (      0,   -167) -> Abs (   1000,   -200)
+	  0 Rel (      0,    300) -> Abs (      0,    300)
+	  1 Rel (      0,    500) -> Abs (      0,    800)
+	  2 Rel (    333,      0) -> Abs (    333,    800)
+	  3 Rel (    334,      0) -> Abs (    667,    800)
+	  4 Rel (      0,   -167) -> Abs (    667,    633)
+	  5 Rel (      0,   -166) -> Abs (    667,    467)
+	  6 Rel (    166,      0) -> Abs (    833,    467)
+	  7 Rel (    167,      0) -> Abs (   1000,    467)
+	  8 Rel (      0,   -334) -> Abs (   1000,    133)
+	  9 Rel (      0,   -333) -> Abs (   1000,   -200)
 	 10 Rel (   -167,      0) -> Abs (    833,   -200)
 	 11 Rel (   -166,      0) -> Abs (    667,   -200)
-	 12 Rel (      0,    167) -> Abs (    667,    -33)
-	 13 Rel (      0,    166) -> Abs (    667,    133)
-	 14 Rel (   -167,      0) -> Abs (    500,    133)
-	 15 Rel (   -167,      0) -> Abs (    333,    133)
-	 16 Rel (      0,   -166) -> Abs (    333,    -33)
-	 17 Rel (      0,   -167) -> Abs (    333,   -200)
+	 12 Rel (      0,    333) -> Abs (    667,    133)
+	 13 Rel (      0,    334) -> Abs (    667,    467)
+	 14 Rel (   -167,      0) -> Abs (    500,    467)
+	 15 Rel (   -167,      0) -> Abs (    333,    467)
+	 16 Rel (      0,   -334) -> Abs (    333,    133)
+	 17 Rel (      0,   -333) -> Abs (    333,   -200)
 	 18 Rel (   -166,      0) -> Abs (    167,   -200)
 	 19 Rel (   -167,      0) -> Abs (      0,   -200)
 
@@ -5256,4 +5266,55 @@ Glyph     72.
 	 13 Rel (      0,    166) -> Abs (    333,    133)
 	 14 Rel (   -166,      0) -> Abs (    167,    133)
 	 15 Rel (   -167,      0) -> Abs (      0,    133)
+
+Glyph     73.
+	 numberOfContours:	 1
+	 xMin:			 0
+	 yMin:			 133
+	 xMax:			 1000
+	 yMax:			 800
+
+	 EndPoints
+	 ---------
+	  0: 15
+
+	 Length of Instructions:  0
+
+	 Flags
+	 -----
+	  0:        XDual                           On
+	  1: YDual  XDual           Y-Short         On
+	  2: YDual          Repeat                  On
+	  3: YDual          Repeat                  On
+	  4:        XDual   Repeat  Y-Short         On
+	  5:        XDual   Repeat  Y-Short         On
+	  6: YDual  XDual   Repeat          X-Short On
+	  7: YDual  XDual   Repeat          X-Short On
+	  8:        XDual   Repeat  Y-Short         On
+	  9:        XDual   Repeat  Y-Short         On
+	 10: YDual          Repeat                  On
+	 11: YDual          Repeat                  On
+	 12: YDual  XDual   Repeat  Y-Short         On
+	 13: YDual  XDual   Repeat  Y-Short         On
+	 14: YDual          Repeat          X-Short On
+	 15: YDual          Repeat          X-Short On
+
+	 Coordinates
+	 -----------
+	  0 Rel (      0,    633) -> Abs (      0,    633)
+	  1 Rel (      0,    167) -> Abs (      0,    800)
+	  2 Rel (    333,      0) -> Abs (    333,    800)
+	  3 Rel (    334,      0) -> Abs (    667,    800)
+	  4 Rel (      0,   -167) -> Abs (    667,    633)
+	  5 Rel (      0,   -166) -> Abs (    667,    467)
+	  6 Rel (    166,      0) -> Abs (    833,    467)
+	  7 Rel (    167,      0) -> Abs (   1000,    467)
+	  8 Rel (      0,   -167) -> Abs (   1000,    300)
+	  9 Rel (      0,   -167) -> Abs (   1000,    133)
+	 10 Rel (   -333,      0) -> Abs (    667,    133)
+	 11 Rel (   -334,      0) -> Abs (    333,    133)
+	 12 Rel (      0,    167) -> Abs (    333,    300)
+	 13 Rel (      0,    167) -> Abs (    333,    467)
+	 14 Rel (   -166,      0) -> Abs (    167,    467)
+	 15 Rel (   -167,      0) -> Abs (      0,    467)
 
