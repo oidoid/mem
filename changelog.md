@@ -1,7 +1,8 @@
 ## Changelog
 
-### v6.0.2 (unreleased)
+### v6.0.2
 
+- [mem prop 5x6][update] extend W and M
 - [mem mono 3x3][update] center ., :, and ~; widen c; raise n; smooth N
 - [update] rename all monospaced fonts
 - [mem prop 5x6][update] reduce all , kerning; trim & descender

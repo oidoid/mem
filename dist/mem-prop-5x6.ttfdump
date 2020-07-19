@@ -14,7 +14,7 @@ Offset Table
    4. 'cmap' - checksum = 0xcc91a0d9, offset = 0x00000370, len =       322
    5. 'cvt ' - checksum = 0x002602e4, offset = 0x000004b4, len =         4
    6. 'gasp' - checksum = 0xffff0003, offset = 0x000025bc, len =         8
-   7. 'glyf' - checksum = 0x75250707, offset = 0x00000580, len =      6280
+   7. 'glyf' - checksum = 0x1ccbadae, offset = 0x00000580, len =      6280
    8. 'head' - checksum = 0x5ab1a4e4, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x06cd0382, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0xf4c60026, offset = 0x000001e8, len =       390
@@ -416,7 +416,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0xd92d7e19
+	 checkSumAdjustment:	 0x89e030cb
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 1167
@@ -5064,12 +5064,12 @@ Glyph     48.
 	  9 Rel (      0,    333) -> Abs (    667,    633)
 	 10 Rel (    -84,      0) -> Abs (    583,    633)
 	 11 Rel (    -83,      0) -> Abs (    500,    633)
-	 12 Rel (      0,   -166) -> Abs (    500,    467)
-	 13 Rel (      0,   -167) -> Abs (    500,    300)
-	 14 Rel (    -83,      0) -> Abs (    417,    300)
-	 15 Rel (    -84,      0) -> Abs (    333,    300)
-	 16 Rel (      0,    167) -> Abs (    333,    467)
-	 17 Rel (      0,    166) -> Abs (    333,    633)
+	 12 Rel (      0,   -250) -> Abs (    500,    383)
+	 13 Rel (      0,   -250) -> Abs (    500,    133)
+	 14 Rel (    -83,      0) -> Abs (    417,    133)
+	 15 Rel (    -84,      0) -> Abs (    333,    133)
+	 16 Rel (      0,    250) -> Abs (    333,    383)
+	 17 Rel (      0,    250) -> Abs (    333,    633)
 	 18 Rel (    -83,      0) -> Abs (    250,    633)
 	 19 Rel (    -83,      0) -> Abs (    167,    633)
 	 20 Rel (      0,   -333) -> Abs (    167,    300)
@@ -5670,12 +5670,12 @@ Glyph     58.
 	  5 Rel (      0,   -334) -> Abs (    167,    133)
 	  6 Rel (     83,      0) -> Abs (    250,    133)
 	  7 Rel (     83,      0) -> Abs (    333,    133)
-	  8 Rel (      0,    167) -> Abs (    333,    300)
-	  9 Rel (      0,    167) -> Abs (    333,    467)
-	 10 Rel (     84,      0) -> Abs (    417,    467)
-	 11 Rel (     83,      0) -> Abs (    500,    467)
-	 12 Rel (      0,   -167) -> Abs (    500,    300)
-	 13 Rel (      0,   -167) -> Abs (    500,    133)
+	  8 Rel (      0,    250) -> Abs (    333,    383)
+	  9 Rel (      0,    250) -> Abs (    333,    633)
+	 10 Rel (     84,      0) -> Abs (    417,    633)
+	 11 Rel (     83,      0) -> Abs (    500,    633)
+	 12 Rel (      0,   -250) -> Abs (    500,    383)
+	 13 Rel (      0,   -250) -> Abs (    500,    133)
 	 14 Rel (     83,      0) -> Abs (    583,    133)
 	 15 Rel (     84,      0) -> Abs (    667,    133)
 	 16 Rel (      0,    334) -> Abs (    667,    467)
