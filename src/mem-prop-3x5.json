@@ -1,9 +1,10 @@
 {
   "id": "mem-prop-3x5",
   "name": "mem 3x5",
-  "cel_width": 3,
-  "cel_height": 5,
+  "cell_width": 3,
+  "cell_height": 5,
   "leading": 1,
+  "baseline": 1,
   "kerning": {
     ",'": 0,
     ",\"": 0,

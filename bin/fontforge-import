@@ -6,71 +6,89 @@ import json
 import re
 import sys
 
-# 1000 is the default em size. If every cel is 1000, it means no rounding
-# errors occur on pixel grids, same with 500. In Aseprite, when the font is
-# mem prop 5x6 (+ 1px leading) and the size is set to 7px, that means the 1000
-# is 7px wide.
-em_size = 1000
+# Size of a pixel in fractions of an em? For example, if the font is 6px tall,
+# an em is 600. I guess it's a ratio.
+pixels_to_ems = 100
 
-def main(sfd, metaFilename, svgFilenames):
+def main(sfd, metaFilename, aseprite, svgFilenames):
   meta = readJSON(metaFilename)
   package = readJSON('package.json')
 
   font = fontforge.font()
+
   font.version = package['version']
   font.familyname = meta['name']
   font.fontname = meta['id']
   font.fullname = meta['name']
-  font.design_size = maxCelDimension(meta) + meta['leading']
-  font.em = em_size
   # Suppress time-based comment and unique ID that hinder build determinism.
   font.comment = None
   font.xuid = None
 
+  # Import glyphs with decent eequal to zero
+  font.ascent = meta['cell_height'] * pixels_to_ems
+  font.descent = 0
+
   font.addLookup('kern', 'gpos_pair', 0, [['kern', [["dflt", ["dflt"]]]]])
   font.addLookupSubtable('kern', 'kern-lut')
 
-  # Force an empty space character. This may not be generated since it usually
-  # is invisible. This is done first in case it does exist.
-  glyph = font.createChar(0x20)
-  glyph.width = round((em_size * letterWidth(meta, ' ')) / maxCelDimension(meta))
+  for key in range(128):
+    glyph = font.createChar(key)
+    glyph.width = glyphWidth(meta, chr(key))
 
   for svgFilename in svgFilenames:
     char = filenameToCharCode(svgFilename)
     glyph = font.createChar(char)
-    glyph.width = glyphWidth(meta, chr(char))
     glyph.importOutlines(svgFilename)
+    # [sx, 0, 0, sy, tx, ty]
+    glyph.transform([1, 0, 0, 1, 0, -meta['baseline'] * pixels_to_ems], ['round'])
 
-    # These happen before in they htey are overridden.
-    # Remove the default kerning embedded in the glyphWidth() workaround below.
-    kern = round(em_size * (-meta['end_of_line_kerning'] - meta['default_kerning']) / maxCelDimension(meta))
-    glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord('\n')), 0, 0, kern, 0, 0, 0, 0, 0)
-    kern = round(em_size * (meta['whitespace_kerning'] - meta['default_kerning']) / maxCelDimension(meta))
-    glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord(' ')), 0, 0, kern, 0, 0, 0, 0, 0)
-    glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord('\t')), 0, 0, kern, 0, 0, 0, 0, 0)
+  for key in range(128):
+    glyph = font.createChar(key)
+    kernGlyph(meta, glyph, aseprite)
 
-    for key, val in meta['kerning'].items():
-      # Remove the default kerning embedded in the glyphWidth() workaround below.
-      kern = round((em_size * (val - meta['default_kerning'])) / maxCelDimension(meta))
-      if key[0] == chr(glyph.unicode):
-        glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(ord(key[1])), 0, 0, kern, 0, 0, 0, 0, 0)
+  font.ascent += -meta['baseline'] * pixels_to_ems
+  font.descent = max(meta['baseline'], meta['leading']) * pixels_to_ems
 
-  # This must be added last.
-  font.descent = round(em_size - font.ascent + em_size * meta['leading'] / maxCelDimension(meta))
+  # These don't seem necessary but the instructions produce results like Times New Roman.
+  # http://designwithfontforge.com/en-US/Line_Spacing.html
+  font.os2_winascent = font.ascent
+  font.os2_typoascent = font.ascent
+  font.hhea_ascent = font.ascent
+  font.os2_windescent = font.descent
+  font.os2_typodescent = -font.descent
+  font.hhea_descent = font.descent
+
+  font.os2_winascent_add = False
+  font.os2_typoascent_add = False
+  font.hhea_ascent_add = False
+  font.os2_windescent_add = False
+  font.os2_typodescent_add = False
+  font.hhea_descent_add = False
 
   font.save(sfd)
 
+def kernGlyph(meta, glyph, aseprite):
+  for key in range(128):
+    if chr(key) == '\n':
+      defaultVal = meta['end_of_line_kerning']
+    elif chr(key).isspace():
+      defaultVal = meta['whitespace_kerning']
+    else:
+      defaultVal = meta['default_kerning']
+    kerning = meta['kerning'].get(chr(glyph.unicode) + chr(key), defaultVal)
+    ems = pixels_to_ems * kerning
+
+    # Workaround for Aseprite only.
+    if aseprite:
+      ems *= meta['cell_height']
+
+    glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(key), ems)
+
 def glyphWidth(meta, char):
-  # Aseprite doesn't support kerning. Add the default here and subtract it for
-  # programs that support it https://github.com/aseprite/aseprite/issues/1877.
-  width = letterWidth(meta, char) + meta['default_kerning']
-  return round((em_size * width) / maxCelDimension(meta))
+  return letterWidth(meta, char) * pixels_to_ems
 
 def letterWidth(meta, char):
   return meta['letter_width'].get(char, meta['default_letter_width'])
-
-def maxCelDimension(meta):
-  return max(meta['cel_width'], meta['cel_height'])
 
 # Accepts a filename in the following format mem-fontxxx.svg where xxx is the
 # code without padding.
@@ -85,5 +103,6 @@ def readJSON(filename):
 if __name__ == '__main__':
   sfd = sys.argv[1]
   metaFilename = sys.argv[2]
-  svgFilenames = sys.argv[3:]
-  main(sfd, metaFilename, svgFilenames)
+  aseprite = sys.argv[3] == 'True'
+  svgFilenames = sys.argv[4:]
+  main(sfd, metaFilename, aseprite, svgFilenames)

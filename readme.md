@@ -132,16 +132,10 @@ Additional information spritesheet interpretation. See the
 
 ## Known issues
 
-- [Aseprite does not support kerning](https://github.com/aseprite/aseprite/issues/1877),
-  only variable widths. This means sequences such as "zz" and "rj" will be the
-  same distance apart as any other sequence such as "ab". These fonts should
-  exhibit correct kerning in a web browser, GIMP, and other programs. As a
-  workaround, these fonts includes the most prevalent kerning in the character
-  widths and then subtracts it from the overall kerning for supporting programs.
-- Aseprite kind of supports leading in the sense that it tries to make room for
-  the ascenders and descenders but doesn't seem to support newlines. This means
-  the `line_height` is the correct font size to use in Aseprite not the wxh
-  size. For example, to use the 5x6 font in Aseprite, set the font size to 7px.
+- [Aseprite kerning is strange](https://github.com/aseprite/aseprite/issues/1877).
+  As a workaround, Aseprite-specific files are generated with the kerning
+  multiplied by the cell height. It's also quite possible this font has
+  incorrect kerning.
 - [Sprite sheet dimensions are not powers of two](https://github.com/aseprite/aseprite/issues/2289).
 - [Live Server](https://github.com/tapio/live-server) now appears unmaintained.
   Caching must be disabled via browser Dev Tools for changes to appear.

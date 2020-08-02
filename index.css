@@ -13,13 +13,12 @@
   --font-family-mem-prop-4x4: 'mem 4x4';
   --font-family-mem-mono-4x4: 'mem mono 4x4';
   --font-family-mem-mono-3x3: 'mem mono 3x3';
-  /* These are taken from the line heights. */
-  --font-size-mem-prop-5x6: 7px;
-  --font-size-mem-prop-5x5: 6px;
-  --font-size-mem-prop-3x5: 6px;
-  --font-size-mem-prop-4x4: 5px;
-  --font-size-mem-mono-4x4: 5px;
-  --font-size-mem-mono-3x3: 4px;
+  --font-size-mem-prop-5x6: 6px;
+  --font-size-mem-prop-5x5: 5px;
+  --font-size-mem-prop-3x5: 5px;
+  --font-size-mem-prop-4x4: 4px;
+  --font-size-mem-mono-4x4: 4px;
+  --font-size-mem-mono-3x3: 3px;
   --transition-duration: 100ms;
   --font-family: unset;
   --font-scalar: unset;

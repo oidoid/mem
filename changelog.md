@@ -1,5 +1,9 @@
 ## Changelog
 
+### v6.0.3
+
+- [fix] workaround Aseprite kerning
+
 ### v6.0.2
 
 - [mem prop 5x6][update] extend W and M

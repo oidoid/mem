@@ -96,6 +96,12 @@ for aseprite_filename in src/*.aseprite; do
   bin/fontforge-import \
     "$dist_dir/$font.sfd" \
     "src/$font.json" \
+    False \
+    "$char_dir/$font-"*.svg
+  bin/fontforge-import \
+    "$dist_dir/$font-aseprite.sfd" \
+    "src/$font.json" \
+    True \
     "$char_dir/$font-"*.svg
 
   # Strip the creation and modification times for repeatable builds.
@@ -106,6 +112,11 @@ for aseprite_filename in src/*.aseprite; do
 font = fontforge.open('dist/$font.sfd')
 font.generate('dist/$font.ttf', flags=('opentype', 'winkern', 'old-kern'))
   "
+  fontforge -quiet -c "
+font = fontforge.open('dist/$font-aseprite.sfd')
+font.generate('dist/$font-aseprite.ttf', flags=('opentype', 'winkern', 'old-kern'))
+  "
 
   ttfdump -o "$dist_dir/$font.ttfdump" "$dist_dir/$font.ttf"
+  ttfdump -o "$dist_dir/$font-aseprite.ttfdump" "$dist_dir/$font-aseprite.ttf"
 done
