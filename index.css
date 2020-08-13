@@ -170,7 +170,6 @@ textarea.demo-box {
   justify-content: center;
 
   margin: 0;
-  position: sticky;
   top: 0;
   background: #fff;
   box-shadow: 0 1px 0 0 #ddd;
@@ -178,6 +177,12 @@ textarea.demo-box {
   flex-wrap: wrap;
   padding: 4px 0;
   align-items: center; /* Vertical center alignment */
+}
+
+@media (min-width: 480px) and (min-height: 480px) {
+  .page-header {
+    position: sticky;
+  }
 }
 
 .mem-logo {

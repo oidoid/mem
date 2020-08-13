@@ -1,5 +1,9 @@
 ## Changelog
 
+### v6.0.4 (unreleased)
+
+- [dev] disable demo's sticky header on mobile
+
 ### v6.0.3
 
 - [fix] workaround Aseprite kerning
