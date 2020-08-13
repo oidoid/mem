@@ -165,23 +165,22 @@ textarea.demo-box {
 }
 
 .page-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
   margin: 0;
-  top: 0;
-  background: #fff;
   box-shadow: 0 1px 0 0 #ddd;
+}
+
+.dashboard {
   display: flex;
   flex-wrap: wrap;
   padding: 4px 0;
-  align-items: center; /* Vertical center alignment */
+  justify-content: center;
 }
 
 @media (min-width: 480px) and (min-height: 480px) {
-  .page-header {
+  .dashboard {
+    background: #fff;
     position: sticky;
+    top: 0;
   }
 }
 
@@ -239,45 +238,45 @@ textarea.demo-box {
   background: var(--background-color-demo--hover);
 }
 
-#mem-prop-5x6-radio:focus ~ .page-header #control-panel-font,
-#mem-prop-5x5-radio:focus ~ .page-header #control-panel-font,
-#mem-prop-3x5-radio:focus ~ .page-header #control-panel-font,
-#mem-prop-4x4-radio:focus ~ .page-header #control-panel-font,
-#mem-mono-4x4-radio:focus ~ .page-header #control-panel-font,
-#mem-mono-3x3-radio:focus ~ .page-header #control-panel-font,
-#case-initial-radio:focus ~ .page-header #control-panel-case,
-#case-lower-radio:focus ~ .page-header #control-panel-case,
-#case-upper-radio:focus ~ .page-header #control-panel-case,
-#case-start-radio:focus ~ .page-header #control-panel-case,
-#scale-1x-radio:focus ~ .page-header #control-panel-scale,
-#scale-5x-radio:focus ~ .page-header #control-panel-scale,
-#scale-4x-radio:focus ~ .page-header #control-panel-scale,
-#scale-6x-radio:focus ~ .page-header #control-panel-scale,
-#scale-7x-radio:focus ~ .page-header #control-panel-scale,
-#scale-8x-radio:focus ~ .page-header #control-panel-scale,
-#scale-16x-radio:focus ~ .page-header #control-panel-scale {
+#mem-prop-5x6-radio:focus ~ .dashboard #control-panel-font,
+#mem-prop-5x5-radio:focus ~ .dashboard #control-panel-font,
+#mem-prop-3x5-radio:focus ~ .dashboard #control-panel-font,
+#mem-prop-4x4-radio:focus ~ .dashboard #control-panel-font,
+#mem-mono-4x4-radio:focus ~ .dashboard #control-panel-font,
+#mem-mono-3x3-radio:focus ~ .dashboard #control-panel-font,
+#case-initial-radio:focus ~ .dashboard #control-panel-case,
+#case-lower-radio:focus ~ .dashboard #control-panel-case,
+#case-upper-radio:focus ~ .dashboard #control-panel-case,
+#case-start-radio:focus ~ .dashboard #control-panel-case,
+#scale-1x-radio:focus ~ .dashboard #control-panel-scale,
+#scale-5x-radio:focus ~ .dashboard #control-panel-scale,
+#scale-4x-radio:focus ~ .dashboard #control-panel-scale,
+#scale-6x-radio:focus ~ .dashboard #control-panel-scale,
+#scale-7x-radio:focus ~ .dashboard #control-panel-scale,
+#scale-8x-radio:focus ~ .dashboard #control-panel-scale,
+#scale-16x-radio:focus ~ .dashboard #control-panel-scale {
   border-style: dotted;
   border-color: var(--border-color-control-panel--focus);
 }
 
 /* prettier-ignore */
-#mem-prop-5x6-radio:checked ~ .page-header .control-panel__label[for='mem-prop-5x6-radio'],
-#mem-prop-5x5-radio:checked ~ .page-header .control-panel__label[for='mem-prop-5x5-radio'],
-#mem-prop-3x5-radio:checked ~ .page-header .control-panel__label[for='mem-prop-3x5-radio'],
-#mem-prop-4x4-radio:checked ~ .page-header .control-panel__label[for='mem-prop-4x4-radio'],
-#mem-mono-4x4-radio:checked ~ .page-header .control-panel__label[for='mem-mono-4x4-radio'],
-#mem-mono-3x3-radio:checked ~ .page-header .control-panel__label[for='mem-mono-3x3-radio'],
-#case-initial-radio:checked ~ .page-header .control-panel__label[for='case-initial-radio'],
-#case-lower-radio:checked ~ .page-header .control-panel__label[for='case-lower-radio'],
-#case-upper-radio:checked ~ .page-header .control-panel__label[for='case-upper-radio'],
-#case-start-radio:checked ~ .page-header .control-panel__label[for='case-start-radio'],
-#scale-1x-radio:checked ~ .page-header .control-panel__label[for='scale-1x-radio'],
-#scale-4x-radio:checked ~ .page-header .control-panel__label[for='scale-4x-radio'],
-#scale-5x-radio:checked ~ .page-header .control-panel__label[for='scale-5x-radio'],
-#scale-6x-radio:checked ~ .page-header .control-panel__label[for='scale-6x-radio'],
-#scale-7x-radio:checked ~ .page-header .control-panel__label[for='scale-7x-radio'],
-#scale-8x-radio:checked ~ .page-header .control-panel__label[for='scale-8x-radio'],
-#scale-16x-radio:checked ~ .page-header .control-panel__label[for='scale-16x-radio'] {
+#mem-prop-5x6-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-5x6-radio'],
+#mem-prop-5x5-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-5x5-radio'],
+#mem-prop-3x5-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-3x5-radio'],
+#mem-prop-4x4-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-4x4-radio'],
+#mem-mono-4x4-radio:checked ~ .dashboard .control-panel__label[for='mem-mono-4x4-radio'],
+#mem-mono-3x3-radio:checked ~ .dashboard .control-panel__label[for='mem-mono-3x3-radio'],
+#case-initial-radio:checked ~ .dashboard .control-panel__label[for='case-initial-radio'],
+#case-lower-radio:checked ~ .dashboard .control-panel__label[for='case-lower-radio'],
+#case-upper-radio:checked ~ .dashboard .control-panel__label[for='case-upper-radio'],
+#case-start-radio:checked ~ .dashboard .control-panel__label[for='case-start-radio'],
+#scale-1x-radio:checked ~ .dashboard .control-panel__label[for='scale-1x-radio'],
+#scale-4x-radio:checked ~ .dashboard .control-panel__label[for='scale-4x-radio'],
+#scale-5x-radio:checked ~ .dashboard .control-panel__label[for='scale-5x-radio'],
+#scale-6x-radio:checked ~ .dashboard .control-panel__label[for='scale-6x-radio'],
+#scale-7x-radio:checked ~ .dashboard .control-panel__label[for='scale-7x-radio'],
+#scale-8x-radio:checked ~ .dashboard .control-panel__label[for='scale-8x-radio'],
+#scale-16x-radio:checked ~ .dashboard .control-panel__label[for='scale-16x-radio'] {
   border-style: solid;
   border-color: var(--border-color-control-panel__label--checked);
 }
