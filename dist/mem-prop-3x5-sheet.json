@@ -1026,7 +1026,7 @@
  },
  "meta": {
   "app": "http://www.aseprite.org/",
-  "version": "1.2.21-x64",
+  "version": "1.2.25-x64",
   "image": "mem-prop-3x5-sheet.png",
   "format": "I8",
   "size": { "w": 80, "h": 56 },
