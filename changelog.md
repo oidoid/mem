@@ -2,6 +2,7 @@
 
 ### v6.0.4 (unreleased)
 
+- [dev] upgrade dependencies
 - [dev] move the dashboard below the header
 - [dev] disable demo's sticky header on mobile
 
