@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x0001c118, len =        28
-   1. 'GPOS' - checksum = 0xd6c61e6e, offset = 0x00019fac, len =      8556
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00019f8c, len =        32
+   0. 'FFTM' - checksum = 0xd2d2d090, offset = 0x0001c114, len =        28
+   1. 'GPOS' - checksum = 0xd6c61e0a, offset = 0x00019fa8, len =      8556
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00019f88, len =        32
    3. 'OS/2' - checksum = 0x52f45de1, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0x3b60ff56, offset = 0x000003e8, len =       578
    5. 'cvt ' - checksum = 0x0014017c, offset = 0x0000062c, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x00019f84, len =         8
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x00019f80, len =         8
    7. 'glyf' - checksum = 0x3dc0a4fc, offset = 0x00000734, len =      6080
    8. 'head' - checksum = 0x5963a1e5, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x041f02d8, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0x922c0014, offset = 0x000001e8, len =       512
-  11. 'kern' - checksum = 0x376144a8, offset = 0x00001ef4, len =     97388
+  11. 'kern' - checksum = 0x391d41dc, offset = 0x00001ef4, len =     97382
   12. 'loca' - checksum = 0x2fa5359a, offset = 0x00000630, len =       260
   13. 'maxp' - checksum = 0x00c60071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0xa93f51a4, offset = 0x00019b60, len =       504
-  15. 'post' - checksum = 0x4701a5b5, offset = 0x00019d58, len =       556
+  14. 'name' - checksum = 0xa93f50a3, offset = 0x00019b5c, len =       504
+  15. 'post' - checksum = 0x4701a5b5, offset = 0x00019d54, len =       556
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -577,7 +577,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x56359763
+	 checkSumAdjustment:	 0x52bd9fe3
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 600
@@ -933,7 +933,7 @@ Name table   3.	 PlatformID:	 1
 		 Offset:	 186
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
-		 35 78 36 20 3a 20 32 35 2d 38  >  5x6 : 25-8
+		 35 78 36 20 3a 20 31 34 2d 39  >  5x6 : 14-9
 		 2d 32 30 32 30                 > -2020
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
@@ -996,7 +996,7 @@ Name table  10.	 PlatformID:	 3
 		 00 32 00 2e 00 30 00 20 00 3a  >  .2...0. .:
 		 00 20 00 6d 00 65 00 6d 00 20  >  . .m.e.m. 
 		 00 35 00 78 00 36 00 20 00 3a  >  .5.x.6. .:
-		 00 20 00 32 00 35 00 2d 00 38  >  . .2.5.-.8
+		 00 20 00 31 00 34 00 2d 00 39  >  . .1.4.-.9
 		 00 2d 00 32 00 30 00 32 00 30  >  .-.2.0.2.0
 		                                > 
 Name table  11.	 PlatformID:	 3
@@ -11907,12 +11907,12 @@ Number of subtables:	 2
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 33434
+	 Bytes in subtable 	 33428
 	 Coverage bits 	 0x1
-	 Number of pairs 5570
+	 Number of pairs 5569
 	 Search Range    24576
 	 Entry Selector  12
-	 Range Shift     8844
+	 Range Shift     8838
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 85 		 1 		 100
@@ -15881,7 +15881,6 @@ Number of subtables:	 2
 		 116 		 42 		 100
 		 116 		 43 		 100
 		 116 		 44 		 100
-		 116 		 45 		 100
 		 116 		 46 		 100
 		 116 		 48 		 100
 		 116 		 49 		 100
@@ -47150,7 +47149,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 100
+		  value1: XAdvance = 0
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47

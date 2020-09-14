@@ -2,6 +2,7 @@
 
 ### v6.0.4 (unreleased)
 
+- [mem prop 5x6][update] reduce kerning for "s,"
 - [mem prop 5x6][update] reduce kerning for "T.", "r,", and "r."
 - [dev] upgrade dependencies
 - [dev] move the dashboard below the header
