@@ -1,7 +1,10 @@
 ## Changelog
 
-### v6.0.4 (unreleased)
+### v6.0.5 (unreleased)
 
+### v6.0.4
+
+- [build] Upgrade dependencies
 - [mem prop 5x6][update] reduce kerning for "s,"
 - [mem prop 5x6][update] reduce kerning for "T.", "r,", and "r."
 - [dev] upgrade dependencies
