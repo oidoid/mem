@@ -1,4 +1,4 @@
-## To-do
+# To-do
 
 - Clean up the readme. Summarize what's actually available, what works, how
   (e.g., 7px tall in Aseprite but no kerning or Gimp 7px with kerning). Add that
