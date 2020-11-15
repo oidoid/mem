@@ -2,6 +2,9 @@
 
 ### v6.0.5 (unreleased)
 
+- [demo] Reduce horizontal page margin to match top
+- [docs] Add explicit license
+
 ### v6.0.4
 
 - [build] Upgrade dependencies
