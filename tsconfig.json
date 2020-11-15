@@ -1,14 +1,23 @@
 {
   "compilerOptions": {
-    "resolveJsonModule": true,
+    //  Needed by `resolveJsonModule`.
+    "moduleResolution": "Node",
+
     "esModuleInterop": true,
+
+    // Maximize type checking.
+    "resolveJsonModule": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "newLine": "lf",
+    "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true,
-    "pretty": true,
+
+    "outDir": "dist",
+    "target": "ES6",
+
+    "incremental": true,
+
     "noEmit": true
   }
 }

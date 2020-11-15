@@ -2,6 +2,8 @@
 
 ### v6.0.5 (unreleased)
 
+- \[build\] Revise TypeScript config
+- \[test\]\[build\] Upgrade TypeScript
 - \[demo\] Reduce horizontal page margin to match top
 - \[docs\] Add explicit license
 
