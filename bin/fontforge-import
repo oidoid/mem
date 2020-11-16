@@ -20,6 +20,7 @@ def main(sfd, metaFilename, aseprite, svgFilenames):
   font.familyname = meta['name']
   font.fontname = meta['id']
   font.fullname = meta['name']
+  font.copyright = '© oddoid'
   # Suppress time-based comment and unique ID that hinder build determinism.
   font.comment = None
   font.xuid = None
