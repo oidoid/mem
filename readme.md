@@ -4,12 +4,13 @@ Proportional and monospaced sans light pixel font family. See the
 **[demo](https://rndmem.com)** or [download the fonts](#fonts) as TTFs and
 sprite sheets. Developed in FontForge and Aseprite.
 
-## Table of contents
+## Table of Contents
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+
 <!-- code_chunk_output -->
 
-- [Table of contents](#table-of-contents)
+- [Table of Contents](#table-of-contents)
 - [Install](#install)
 - [Files](#files)
 - [Fonts](#fonts)
@@ -33,8 +34,9 @@ sprite sheets. Developed in FontForge and Aseprite.
   - [Testing the TTF](#testing-the-ttf)
 - [Links](#links)
   - [Alternatives](#alternatives)
+- [To-Do](#to-dotodomd)
   - [References](#references)
-- [License (GPL-3.0-only)](#license-gpl-30-only)
+- [License](#license)
   - [GPL-3.0-only](#gpl-30-only)
 
 <!-- /code_chunk_output -->
@@ -42,7 +44,7 @@ sprite sheets. Developed in FontForge and Aseprite.
 ## Install
 
 ```bash
-npm i mem-font
+npm i --save-prefix= mem-font
 ```
 
 See the [changelog](changelog.md) for release notes.
@@ -234,6 +236,8 @@ Aseprite which references the TTF files directly.
 - [creep](https://github.com/romeovs/creep)
 - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
 
+## [To-Do](todo.md)
+
 ### References
 
 - [Creating a Pixel Font for Your Game](http://monsterfacegames.blogspot.com/2013/10/creating-pixel-font-for-your-game.html)
@@ -242,7 +246,7 @@ Aseprite which references the TTF files directly.
 - [FontForge Python Scripting](https://fontforge.org/docs/scripting/python/fontforge.html)
 - [FontForge Bitmap Strikes Documentation](https://fontforge.org/docs/tutorial/editexample8.html)
 
-## License (GPL-3.0-only)
+## License
 
 © Stephen Niedzielski.
 
