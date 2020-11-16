@@ -1,8 +1,8 @@
 {
   "id": "mem-prop-5x5",
   "name": "mem 5x5",
-  "cell_width": 5,
-  "cell_height": 5,
+  "cellWidth": 5,
+  "cellHeight": 5,
   "leading": 1,
   "baseline": 1,
   "kerning": {
@@ -163,10 +163,10 @@
     "\u007e,": 0,
     "\u007f,": 0
   },
-  "default_kerning": 1,
-  "whitespace_kerning": 0,
-  "end_of_line_kerning": 0,
-  "letter_width": {
+  "defaultKerning": 1,
+  "whitespaceKerning": 0,
+  "endOfLineKerning": 0,
+  "letterWidth": {
     "\n": 1,
     "!": 1,
     "#": 5,
@@ -200,5 +200,5 @@
     "w": 5,
     "|": 1
   },
-  "default_letter_width": 3
+  "defaultLetterWidth": 3
 }

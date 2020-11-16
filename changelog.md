@@ -1,7 +1,8 @@
 ## Changelog
 
-### v6.0.5 (unreleased)
+### v6.1.0 (unreleased)
 
+- \[build\] Export TypeScript definitions
 - \[build\] Add copyright to font for deterministic builds
 - \[build\] Revise TypeScript config
 - \[test\]\[build\] Upgrade TypeScript

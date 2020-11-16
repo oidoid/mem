@@ -12,22 +12,22 @@ interface FontMeta {
    * The maximum width of any character in the font in pixels. Usually present
    * in font name. For example, the max width of "mem prop 5x6" is five pixels.
    */
-  readonly cell_width: number
+  readonly cellWidth: number
 
   /**
    * The maximum height of any character in the font in pixels, including
    * descenders but not leading, in pixels. Usually present in font name. For
    * example, the max height of "mem prop 5x6" is six pixels. The line height is
-   * `cell_height` + `leading` or seven pixels.
+   * `cellHeight + leading` or seven pixels.
    */
-  readonly cell_height: number
+  readonly cellHeight: number
 
   /** Distance between lines in pixels. */
   readonly leading: number
 
   /**
-   * The font's baseline as measured in pixels from the bottom of the cel (cell_height). When
-   * nonzero, this is the space available for descenders.
+   * The font's baseline as measured in pixels from the bottom of the cel
+   * (`cellHeight`). When nonzero, this is the space available for descenders.
    */
   readonly baseline: number
 
@@ -36,27 +36,29 @@ interface FontMeta {
 
   /**
    * Character-to-character kerning pair widths in pixels. When a pair is not
-   * present, `end_of_line_kerning` is used when the pair matches the regular
-   * expression `.$`, `whitespace_kerning` is used when the pair matches the
-   * regular expression `.\s`, otherwise `default_kerning` is used.
+   * present, `endOfLineKerning` is used when the pair matches the regular
+   * expression `.$`, `whitespaceKerning` is used when the pair matches the
+   * regular expression `.\s`, otherwise `defaultKerning` is used.
    */
-  readonly default_kerning: number
+  readonly defaultKerning: number
 
-  /** Kerning for when *either* the left or right character is a space or tab. */
-  readonly whitespace_kerning: number
+  /**
+   * Kerning for when *either* the left or right character is a space or tab.
+   */
+  readonly whitespaceKerning: number
 
   /** Kerning for when the right character is a newline. */
-  readonly end_of_line_kerning: number
+  readonly endOfLineKerning: number
 
   /**
    * Character width in pixels. When a character is not present,
-   * `default_letter_width` is used.
+   * `defaultLetterWidth` is used.
    */
-  readonly letter_width: Record<string, number>
+  readonly letterWidth: Readonly<Record<string, number>>
 
   /**
    * Character width in pixels. When a character is not present,
-   * `default_letter_width` is used.
+   * `defaultLetterWidth` is used.
    */
-  readonly default_letter_width: number
+  readonly defaultLetterWidth: number
 }

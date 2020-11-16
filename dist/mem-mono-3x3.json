@@ -1,14 +1,14 @@
 {
   "id": "mem-mono-3x3",
   "name": "mem mono 3x3",
-  "cell_width": 3,
-  "cell_height": 3,
+  "cellWidth": 3,
+  "cellHeight": 3,
   "leading": 1,
   "baseline": 0,
   "kerning": {},
-  "default_kerning": 1,
-  "whitespace_kerning": 0,
-  "end_of_line_kerning": 0,
-  "letter_width": {},
-  "default_letter_width": 3
+  "defaultKerning": 1,
+  "whitespaceKerning": 0,
+  "endOfLineKerning": 0,
+  "letterWidth": {},
+  "defaultLetterWidth": 3
 }

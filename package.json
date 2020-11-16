@@ -22,6 +22,10 @@
   "homepage": "https://git.io/mem-font",
   "repository": "github:oddoid/mem",
   "bugs": "https://github.com/oddoid/mem/issues",
+  "types": "src/FontMeta.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "live-server -q --wait=2000",
     "test": "tsc && npm -s run test:format",
