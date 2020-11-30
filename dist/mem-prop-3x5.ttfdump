@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd3536446, offset = 0x0001a198, len =        28
-   1. 'GPOS' - checksum = 0xe28c4450, offset = 0x0001802c, len =      8556
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x0001800c, len =        32
+   0. 'FFTM' - checksum = 0xd3536446, offset = 0x0001a488, len =        28
+   1. 'GPOS' - checksum = 0xe5ac4770, offset = 0x0001831c, len =      8556
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000182fc, len =        32
    3. 'OS/2' - checksum = 0x513f5c82, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0x3b60ff56, offset = 0x000003e8, len =       578
    5. 'cvt ' - checksum = 0x0010013d, offset = 0x0000062c, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x00018004, len =         8
-   7. 'glyf' - checksum = 0x46c6d796, offset = 0x00000734, len =      5744
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x000182f4, len =         8
+   7. 'glyf' - checksum = 0xae2de0f6, offset = 0x00000734, len =      5728
    8. 'head' - checksum = 0x589ba11d, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x02ea0210, offset = 0x00000144, len =        36
-  10. 'hmtx' - checksum = 0x8a320010, offset = 0x000001e8, len =       512
-  11. 'kern' - checksum = 0xeadb24c5, offset = 0x00001da4, len =     89690
-  12. 'loca' - checksum = 0x185b1dee, offset = 0x00000630, len =       260
+  10. 'hmtx' - checksum = 0x89ce0010, offset = 0x000001e8, len =       512
+  11. 'kern' - checksum = 0x2b0e53d2, offset = 0x00001d94, len =     90458
+  12. 'loca' - checksum = 0x170b1c9e, offset = 0x00000630, len =       260
   13. 'maxp' - checksum = 0x00c50059, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0x1f51d2f3, offset = 0x00017c00, len =       471
-  15. 'post' - checksum = 0x4701a5b5, offset = 0x00017dd8, len =       556
+  14. 'name' - checksum = 0x214dd2ed, offset = 0x00017ef0, len =       471
+  15. 'post' - checksum = 0x4701a5b5, offset = 0x000180c8, len =       556
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -577,7 +577,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x1e7a0fc6
+	 checkSumAdjustment:	 0xc87586d8
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 500
@@ -661,7 +661,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 	   42. advWid:  200, LSBear:    0
 	   43. advWid:  300, LSBear:    0
 	   44. advWid:  300, LSBear:    0
-	   45. advWid:  200, LSBear:    0
+	   45. advWid:  100, LSBear:    0
 	   46. advWid:  300, LSBear:    0
 	   47. advWid:  100, LSBear:    0
 	   48. advWid:  300, LSBear:    0
@@ -794,90 +794,90 @@ SubTable   1.	 Format 0 - Byte encoding table
 	 Idx     43 -> GlyphOffset 0x000002ac
 	 Idx     44 -> GlyphOffset 0x0000030c
 	 Idx     45 -> GlyphOffset 0x0000034c
-	 Idx     46 -> GlyphOffset 0x0000037c
-	 Idx     47 -> GlyphOffset 0x0000039c
-	 Idx     48 -> GlyphOffset 0x000003bc
-	 Idx     49 -> GlyphOffset 0x000003fc
-	 Idx     50 -> GlyphOffset 0x00000440
-	 Idx     51 -> GlyphOffset 0x00000478
-	 Idx     52 -> GlyphOffset 0x000004b8
-	 Idx     53 -> GlyphOffset 0x000004f8
-	 Idx     54 -> GlyphOffset 0x00000530
-	 Idx     55 -> GlyphOffset 0x00000570
-	 Idx     56 -> GlyphOffset 0x000005ac
-	 Idx     57 -> GlyphOffset 0x000005dc
-	 Idx     58 -> GlyphOffset 0x00000610
-	 Idx     59 -> GlyphOffset 0x0000064c
-	 Idx     60 -> GlyphOffset 0x0000067c
-	 Idx     61 -> GlyphOffset 0x000006c0
-	 Idx     62 -> GlyphOffset 0x00000720
-	 Idx     63 -> GlyphOffset 0x00000750
-	 Idx     64 -> GlyphOffset 0x000007b0
-	 Idx     65 -> GlyphOffset 0x000007f4
-	 Idx     66 -> GlyphOffset 0x00000830
-	 Idx     67 -> GlyphOffset 0x00000874
-	 Idx     68 -> GlyphOffset 0x000008b0
-	 Idx     69 -> GlyphOffset 0x000008e0
-	 Idx     70 -> GlyphOffset 0x00000924
-	 Idx     71 -> GlyphOffset 0x00000964
-	 Idx     72 -> GlyphOffset 0x0000099c
-	 Idx     73 -> GlyphOffset 0x000009d4
-	 Idx     74 -> GlyphOffset 0x00000a14
-	 Idx     75 -> GlyphOffset 0x00000a54
-	 Idx     76 -> GlyphOffset 0x00000a84
-	 Idx     77 -> GlyphOffset 0x00000ad4
-	 Idx     78 -> GlyphOffset 0x00000afc
-	 Idx     79 -> GlyphOffset 0x00000b2c
-	 Idx     80 -> GlyphOffset 0x00000b5c
-	 Idx     81 -> GlyphOffset 0x00000b90
-	 Idx     82 -> GlyphOffset 0x00000bcc
-	 Idx     83 -> GlyphOffset 0x00000c18
-	 Idx     84 -> GlyphOffset 0x00000c6c
-	 Idx     85 -> GlyphOffset 0x00000c9c
-	 Idx     86 -> GlyphOffset 0x00000ccc
-	 Idx     87 -> GlyphOffset 0x00000cfc
-	 Idx     88 -> GlyphOffset 0x00000d3c
-	 Idx     89 -> GlyphOffset 0x00000d7c
-	 Idx     90 -> GlyphOffset 0x00000ddc
-	 Idx     91 -> GlyphOffset 0x00000e1c
-	 Idx     92 -> GlyphOffset 0x00000e4c
-	 Idx     93 -> GlyphOffset 0x00000e7c
-	 Idx     94 -> GlyphOffset 0x00000ebc
-	 Idx     95 -> GlyphOffset 0x00000eec
-	 Idx     96 -> GlyphOffset 0x00000f2c
-	 Idx     97 -> GlyphOffset 0x00000f4c
-	 Idx     98 -> GlyphOffset 0x00000f7c
-	 Idx     99 -> GlyphOffset 0x00000fc0
-	 Idx    100 -> GlyphOffset 0x0000100c
-	 Idx    101 -> GlyphOffset 0x0000103c
-	 Idx    102 -> GlyphOffset 0x00001078
-	 Idx    103 -> GlyphOffset 0x000010d4
-	 Idx    104 -> GlyphOffset 0x00001114
-	 Idx    105 -> GlyphOffset 0x00001168
-	 Idx    106 -> GlyphOffset 0x000011a0
-	 Idx    107 -> GlyphOffset 0x000011c0
-	 Idx    108 -> GlyphOffset 0x000011f0
-	 Idx    109 -> GlyphOffset 0x00001240
-	 Idx    110 -> GlyphOffset 0x00001260
-	 Idx    111 -> GlyphOffset 0x00001290
-	 Idx    112 -> GlyphOffset 0x000012c0
-	 Idx    113 -> GlyphOffset 0x000012f4
-	 Idx    114 -> GlyphOffset 0x00001330
-	 Idx    115 -> GlyphOffset 0x00001374
-	 Idx    116 -> GlyphOffset 0x0000139c
-	 Idx    117 -> GlyphOffset 0x000013cc
-	 Idx    118 -> GlyphOffset 0x00001414
-	 Idx    119 -> GlyphOffset 0x00001444
-	 Idx    120 -> GlyphOffset 0x00001484
-	 Idx    121 -> GlyphOffset 0x000014b4
-	 Idx    122 -> GlyphOffset 0x00001514
-	 Idx    123 -> GlyphOffset 0x0000155c
-	 Idx    124 -> GlyphOffset 0x0000158c
-	 Idx    125 -> GlyphOffset 0x000015cc
-	 Idx    126 -> GlyphOffset 0x00001600
-	 Idx    127 -> GlyphOffset 0x00001640
-	 Idx    128 -> GlyphOffset 0x00001670
-	 Ended at 0x00001670
+	 Idx     46 -> GlyphOffset 0x0000036c
+	 Idx     47 -> GlyphOffset 0x0000038c
+	 Idx     48 -> GlyphOffset 0x000003ac
+	 Idx     49 -> GlyphOffset 0x000003ec
+	 Idx     50 -> GlyphOffset 0x00000430
+	 Idx     51 -> GlyphOffset 0x00000468
+	 Idx     52 -> GlyphOffset 0x000004a8
+	 Idx     53 -> GlyphOffset 0x000004e8
+	 Idx     54 -> GlyphOffset 0x00000520
+	 Idx     55 -> GlyphOffset 0x00000560
+	 Idx     56 -> GlyphOffset 0x0000059c
+	 Idx     57 -> GlyphOffset 0x000005cc
+	 Idx     58 -> GlyphOffset 0x00000600
+	 Idx     59 -> GlyphOffset 0x0000063c
+	 Idx     60 -> GlyphOffset 0x0000066c
+	 Idx     61 -> GlyphOffset 0x000006b0
+	 Idx     62 -> GlyphOffset 0x00000710
+	 Idx     63 -> GlyphOffset 0x00000740
+	 Idx     64 -> GlyphOffset 0x000007a0
+	 Idx     65 -> GlyphOffset 0x000007e4
+	 Idx     66 -> GlyphOffset 0x00000820
+	 Idx     67 -> GlyphOffset 0x00000864
+	 Idx     68 -> GlyphOffset 0x000008a0
+	 Idx     69 -> GlyphOffset 0x000008d0
+	 Idx     70 -> GlyphOffset 0x00000914
+	 Idx     71 -> GlyphOffset 0x00000954
+	 Idx     72 -> GlyphOffset 0x0000098c
+	 Idx     73 -> GlyphOffset 0x000009c4
+	 Idx     74 -> GlyphOffset 0x00000a04
+	 Idx     75 -> GlyphOffset 0x00000a44
+	 Idx     76 -> GlyphOffset 0x00000a74
+	 Idx     77 -> GlyphOffset 0x00000ac4
+	 Idx     78 -> GlyphOffset 0x00000aec
+	 Idx     79 -> GlyphOffset 0x00000b1c
+	 Idx     80 -> GlyphOffset 0x00000b4c
+	 Idx     81 -> GlyphOffset 0x00000b80
+	 Idx     82 -> GlyphOffset 0x00000bbc
+	 Idx     83 -> GlyphOffset 0x00000c08
+	 Idx     84 -> GlyphOffset 0x00000c5c
+	 Idx     85 -> GlyphOffset 0x00000c8c
+	 Idx     86 -> GlyphOffset 0x00000cbc
+	 Idx     87 -> GlyphOffset 0x00000cec
+	 Idx     88 -> GlyphOffset 0x00000d2c
+	 Idx     89 -> GlyphOffset 0x00000d6c
+	 Idx     90 -> GlyphOffset 0x00000dcc
+	 Idx     91 -> GlyphOffset 0x00000e0c
+	 Idx     92 -> GlyphOffset 0x00000e3c
+	 Idx     93 -> GlyphOffset 0x00000e6c
+	 Idx     94 -> GlyphOffset 0x00000eac
+	 Idx     95 -> GlyphOffset 0x00000edc
+	 Idx     96 -> GlyphOffset 0x00000f1c
+	 Idx     97 -> GlyphOffset 0x00000f3c
+	 Idx     98 -> GlyphOffset 0x00000f6c
+	 Idx     99 -> GlyphOffset 0x00000fb0
+	 Idx    100 -> GlyphOffset 0x00000ffc
+	 Idx    101 -> GlyphOffset 0x0000102c
+	 Idx    102 -> GlyphOffset 0x00001068
+	 Idx    103 -> GlyphOffset 0x000010c4
+	 Idx    104 -> GlyphOffset 0x00001104
+	 Idx    105 -> GlyphOffset 0x00001158
+	 Idx    106 -> GlyphOffset 0x00001190
+	 Idx    107 -> GlyphOffset 0x000011b0
+	 Idx    108 -> GlyphOffset 0x000011e0
+	 Idx    109 -> GlyphOffset 0x00001230
+	 Idx    110 -> GlyphOffset 0x00001250
+	 Idx    111 -> GlyphOffset 0x00001280
+	 Idx    112 -> GlyphOffset 0x000012b0
+	 Idx    113 -> GlyphOffset 0x000012e4
+	 Idx    114 -> GlyphOffset 0x00001320
+	 Idx    115 -> GlyphOffset 0x00001364
+	 Idx    116 -> GlyphOffset 0x0000138c
+	 Idx    117 -> GlyphOffset 0x000013bc
+	 Idx    118 -> GlyphOffset 0x00001404
+	 Idx    119 -> GlyphOffset 0x00001434
+	 Idx    120 -> GlyphOffset 0x00001474
+	 Idx    121 -> GlyphOffset 0x000014a4
+	 Idx    122 -> GlyphOffset 0x00001504
+	 Idx    123 -> GlyphOffset 0x0000154c
+	 Idx    124 -> GlyphOffset 0x0000157c
+	 Idx    125 -> GlyphOffset 0x000015bc
+	 Idx    126 -> GlyphOffset 0x000015f0
+	 Idx    127 -> GlyphOffset 0x00001630
+	 Idx    128 -> GlyphOffset 0x00001660
+	 Ended at 0x00001660
 
 'maxp' Table - Maximum Profile
 ------------------------------
@@ -931,7 +931,7 @@ Name table   3.	 PlatformID:	 1
 		 Offset:	 152
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
-		 33 78 35 20 3a 20 31 36 2d 31  >  3x5 : 16-1
+		 33 78 35 20 3a 20 33 30 2d 31  >  3x5 : 30-1
 		 31 2d 32 30 32 30              > 1-2020
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
@@ -991,7 +991,7 @@ Name table  10.	 PlatformID:	 3
 		 00 32 00 2e 00 30 00 20 00 3a  >  .2...0. .:
 		 00 20 00 6d 00 65 00 6d 00 20  >  . .m.e.m. 
 		 00 33 00 78 00 35 00 20 00 3a  >  .3.x.5. .:
-		 00 20 00 31 00 36 00 2d 00 31  >  . .1.6.-.1
+		 00 20 00 33 00 30 00 2d 00 31  >  . .3.0.-.1
 		 00 31 00 2d 00 32 00 30 00 32  >  .1.-.2.0.2
 		 00 30                          > .0
 Name table  11.	 PlatformID:	 3
@@ -1235,12 +1235,12 @@ Number of subtables:	 2
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 63800
+	 Bytes in subtable 	 63638
 	 Coverage bits 	 0x1
-	 Number of pairs 10631
+	 Number of pairs 10604
 	 Search Range    49152
 	 Entry Selector  13
-	 Range Shift     14634
+	 Range Shift     14472
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 1 		 1 		 100
@@ -1277,6 +1277,7 @@ Number of subtables:	 2
 		 1 		 42 		 100
 		 1 		 43 		 100
 		 1 		 44 		 100
+		 1 		 45 		 100
 		 1 		 46 		 100
 		 1 		 47 		 100
 		 1 		 48 		 100
@@ -1394,6 +1395,7 @@ Number of subtables:	 2
 		 2 		 42 		 100
 		 2 		 43 		 100
 		 2 		 44 		 100
+		 2 		 45 		 100
 		 2 		 46 		 100
 		 2 		 47 		 100
 		 2 		 48 		 100
@@ -1511,6 +1513,7 @@ Number of subtables:	 2
 		 3 		 42 		 100
 		 3 		 43 		 100
 		 3 		 44 		 100
+		 3 		 45 		 100
 		 3 		 46 		 100
 		 3 		 47 		 100
 		 3 		 48 		 100
@@ -1628,6 +1631,7 @@ Number of subtables:	 2
 		 4 		 42 		 100
 		 4 		 43 		 100
 		 4 		 44 		 100
+		 4 		 45 		 100
 		 4 		 46 		 100
 		 4 		 47 		 100
 		 4 		 48 		 100
@@ -1745,6 +1749,7 @@ Number of subtables:	 2
 		 5 		 42 		 100
 		 5 		 43 		 100
 		 5 		 44 		 100
+		 5 		 45 		 100
 		 5 		 46 		 100
 		 5 		 47 		 100
 		 5 		 48 		 100
@@ -1862,6 +1867,7 @@ Number of subtables:	 2
 		 6 		 42 		 100
 		 6 		 43 		 100
 		 6 		 44 		 100
+		 6 		 45 		 100
 		 6 		 46 		 100
 		 6 		 47 		 100
 		 6 		 48 		 100
@@ -1979,6 +1985,7 @@ Number of subtables:	 2
 		 7 		 42 		 100
 		 7 		 43 		 100
 		 7 		 44 		 100
+		 7 		 45 		 100
 		 7 		 46 		 100
 		 7 		 47 		 100
 		 7 		 48 		 100
@@ -2096,6 +2103,7 @@ Number of subtables:	 2
 		 8 		 42 		 100
 		 8 		 43 		 100
 		 8 		 44 		 100
+		 8 		 45 		 100
 		 8 		 46 		 100
 		 8 		 47 		 100
 		 8 		 48 		 100
@@ -2213,6 +2221,7 @@ Number of subtables:	 2
 		 9 		 42 		 100
 		 9 		 43 		 100
 		 9 		 44 		 100
+		 9 		 45 		 100
 		 9 		 46 		 100
 		 9 		 47 		 100
 		 9 		 48 		 100
@@ -2330,6 +2339,7 @@ Number of subtables:	 2
 		 10 		 42 		 100
 		 10 		 43 		 100
 		 10 		 44 		 100
+		 10 		 45 		 100
 		 10 		 46 		 100
 		 10 		 47 		 100
 		 10 		 48 		 100
@@ -2447,6 +2457,7 @@ Number of subtables:	 2
 		 11 		 42 		 100
 		 11 		 43 		 100
 		 11 		 44 		 100
+		 11 		 45 		 100
 		 11 		 46 		 100
 		 11 		 47 		 100
 		 11 		 48 		 100
@@ -2564,6 +2575,7 @@ Number of subtables:	 2
 		 12 		 42 		 100
 		 12 		 43 		 100
 		 12 		 44 		 100
+		 12 		 45 		 100
 		 12 		 46 		 100
 		 12 		 47 		 100
 		 12 		 48 		 100
@@ -2681,6 +2693,7 @@ Number of subtables:	 2
 		 13 		 42 		 100
 		 13 		 43 		 100
 		 13 		 44 		 100
+		 13 		 45 		 100
 		 13 		 46 		 100
 		 13 		 47 		 100
 		 13 		 48 		 100
@@ -2798,6 +2811,7 @@ Number of subtables:	 2
 		 14 		 42 		 100
 		 14 		 43 		 100
 		 14 		 44 		 100
+		 14 		 45 		 100
 		 14 		 46 		 100
 		 14 		 47 		 100
 		 14 		 48 		 100
@@ -2915,6 +2929,7 @@ Number of subtables:	 2
 		 15 		 42 		 100
 		 15 		 43 		 100
 		 15 		 44 		 100
+		 15 		 45 		 100
 		 15 		 46 		 100
 		 15 		 47 		 100
 		 15 		 48 		 100
@@ -3032,6 +3047,7 @@ Number of subtables:	 2
 		 16 		 42 		 100
 		 16 		 43 		 100
 		 16 		 44 		 100
+		 16 		 45 		 100
 		 16 		 46 		 100
 		 16 		 47 		 100
 		 16 		 48 		 100
@@ -3149,6 +3165,7 @@ Number of subtables:	 2
 		 17 		 42 		 100
 		 17 		 43 		 100
 		 17 		 44 		 100
+		 17 		 45 		 100
 		 17 		 46 		 100
 		 17 		 47 		 100
 		 17 		 48 		 100
@@ -3266,6 +3283,7 @@ Number of subtables:	 2
 		 18 		 42 		 100
 		 18 		 43 		 100
 		 18 		 44 		 100
+		 18 		 45 		 100
 		 18 		 46 		 100
 		 18 		 47 		 100
 		 18 		 48 		 100
@@ -3383,6 +3401,7 @@ Number of subtables:	 2
 		 19 		 42 		 100
 		 19 		 43 		 100
 		 19 		 44 		 100
+		 19 		 45 		 100
 		 19 		 46 		 100
 		 19 		 47 		 100
 		 19 		 48 		 100
@@ -3500,6 +3519,7 @@ Number of subtables:	 2
 		 20 		 42 		 100
 		 20 		 43 		 100
 		 20 		 44 		 100
+		 20 		 45 		 100
 		 20 		 46 		 100
 		 20 		 47 		 100
 		 20 		 48 		 100
@@ -3617,6 +3637,7 @@ Number of subtables:	 2
 		 21 		 42 		 100
 		 21 		 43 		 100
 		 21 		 44 		 100
+		 21 		 45 		 100
 		 21 		 46 		 100
 		 21 		 47 		 100
 		 21 		 48 		 100
@@ -3734,6 +3755,7 @@ Number of subtables:	 2
 		 22 		 42 		 100
 		 22 		 43 		 100
 		 22 		 44 		 100
+		 22 		 45 		 100
 		 22 		 46 		 100
 		 22 		 47 		 100
 		 22 		 48 		 100
@@ -3851,6 +3873,7 @@ Number of subtables:	 2
 		 23 		 42 		 100
 		 23 		 43 		 100
 		 23 		 44 		 100
+		 23 		 45 		 100
 		 23 		 46 		 100
 		 23 		 47 		 100
 		 23 		 48 		 100
@@ -3968,6 +3991,7 @@ Number of subtables:	 2
 		 24 		 42 		 100
 		 24 		 43 		 100
 		 24 		 44 		 100
+		 24 		 45 		 100
 		 24 		 46 		 100
 		 24 		 47 		 100
 		 24 		 48 		 100
@@ -4085,6 +4109,7 @@ Number of subtables:	 2
 		 25 		 42 		 100
 		 25 		 43 		 100
 		 25 		 44 		 100
+		 25 		 45 		 100
 		 25 		 46 		 100
 		 25 		 47 		 100
 		 25 		 48 		 100
@@ -4202,6 +4227,7 @@ Number of subtables:	 2
 		 26 		 42 		 100
 		 26 		 43 		 100
 		 26 		 44 		 100
+		 26 		 45 		 100
 		 26 		 46 		 100
 		 26 		 47 		 100
 		 26 		 48 		 100
@@ -4319,6 +4345,7 @@ Number of subtables:	 2
 		 27 		 42 		 100
 		 27 		 43 		 100
 		 27 		 44 		 100
+		 27 		 45 		 100
 		 27 		 46 		 100
 		 27 		 47 		 100
 		 27 		 48 		 100
@@ -4436,6 +4463,7 @@ Number of subtables:	 2
 		 28 		 42 		 100
 		 28 		 43 		 100
 		 28 		 44 		 100
+		 28 		 45 		 100
 		 28 		 46 		 100
 		 28 		 47 		 100
 		 28 		 48 		 100
@@ -4553,6 +4581,7 @@ Number of subtables:	 2
 		 29 		 42 		 100
 		 29 		 43 		 100
 		 29 		 44 		 100
+		 29 		 45 		 100
 		 29 		 46 		 100
 		 29 		 47 		 100
 		 29 		 48 		 100
@@ -4670,6 +4699,7 @@ Number of subtables:	 2
 		 30 		 42 		 100
 		 30 		 43 		 100
 		 30 		 44 		 100
+		 30 		 45 		 100
 		 30 		 46 		 100
 		 30 		 47 		 100
 		 30 		 48 		 100
@@ -4787,6 +4817,7 @@ Number of subtables:	 2
 		 31 		 42 		 100
 		 31 		 43 		 100
 		 31 		 44 		 100
+		 31 		 45 		 100
 		 31 		 46 		 100
 		 31 		 47 		 100
 		 31 		 48 		 100
@@ -4904,6 +4935,7 @@ Number of subtables:	 2
 		 32 		 42 		 100
 		 32 		 43 		 100
 		 32 		 44 		 100
+		 32 		 45 		 100
 		 32 		 46 		 100
 		 32 		 47 		 100
 		 32 		 48 		 100
@@ -5021,6 +5053,7 @@ Number of subtables:	 2
 		 33 		 42 		 100
 		 33 		 43 		 100
 		 33 		 44 		 100
+		 33 		 45 		 100
 		 33 		 46 		 100
 		 33 		 47 		 100
 		 33 		 48 		 100
@@ -5138,6 +5171,7 @@ Number of subtables:	 2
 		 34 		 42 		 100
 		 34 		 43 		 100
 		 34 		 44 		 100
+		 34 		 45 		 100
 		 34 		 46 		 100
 		 34 		 47 		 100
 		 34 		 48 		 100
@@ -5255,6 +5289,7 @@ Number of subtables:	 2
 		 35 		 42 		 100
 		 35 		 43 		 100
 		 35 		 44 		 100
+		 35 		 45 		 100
 		 35 		 46 		 100
 		 35 		 47 		 100
 		 35 		 48 		 100
@@ -5372,6 +5407,7 @@ Number of subtables:	 2
 		 36 		 42 		 100
 		 36 		 43 		 100
 		 36 		 44 		 100
+		 36 		 45 		 100
 		 36 		 46 		 100
 		 36 		 47 		 100
 		 36 		 48 		 100
@@ -5489,6 +5525,7 @@ Number of subtables:	 2
 		 37 		 42 		 100
 		 37 		 43 		 100
 		 37 		 44 		 100
+		 37 		 45 		 100
 		 37 		 46 		 100
 		 37 		 47 		 100
 		 37 		 48 		 100
@@ -5606,6 +5643,7 @@ Number of subtables:	 2
 		 38 		 42 		 100
 		 38 		 43 		 100
 		 38 		 44 		 100
+		 38 		 45 		 100
 		 38 		 46 		 100
 		 38 		 47 		 100
 		 38 		 48 		 100
@@ -5723,6 +5761,7 @@ Number of subtables:	 2
 		 39 		 42 		 100
 		 39 		 43 		 100
 		 39 		 44 		 100
+		 39 		 45 		 100
 		 39 		 46 		 100
 		 39 		 47 		 100
 		 39 		 48 		 100
@@ -5840,6 +5879,7 @@ Number of subtables:	 2
 		 40 		 42 		 100
 		 40 		 43 		 100
 		 40 		 44 		 100
+		 40 		 45 		 100
 		 40 		 46 		 100
 		 40 		 47 		 100
 		 40 		 48 		 100
@@ -5955,6 +5995,7 @@ Number of subtables:	 2
 		 41 		 42 		 100
 		 41 		 43 		 100
 		 41 		 44 		 100
+		 41 		 45 		 100
 		 41 		 46 		 100
 		 41 		 47 		 100
 		 41 		 48 		 100
@@ -6072,6 +6113,7 @@ Number of subtables:	 2
 		 42 		 42 		 100
 		 42 		 43 		 100
 		 42 		 44 		 100
+		 42 		 45 		 100
 		 42 		 46 		 100
 		 42 		 47 		 100
 		 42 		 48 		 100
@@ -6189,6 +6231,7 @@ Number of subtables:	 2
 		 43 		 42 		 100
 		 43 		 43 		 100
 		 43 		 44 		 100
+		 43 		 45 		 100
 		 43 		 46 		 100
 		 43 		 47 		 100
 		 43 		 48 		 100
@@ -6306,6 +6349,7 @@ Number of subtables:	 2
 		 44 		 42 		 100
 		 44 		 43 		 100
 		 44 		 44 		 100
+		 44 		 45 		 100
 		 44 		 46 		 100
 		 44 		 47 		 100
 		 44 		 48 		 100
@@ -6421,6 +6465,7 @@ Number of subtables:	 2
 		 45 		 42 		 100
 		 45 		 43 		 100
 		 45 		 44 		 100
+		 45 		 45 		 100
 		 45 		 46 		 100
 		 45 		 47 		 100
 		 45 		 48 		 100
@@ -6535,6 +6580,7 @@ Number of subtables:	 2
 		 46 		 42 		 100
 		 46 		 43 		 100
 		 46 		 44 		 100
+		 46 		 45 		 100
 		 46 		 47 		 100
 		 46 		 48 		 100
 		 46 		 49 		 100
@@ -6648,6 +6694,7 @@ Number of subtables:	 2
 		 47 		 42 		 100
 		 47 		 43 		 100
 		 47 		 44 		 100
+		 47 		 45 		 100
 		 47 		 46 		 100
 		 47 		 47 		 100
 		 47 		 48 		 100
@@ -6764,6 +6811,7 @@ Number of subtables:	 2
 		 48 		 42 		 100
 		 48 		 43 		 100
 		 48 		 44 		 100
+		 48 		 45 		 100
 		 48 		 46 		 100
 		 48 		 47 		 100
 		 48 		 49 		 100
@@ -6880,6 +6928,7 @@ Number of subtables:	 2
 		 49 		 42 		 100
 		 49 		 43 		 100
 		 49 		 44 		 100
+		 49 		 45 		 100
 		 49 		 46 		 100
 		 49 		 47 		 100
 		 49 		 48 		 100
@@ -6997,6 +7046,7 @@ Number of subtables:	 2
 		 50 		 42 		 100
 		 50 		 43 		 100
 		 50 		 44 		 100
+		 50 		 45 		 100
 		 50 		 46 		 100
 		 50 		 47 		 100
 		 50 		 48 		 100
@@ -7114,6 +7164,7 @@ Number of subtables:	 2
 		 51 		 42 		 100
 		 51 		 43 		 100
 		 51 		 44 		 100
+		 51 		 45 		 100
 		 51 		 46 		 100
 		 51 		 47 		 100
 		 51 		 48 		 100
@@ -7231,6 +7282,7 @@ Number of subtables:	 2
 		 52 		 42 		 100
 		 52 		 43 		 100
 		 52 		 44 		 100
+		 52 		 45 		 100
 		 52 		 46 		 100
 		 52 		 47 		 100
 		 52 		 48 		 100
@@ -7348,6 +7400,7 @@ Number of subtables:	 2
 		 53 		 42 		 100
 		 53 		 43 		 100
 		 53 		 44 		 100
+		 53 		 45 		 100
 		 53 		 46 		 100
 		 53 		 47 		 100
 		 53 		 48 		 100
@@ -7465,6 +7518,7 @@ Number of subtables:	 2
 		 54 		 42 		 100
 		 54 		 43 		 100
 		 54 		 44 		 100
+		 54 		 45 		 100
 		 54 		 46 		 100
 		 54 		 47 		 100
 		 54 		 48 		 100
@@ -7582,6 +7636,7 @@ Number of subtables:	 2
 		 55 		 42 		 100
 		 55 		 43 		 100
 		 55 		 44 		 100
+		 55 		 45 		 100
 		 55 		 46 		 100
 		 55 		 47 		 100
 		 55 		 48 		 100
@@ -7699,6 +7754,7 @@ Number of subtables:	 2
 		 56 		 42 		 100
 		 56 		 43 		 100
 		 56 		 44 		 100
+		 56 		 45 		 100
 		 56 		 46 		 100
 		 56 		 47 		 100
 		 56 		 48 		 100
@@ -7816,6 +7872,7 @@ Number of subtables:	 2
 		 57 		 42 		 100
 		 57 		 43 		 100
 		 57 		 44 		 100
+		 57 		 45 		 100
 		 57 		 46 		 100
 		 57 		 47 		 100
 		 57 		 48 		 100
@@ -7933,6 +7990,7 @@ Number of subtables:	 2
 		 58 		 42 		 100
 		 58 		 43 		 100
 		 58 		 44 		 100
+		 58 		 45 		 100
 		 58 		 46 		 100
 		 58 		 47 		 100
 		 58 		 48 		 100
@@ -8050,6 +8108,7 @@ Number of subtables:	 2
 		 59 		 42 		 100
 		 59 		 43 		 100
 		 59 		 44 		 100
+		 59 		 45 		 100
 		 59 		 46 		 100
 		 59 		 47 		 100
 		 59 		 48 		 100
@@ -8166,6 +8225,7 @@ Number of subtables:	 2
 		 60 		 42 		 100
 		 60 		 43 		 100
 		 60 		 44 		 100
+		 60 		 45 		 100
 		 60 		 46 		 100
 		 60 		 47 		 100
 		 60 		 48 		 100
@@ -8281,6 +8341,7 @@ Number of subtables:	 2
 		 61 		 42 		 100
 		 61 		 43 		 100
 		 61 		 44 		 100
+		 61 		 45 		 100
 		 61 		 46 		 100
 		 61 		 47 		 100
 		 61 		 48 		 100
@@ -8398,6 +8459,7 @@ Number of subtables:	 2
 		 62 		 42 		 100
 		 62 		 43 		 100
 		 62 		 44 		 100
+		 62 		 45 		 100
 		 62 		 46 		 100
 		 62 		 47 		 100
 		 62 		 48 		 100
@@ -8515,6 +8577,7 @@ Number of subtables:	 2
 		 63 		 42 		 100
 		 63 		 43 		 100
 		 63 		 44 		 100
+		 63 		 45 		 100
 		 63 		 46 		 100
 		 63 		 47 		 100
 		 63 		 48 		 100
@@ -8632,6 +8695,7 @@ Number of subtables:	 2
 		 64 		 42 		 100
 		 64 		 43 		 100
 		 64 		 44 		 100
+		 64 		 45 		 100
 		 64 		 46 		 100
 		 64 		 47 		 100
 		 64 		 48 		 100
@@ -8749,6 +8813,7 @@ Number of subtables:	 2
 		 65 		 42 		 100
 		 65 		 43 		 100
 		 65 		 44 		 100
+		 65 		 45 		 100
 		 65 		 46 		 100
 		 65 		 47 		 100
 		 65 		 48 		 100
@@ -8866,6 +8931,7 @@ Number of subtables:	 2
 		 66 		 42 		 100
 		 66 		 43 		 100
 		 66 		 44 		 100
+		 66 		 45 		 100
 		 66 		 46 		 100
 		 66 		 47 		 100
 		 66 		 48 		 100
@@ -8983,6 +9049,7 @@ Number of subtables:	 2
 		 67 		 42 		 100
 		 67 		 43 		 100
 		 67 		 44 		 100
+		 67 		 45 		 100
 		 67 		 46 		 100
 		 67 		 47 		 100
 		 67 		 48 		 100
@@ -9100,6 +9167,7 @@ Number of subtables:	 2
 		 68 		 42 		 100
 		 68 		 43 		 100
 		 68 		 44 		 100
+		 68 		 45 		 100
 		 68 		 46 		 100
 		 68 		 47 		 100
 		 68 		 48 		 100
@@ -9217,6 +9285,7 @@ Number of subtables:	 2
 		 69 		 42 		 100
 		 69 		 43 		 100
 		 69 		 44 		 100
+		 69 		 45 		 100
 		 69 		 46 		 100
 		 69 		 47 		 100
 		 69 		 48 		 100
@@ -9334,6 +9403,7 @@ Number of subtables:	 2
 		 70 		 42 		 100
 		 70 		 43 		 100
 		 70 		 44 		 100
+		 70 		 45 		 100
 		 70 		 46 		 100
 		 70 		 47 		 100
 		 70 		 48 		 100
@@ -9451,6 +9521,7 @@ Number of subtables:	 2
 		 71 		 42 		 100
 		 71 		 43 		 100
 		 71 		 44 		 100
+		 71 		 45 		 100
 		 71 		 46 		 100
 		 71 		 47 		 100
 		 71 		 48 		 100
@@ -9568,6 +9639,7 @@ Number of subtables:	 2
 		 72 		 42 		 100
 		 72 		 43 		 100
 		 72 		 44 		 100
+		 72 		 45 		 100
 		 72 		 46 		 100
 		 72 		 47 		 100
 		 72 		 48 		 100
@@ -9685,6 +9757,7 @@ Number of subtables:	 2
 		 73 		 42 		 100
 		 73 		 43 		 100
 		 73 		 44 		 100
+		 73 		 45 		 100
 		 73 		 46 		 100
 		 73 		 47 		 100
 		 73 		 48 		 100
@@ -9802,6 +9875,7 @@ Number of subtables:	 2
 		 74 		 42 		 100
 		 74 		 43 		 100
 		 74 		 44 		 100
+		 74 		 45 		 100
 		 74 		 46 		 100
 		 74 		 47 		 100
 		 74 		 48 		 100
@@ -9919,6 +9993,7 @@ Number of subtables:	 2
 		 75 		 42 		 100
 		 75 		 43 		 100
 		 75 		 44 		 100
+		 75 		 45 		 100
 		 75 		 46 		 100
 		 75 		 47 		 100
 		 75 		 48 		 100
@@ -10036,6 +10111,7 @@ Number of subtables:	 2
 		 76 		 42 		 100
 		 76 		 43 		 100
 		 76 		 44 		 100
+		 76 		 45 		 100
 		 76 		 46 		 100
 		 76 		 47 		 100
 		 76 		 48 		 100
@@ -10153,6 +10229,7 @@ Number of subtables:	 2
 		 77 		 42 		 100
 		 77 		 43 		 100
 		 77 		 44 		 100
+		 77 		 45 		 100
 		 77 		 46 		 100
 		 77 		 47 		 100
 		 77 		 48 		 100
@@ -10270,6 +10347,7 @@ Number of subtables:	 2
 		 78 		 42 		 100
 		 78 		 43 		 100
 		 78 		 44 		 100
+		 78 		 45 		 100
 		 78 		 46 		 100
 		 78 		 47 		 100
 		 78 		 48 		 100
@@ -10387,6 +10465,7 @@ Number of subtables:	 2
 		 79 		 42 		 100
 		 79 		 43 		 100
 		 79 		 44 		 100
+		 79 		 45 		 100
 		 79 		 46 		 100
 		 79 		 47 		 100
 		 79 		 48 		 100
@@ -10504,6 +10583,7 @@ Number of subtables:	 2
 		 80 		 42 		 100
 		 80 		 43 		 100
 		 80 		 44 		 100
+		 80 		 45 		 100
 		 80 		 46 		 100
 		 80 		 47 		 100
 		 80 		 48 		 100
@@ -10621,6 +10701,7 @@ Number of subtables:	 2
 		 81 		 42 		 100
 		 81 		 43 		 100
 		 81 		 44 		 100
+		 81 		 45 		 100
 		 81 		 46 		 100
 		 81 		 47 		 100
 		 81 		 48 		 100
@@ -10738,6 +10819,7 @@ Number of subtables:	 2
 		 82 		 42 		 100
 		 82 		 43 		 100
 		 82 		 44 		 100
+		 82 		 45 		 100
 		 82 		 46 		 100
 		 82 		 47 		 100
 		 82 		 48 		 100
@@ -10855,6 +10937,7 @@ Number of subtables:	 2
 		 83 		 42 		 100
 		 83 		 43 		 100
 		 83 		 44 		 100
+		 83 		 45 		 100
 		 83 		 46 		 100
 		 83 		 47 		 100
 		 83 		 48 		 100
@@ -10972,6 +11055,7 @@ Number of subtables:	 2
 		 84 		 42 		 100
 		 84 		 43 		 100
 		 84 		 44 		 100
+		 84 		 45 		 100
 		 84 		 46 		 100
 		 84 		 47 		 100
 		 84 		 48 		 100
@@ -11089,6 +11173,7 @@ Number of subtables:	 2
 		 85 		 42 		 100
 		 85 		 43 		 100
 		 85 		 44 		 100
+		 85 		 45 		 100
 		 85 		 46 		 100
 		 85 		 47 		 100
 		 85 		 48 		 100
@@ -11206,6 +11291,7 @@ Number of subtables:	 2
 		 86 		 42 		 100
 		 86 		 43 		 100
 		 86 		 44 		 100
+		 86 		 45 		 100
 		 86 		 46 		 100
 		 86 		 47 		 100
 		 86 		 48 		 100
@@ -11323,6 +11409,7 @@ Number of subtables:	 2
 		 87 		 42 		 100
 		 87 		 43 		 100
 		 87 		 44 		 100
+		 87 		 45 		 100
 		 87 		 46 		 100
 		 87 		 47 		 100
 		 87 		 48 		 100
@@ -11440,6 +11527,7 @@ Number of subtables:	 2
 		 88 		 42 		 100
 		 88 		 43 		 100
 		 88 		 44 		 100
+		 88 		 45 		 100
 		 88 		 46 		 100
 		 88 		 47 		 100
 		 88 		 48 		 100
@@ -11557,6 +11645,7 @@ Number of subtables:	 2
 		 89 		 42 		 100
 		 89 		 43 		 100
 		 89 		 44 		 100
+		 89 		 45 		 100
 		 89 		 46 		 100
 		 89 		 47 		 100
 		 89 		 48 		 100
@@ -11674,6 +11763,7 @@ Number of subtables:	 2
 		 90 		 42 		 100
 		 90 		 43 		 100
 		 90 		 44 		 100
+		 90 		 45 		 100
 		 90 		 46 		 100
 		 90 		 47 		 100
 		 90 		 48 		 100
@@ -11757,6 +11847,17 @@ Number of subtables:	 2
 		 90 		 126 		 100
 		 90 		 127 		 100
 		 90 		 128 		 100
+
+	 Subtable format 	 0
+	 Subtable version 	 0
+	 Bytes in subtable 	 26816
+	 Coverage bits 	 0x1
+	 Number of pairs 4467
+	 Search Range    24576
+	 Entry Selector  12
+	 Range Shift     2226
+	 Left Glyph 	 Right Glyph 	 Kern Move
+	 ---------- 	 ----------- 	 ---------
 		 91 		 1 		 100
 		 91 		 3 		 100
 		 91 		 4 		 100
@@ -11791,6 +11892,7 @@ Number of subtables:	 2
 		 91 		 42 		 100
 		 91 		 43 		 100
 		 91 		 44 		 100
+		 91 		 45 		 100
 		 91 		 46 		 100
 		 91 		 47 		 100
 		 91 		 48 		 100
@@ -11874,17 +11976,6 @@ Number of subtables:	 2
 		 91 		 126 		 100
 		 91 		 127 		 100
 		 91 		 128 		 100
-
-	 Subtable format 	 0
-	 Subtable version 	 0
-	 Bytes in subtable 	 25886
-	 Coverage bits 	 0x1
-	 Number of pairs 4312
-	 Search Range    24576
-	 Entry Selector  12
-	 Range Shift     1296
-	 Left Glyph 	 Right Glyph 	 Kern Move
-	 ---------- 	 ----------- 	 ---------
 		 92 		 1 		 100
 		 92 		 3 		 100
 		 92 		 4 		 100
@@ -11919,6 +12010,7 @@ Number of subtables:	 2
 		 92 		 42 		 100
 		 92 		 43 		 100
 		 92 		 44 		 100
+		 92 		 45 		 100
 		 92 		 46 		 100
 		 92 		 47 		 100
 		 92 		 48 		 100
@@ -12036,6 +12128,7 @@ Number of subtables:	 2
 		 93 		 42 		 100
 		 93 		 43 		 100
 		 93 		 44 		 100
+		 93 		 45 		 100
 		 93 		 46 		 100
 		 93 		 47 		 100
 		 93 		 48 		 100
@@ -12152,6 +12245,7 @@ Number of subtables:	 2
 		 94 		 42 		 100
 		 94 		 43 		 100
 		 94 		 44 		 100
+		 94 		 45 		 100
 		 94 		 46 		 100
 		 94 		 47 		 100
 		 94 		 48 		 100
@@ -12269,6 +12363,7 @@ Number of subtables:	 2
 		 95 		 42 		 100
 		 95 		 43 		 100
 		 95 		 44 		 100
+		 95 		 45 		 100
 		 95 		 46 		 100
 		 95 		 47 		 100
 		 95 		 48 		 100
@@ -12384,6 +12479,7 @@ Number of subtables:	 2
 		 96 		 42 		 100
 		 96 		 43 		 100
 		 96 		 44 		 100
+		 96 		 45 		 100
 		 96 		 46 		 100
 		 96 		 47 		 100
 		 96 		 48 		 100
@@ -12498,6 +12594,7 @@ Number of subtables:	 2
 		 97 		 42 		 100
 		 97 		 43 		 100
 		 97 		 44 		 100
+		 97 		 45 		 100
 		 97 		 46 		 100
 		 97 		 47 		 100
 		 97 		 48 		 100
@@ -12615,6 +12712,7 @@ Number of subtables:	 2
 		 98 		 42 		 100
 		 98 		 43 		 100
 		 98 		 44 		 100
+		 98 		 45 		 100
 		 98 		 46 		 100
 		 98 		 47 		 100
 		 98 		 48 		 100
@@ -12732,6 +12830,7 @@ Number of subtables:	 2
 		 99 		 42 		 100
 		 99 		 43 		 100
 		 99 		 44 		 100
+		 99 		 45 		 100
 		 99 		 46 		 100
 		 99 		 47 		 100
 		 99 		 48 		 100
@@ -12849,6 +12948,7 @@ Number of subtables:	 2
 		 100 		 42 		 100
 		 100 		 43 		 100
 		 100 		 44 		 100
+		 100 		 45 		 100
 		 100 		 46 		 100
 		 100 		 47 		 100
 		 100 		 48 		 100
@@ -12966,6 +13066,7 @@ Number of subtables:	 2
 		 101 		 42 		 100
 		 101 		 43 		 100
 		 101 		 44 		 100
+		 101 		 45 		 100
 		 101 		 46 		 100
 		 101 		 47 		 100
 		 101 		 48 		 100
@@ -13082,6 +13183,7 @@ Number of subtables:	 2
 		 102 		 42 		 100
 		 102 		 43 		 100
 		 102 		 44 		 100
+		 102 		 45 		 100
 		 102 		 46 		 100
 		 102 		 47 		 100
 		 102 		 48 		 100
@@ -13199,6 +13301,7 @@ Number of subtables:	 2
 		 103 		 42 		 100
 		 103 		 43 		 100
 		 103 		 44 		 100
+		 103 		 45 		 100
 		 103 		 46 		 100
 		 103 		 47 		 100
 		 103 		 48 		 100
@@ -13316,6 +13419,7 @@ Number of subtables:	 2
 		 104 		 42 		 100
 		 104 		 43 		 100
 		 104 		 44 		 100
+		 104 		 45 		 100
 		 104 		 46 		 100
 		 104 		 47 		 100
 		 104 		 48 		 100
@@ -13433,6 +13537,7 @@ Number of subtables:	 2
 		 105 		 42 		 100
 		 105 		 43 		 100
 		 105 		 44 		 100
+		 105 		 45 		 100
 		 105 		 46 		 100
 		 105 		 47 		 100
 		 105 		 48 		 100
@@ -13550,6 +13655,7 @@ Number of subtables:	 2
 		 106 		 42 		 100
 		 106 		 43 		 100
 		 106 		 44 		 100
+		 106 		 45 		 100
 		 106 		 46 		 100
 		 106 		 47 		 100
 		 106 		 48 		 100
@@ -13667,6 +13773,7 @@ Number of subtables:	 2
 		 107 		 42 		 100
 		 107 		 43 		 100
 		 107 		 44 		 100
+		 107 		 45 		 100
 		 107 		 46 		 100
 		 107 		 47 		 100
 		 107 		 48 		 100
@@ -13784,6 +13891,7 @@ Number of subtables:	 2
 		 108 		 42 		 100
 		 108 		 43 		 100
 		 108 		 44 		 100
+		 108 		 45 		 100
 		 108 		 46 		 100
 		 108 		 47 		 100
 		 108 		 48 		 100
@@ -13901,6 +14009,7 @@ Number of subtables:	 2
 		 109 		 42 		 100
 		 109 		 43 		 100
 		 109 		 44 		 100
+		 109 		 45 		 100
 		 109 		 46 		 100
 		 109 		 47 		 100
 		 109 		 48 		 100
@@ -14018,6 +14127,7 @@ Number of subtables:	 2
 		 110 		 42 		 100
 		 110 		 43 		 100
 		 110 		 44 		 100
+		 110 		 45 		 100
 		 110 		 46 		 100
 		 110 		 47 		 100
 		 110 		 48 		 100
@@ -14134,6 +14244,7 @@ Number of subtables:	 2
 		 111 		 42 		 100
 		 111 		 43 		 100
 		 111 		 44 		 100
+		 111 		 45 		 100
 		 111 		 46 		 100
 		 111 		 47 		 100
 		 111 		 48 		 100
@@ -14251,6 +14362,7 @@ Number of subtables:	 2
 		 112 		 42 		 100
 		 112 		 43 		 100
 		 112 		 44 		 100
+		 112 		 45 		 100
 		 112 		 46 		 100
 		 112 		 47 		 100
 		 112 		 48 		 100
@@ -14368,6 +14480,7 @@ Number of subtables:	 2
 		 113 		 42 		 100
 		 113 		 43 		 100
 		 113 		 44 		 100
+		 113 		 45 		 100
 		 113 		 46 		 100
 		 113 		 47 		 100
 		 113 		 48 		 100
@@ -14485,6 +14598,7 @@ Number of subtables:	 2
 		 114 		 42 		 100
 		 114 		 43 		 100
 		 114 		 44 		 100
+		 114 		 45 		 100
 		 114 		 46 		 100
 		 114 		 47 		 100
 		 114 		 48 		 100
@@ -14602,6 +14716,7 @@ Number of subtables:	 2
 		 115 		 42 		 100
 		 115 		 43 		 100
 		 115 		 44 		 100
+		 115 		 45 		 100
 		 115 		 46 		 100
 		 115 		 47 		 100
 		 115 		 48 		 100
@@ -14717,6 +14832,7 @@ Number of subtables:	 2
 		 116 		 42 		 100
 		 116 		 43 		 100
 		 116 		 44 		 100
+		 116 		 45 		 100
 		 116 		 46 		 100
 		 116 		 48 		 100
 		 116 		 49 		 100
@@ -14831,6 +14947,7 @@ Number of subtables:	 2
 		 117 		 42 		 100
 		 117 		 43 		 100
 		 117 		 44 		 100
+		 117 		 45 		 100
 		 117 		 46 		 100
 		 117 		 47 		 100
 		 117 		 48 		 100
@@ -14947,6 +15064,7 @@ Number of subtables:	 2
 		 118 		 42 		 100
 		 118 		 43 		 100
 		 118 		 44 		 100
+		 118 		 45 		 100
 		 118 		 46 		 100
 		 118 		 47 		 100
 		 118 		 48 		 100
@@ -15064,6 +15182,7 @@ Number of subtables:	 2
 		 119 		 42 		 100
 		 119 		 43 		 100
 		 119 		 44 		 100
+		 119 		 45 		 100
 		 119 		 46 		 100
 		 119 		 47 		 100
 		 119 		 48 		 100
@@ -15181,6 +15300,7 @@ Number of subtables:	 2
 		 120 		 42 		 100
 		 120 		 43 		 100
 		 120 		 44 		 100
+		 120 		 45 		 100
 		 120 		 46 		 100
 		 120 		 47 		 100
 		 120 		 48 		 100
@@ -15298,6 +15418,7 @@ Number of subtables:	 2
 		 121 		 42 		 100
 		 121 		 43 		 100
 		 121 		 44 		 100
+		 121 		 45 		 100
 		 121 		 46 		 100
 		 121 		 47 		 100
 		 121 		 48 		 100
@@ -15415,6 +15536,7 @@ Number of subtables:	 2
 		 122 		 42 		 100
 		 122 		 43 		 100
 		 122 		 44 		 100
+		 122 		 45 		 100
 		 122 		 46 		 100
 		 122 		 48 		 100
 		 122 		 49 		 100
@@ -15530,6 +15652,7 @@ Number of subtables:	 2
 		 123 		 42 		 100
 		 123 		 43 		 100
 		 123 		 44 		 100
+		 123 		 45 		 100
 		 123 		 46 		 100
 		 123 		 47 		 100
 		 123 		 48 		 100
@@ -15646,6 +15769,7 @@ Number of subtables:	 2
 		 124 		 42 		 100
 		 124 		 43 		 100
 		 124 		 44 		 100
+		 124 		 45 		 100
 		 124 		 46 		 100
 		 124 		 47 		 100
 		 124 		 48 		 100
@@ -15763,6 +15887,7 @@ Number of subtables:	 2
 		 125 		 42 		 100
 		 125 		 43 		 100
 		 125 		 44 		 100
+		 125 		 45 		 100
 		 125 		 46 		 100
 		 125 		 47 		 100
 		 125 		 48 		 100
@@ -15880,6 +16005,7 @@ Number of subtables:	 2
 		 126 		 42 		 100
 		 126 		 43 		 100
 		 126 		 44 		 100
+		 126 		 45 		 100
 		 126 		 46 		 100
 		 126 		 47 		 100
 		 126 		 48 		 100
@@ -15997,6 +16123,7 @@ Number of subtables:	 2
 		 127 		 42 		 100
 		 127 		 43 		 100
 		 127 		 44 		 100
+		 127 		 45 		 100
 		 127 		 46 		 100
 		 127 		 47 		 100
 		 127 		 48 		 100
@@ -16114,6 +16241,7 @@ Number of subtables:	 2
 		 128 		 42 		 100
 		 128 		 43 		 100
 		 128 		 44 		 100
+		 128 		 45 		 100
 		 128 		 46 		 100
 		 128 		 47 		 100
 		 128 		 48 		 100
@@ -16307,7 +16435,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -16564,7 +16692,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -16821,7 +16949,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -17078,7 +17206,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -17335,7 +17463,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -17592,7 +17720,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -17849,7 +17977,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -18106,7 +18234,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -18363,7 +18491,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -18620,7 +18748,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -18877,7 +19005,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -19134,7 +19262,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -19391,7 +19519,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -19648,7 +19776,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -19905,7 +20033,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -20162,7 +20290,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -20419,7 +20547,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -20676,7 +20804,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -20933,7 +21061,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -21190,7 +21318,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -21447,7 +21575,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -21704,7 +21832,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -21961,7 +22089,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -22218,7 +22346,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -22475,7 +22603,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -22732,7 +22860,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -22989,7 +23117,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -23246,7 +23374,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -23503,7 +23631,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -23760,7 +23888,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -24017,7 +24145,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -24274,7 +24402,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -24531,7 +24659,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -24788,7 +24916,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -25045,7 +25173,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -25302,7 +25430,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -25559,7 +25687,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -25816,7 +25944,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -26073,7 +26201,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -26330,7 +26458,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -26587,7 +26715,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -26844,7 +26972,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -27101,7 +27229,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -27358,7 +27486,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -27615,7 +27743,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -27872,7 +28000,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 0
 	      46. secondGlyph: 47
@@ -28129,7 +28257,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -28386,7 +28514,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -28643,7 +28771,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -28900,7 +29028,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -29157,7 +29285,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -29414,7 +29542,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -29671,7 +29799,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -29928,7 +30056,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -30185,7 +30313,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -30442,7 +30570,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -30699,7 +30827,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -30956,7 +31084,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -31213,7 +31341,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -31470,7 +31598,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -31727,7 +31855,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -31984,7 +32112,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -32241,7 +32369,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -32498,7 +32626,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -32755,7 +32883,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -33012,7 +33140,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -33269,7 +33397,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -33526,7 +33654,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -33783,7 +33911,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -34040,7 +34168,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -34297,7 +34425,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -34554,7 +34682,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -34811,7 +34939,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -35068,7 +35196,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -35325,7 +35453,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -35582,7 +35710,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -35839,7 +35967,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -36096,7 +36224,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -36353,7 +36481,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -36610,7 +36738,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -36867,7 +36995,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -37124,7 +37252,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -37381,7 +37509,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -37638,7 +37766,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -37895,7 +38023,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -38152,7 +38280,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -38409,7 +38537,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -38666,7 +38794,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -38923,7 +39051,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -39180,7 +39308,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -39437,7 +39565,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -39694,7 +39822,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -39951,7 +40079,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -40208,7 +40336,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -40465,7 +40593,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -40722,7 +40850,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -40979,7 +41107,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -41236,7 +41364,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -41493,7 +41621,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -41750,7 +41878,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -42007,7 +42135,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -42264,7 +42392,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -42521,7 +42649,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -42778,7 +42906,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -43035,7 +43163,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -43292,7 +43420,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -43549,7 +43677,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -43806,7 +43934,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -44063,7 +44191,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -44320,7 +44448,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -44577,7 +44705,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -44834,7 +44962,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -45091,7 +45219,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -45348,7 +45476,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -45605,7 +45733,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -45862,7 +45990,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -46119,7 +46247,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -46376,7 +46504,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -46633,7 +46761,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -46890,7 +47018,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -47147,7 +47275,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -47404,7 +47532,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -47661,7 +47789,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -47918,7 +48046,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -48175,7 +48303,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -48432,7 +48560,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -48689,7 +48817,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -48946,7 +49074,7 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 100
 	      44. secondGlyph: 45
-		  value1: XAdvance = 0
+		  value1: XAdvance = 100
 	      45. secondGlyph: 46
 		  value1: XAdvance = 100
 	      46. secondGlyph: 47
@@ -51134,18 +51262,18 @@ Glyph     45.
 	 numberOfContours:	 1
 	 xMin:			 0
 	 yMin:			 -100
-	 xMax:			 200
+	 xMax:			 100
 	 yMax:			 100
 
 	 EndPoints
 	 ---------
-	  0: 15
+	  0:  7
 
 	 Length of Instructions:  0
 
 	 Flags
 	 -----
-	  0: YDual  XDual           Y-Short X-Short On
+	  0: YDual  XDual                           On
 	  1: YDual  XDual           Y-Short         On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
@@ -51153,33 +51281,17 @@ Glyph     45.
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
 	  7: YDual          Repeat          X-Short On
-	  8:        XDual   Repeat  Y-Short         On
-	  9:        XDual   Repeat  Y-Short         On
-	 10: YDual          Repeat          X-Short On
-	 11: YDual          Repeat          X-Short On
-	 12: YDual  XDual   Repeat  Y-Short         On
-	 13: YDual  XDual   Repeat  Y-Short         On
-	 14: YDual  XDual   Repeat          X-Short On
-	 15: YDual  XDual   Repeat          X-Short On
 
 	 Coordinates
 	 -----------
-	  0 Rel (    100,     50) -> Abs (    100,     50)
-	  1 Rel (      0,     50) -> Abs (    100,    100)
-	  2 Rel (     50,      0) -> Abs (    150,    100)
-	  3 Rel (     50,      0) -> Abs (    200,    100)
-	  4 Rel (      0,    -50) -> Abs (    200,     50)
-	  5 Rel (      0,    -50) -> Abs (    200,      0)
-	  6 Rel (    -50,      0) -> Abs (    150,      0)
-	  7 Rel (    -50,      0) -> Abs (    100,      0)
-	  8 Rel (      0,    -50) -> Abs (    100,    -50)
-	  9 Rel (      0,    -50) -> Abs (    100,   -100)
-	 10 Rel (    -50,      0) -> Abs (     50,   -100)
-	 11 Rel (    -50,      0) -> Abs (      0,   -100)
-	 12 Rel (      0,     50) -> Abs (      0,    -50)
-	 13 Rel (      0,     50) -> Abs (      0,      0)
-	 14 Rel (     50,      0) -> Abs (     50,      0)
-	 15 Rel (     50,      0) -> Abs (    100,      0)
+	  0 Rel (      0,      0) -> Abs (      0,      0)
+	  1 Rel (      0,    100) -> Abs (      0,    100)
+	  2 Rel (     50,      0) -> Abs (     50,    100)
+	  3 Rel (     50,      0) -> Abs (    100,    100)
+	  4 Rel (      0,   -100) -> Abs (    100,      0)
+	  5 Rel (      0,   -100) -> Abs (    100,   -100)
+	  6 Rel (    -50,      0) -> Abs (     50,   -100)
+	  7 Rel (    -50,      0) -> Abs (      0,   -100)
 
 Glyph     46.
 	 numberOfContours:	 1

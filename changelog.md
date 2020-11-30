@@ -2,6 +2,7 @@
 
 ### v6.1.0 (unreleased)
 
+- \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten comma
 - \[build\] Export TypeScript definitions
 - \[build\] Add copyright to font for deterministic builds
 - \[build\] Revise TypeScript config
