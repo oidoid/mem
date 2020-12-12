@@ -2,6 +2,7 @@
 
 ### v6.1.0 (unreleased)
 
+- \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten semicolon, lower colon and semicolon
 - \[docs\] Improve download link specificity
 - \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten comma
 - \[build\] Export TypeScript definitions

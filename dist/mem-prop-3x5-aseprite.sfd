@@ -1269,32 +1269,24 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 250 m 1
+0 250 m 1
+ 0 300 l 1
+ 50 300 l 1
  100 300 l 1
- 150 300 l 1
- 200 300 l 1
- 200 250 l 1
- 200 200 l 1
- 150 200 l 1
- 100 200 l 1
  100 250 l 1
-100 50 m 1
+ 100 200 l 1
+ 50 200 l 1
+ 0 200 l 1
+ 0 250 l 1
+0 0 m 1
+ 0 100 l 1
+ 50 100 l 1
  100 100 l 1
- 150 100 l 1
- 200 100 l 1
- 200 50 l 1
- 200 0 l 1
- 150 0 l 1
  100 0 l 1
- 100 -50 l 1
  100 -100 l 1
  50 -100 l 1
  0 -100 l 1
- 0 -50 l 1
  0 0 l 1
- 50 0 l 1
- 100 0 l 1
- 100 50 l 1
 EndSplineSet
 Kerns2: 127 500 "kern-lut" 126 500 "kern-lut" 125 500 "kern-lut" 124 500 "kern-lut" 123 500 "kern-lut" 122 500 "kern-lut" 121 500 "kern-lut" 120 500 "kern-lut" 119 500 "kern-lut" 118 500 "kern-lut" 117 500 "kern-lut" 116 500 "kern-lut" 115 500 "kern-lut" 114 500 "kern-lut" 113 500 "kern-lut" 112 500 "kern-lut" 111 500 "kern-lut" 110 500 "kern-lut" 109 500 "kern-lut" 108 500 "kern-lut" 107 500 "kern-lut" 106 500 "kern-lut" 105 500 "kern-lut" 104 500 "kern-lut" 103 500 "kern-lut" 102 500 "kern-lut" 101 500 "kern-lut" 100 500 "kern-lut" 99 500 "kern-lut" 98 500 "kern-lut" 97 500 "kern-lut" 96 500 "kern-lut" 95 500 "kern-lut" 94 500 "kern-lut" 93 500 "kern-lut" 92 500 "kern-lut" 91 500 "kern-lut" 90 500 "kern-lut" 89 500 "kern-lut" 88 500 "kern-lut" 87 500 "kern-lut" 86 500 "kern-lut" 85 500 "kern-lut" 84 500 "kern-lut" 83 500 "kern-lut" 82 500 "kern-lut" 81 500 "kern-lut" 80 500 "kern-lut" 79 500 "kern-lut" 78 500 "kern-lut" 77 500 "kern-lut" 76 500 "kern-lut" 75 500 "kern-lut" 74 500 "kern-lut" 73 500 "kern-lut" 72 500 "kern-lut" 71 500 "kern-lut" 70 500 "kern-lut" 69 500 "kern-lut" 68 500 "kern-lut" 67 500 "kern-lut" 66 500 "kern-lut" 65 500 "kern-lut" 64 500 "kern-lut" 63 500 "kern-lut" 62 500 "kern-lut" 61 500 "kern-lut" 60 500 "kern-lut" 59 0 "kern-lut" 58 0 "kern-lut" 57 500 "kern-lut" 56 500 "kern-lut" 55 500 "kern-lut" 54 500 "kern-lut" 53 500 "kern-lut" 52 500 "kern-lut" 51 500 "kern-lut" 50 500 "kern-lut" 49 500 "kern-lut" 48 500 "kern-lut" 47 500 "kern-lut" 46 500 "kern-lut" 45 500 "kern-lut" 44 500 "kern-lut" 43 500 "kern-lut" 42 500 "kern-lut" 41 500 "kern-lut" 40 500 "kern-lut" 39 500 "kern-lut" 38 500 "kern-lut" 37 500 "kern-lut" 36 500 "kern-lut" 35 500 "kern-lut" 34 500 "kern-lut" 33 500 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 500 "kern-lut" 26 500 "kern-lut" 25 500 "kern-lut" 24 500 "kern-lut" 23 500 "kern-lut" 22 500 "kern-lut" 21 500 "kern-lut" 20 500 "kern-lut" 19 500 "kern-lut" 18 500 "kern-lut" 17 500 "kern-lut" 16 500 "kern-lut" 15 500 "kern-lut" 14 500 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 500 "kern-lut" 7 500 "kern-lut" 6 500 "kern-lut" 5 500 "kern-lut" 4 500 "kern-lut" 3 500 "kern-lut" 2 500 "kern-lut" 1 500 "kern-lut" 0 500 "kern-lut"
 EndChar
