@@ -2,6 +2,7 @@
 
 ### v6.1.0 (unreleased)
 
+- \[demo\]\[fix\] Fix link
 - \[demo\] Add Dracula example
 - \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten semicolon, lower colon and semicolon
 - \[docs\] Improve download link specificity
