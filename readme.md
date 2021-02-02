@@ -132,7 +132,7 @@ metrics.
 ## Aseprite Metadata
 
 Additional information spritesheet interpretation. See the
-[aseprite-atlas definition](https://github.com/oddoid/aseprite-atlas/blob/master/src/types/Aseprite.ts).
+[aseprite-atlas definition](https://github.com/oidoid/aseprite-atlas/blob/master/src/types/Aseprite.ts).
 
 ## Known issues
 

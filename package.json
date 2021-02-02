@@ -1,6 +1,6 @@
 {
   "name": "mem-font",
-  "author": "oddoid",
+  "author": "oidoid",
   "version": "6.0.4",
   "license": "GPL-3.0-only",
   "description": "Proportional and monospaced sans light pixel font family.",
@@ -20,8 +20,8 @@
     "sans"
   ],
   "homepage": "https://git.io/mem-font",
-  "repository": "github:oddoid/mem",
-  "bugs": "https://github.com/oddoid/mem/issues",
+  "repository": "github:oidoid/mem",
+  "bugs": "https://github.com/oidoid/mem/issues",
   "types": "src/FontMeta.d.ts",
   "files": [
     "dist"

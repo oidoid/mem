@@ -2,6 +2,9 @@
 
 ### v6.1.0 (unreleased)
 
+### v6.1.0 (unreleased)
+
+- \[docs\] Rename oddoid to oidoid
 - \[demo\]\[fix\] Fix link
 - \[demo\] Add Dracula example
 - \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten semicolon, lower colon and semicolon
