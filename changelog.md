@@ -4,7 +4,8 @@ Versions and bullets are arranged chronologically from latest to oldest.
 
 ## v6.1.0 (unreleased)
 
-- \[mem prop 5x6\] reduce q and ? width and improve kerning
+- \[mem prop 5x6\] Reduce kerning for Sj, Sz, and Zz
+- \[mem prop 5x6\] Reduce q and ? width and improve kerning
 - \[docs\] Rename oddoid to oidoid
 - \[demo\]\[fix\] Fix link
 - \[demo\] Add Dracula example
