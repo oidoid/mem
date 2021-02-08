@@ -21,7 +21,7 @@ Offset Table
   11. 'kern' - checksum = 0x22e16614, offset = 0x00001f6c, len =     90488
   12. 'loca' - checksum = 0x2f293548, offset = 0x00000630, len =       260
   13. 'maxp' - checksum = 0x00c60071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0xb4771f1b, offset = 0x000180e4, len =       465
+  14. 'name' - checksum = 0xb77a1f1b, offset = 0x000180e4, len =       465
   15. 'post' - checksum = 0x4701a5b5, offset = 0x000182b8, len =       556
 
 'cmap' Table - Character to Glyph Index Mapping Table
@@ -577,7 +577,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x16fc16fa
+	 checkSumAdjustment:	 0x10f616fa
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 500
@@ -931,7 +931,7 @@ Name table   3.	 PlatformID:	 1
 		 Offset:	 148
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
-		 35 78 35 20 3a 20 35 2d 32 2d  >  5x5 : 5-2-
+		 35 78 35 20 3a 20 38 2d 32 2d  >  5x5 : 8-2-
 		 32 30 32 31                    > 2021
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
@@ -991,7 +991,7 @@ Name table  10.	 PlatformID:	 3
 		 00 32 00 2e 00 30 00 20 00 3a  >  .2...0. .:
 		 00 20 00 6d 00 65 00 6d 00 20  >  . .m.e.m. 
 		 00 35 00 78 00 35 00 20 00 3a  >  .5.x.5. .:
-		 00 20 00 35 00 2d 00 32 00 2d  >  . .5.-.2.-
+		 00 20 00 38 00 2d 00 32 00 2d  >  . .8.-.2.-
 		 00 32 00 30 00 32 00 31        > .2.0.2.1
 Name table  11.	 PlatformID:	 3
 		 EncodingID:	 1
