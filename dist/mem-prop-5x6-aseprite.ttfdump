@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd3536446, offset = 0x0001c098, len =        28
-   1. 'GPOS' - checksum = 0x4de0c656, offset = 0x00019f2c, len =      8556
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00019f0c, len =        32
-   3. 'OS/2' - checksum = 0x52f45ddd, offset = 0x00000188, len =        96
+   0. 'FFTM' - checksum = 0xd3536446, offset = 0x0001cf9c, len =        28
+   1. 'GPOS' - checksum = 0x61cbb74a, offset = 0x00019e20, len =     12668
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x00019e00, len =        32
+   3. 'OS/2' - checksum = 0x52f45ddc, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0x3b60ff56, offset = 0x000003e8, len =       578
    5. 'cvt ' - checksum = 0x0014017c, offset = 0x0000062c, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x00019f04, len =         8
-   7. 'glyf' - checksum = 0x932d557c, offset = 0x00000734, len =      5992
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x00019df8, len =         8
+   7. 'glyf' - checksum = 0x30820a0a, offset = 0x00000734, len =      5960
    8. 'head' - checksum = 0x5963a1e5, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x04200274, offset = 0x00000144, len =        36
-  10. 'hmtx' - checksum = 0x90380014, offset = 0x000001e8, len =       512
-  11. 'kern' - checksum = 0x63c554fb, offset = 0x00001e9c, len =     97382
-  12. 'loca' - checksum = 0x28832e56, offset = 0x00000630, len =       260
+  10. 'hmtx' - checksum = 0x8fd40014, offset = 0x000001e8, len =       512
+  11. 'kern' - checksum = 0x22572929, offset = 0x00001e7c, len =     97148
+  12. 'loca' - checksum = 0x25b32b76, offset = 0x00000630, len =       260
   13. 'maxp' - checksum = 0x00c60071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0xb97c221e, offset = 0x00019b04, len =       465
-  15. 'post' - checksum = 0x4701a5b5, offset = 0x00019cd8, len =       556
+  14. 'name' - checksum = 0xb97c221e, offset = 0x000199f8, len =       465
+  15. 'post' - checksum = 0x4701a5b5, offset = 0x00019bcc, len =       556
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -577,7 +577,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x550e109e
+	 checkSumAdjustment:	 0x7bd30a52
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 600
@@ -654,7 +654,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 	   35. advWid:  300, LSBear:    0
 	   36. advWid:  500, LSBear:    0
 	   37. advWid:  300, LSBear:    0
-	   38. advWid:  400, LSBear:    0
+	   38. advWid:  300, LSBear:    0
 	   39. advWid:  400, LSBear:    0
 	   40. advWid:  100, LSBear:    0
 	   41. advWid:  200, LSBear:    0
@@ -787,97 +787,97 @@ SubTable   1.	 Format 0 - Byte encoding table
 	 Idx     36 -> GlyphOffset 0x000000bc
 	 Idx     37 -> GlyphOffset 0x00000150
 	 Idx     38 -> GlyphOffset 0x000001b0
-	 Idx     39 -> GlyphOffset 0x00000218
-	 Idx     40 -> GlyphOffset 0x00000278
-	 Idx     41 -> GlyphOffset 0x00000298
-	 Idx     42 -> GlyphOffset 0x000002d8
-	 Idx     43 -> GlyphOffset 0x00000318
-	 Idx     44 -> GlyphOffset 0x00000378
-	 Idx     45 -> GlyphOffset 0x000003b8
-	 Idx     46 -> GlyphOffset 0x000003d8
-	 Idx     47 -> GlyphOffset 0x000003f8
-	 Idx     48 -> GlyphOffset 0x00000418
-	 Idx     49 -> GlyphOffset 0x00000458
-	 Idx     50 -> GlyphOffset 0x0000049c
-	 Idx     51 -> GlyphOffset 0x000004d4
-	 Idx     52 -> GlyphOffset 0x00000514
-	 Idx     53 -> GlyphOffset 0x00000554
-	 Idx     54 -> GlyphOffset 0x0000058c
-	 Idx     55 -> GlyphOffset 0x000005cc
-	 Idx     56 -> GlyphOffset 0x00000610
-	 Idx     57 -> GlyphOffset 0x00000640
-	 Idx     58 -> GlyphOffset 0x00000684
-	 Idx     59 -> GlyphOffset 0x000006c8
-	 Idx     60 -> GlyphOffset 0x000006f8
-	 Idx     61 -> GlyphOffset 0x00000728
-	 Idx     62 -> GlyphOffset 0x00000788
-	 Idx     63 -> GlyphOffset 0x000007bc
-	 Idx     64 -> GlyphOffset 0x0000081c
-	 Idx     65 -> GlyphOffset 0x00000860
-	 Idx     66 -> GlyphOffset 0x000008e0
-	 Idx     67 -> GlyphOffset 0x00000924
-	 Idx     68 -> GlyphOffset 0x00000978
-	 Idx     69 -> GlyphOffset 0x000009a8
-	 Idx     70 -> GlyphOffset 0x000009ec
-	 Idx     71 -> GlyphOffset 0x00000a2c
-	 Idx     72 -> GlyphOffset 0x00000a64
-	 Idx     73 -> GlyphOffset 0x00000a9c
-	 Idx     74 -> GlyphOffset 0x00000adc
-	 Idx     75 -> GlyphOffset 0x00000b1c
-	 Idx     76 -> GlyphOffset 0x00000b4c
-	 Idx     77 -> GlyphOffset 0x00000b9c
-	 Idx     78 -> GlyphOffset 0x00000bc4
-	 Idx     79 -> GlyphOffset 0x00000c04
-	 Idx     80 -> GlyphOffset 0x00000c34
-	 Idx     81 -> GlyphOffset 0x00000c68
-	 Idx     82 -> GlyphOffset 0x00000ca4
-	 Idx     83 -> GlyphOffset 0x00000cf0
-	 Idx     84 -> GlyphOffset 0x00000d44
-	 Idx     85 -> GlyphOffset 0x00000d74
-	 Idx     86 -> GlyphOffset 0x00000da4
-	 Idx     87 -> GlyphOffset 0x00000dd4
-	 Idx     88 -> GlyphOffset 0x00000e14
-	 Idx     89 -> GlyphOffset 0x00000e54
-	 Idx     90 -> GlyphOffset 0x00000eb4
-	 Idx     91 -> GlyphOffset 0x00000ef4
-	 Idx     92 -> GlyphOffset 0x00000f24
-	 Idx     93 -> GlyphOffset 0x00000f54
-	 Idx     94 -> GlyphOffset 0x00000f94
-	 Idx     95 -> GlyphOffset 0x00000fc4
-	 Idx     96 -> GlyphOffset 0x00001004
-	 Idx     97 -> GlyphOffset 0x00001024
-	 Idx     98 -> GlyphOffset 0x00001054
-	 Idx     99 -> GlyphOffset 0x00001098
-	 Idx    100 -> GlyphOffset 0x000010d4
-	 Idx    101 -> GlyphOffset 0x00001104
-	 Idx    102 -> GlyphOffset 0x00001140
-	 Idx    103 -> GlyphOffset 0x00001194
-	 Idx    104 -> GlyphOffset 0x000011dc
-	 Idx    105 -> GlyphOffset 0x00001230
-	 Idx    106 -> GlyphOffset 0x00001268
-	 Idx    107 -> GlyphOffset 0x00001288
-	 Idx    108 -> GlyphOffset 0x000012b8
-	 Idx    109 -> GlyphOffset 0x00001308
-	 Idx    110 -> GlyphOffset 0x00001328
-	 Idx    111 -> GlyphOffset 0x00001368
-	 Idx    112 -> GlyphOffset 0x00001398
-	 Idx    113 -> GlyphOffset 0x000013cc
-	 Idx    114 -> GlyphOffset 0x00001408
-	 Idx    115 -> GlyphOffset 0x00001454
-	 Idx    116 -> GlyphOffset 0x00001484
-	 Idx    117 -> GlyphOffset 0x000014b4
-	 Idx    118 -> GlyphOffset 0x000014fc
-	 Idx    119 -> GlyphOffset 0x0000152c
-	 Idx    120 -> GlyphOffset 0x0000156c
-	 Idx    121 -> GlyphOffset 0x000015ac
-	 Idx    122 -> GlyphOffset 0x0000160c
-	 Idx    123 -> GlyphOffset 0x00001654
-	 Idx    124 -> GlyphOffset 0x00001684
-	 Idx    125 -> GlyphOffset 0x000016c4
-	 Idx    126 -> GlyphOffset 0x000016f8
-	 Idx    127 -> GlyphOffset 0x00001738
-	 Idx    128 -> GlyphOffset 0x00001768
-	 Ended at 0x00001768
+	 Idx     39 -> GlyphOffset 0x000001f8
+	 Idx     40 -> GlyphOffset 0x00000258
+	 Idx     41 -> GlyphOffset 0x00000278
+	 Idx     42 -> GlyphOffset 0x000002b8
+	 Idx     43 -> GlyphOffset 0x000002f8
+	 Idx     44 -> GlyphOffset 0x00000358
+	 Idx     45 -> GlyphOffset 0x00000398
+	 Idx     46 -> GlyphOffset 0x000003b8
+	 Idx     47 -> GlyphOffset 0x000003d8
+	 Idx     48 -> GlyphOffset 0x000003f8
+	 Idx     49 -> GlyphOffset 0x00000438
+	 Idx     50 -> GlyphOffset 0x0000047c
+	 Idx     51 -> GlyphOffset 0x000004b4
+	 Idx     52 -> GlyphOffset 0x000004f4
+	 Idx     53 -> GlyphOffset 0x00000534
+	 Idx     54 -> GlyphOffset 0x0000056c
+	 Idx     55 -> GlyphOffset 0x000005ac
+	 Idx     56 -> GlyphOffset 0x000005f0
+	 Idx     57 -> GlyphOffset 0x00000620
+	 Idx     58 -> GlyphOffset 0x00000664
+	 Idx     59 -> GlyphOffset 0x000006a8
+	 Idx     60 -> GlyphOffset 0x000006d8
+	 Idx     61 -> GlyphOffset 0x00000708
+	 Idx     62 -> GlyphOffset 0x00000768
+	 Idx     63 -> GlyphOffset 0x0000079c
+	 Idx     64 -> GlyphOffset 0x000007fc
+	 Idx     65 -> GlyphOffset 0x00000840
+	 Idx     66 -> GlyphOffset 0x000008c0
+	 Idx     67 -> GlyphOffset 0x00000904
+	 Idx     68 -> GlyphOffset 0x00000958
+	 Idx     69 -> GlyphOffset 0x00000988
+	 Idx     70 -> GlyphOffset 0x000009cc
+	 Idx     71 -> GlyphOffset 0x00000a0c
+	 Idx     72 -> GlyphOffset 0x00000a44
+	 Idx     73 -> GlyphOffset 0x00000a7c
+	 Idx     74 -> GlyphOffset 0x00000abc
+	 Idx     75 -> GlyphOffset 0x00000afc
+	 Idx     76 -> GlyphOffset 0x00000b2c
+	 Idx     77 -> GlyphOffset 0x00000b7c
+	 Idx     78 -> GlyphOffset 0x00000ba4
+	 Idx     79 -> GlyphOffset 0x00000be4
+	 Idx     80 -> GlyphOffset 0x00000c14
+	 Idx     81 -> GlyphOffset 0x00000c48
+	 Idx     82 -> GlyphOffset 0x00000c84
+	 Idx     83 -> GlyphOffset 0x00000cd0
+	 Idx     84 -> GlyphOffset 0x00000d24
+	 Idx     85 -> GlyphOffset 0x00000d54
+	 Idx     86 -> GlyphOffset 0x00000d84
+	 Idx     87 -> GlyphOffset 0x00000db4
+	 Idx     88 -> GlyphOffset 0x00000df4
+	 Idx     89 -> GlyphOffset 0x00000e34
+	 Idx     90 -> GlyphOffset 0x00000e94
+	 Idx     91 -> GlyphOffset 0x00000ed4
+	 Idx     92 -> GlyphOffset 0x00000f04
+	 Idx     93 -> GlyphOffset 0x00000f34
+	 Idx     94 -> GlyphOffset 0x00000f74
+	 Idx     95 -> GlyphOffset 0x00000fa4
+	 Idx     96 -> GlyphOffset 0x00000fe4
+	 Idx     97 -> GlyphOffset 0x00001004
+	 Idx     98 -> GlyphOffset 0x00001034
+	 Idx     99 -> GlyphOffset 0x00001078
+	 Idx    100 -> GlyphOffset 0x000010b4
+	 Idx    101 -> GlyphOffset 0x000010e4
+	 Idx    102 -> GlyphOffset 0x00001120
+	 Idx    103 -> GlyphOffset 0x00001174
+	 Idx    104 -> GlyphOffset 0x000011bc
+	 Idx    105 -> GlyphOffset 0x00001210
+	 Idx    106 -> GlyphOffset 0x00001248
+	 Idx    107 -> GlyphOffset 0x00001268
+	 Idx    108 -> GlyphOffset 0x00001298
+	 Idx    109 -> GlyphOffset 0x000012e8
+	 Idx    110 -> GlyphOffset 0x00001308
+	 Idx    111 -> GlyphOffset 0x00001348
+	 Idx    112 -> GlyphOffset 0x00001378
+	 Idx    113 -> GlyphOffset 0x000013ac
+	 Idx    114 -> GlyphOffset 0x000013e8
+	 Idx    115 -> GlyphOffset 0x00001434
+	 Idx    116 -> GlyphOffset 0x00001464
+	 Idx    117 -> GlyphOffset 0x00001494
+	 Idx    118 -> GlyphOffset 0x000014dc
+	 Idx    119 -> GlyphOffset 0x0000150c
+	 Idx    120 -> GlyphOffset 0x0000154c
+	 Idx    121 -> GlyphOffset 0x0000158c
+	 Idx    122 -> GlyphOffset 0x000015ec
+	 Idx    123 -> GlyphOffset 0x00001634
+	 Idx    124 -> GlyphOffset 0x00001664
+	 Idx    125 -> GlyphOffset 0x000016a4
+	 Idx    126 -> GlyphOffset 0x000016d8
+	 Idx    127 -> GlyphOffset 0x00001718
+	 Idx    128 -> GlyphOffset 0x00001748
+	 Ended at 0x00001748
 
 'maxp' Table - Maximum Profile
 ------------------------------
@@ -1165,7 +1165,7 @@ Name table  13.	 PlatformID:	 3
 'OS/2' Table - OS/2 and Windows Metrics
 ---------------------------------------
 	 'OS/2' version:	 4
-	 xAvgCharWidth:		 293
+	 xAvgCharWidth:		 292
 	 usWeightClass:		 400 	 'Normal'
 	 usWidthClass:		 5 	 'Medium'
 	 fsType:		 0
@@ -1234,12 +1234,12 @@ Number of subtables:	 2
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 63938
+	 Bytes in subtable 	 63818
 	 Coverage bits 	 0x1
-	 Number of pairs 10654
+	 Number of pairs 10634
 	 Search Range    49152
 	 Entry Selector  13
-	 Range Shift     14772
+	 Range Shift     14652
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 1 		 1 		 600
@@ -6910,13 +6910,10 @@ Number of subtables:	 2
 		 45 		 82 		 600
 		 45 		 83 		 600
 		 45 		 84 		 600
-		 45 		 85 		 600
 		 45 		 86 		 600
 		 45 		 87 		 600
 		 45 		 88 		 600
 		 45 		 89 		 600
-		 45 		 90 		 600
-		 45 		 91 		 600
 		 45 		 92 		 600
 		 45 		 93 		 600
 		 45 		 94 		 600
@@ -6941,13 +6938,11 @@ Number of subtables:	 2
 		 45 		 114 		 600
 		 45 		 115 		 600
 		 45 		 116 		 600
-		 45 		 117 		 600
 		 45 		 118 		 600
 		 45 		 119 		 600
 		 45 		 120 		 600
 		 45 		 121 		 600
 		 45 		 122 		 600
-		 45 		 123 		 600
 		 45 		 124 		 600
 		 45 		 125 		 600
 		 45 		 126 		 600
@@ -7041,7 +7036,6 @@ Number of subtables:	 2
 		 46 		 88 		 600
 		 46 		 89 		 600
 		 46 		 90 		 600
-		 46 		 91 		 600
 		 46 		 92 		 600
 		 46 		 93 		 600
 		 46 		 94 		 600
@@ -7066,7 +7060,6 @@ Number of subtables:	 2
 		 46 		 113 		 600
 		 46 		 114 		 600
 		 46 		 115 		 600
-		 46 		 116 		 600
 		 46 		 117 		 600
 		 46 		 118 		 600
 		 46 		 119 		 600
@@ -7160,13 +7153,10 @@ Number of subtables:	 2
 		 47 		 82 		 600
 		 47 		 83 		 600
 		 47 		 84 		 600
-		 47 		 85 		 600
 		 47 		 86 		 600
 		 47 		 87 		 600
 		 47 		 88 		 600
 		 47 		 89 		 600
-		 47 		 90 		 600
-		 47 		 91 		 600
 		 47 		 92 		 600
 		 47 		 93 		 600
 		 47 		 94 		 600
@@ -7191,13 +7181,11 @@ Number of subtables:	 2
 		 47 		 114 		 600
 		 47 		 115 		 600
 		 47 		 116 		 600
-		 47 		 117 		 600
 		 47 		 118 		 600
 		 47 		 119 		 600
 		 47 		 120 		 600
 		 47 		 121 		 600
 		 47 		 122 		 600
-		 47 		 123 		 600
 		 47 		 124 		 600
 		 47 		 125 		 600
 		 47 		 126 		 600
@@ -8912,7 +8900,6 @@ Number of subtables:	 2
 		 61 		 58 		 600
 		 61 		 59 		 600
 		 61 		 60 		 600
-		 61 		 61 		 600
 		 61 		 62 		 600
 		 61 		 63 		 600
 		 61 		 64 		 600
@@ -9040,7 +9027,6 @@ Number of subtables:	 2
 		 62 		 59 		 600
 		 62 		 60 		 600
 		 62 		 61 		 600
-		 62 		 62 		 600
 		 62 		 63 		 600
 		 62 		 64 		 600
 		 62 		 65 		 600
@@ -9168,7 +9154,6 @@ Number of subtables:	 2
 		 63 		 60 		 600
 		 63 		 61 		 600
 		 63 		 62 		 600
-		 63 		 63 		 600
 		 63 		 64 		 600
 		 63 		 65 		 600
 		 63 		 66 		 600
@@ -10974,7 +10959,6 @@ Number of subtables:	 2
 		 77 		 88 		 600
 		 77 		 89 		 600
 		 77 		 90 		 600
-		 77 		 91 		 600
 		 77 		 92 		 600
 		 77 		 93 		 600
 		 77 		 94 		 600
@@ -11006,7 +10990,6 @@ Number of subtables:	 2
 		 77 		 120 		 600
 		 77 		 121 		 600
 		 77 		 122 		 600
-		 77 		 123 		 600
 		 77 		 124 		 600
 		 77 		 125 		 600
 		 77 		 126 		 600
@@ -11817,8 +11800,6 @@ Number of subtables:	 2
 		 84 		 43 		 600
 		 84 		 44 		 600
 		 84 		 45 		 600
-		 84 		 46 		 600
-		 84 		 47 		 600
 		 84 		 48 		 600
 		 84 		 49 		 600
 		 84 		 50 		 600
@@ -11865,7 +11846,6 @@ Number of subtables:	 2
 		 84 		 93 		 600
 		 84 		 94 		 600
 		 84 		 95 		 600
-		 84 		 96 		 600
 		 84 		 97 		 600
 		 84 		 98 		 600
 		 84 		 99 		 600
@@ -11899,12 +11879,12 @@ Number of subtables:	 2
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 33440
+	 Bytes in subtable 	 33326
 	 Coverage bits 	 0x1
-	 Number of pairs 5571
+	 Number of pairs 5552
 	 Search Range    24576
 	 Entry Selector  12
-	 Range Shift     8850
+	 Range Shift     8736
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 85 		 1 		 600
@@ -11950,9 +11930,7 @@ Number of subtables:	 2
 		 85 		 42 		 600
 		 85 		 43 		 600
 		 85 		 44 		 600
-		 85 		 45 		 -600
 		 85 		 46 		 600
-		 85 		 47 		 -600
 		 85 		 48 		 600
 		 85 		 49 		 600
 		 85 		 50 		 600
@@ -11980,7 +11958,6 @@ Number of subtables:	 2
 		 85 		 72 		 600
 		 85 		 73 		 600
 		 85 		 74 		 600
-		 85 		 75 		 600
 		 85 		 76 		 600
 		 85 		 77 		 600
 		 85 		 78 		 600
@@ -12001,7 +11978,6 @@ Number of subtables:	 2
 		 85 		 93 		 600
 		 85 		 94 		 600
 		 85 		 95 		 600
-		 85 		 96 		 600
 		 85 		 97 		 600
 		 85 		 98 		 600
 		 85 		 99 		 600
@@ -12585,9 +12561,7 @@ Number of subtables:	 2
 		 90 		 42 		 600
 		 90 		 43 		 600
 		 90 		 44 		 600
-		 90 		 45 		 600
 		 90 		 46 		 600
-		 90 		 47 		 600
 		 90 		 48 		 600
 		 90 		 49 		 600
 		 90 		 50 		 600
@@ -12713,7 +12687,6 @@ Number of subtables:	 2
 		 91 		 43 		 600
 		 91 		 44 		 600
 		 91 		 45 		 600
-		 91 		 46 		 600
 		 91 		 47 		 600
 		 91 		 48 		 600
 		 91 		 49 		 600
@@ -13381,13 +13354,11 @@ Number of subtables:	 2
 		 96 		 82 		 600
 		 96 		 83 		 600
 		 96 		 84 		 600
-		 96 		 85 		 600
 		 96 		 86 		 600
 		 96 		 87 		 600
 		 96 		 88 		 600
 		 96 		 89 		 600
 		 96 		 90 		 600
-		 96 		 91 		 600
 		 96 		 92 		 600
 		 96 		 93 		 600
 		 96 		 94 		 600
@@ -13397,7 +13368,6 @@ Number of subtables:	 2
 		 96 		 100 		 600
 		 96 		 101 		 600
 		 96 		 102 		 600
-		 96 		 103 		 600
 		 96 		 104 		 600
 		 96 		 105 		 600
 		 96 		 106 		 600
@@ -13416,7 +13386,6 @@ Number of subtables:	 2
 		 96 		 120 		 600
 		 96 		 121 		 600
 		 96 		 122 		 600
-		 96 		 123 		 600
 		 96 		 124 		 600
 		 96 		 125 		 600
 		 96 		 126 		 600
@@ -14278,7 +14247,6 @@ Number of subtables:	 2
 		 103 		 93 		 600
 		 103 		 94 		 600
 		 103 		 95 		 600
-		 103 		 96 		 600
 		 103 		 97 		 600
 		 103 		 98 		 600
 		 103 		 99 		 600
@@ -14289,7 +14257,6 @@ Number of subtables:	 2
 		 103 		 104 		 600
 		 103 		 105 		 600
 		 103 		 106 		 600
-		 103 		 107 		 600
 		 103 		 108 		 600
 		 103 		 109 		 600
 		 103 		 110 		 600
@@ -15800,7 +15767,6 @@ Number of subtables:	 2
 		 115 		 93 		 600
 		 115 		 94 		 600
 		 115 		 95 		 600
-		 115 		 96 		 600
 		 115 		 97 		 600
 		 115 		 98 		 600
 		 115 		 99 		 600
@@ -15919,12 +15885,10 @@ Number of subtables:	 2
 		 116 		 88 		 600
 		 116 		 89 		 600
 		 116 		 90 		 600
-		 116 		 91 		 600
 		 116 		 92 		 600
 		 116 		 93 		 600
 		 116 		 94 		 600
 		 116 		 95 		 600
-		 116 		 96 		 600
 		 116 		 97 		 600
 		 116 		 98 		 600
 		 116 		 99 		 600
@@ -16761,7 +16725,6 @@ Number of subtables:	 2
 		 123 		 43 		 600
 		 123 		 44 		 600
 		 123 		 45 		 600
-		 123 		 46 		 600
 		 123 		 47 		 600
 		 123 		 48 		 600
 		 123 		 49 		 600
@@ -16965,7 +16928,6 @@ Number of subtables:	 2
 		 124 		 121 		 600
 		 124 		 122 		 600
 		 124 		 123 		 600
-		 124 		 124 		 600
 		 124 		 125 		 600
 		 124 		 126 		 600
 		 124 		 127 		 600
@@ -17221,7 +17183,6 @@ Number of subtables:	 2
 		 126 		 123 		 600
 		 126 		 124 		 600
 		 126 		 125 		 600
-		 126 		 126 		 600
 		 126 		 127 		 600
 		 126 		 128 		 600
 		 127 		 1 		 600
@@ -28976,7 +28937,7 @@ Number of subtables:	 2
 	      83. secondGlyph: 84
 		  value1: XAdvance = 600
 	      84. secondGlyph: 85
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      85. secondGlyph: 86
 		  value1: XAdvance = 600
 	      86. secondGlyph: 87
@@ -28986,9 +28947,9 @@ Number of subtables:	 2
 	      88. secondGlyph: 89
 		  value1: XAdvance = 600
 	      89. secondGlyph: 90
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      90. secondGlyph: 91
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      91. secondGlyph: 92
 		  value1: XAdvance = 600
 	      92. secondGlyph: 93
@@ -29040,7 +29001,7 @@ Number of subtables:	 2
 	      115. secondGlyph: 116
 		  value1: XAdvance = 600
 	      116. secondGlyph: 117
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      117. secondGlyph: 118
 		  value1: XAdvance = 600
 	      118. secondGlyph: 119
@@ -29052,7 +29013,7 @@ Number of subtables:	 2
 	      121. secondGlyph: 122
 		  value1: XAdvance = 600
 	      122. secondGlyph: 123
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      123. secondGlyph: 124
 		  value1: XAdvance = 600
 	      124. secondGlyph: 125
@@ -29245,7 +29206,7 @@ Number of subtables:	 2
 	      89. secondGlyph: 90
 		  value1: XAdvance = 600
 	      90. secondGlyph: 91
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      91. secondGlyph: 92
 		  value1: XAdvance = 600
 	      92. secondGlyph: 93
@@ -29295,7 +29256,7 @@ Number of subtables:	 2
 	      114. secondGlyph: 115
 		  value1: XAdvance = 600
 	      115. secondGlyph: 116
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      116. secondGlyph: 117
 		  value1: XAdvance = 600
 	      117. secondGlyph: 118
@@ -29490,7 +29451,7 @@ Number of subtables:	 2
 	      83. secondGlyph: 84
 		  value1: XAdvance = 600
 	      84. secondGlyph: 85
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      85. secondGlyph: 86
 		  value1: XAdvance = 600
 	      86. secondGlyph: 87
@@ -29500,9 +29461,9 @@ Number of subtables:	 2
 	      88. secondGlyph: 89
 		  value1: XAdvance = 600
 	      89. secondGlyph: 90
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      90. secondGlyph: 91
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      91. secondGlyph: 92
 		  value1: XAdvance = 600
 	      92. secondGlyph: 93
@@ -29554,7 +29515,7 @@ Number of subtables:	 2
 	      115. secondGlyph: 116
 		  value1: XAdvance = 600
 	      116. secondGlyph: 117
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      117. secondGlyph: 118
 		  value1: XAdvance = 600
 	      118. secondGlyph: 119
@@ -29566,7 +29527,7 @@ Number of subtables:	 2
 	      121. secondGlyph: 122
 		  value1: XAdvance = 600
 	      122. secondGlyph: 123
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      123. secondGlyph: 124
 		  value1: XAdvance = 600
 	      124. secondGlyph: 125
@@ -33040,7 +33001,7 @@ Number of subtables:	 2
 	      59. secondGlyph: 60
 		  value1: XAdvance = 600
 	      60. secondGlyph: 61
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      61. secondGlyph: 62
 		  value1: XAdvance = 600
 	      62. secondGlyph: 63
@@ -33299,7 +33260,7 @@ Number of subtables:	 2
 	      60. secondGlyph: 61
 		  value1: XAdvance = 600
 	      61. secondGlyph: 62
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      62. secondGlyph: 63
 		  value1: XAdvance = 600
 	      63. secondGlyph: 64
@@ -33558,7 +33519,7 @@ Number of subtables:	 2
 	      61. secondGlyph: 62
 		  value1: XAdvance = 600
 	      62. secondGlyph: 63
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      63. secondGlyph: 64
 		  value1: XAdvance = 600
 	      64. secondGlyph: 65
@@ -37212,7 +37173,7 @@ Number of subtables:	 2
 	      89. secondGlyph: 90
 		  value1: XAdvance = 600
 	      90. secondGlyph: 91
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      91. secondGlyph: 92
 		  value1: XAdvance = 600
 	      92. secondGlyph: 93
@@ -37276,7 +37237,7 @@ Number of subtables:	 2
 	      121. secondGlyph: 122
 		  value1: XAdvance = 600
 	      122. secondGlyph: 123
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      123. secondGlyph: 124
 		  value1: XAdvance = 600
 	      124. secondGlyph: 125
@@ -38921,9 +38882,9 @@ Number of subtables:	 2
 	      44. secondGlyph: 45
 		  value1: XAdvance = 600
 	      45. secondGlyph: 46
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      46. secondGlyph: 47
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      47. secondGlyph: 48
 		  value1: XAdvance = 600
 	      48. secondGlyph: 49
@@ -39021,7 +38982,7 @@ Number of subtables:	 2
 	      94. secondGlyph: 95
 		  value1: XAdvance = 600
 	      95. secondGlyph: 96
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      96. secondGlyph: 97
 		  value1: XAdvance = 600
 	      97. secondGlyph: 98
@@ -39176,11 +39137,11 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 600
 	      44. secondGlyph: 45
-		  value1: XAdvance = -600
+		  value1: XAdvance = 0
 	      45. secondGlyph: 46
 		  value1: XAdvance = 600
 	      46. secondGlyph: 47
-		  value1: XAdvance = -600
+		  value1: XAdvance = 0
 	      47. secondGlyph: 48
 		  value1: XAdvance = 600
 	      48. secondGlyph: 49
@@ -39236,7 +39197,7 @@ Number of subtables:	 2
 	      73. secondGlyph: 74
 		  value1: XAdvance = 600
 	      74. secondGlyph: 75
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      75. secondGlyph: 76
 		  value1: XAdvance = 600
 	      76. secondGlyph: 77
@@ -39278,7 +39239,7 @@ Number of subtables:	 2
 	      94. secondGlyph: 95
 		  value1: XAdvance = 600
 	      95. secondGlyph: 96
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      96. secondGlyph: 97
 		  value1: XAdvance = 600
 	      97. secondGlyph: 98
@@ -40461,11 +40422,11 @@ Number of subtables:	 2
 	      43. secondGlyph: 44
 		  value1: XAdvance = 600
 	      44. secondGlyph: 45
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      45. secondGlyph: 46
 		  value1: XAdvance = 600
 	      46. secondGlyph: 47
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      47. secondGlyph: 48
 		  value1: XAdvance = 600
 	      48. secondGlyph: 49
@@ -40720,7 +40681,7 @@ Number of subtables:	 2
 	      44. secondGlyph: 45
 		  value1: XAdvance = 600
 	      45. secondGlyph: 46
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      46. secondGlyph: 47
 		  value1: XAdvance = 600
 	      47. secondGlyph: 48
@@ -42083,7 +42044,7 @@ Number of subtables:	 2
 	      83. secondGlyph: 84
 		  value1: XAdvance = 600
 	      84. secondGlyph: 85
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      85. secondGlyph: 86
 		  value1: XAdvance = 600
 	      86. secondGlyph: 87
@@ -42095,7 +42056,7 @@ Number of subtables:	 2
 	      89. secondGlyph: 90
 		  value1: XAdvance = 600
 	      90. secondGlyph: 91
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      91. secondGlyph: 92
 		  value1: XAdvance = 600
 	      92. secondGlyph: 93
@@ -42119,7 +42080,7 @@ Number of subtables:	 2
 	      101. secondGlyph: 102
 		  value1: XAdvance = 600
 	      102. secondGlyph: 103
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      103. secondGlyph: 104
 		  value1: XAdvance = 600
 	      104. secondGlyph: 105
@@ -42159,7 +42120,7 @@ Number of subtables:	 2
 	      121. secondGlyph: 122
 		  value1: XAdvance = 600
 	      122. secondGlyph: 123
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      123. secondGlyph: 124
 		  value1: XAdvance = 600
 	      124. secondGlyph: 125
@@ -43904,7 +43865,7 @@ Number of subtables:	 2
 	      94. secondGlyph: 95
 		  value1: XAdvance = 600
 	      95. secondGlyph: 96
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      96. secondGlyph: 97
 		  value1: XAdvance = 600
 	      97. secondGlyph: 98
@@ -43926,7 +43887,7 @@ Number of subtables:	 2
 	      105. secondGlyph: 106
 		  value1: XAdvance = 600
 	      106. secondGlyph: 107
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      107. secondGlyph: 108
 		  value1: XAdvance = 600
 	      108. secondGlyph: 109
@@ -46988,7 +46949,7 @@ Number of subtables:	 2
 	      94. secondGlyph: 95
 		  value1: XAdvance = 600
 	      95. secondGlyph: 96
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      96. secondGlyph: 97
 		  value1: XAdvance = 600
 	      97. secondGlyph: 98
@@ -47235,7 +47196,7 @@ Number of subtables:	 2
 	      89. secondGlyph: 90
 		  value1: XAdvance = 600
 	      90. secondGlyph: 91
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      91. secondGlyph: 92
 		  value1: XAdvance = 600
 	      92. secondGlyph: 93
@@ -47245,7 +47206,7 @@ Number of subtables:	 2
 	      94. secondGlyph: 95
 		  value1: XAdvance = 600
 	      95. secondGlyph: 96
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      96. secondGlyph: 97
 		  value1: XAdvance = 600
 	      97. secondGlyph: 98
@@ -48944,7 +48905,7 @@ Number of subtables:	 2
 	      44. secondGlyph: 45
 		  value1: XAdvance = 600
 	      45. secondGlyph: 46
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      46. secondGlyph: 47
 		  value1: XAdvance = 600
 	      47. secondGlyph: 48
@@ -49357,7 +49318,7 @@ Number of subtables:	 2
 	      122. secondGlyph: 123
 		  value1: XAdvance = 600
 	      123. secondGlyph: 124
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      124. secondGlyph: 125
 		  value1: XAdvance = 600
 	      125. secondGlyph: 126
@@ -49875,7 +49836,7 @@ Number of subtables:	 2
 	      124. secondGlyph: 125
 		  value1: XAdvance = 600
 	      125. secondGlyph: 126
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      126. secondGlyph: 127
 		  value1: XAdvance = 600
 	      127. secondGlyph: 128
@@ -51985,14 +51946,14 @@ Glyph     38.
 	 numberOfContours:	 3
 	 xMin:			 0
 	 yMin:			 0
-	 xMax:			 400
+	 xMax:			 300
 	 yMax:			 500
 
 	 EndPoints
 	 ---------
 	  0:  7
-	  1: 31
-	  2: 39
+	  1: 15
+	  2: 23
 
 	 Length of Instructions:  0
 
@@ -52006,7 +51967,7 @@ Glyph     38.
 	  5:        XDual   Repeat  Y-Short         On
 	  6: YDual          Repeat          X-Short On
 	  7: YDual          Repeat          X-Short On
-	  8:        XDual           Y-Short X-Short On
+	  8:                        Y-Short X-Short On
 	  9: YDual  XDual           Y-Short         On
 	 10: YDual  XDual   Repeat          X-Short On
 	 11: YDual  XDual   Repeat          X-Short On
@@ -52014,30 +51975,14 @@ Glyph     38.
 	 13:        XDual   Repeat  Y-Short         On
 	 14: YDual          Repeat          X-Short On
 	 15: YDual          Repeat          X-Short On
-	 16:        XDual   Repeat  Y-Short         On
-	 17:        XDual   Repeat  Y-Short         On
-	 18: YDual          Repeat          X-Short On
-	 19: YDual          Repeat          X-Short On
+	 16:        XDual           Y-Short X-Short On
+	 17: YDual  XDual           Y-Short         On
+	 18: YDual  XDual   Repeat          X-Short On
+	 19: YDual  XDual   Repeat          X-Short On
 	 20:        XDual   Repeat  Y-Short         On
 	 21:        XDual   Repeat  Y-Short         On
 	 22: YDual          Repeat          X-Short On
 	 23: YDual          Repeat          X-Short On
-	 24: YDual  XDual   Repeat  Y-Short         On
-	 25: YDual  XDual   Repeat  Y-Short         On
-	 26: YDual  XDual   Repeat          X-Short On
-	 27: YDual  XDual   Repeat          X-Short On
-	 28: YDual  XDual   Repeat  Y-Short         On
-	 29: YDual  XDual   Repeat  Y-Short         On
-	 30: YDual  XDual   Repeat          X-Short On
-	 31: YDual  XDual   Repeat          X-Short On
-	 32:                        Y-Short X-Short On
-	 33: YDual  XDual           Y-Short         On
-	 34: YDual  XDual   Repeat          X-Short On
-	 35: YDual  XDual   Repeat          X-Short On
-	 36:        XDual   Repeat  Y-Short         On
-	 37:        XDual   Repeat  Y-Short         On
-	 38: YDual          Repeat          X-Short On
-	 39: YDual          Repeat          X-Short On
 
 	 Coordinates
 	 -----------
@@ -52049,38 +51994,22 @@ Glyph     38.
 	  5 Rel (      0,    -50) -> Abs (    200,    400)
 	  6 Rel (    -50,      0) -> Abs (    150,    400)
 	  7 Rel (    -50,      0) -> Abs (    100,    400)
-	  8 Rel (    200,    -50) -> Abs (    300,    350)
-	  9 Rel (      0,     50) -> Abs (    300,    400)
-	 10 Rel (     50,      0) -> Abs (    350,    400)
-	 11 Rel (     50,      0) -> Abs (    400,    400)
-	 12 Rel (      0,    -50) -> Abs (    400,    350)
-	 13 Rel (      0,    -50) -> Abs (    400,    300)
-	 14 Rel (    -50,      0) -> Abs (    350,    300)
-	 15 Rel (    -50,      0) -> Abs (    300,    300)
-	 16 Rel (      0,    -50) -> Abs (    300,    250)
-	 17 Rel (      0,    -50) -> Abs (    300,    200)
-	 18 Rel (   -100,      0) -> Abs (    200,    200)
-	 19 Rel (   -100,      0) -> Abs (    100,    200)
-	 20 Rel (      0,    -50) -> Abs (    100,    150)
-	 21 Rel (      0,    -50) -> Abs (    100,    100)
-	 22 Rel (    -50,      0) -> Abs (     50,    100)
-	 23 Rel (    -50,      0) -> Abs (      0,    100)
-	 24 Rel (      0,     50) -> Abs (      0,    150)
-	 25 Rel (      0,     50) -> Abs (      0,    200)
-	 26 Rel (     50,      0) -> Abs (     50,    200)
-	 27 Rel (     50,      0) -> Abs (    100,    200)
-	 28 Rel (      0,     50) -> Abs (    100,    250)
-	 29 Rel (      0,     50) -> Abs (    100,    300)
-	 30 Rel (    100,      0) -> Abs (    200,    300)
-	 31 Rel (    100,      0) -> Abs (    300,    300)
-	 32 Rel (   -100,   -250) -> Abs (    200,     50)
-	 33 Rel (      0,     50) -> Abs (    200,    100)
-	 34 Rel (     50,      0) -> Abs (    250,    100)
-	 35 Rel (     50,      0) -> Abs (    300,    100)
-	 36 Rel (      0,    -50) -> Abs (    300,     50)
-	 37 Rel (      0,    -50) -> Abs (    300,      0)
-	 38 Rel (    -50,      0) -> Abs (    250,      0)
-	 39 Rel (    -50,      0) -> Abs (    200,      0)
+	  8 Rel (   -100,   -150) -> Abs (      0,    250)
+	  9 Rel (      0,     50) -> Abs (      0,    300)
+	 10 Rel (    150,      0) -> Abs (    150,    300)
+	 11 Rel (    150,      0) -> Abs (    300,    300)
+	 12 Rel (      0,    -50) -> Abs (    300,    250)
+	 13 Rel (      0,    -50) -> Abs (    300,    200)
+	 14 Rel (   -150,      0) -> Abs (    150,    200)
+	 15 Rel (   -150,      0) -> Abs (      0,    200)
+	 16 Rel (    100,   -150) -> Abs (    100,     50)
+	 17 Rel (      0,     50) -> Abs (    100,    100)
+	 18 Rel (     50,      0) -> Abs (    150,    100)
+	 19 Rel (     50,      0) -> Abs (    200,    100)
+	 20 Rel (      0,    -50) -> Abs (    200,     50)
+	 21 Rel (      0,    -50) -> Abs (    200,      0)
+	 22 Rel (    -50,      0) -> Abs (    150,      0)
+	 23 Rel (    -50,      0) -> Abs (    100,      0)
 
 Glyph     39.
 	 numberOfContours:	 3
