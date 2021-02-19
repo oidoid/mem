@@ -19,6 +19,7 @@
   --font-size-mem-prop-4x4: 4px;
   --font-size-mem-mono-4x4: 4px;
   --font-size-mem-mono-3x3: 3px;
+  --font-leading: 1px;
   --transition-duration: 100ms;
   --font-family: unset;
   --font-scalar: unset;
@@ -181,6 +182,8 @@ textarea.demo-box {
     background: #fff;
     position: sticky;
     top: 0;
+    /* Position above floating table headers. */
+    z-index: 1;
   }
 }
 
@@ -198,6 +201,8 @@ textarea.demo-box {
   caption-side: bottom;
 }
 .character-set__cell {
+  /* make cells flush and don't put space between them */
+  box-sizing: content-box;
   display: block;
   width: var(--font-size-scaled);
   margin: 0;
@@ -205,7 +210,39 @@ textarea.demo-box {
   text-align: center;
   line-height: var(--font-size-scaled);
   /* Account for the leading, descender, and right-kerning. */
-  padding: calc(var(--font-scalar) * 2px) 0 0 calc(var(--font-scalar) * 1px);
+  padding: calc(var(--font-scalar) * var(--font-leading)) 0 0
+    calc(var(--font-scalar) * 1px);
+}
+
+.kerning-pairs {
+  overflow: auto;
+  /* max-height: calc((var(--font-size-scaled) + var(--font-leading)) * 16); */
+  max-height: min(512px, 80vh);
+}
+.kerning-pairs__row-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #f9f9f9;
+}
+.kerning-pairs__table {
+  box-shadow: 0 0 0 1px var(--border-color-demo);
+  margin: 8px auto;
+  caption-side: bottom;
+  position: relative;
+}
+.kerning-pairs__cell {
+  box-sizing: content-box;
+
+  border: 1px solid var(--border-color-demo);
+  display: block;
+  width: calc(var(--font-scalar) * (var(--font-size) * 2 + 1px));
+  margin: 0;
+  /* Center within the cell. */
+  text-align: center;
+  line-height: var(--font-size-scaled);
+  /* Account for the leading and descender. */
+  padding: calc(var(--font-scalar) * var(--font-leading)) 0 0 0;
 }
 
 .control-panel {
