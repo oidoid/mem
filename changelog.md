@@ -4,6 +4,7 @@ Versions and bullets are arranged chronologically from latest to oldest.
 
 ## v6.1.0 (unreleased)
 
+- \[build\] shish-kebab TypeScript filenames
 - \[docs\] Revise some comments
 - \[mem prop 5x6\] Fix q kerning
 - \[mem prop 5x6\] Improve many more kerning pairs
