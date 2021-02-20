@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd3536446, offset = 0x0001bc78, len =        28
-   1. 'GPOS' - checksum = 0x64a9db2c, offset = 0x00019504, len =     10098
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000194e4, len =        32
+   0. 'FFTM' - checksum = 0xd3536446, offset = 0x0001bb50, len =        28
+   1. 'GPOS' - checksum = 0x64a96854, offset = 0x000193dc, len =     10098
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000193bc, len =        32
    3. 'OS/2' - checksum = 0x52f45ddd, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0x3b60ff56, offset = 0x000003e8, len =       578
    5. 'cvt ' - checksum = 0x0014017c, offset = 0x0000062c, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x000194dc, len =         8
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x000193b4, len =         8
    7. 'glyf' - checksum = 0x8aef4415, offset = 0x00000734, len =      5972
    8. 'head' - checksum = 0x5963a1e5, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x041f02d8, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0x90380014, offset = 0x000001e8, len =       512
-  11. 'kern' - checksum = 0xcd29c978, offset = 0x00001e88, len =     94802
+  11. 'kern' - checksum = 0x79318274, offset = 0x00001e88, len =     94508
   12. 'loca' - checksum = 0x26c12c8a, offset = 0x00000630, len =       260
   13. 'maxp' - checksum = 0x00c60071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0x2e38cbbf, offset = 0x000190dc, len =       468
-  15. 'post' - checksum = 0x4701a5b5, offset = 0x000192b0, len =       556
+  14. 'name' - checksum = 0x2e39ccad, offset = 0x00018fb4, len =       468
+  15. 'post' - checksum = 0x4701a5b5, offset = 0x00019188, len =       556
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -577,7 +577,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x7f3c0b6f
+	 checkSumAdjustment:	 0x272b8561
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 600
@@ -931,7 +931,7 @@ Name table   3.	 PlatformID:	 1
 		 Offset:	 150
 		 46 6f 6e 74 46 6f 72 67 65 20  >  FontForge 
 		 32 2e 30 20 3a 20 6d 65 6d 20  >  2.0 : mem 
-		 35 78 36 20 3a 20 31 39 2d 32  >  5x6 : 19-2
+		 35 78 36 20 3a 20 32 30 2d 32  >  5x6 : 20-2
 		 2d 32 30 32 31                 > -2021
 Name table   4.	 PlatformID:	 1
 		 EncodingID:	 0
@@ -991,7 +991,7 @@ Name table  10.	 PlatformID:	 3
 		 00 32 00 2e 00 30 00 20 00 3a  >  .2...0. .:
 		 00 20 00 6d 00 65 00 6d 00 20  >  . .m.e.m. 
 		 00 35 00 78 00 36 00 20 00 3a  >  .5.x.6. .:
-		 00 20 00 31 00 39 00 2d 00 32  >  . .1.9.-.2
+		 00 20 00 32 00 30 00 2d 00 32  >  . .2.0.-.2
 		 00 2d 00 32 00 30 00 32 00 31  >  .-.2.0.2.1
 		                                > 
 Name table  11.	 PlatformID:	 3
@@ -11906,12 +11906,12 @@ Number of subtables:	 2
 
 	 Subtable format 	 0
 	 Subtable version 	 0
-	 Bytes in subtable 	 30824
+	 Bytes in subtable 	 30530
 	 Coverage bits 	 0x1
-	 Number of pairs 5135
+	 Number of pairs 5086
 	 Search Range    24576
 	 Entry Selector  12
-	 Range Shift     6234
+	 Range Shift     5940
 	 Left Glyph 	 Right Glyph 	 Kern Move
 	 ---------- 	 ----------- 	 ---------
 		 87 		 1 		 600
@@ -15273,70 +15273,21 @@ Number of subtables:	 2
 		 114 		 32 		 -600
 		 114 		 33 		 -600
 		 114 		 34 		 600
-		 114 		 37 		 600
-		 114 		 39 		 600
 		 114 		 42 		 600
 		 114 		 45 		 600
 		 114 		 47 		 600
 		 114 		 48 		 600
-		 114 		 49 		 600
-		 114 		 50 		 600
-		 114 		 51 		 600
-		 114 		 52 		 600
-		 114 		 54 		 600
-		 114 		 55 		 600
-		 114 		 57 		 600
-		 114 		 58 		 600
 		 114 		 59 		 600
 		 114 		 60 		 600
 		 114 		 63 		 600
-		 114 		 66 		 600
-		 114 		 67 		 600
-		 114 		 68 		 600
-		 114 		 69 		 600
-		 114 		 70 		 600
-		 114 		 71 		 600
-		 114 		 72 		 600
-		 114 		 73 		 600
-		 114 		 74 		 600
-		 114 		 75 		 600
-		 114 		 76 		 600
-		 114 		 77 		 600
-		 114 		 78 		 600
-		 114 		 79 		 600
-		 114 		 80 		 600
-		 114 		 81 		 600
-		 114 		 82 		 600
-		 114 		 83 		 600
-		 114 		 84 		 600
-		 114 		 86 		 600
-		 114 		 88 		 600
-		 114 		 89 		 600
-		 114 		 92 		 600
-		 114 		 94 		 600
 		 114 		 96 		 600
-		 114 		 99 		 600
-		 114 		 100 		 600
-		 114 		 101 		 600
 		 114 		 104 		 600
-		 114 		 105 		 600
 		 114 		 106 		 600
 		 114 		 107 		 600
-		 114 		 108 		 600
 		 114 		 109 		 600
-		 114 		 110 		 600
-		 114 		 111 		 600
-		 114 		 112 		 600
 		 114 		 113 		 600
-		 114 		 114 		 600
-		 114 		 115 		 600
-		 114 		 116 		 600
-		 114 		 118 		 600
-		 114 		 120 		 600
-		 114 		 121 		 600
 		 114 		 122 		 600
 		 114 		 125 		 600
-		 114 		 126 		 600
 		 114 		 128 		 600
 		 115 		 1 		 600
 		 115 		 2 		 -600
@@ -46184,11 +46135,11 @@ Number of subtables:	 2
 	      35. secondGlyph: 36
 		  value1: XAdvance = 0
 	      36. secondGlyph: 37
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      37. secondGlyph: 38
 		  value1: XAdvance = 0
 	      38. secondGlyph: 39
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      39. secondGlyph: 40
 		  value1: XAdvance = 0
 	      40. secondGlyph: 41
@@ -46208,25 +46159,25 @@ Number of subtables:	 2
 	      47. secondGlyph: 48
 		  value1: XAdvance = 600
 	      48. secondGlyph: 49
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      49. secondGlyph: 50
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      50. secondGlyph: 51
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      51. secondGlyph: 52
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      52. secondGlyph: 53
 		  value1: XAdvance = 0
 	      53. secondGlyph: 54
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      54. secondGlyph: 55
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      55. secondGlyph: 56
 		  value1: XAdvance = 0
 	      56. secondGlyph: 57
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      57. secondGlyph: 58
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      58. secondGlyph: 59
 		  value1: XAdvance = 600
 	      59. secondGlyph: 60
@@ -46242,63 +46193,63 @@ Number of subtables:	 2
 	      64. secondGlyph: 65
 		  value1: XAdvance = 0
 	      65. secondGlyph: 66
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      66. secondGlyph: 67
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      67. secondGlyph: 68
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      68. secondGlyph: 69
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      69. secondGlyph: 70
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      70. secondGlyph: 71
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      71. secondGlyph: 72
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      72. secondGlyph: 73
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      73. secondGlyph: 74
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      74. secondGlyph: 75
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      75. secondGlyph: 76
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      76. secondGlyph: 77
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      77. secondGlyph: 78
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      78. secondGlyph: 79
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      79. secondGlyph: 80
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      80. secondGlyph: 81
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      81. secondGlyph: 82
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      82. secondGlyph: 83
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      83. secondGlyph: 84
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      84. secondGlyph: 85
 		  value1: XAdvance = 0
 	      85. secondGlyph: 86
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      86. secondGlyph: 87
 		  value1: XAdvance = 0
 	      87. secondGlyph: 88
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      88. secondGlyph: 89
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      89. secondGlyph: 90
 		  value1: XAdvance = 0
 	      90. secondGlyph: 91
 		  value1: XAdvance = 0
 	      91. secondGlyph: 92
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      92. secondGlyph: 93
 		  value1: XAdvance = 0
 	      93. secondGlyph: 94
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      94. secondGlyph: 95
 		  value1: XAdvance = 0
 	      95. secondGlyph: 96
@@ -46308,11 +46259,11 @@ Number of subtables:	 2
 	      97. secondGlyph: 98
 		  value1: XAdvance = 0
 	      98. secondGlyph: 99
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      99. secondGlyph: 100
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      100. secondGlyph: 101
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      101. secondGlyph: 102
 		  value1: XAdvance = 0
 	      102. secondGlyph: 103
@@ -46320,39 +46271,39 @@ Number of subtables:	 2
 	      103. secondGlyph: 104
 		  value1: XAdvance = 600
 	      104. secondGlyph: 105
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      105. secondGlyph: 106
 		  value1: XAdvance = 600
 	      106. secondGlyph: 107
 		  value1: XAdvance = 600
 	      107. secondGlyph: 108
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      108. secondGlyph: 109
 		  value1: XAdvance = 600
 	      109. secondGlyph: 110
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      110. secondGlyph: 111
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      111. secondGlyph: 112
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      112. secondGlyph: 113
 		  value1: XAdvance = 600
 	      113. secondGlyph: 114
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      114. secondGlyph: 115
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      115. secondGlyph: 116
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      116. secondGlyph: 117
 		  value1: XAdvance = 0
 	      117. secondGlyph: 118
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      118. secondGlyph: 119
 		  value1: XAdvance = 0
 	      119. secondGlyph: 120
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      120. secondGlyph: 121
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      121. secondGlyph: 122
 		  value1: XAdvance = 600
 	      122. secondGlyph: 123
@@ -46362,7 +46313,7 @@ Number of subtables:	 2
 	      124. secondGlyph: 125
 		  value1: XAdvance = 600
 	      125. secondGlyph: 126
-		  value1: XAdvance = 600
+		  value1: XAdvance = 0
 	      126. secondGlyph: 127
 		  value1: XAdvance = 0
 	      127. secondGlyph: 128
