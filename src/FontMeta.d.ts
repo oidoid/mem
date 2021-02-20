@@ -16,8 +16,8 @@ interface FontMeta {
 
   /**
    * The maximum height of any character in the font in pixels, including
-   * descenders but not leading, in pixels. Usually present in font name. For
-   * example, the max height of "mem prop 5x6" is six pixels. The line height is
+   * descenders but not leading. Usually present in font name. For example, the
+   * max height of "mem prop 5x6" is six pixels. The line height is
    * `cellHeight + leading` or seven pixels.
    */
   readonly cellHeight: number
@@ -26,12 +26,15 @@ interface FontMeta {
   readonly leading: number
 
   /**
-   * The font's baseline as measured in pixels from the bottom of the cel
+   * The font's baseline as measured in pixels from the bottom of the cell
    * (`cellHeight`). When nonzero, this is the space available for descenders.
    */
   readonly baseline: number
 
-  /** Distance between letters in pixels. */
+  /**
+   * Custom distance between letters in pixels. The key is two characters and
+   * the value may be negative.
+   */
   readonly kerning: Readonly<Record<string, number>>
 
   /**

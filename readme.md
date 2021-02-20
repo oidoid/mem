@@ -53,7 +53,7 @@ See the [changelog](changelog.md) for release notes.
 
 - **\*.ttf**: TrueType font file. The format is
   `mem-<variable width>-<width>x<height>` where "variable width" is `prop` for
-  proportional or `mono` for monospaced, and width and height are cel width and
+  proportional or `mono` for monospaced, and width and height are cell width and
   height in pixels. Files containing "-aseprite" in their name have their
   kerning multiplied for correct rendering in Aseprite.
 - **\*.json**: font metadata (kerning and other metrics for games).
@@ -72,9 +72,9 @@ See also [font metadata](#font-metadata) and
 
 ## Fonts
 
-All characters in each font set appear below. Blank cels are missing (undefined)
-characters. The fonts are ordered from greatest to least line height with tie
-breakers going to greatest width then proportional font.
+All characters in each font set appear below. Blank cells are missing
+(undefined) characters. The fonts are ordered from greatest to least line height
+with tie-breakers going to greatest width then proportional font.
 
 ### mem 5x6
 
@@ -150,11 +150,11 @@ See the [to-do](todo.md) for more issues.
 
 ### mem 5x6
 
-- Excellent high- and low-scale readability, smoothness (pixel clustering), and
+- Excellent high- and low-scale (compact) readability, smoothness (pixel clustering), and
   visual consistency of the whole character set at the expense of form adherence
   for individual characters. For example, the lowercase o could be rounder but
   this comes at the cost of making the font noisier and it is very legible
-  square rather than round. As a counterexample, the lowercase p could be
+  square rather than round. As a counterexample, the lowercase g could be
   smoother but then it looks too similar to the lowercase o so some exceptions
   are made.
 - Favor 3x5 pixels for every capital character.
@@ -162,7 +162,7 @@ See the [to-do](todo.md) for more issues.
 - Every numeric is the same width and height, 3x5 pixels, so that countdowns
   don't shift.
 - The preferred inflection for lowercase is one pixel from the top, for the sake
-  of e. Everything else is two pixels from the top.
+  of the lowercase e. Everything else is two pixels from the top.
 - The font is sans so avoid serifs.
 - The font is light so avoid pixel doubling.
 
