@@ -64,7 +64,7 @@ BeginChars: 256 128
 StartChar: uni0000
 Encoding: 0 0 0
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -73,7 +73,7 @@ EndChar
 StartChar: uni0001
 Encoding: 1 1 1
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -82,7 +82,7 @@ EndChar
 StartChar: uni0002
 Encoding: 2 2 2
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -91,7 +91,7 @@ EndChar
 StartChar: uni0003
 Encoding: 3 3 3
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -100,7 +100,7 @@ EndChar
 StartChar: uni0004
 Encoding: 4 4 4
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -109,7 +109,7 @@ EndChar
 StartChar: uni0005
 Encoding: 5 5 5
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -118,7 +118,7 @@ EndChar
 StartChar: uni0006
 Encoding: 6 6 6
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -127,7 +127,7 @@ EndChar
 StartChar: uni0007
 Encoding: 7 7 7
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -136,7 +136,7 @@ EndChar
 StartChar: uni0008
 Encoding: 8 8 8
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -145,7 +145,7 @@ EndChar
 StartChar: uni0009
 Encoding: 9 9 9
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -154,7 +154,7 @@ EndChar
 StartChar: uni000A
 Encoding: 10 10 10
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -163,7 +163,7 @@ EndChar
 StartChar: uni000B
 Encoding: 11 11 11
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -172,7 +172,7 @@ EndChar
 StartChar: uni000C
 Encoding: 12 12 12
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -181,7 +181,7 @@ EndChar
 StartChar: uni000D
 Encoding: 13 13 13
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -190,7 +190,7 @@ EndChar
 StartChar: uni000E
 Encoding: 14 14 14
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -199,7 +199,7 @@ EndChar
 StartChar: uni000F
 Encoding: 15 15 15
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -208,7 +208,7 @@ EndChar
 StartChar: uni0010
 Encoding: 16 16 16
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -217,7 +217,7 @@ EndChar
 StartChar: uni0011
 Encoding: 17 17 17
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -226,7 +226,7 @@ EndChar
 StartChar: uni0012
 Encoding: 18 18 18
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -235,7 +235,7 @@ EndChar
 StartChar: uni0013
 Encoding: 19 19 19
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -244,7 +244,7 @@ EndChar
 StartChar: uni0014
 Encoding: 20 20 20
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -253,7 +253,7 @@ EndChar
 StartChar: uni0015
 Encoding: 21 21 21
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -262,7 +262,7 @@ EndChar
 StartChar: uni0016
 Encoding: 22 22 22
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -271,7 +271,7 @@ EndChar
 StartChar: uni0017
 Encoding: 23 23 23
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -280,7 +280,7 @@ EndChar
 StartChar: uni0018
 Encoding: 24 24 24
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -289,7 +289,7 @@ EndChar
 StartChar: uni0019
 Encoding: 25 25 25
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -298,7 +298,7 @@ EndChar
 StartChar: uni001A
 Encoding: 26 26 26
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -307,7 +307,7 @@ EndChar
 StartChar: uni001B
 Encoding: 27 27 27
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -316,7 +316,7 @@ EndChar
 StartChar: uni001C
 Encoding: 28 28 28
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -325,7 +325,7 @@ EndChar
 StartChar: uni001D
 Encoding: 29 29 29
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -334,7 +334,7 @@ EndChar
 StartChar: uni001E
 Encoding: 30 30 30
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -343,7 +343,7 @@ EndChar
 StartChar: uni001F
 Encoding: 31 31 31
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -352,7 +352,7 @@ EndChar
 StartChar: space
 Encoding: 32 32 32
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -361,7 +361,7 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 33
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -370,7 +370,7 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 34
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -379,7 +379,7 @@ EndChar
 StartChar: numbersign
 Encoding: 35 35 35
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -388,7 +388,7 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 36
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -397,7 +397,7 @@ EndChar
 StartChar: percent
 Encoding: 37 37 37
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -406,7 +406,7 @@ EndChar
 StartChar: ampersand
 Encoding: 38 38 38
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -435,7 +435,7 @@ EndChar
 StartChar: quotesingle
 Encoding: 39 39 39
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -444,7 +444,7 @@ EndChar
 StartChar: parenleft
 Encoding: 40 40 40
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -481,7 +481,7 @@ EndChar
 StartChar: parenright
 Encoding: 41 41 41
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -518,7 +518,7 @@ EndChar
 StartChar: asterisk
 Encoding: 42 42 42
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -527,7 +527,7 @@ EndChar
 StartChar: plus
 Encoding: 43 43 43
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -536,7 +536,7 @@ EndChar
 StartChar: comma
 Encoding: 44 44 44
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -565,7 +565,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 45
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -574,7 +574,7 @@ EndChar
 StartChar: period
 Encoding: 46 46 46
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -595,7 +595,7 @@ EndChar
 StartChar: slash
 Encoding: 47 47 47
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -604,7 +604,7 @@ EndChar
 StartChar: zero
 Encoding: 48 48 48
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -642,7 +642,7 @@ EndChar
 StartChar: one
 Encoding: 49 49 49
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -671,7 +671,7 @@ EndChar
 StartChar: two
 Encoding: 50 50 50
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -708,7 +708,7 @@ EndChar
 StartChar: three
 Encoding: 51 51 51
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -737,7 +737,7 @@ EndChar
 StartChar: four
 Encoding: 52 52 52
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -770,7 +770,7 @@ EndChar
 StartChar: five
 Encoding: 53 53 53
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -799,7 +799,7 @@ EndChar
 StartChar: six
 Encoding: 54 54 54
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -824,7 +824,7 @@ EndChar
 StartChar: seven
 Encoding: 55 55 55
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -849,7 +849,7 @@ EndChar
 StartChar: eight
 Encoding: 56 56 56
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -874,7 +874,7 @@ EndChar
 StartChar: nine
 Encoding: 57 57 57
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -899,7 +899,7 @@ EndChar
 StartChar: colon
 Encoding: 58 58 58
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -929,7 +929,7 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 59
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -967,7 +967,7 @@ EndChar
 StartChar: less
 Encoding: 60 60 60
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -976,7 +976,7 @@ EndChar
 StartChar: equal
 Encoding: 61 61 61
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -985,7 +985,7 @@ EndChar
 StartChar: greater
 Encoding: 62 62 62
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -994,7 +994,7 @@ EndChar
 StartChar: question
 Encoding: 63 63 63
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1003,7 +1003,7 @@ EndChar
 StartChar: at
 Encoding: 64 64 64
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1012,7 +1012,7 @@ EndChar
 StartChar: A
 Encoding: 65 65 65
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1049,7 +1049,7 @@ EndChar
 StartChar: B
 Encoding: 66 66 66
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1074,7 +1074,7 @@ EndChar
 StartChar: C
 Encoding: 67 67 67
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1103,7 +1103,7 @@ EndChar
 StartChar: D
 Encoding: 68 68 68
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1141,7 +1141,7 @@ EndChar
 StartChar: E
 Encoding: 69 69 69
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1170,7 +1170,7 @@ EndChar
 StartChar: F
 Encoding: 70 70 70
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1199,7 +1199,7 @@ EndChar
 StartChar: G
 Encoding: 71 71 71
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1233,7 +1233,7 @@ EndChar
 StartChar: H
 Encoding: 72 72 72
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1270,7 +1270,7 @@ EndChar
 StartChar: I
 Encoding: 73 73 73
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1307,7 +1307,7 @@ EndChar
 StartChar: J
 Encoding: 74 74 74
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1336,7 +1336,7 @@ EndChar
 StartChar: K
 Encoding: 75 75 75
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1381,7 +1381,7 @@ EndChar
 StartChar: L
 Encoding: 76 76 76
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1406,7 +1406,7 @@ EndChar
 StartChar: M
 Encoding: 77 77 77
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1435,7 +1435,7 @@ EndChar
 StartChar: N
 Encoding: 78 78 78
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1464,7 +1464,7 @@ EndChar
 StartChar: O
 Encoding: 79 79 79
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1494,7 +1494,7 @@ EndChar
 StartChar: P
 Encoding: 80 80 80
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1519,7 +1519,7 @@ EndChar
 StartChar: Q
 Encoding: 81 81 81
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1561,7 +1561,7 @@ EndChar
 StartChar: R
 Encoding: 82 82 82
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1594,7 +1594,7 @@ EndChar
 StartChar: S
 Encoding: 83 83 83
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1623,7 +1623,7 @@ EndChar
 StartChar: T
 Encoding: 84 84 84
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1652,7 +1652,7 @@ EndChar
 StartChar: U
 Encoding: 85 85 85
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1681,7 +1681,7 @@ EndChar
 StartChar: V
 Encoding: 86 86 86
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1718,7 +1718,7 @@ EndChar
 StartChar: W
 Encoding: 87 87 87
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1747,7 +1747,7 @@ EndChar
 StartChar: X
 Encoding: 88 88 88
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1800,7 +1800,7 @@ EndChar
 StartChar: Y
 Encoding: 89 89 89
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1837,7 +1837,7 @@ EndChar
 StartChar: Z
 Encoding: 90 90 90
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1866,7 +1866,7 @@ EndChar
 StartChar: bracketleft
 Encoding: 91 91 91
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1875,7 +1875,7 @@ EndChar
 StartChar: backslash
 Encoding: 92 92 92
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1884,7 +1884,7 @@ EndChar
 StartChar: bracketright
 Encoding: 93 93 93
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1893,7 +1893,7 @@ EndChar
 StartChar: asciicircum
 Encoding: 94 94 94
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1902,7 +1902,7 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 95
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1911,7 +1911,7 @@ EndChar
 StartChar: grave
 Encoding: 96 96 96
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -1920,7 +1920,7 @@ EndChar
 StartChar: a
 Encoding: 97 97 97
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1958,7 +1958,7 @@ EndChar
 StartChar: b
 Encoding: 98 98 98
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -1983,7 +1983,7 @@ EndChar
 StartChar: c
 Encoding: 99 99 99
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2020,7 +2020,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 100
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2045,7 +2045,7 @@ EndChar
 StartChar: e
 Encoding: 101 101 101
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2070,7 +2070,7 @@ EndChar
 StartChar: f
 Encoding: 102 102 102
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2103,7 +2103,7 @@ EndChar
 StartChar: g
 Encoding: 103 103 103
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2128,7 +2128,7 @@ EndChar
 StartChar: h
 Encoding: 104 104 104
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2161,7 +2161,7 @@ EndChar
 StartChar: i
 Encoding: 105 105 105
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2182,7 +2182,7 @@ EndChar
 StartChar: j
 Encoding: 106 106 106
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2215,7 +2215,7 @@ EndChar
 StartChar: k
 Encoding: 107 107 107
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2260,7 +2260,7 @@ EndChar
 StartChar: l
 Encoding: 108 108 108
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2285,7 +2285,7 @@ EndChar
 StartChar: m
 Encoding: 109 109 109
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2310,7 +2310,7 @@ EndChar
 StartChar: n
 Encoding: 110 110 110
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2343,7 +2343,7 @@ EndChar
 StartChar: o
 Encoding: 111 111 111
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2389,7 +2389,7 @@ EndChar
 StartChar: p
 Encoding: 112 112 112
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2414,7 +2414,7 @@ EndChar
 StartChar: q
 Encoding: 113 113 113
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2443,7 +2443,7 @@ EndChar
 StartChar: r
 Encoding: 114 114 114
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2468,7 +2468,7 @@ EndChar
 StartChar: s
 Encoding: 115 115 115
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2497,7 +2497,7 @@ EndChar
 StartChar: t
 Encoding: 116 116 116
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2526,7 +2526,7 @@ EndChar
 StartChar: u
 Encoding: 117 117 117
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2555,7 +2555,7 @@ EndChar
 StartChar: v
 Encoding: 118 118 118
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2592,7 +2592,7 @@ EndChar
 StartChar: w
 Encoding: 119 119 119
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2621,7 +2621,7 @@ EndChar
 StartChar: x
 Encoding: 120 120 120
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2674,7 +2674,7 @@ EndChar
 StartChar: y
 Encoding: 121 121 121
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2711,7 +2711,7 @@ EndChar
 StartChar: z
 Encoding: 122 122 122
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2740,7 +2740,7 @@ EndChar
 StartChar: braceleft
 Encoding: 123 123 123
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -2749,7 +2749,7 @@ EndChar
 StartChar: bar
 Encoding: 124 124 124
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -2758,7 +2758,7 @@ EndChar
 StartChar: braceright
 Encoding: 125 125 125
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
@@ -2767,7 +2767,7 @@ EndChar
 StartChar: asciitilde
 Encoding: 126 126 126
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Fore
@@ -2796,7 +2796,7 @@ EndChar
 StartChar: uni007F
 Encoding: 127 127 127
 Width: 300
-VWidth: 0
+VWidth: 300
 Flags: W
 LayerCount: 2
 Kerns2: 127 300 "kern-lut" 126 300 "kern-lut" 125 300 "kern-lut" 124 300 "kern-lut" 123 300 "kern-lut" 122 300 "kern-lut" 121 300 "kern-lut" 120 300 "kern-lut" 119 300 "kern-lut" 118 300 "kern-lut" 117 300 "kern-lut" 116 300 "kern-lut" 115 300 "kern-lut" 114 300 "kern-lut" 113 300 "kern-lut" 112 300 "kern-lut" 111 300 "kern-lut" 110 300 "kern-lut" 109 300 "kern-lut" 108 300 "kern-lut" 107 300 "kern-lut" 106 300 "kern-lut" 105 300 "kern-lut" 104 300 "kern-lut" 103 300 "kern-lut" 102 300 "kern-lut" 101 300 "kern-lut" 100 300 "kern-lut" 99 300 "kern-lut" 98 300 "kern-lut" 97 300 "kern-lut" 96 300 "kern-lut" 95 300 "kern-lut" 94 300 "kern-lut" 93 300 "kern-lut" 92 300 "kern-lut" 91 300 "kern-lut" 90 300 "kern-lut" 89 300 "kern-lut" 88 300 "kern-lut" 87 300 "kern-lut" 86 300 "kern-lut" 85 300 "kern-lut" 84 300 "kern-lut" 83 300 "kern-lut" 82 300 "kern-lut" 81 300 "kern-lut" 80 300 "kern-lut" 79 300 "kern-lut" 78 300 "kern-lut" 77 300 "kern-lut" 76 300 "kern-lut" 75 300 "kern-lut" 74 300 "kern-lut" 73 300 "kern-lut" 72 300 "kern-lut" 71 300 "kern-lut" 70 300 "kern-lut" 69 300 "kern-lut" 68 300 "kern-lut" 67 300 "kern-lut" 66 300 "kern-lut" 65 300 "kern-lut" 64 300 "kern-lut" 63 300 "kern-lut" 62 300 "kern-lut" 61 300 "kern-lut" 60 300 "kern-lut" 59 300 "kern-lut" 58 300 "kern-lut" 57 300 "kern-lut" 56 300 "kern-lut" 55 300 "kern-lut" 54 300 "kern-lut" 53 300 "kern-lut" 52 300 "kern-lut" 51 300 "kern-lut" 50 300 "kern-lut" 49 300 "kern-lut" 48 300 "kern-lut" 47 300 "kern-lut" 46 300 "kern-lut" 45 300 "kern-lut" 44 300 "kern-lut" 43 300 "kern-lut" 42 300 "kern-lut" 41 300 "kern-lut" 40 300 "kern-lut" 39 300 "kern-lut" 38 300 "kern-lut" 37 300 "kern-lut" 36 300 "kern-lut" 35 300 "kern-lut" 34 300 "kern-lut" 33 300 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 300 "kern-lut" 26 300 "kern-lut" 25 300 "kern-lut" 24 300 "kern-lut" 23 300 "kern-lut" 22 300 "kern-lut" 21 300 "kern-lut" 20 300 "kern-lut" 19 300 "kern-lut" 18 300 "kern-lut" 17 300 "kern-lut" 16 300 "kern-lut" 15 300 "kern-lut" 14 300 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 300 "kern-lut" 7 300 "kern-lut" 6 300 "kern-lut" 5 300 "kern-lut" 4 300 "kern-lut" 3 300 "kern-lut" 2 300 "kern-lut" 1 300 "kern-lut" 0 300 "kern-lut"
