@@ -7,22 +7,22 @@ Offset Table
 ------------
 	 sfnt version: 		 1.0
 	 number of tables: 16
-   0. 'FFTM' - checksum = 0xd472cc83, offset = 0x0001bb5c, len =        28
-   1. 'GPOS' - checksum = 0x64a96854, offset = 0x000193e8, len =     10098
-   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000193c8, len =        32
+   0. 'FFTM' - checksum = 0xd472cc83, offset = 0x0001bb54, len =        28
+   1. 'GPOS' - checksum = 0x64a96854, offset = 0x000193e0, len =     10098
+   2. 'GSUB' - checksum = 0x64966c95, offset = 0x000193c0, len =        32
    3. 'OS/2' - checksum = 0x52f45ddd, offset = 0x00000188, len =        96
    4. 'cmap' - checksum = 0x3b60ff56, offset = 0x000003e8, len =       578
    5. 'cvt ' - checksum = 0x0014017c, offset = 0x0000062c, len =         4
-   6. 'gasp' - checksum = 0xffff0003, offset = 0x000193c0, len =         8
-   7. 'glyf' - checksum = 0xe0074415, offset = 0x00000734, len =      5980
+   6. 'gasp' - checksum = 0xffff0003, offset = 0x000193b8, len =         8
+   7. 'glyf' - checksum = 0x8aef4415, offset = 0x00000734, len =      5972
    8. 'head' - checksum = 0x5963a1e5, offset = 0x0000010c, len =        54
    9. 'hhea' - checksum = 0x041f02d8, offset = 0x00000144, len =        36
   10. 'hmtx' - checksum = 0x90380014, offset = 0x000001e8, len =       512
-  11. 'kern' - checksum = 0x79318274, offset = 0x00001e90, len =     94508
-  12. 'loca' - checksum = 0x274b2d16, offset = 0x00000630, len =       260
+  11. 'kern' - checksum = 0x79318274, offset = 0x00001e88, len =     94508
+  12. 'loca' - checksum = 0x26c12c8a, offset = 0x00000630, len =       260
   13. 'maxp' - checksum = 0x00c60071, offset = 0x00000168, len =        32
-  14. 'name' - checksum = 0x295bd8fd, offset = 0x00018fbc, len =       471
-  15. 'post' - checksum = 0x4701a5b5, offset = 0x00019194, len =       556
+  14. 'name' - checksum = 0x295bd8fd, offset = 0x00018fb4, len =       471
+  15. 'post' - checksum = 0x4701a5b5, offset = 0x0001918c, len =       556
 
 'cmap' Table - Character to Glyph Index Mapping Table
 -----------------------------------------------------
@@ -577,7 +577,7 @@ SubTable   1.	 Format 0 - Byte encoding table
 --------------------------
 	 'head' version:	 1.0
 	 fontReversion:		 6.0
-	 checkSumAdjustment:	 0x83649ad8
+	 checkSumAdjustment:	 0x2ea89c30
 	 magicNumber:		 0x5f0f3cf5
 	 flags:			 0x000b
 	 unitsPerEm:		 600
@@ -808,76 +808,76 @@ SubTable   1.	 Format 0 - Byte encoding table
 	 Idx     57 -> GlyphOffset 0x0000062c
 	 Idx     58 -> GlyphOffset 0x00000670
 	 Idx     59 -> GlyphOffset 0x000006b4
-	 Idx     60 -> GlyphOffset 0x000006e8
-	 Idx     61 -> GlyphOffset 0x0000071c
-	 Idx     62 -> GlyphOffset 0x0000077c
-	 Idx     63 -> GlyphOffset 0x000007b0
-	 Idx     64 -> GlyphOffset 0x00000810
-	 Idx     65 -> GlyphOffset 0x00000854
-	 Idx     66 -> GlyphOffset 0x000008d4
-	 Idx     67 -> GlyphOffset 0x00000918
-	 Idx     68 -> GlyphOffset 0x0000096c
-	 Idx     69 -> GlyphOffset 0x0000099c
-	 Idx     70 -> GlyphOffset 0x000009e0
-	 Idx     71 -> GlyphOffset 0x00000a20
-	 Idx     72 -> GlyphOffset 0x00000a58
-	 Idx     73 -> GlyphOffset 0x00000a90
-	 Idx     74 -> GlyphOffset 0x00000ad0
-	 Idx     75 -> GlyphOffset 0x00000b10
-	 Idx     76 -> GlyphOffset 0x00000b40
-	 Idx     77 -> GlyphOffset 0x00000b90
-	 Idx     78 -> GlyphOffset 0x00000bb8
-	 Idx     79 -> GlyphOffset 0x00000bf8
-	 Idx     80 -> GlyphOffset 0x00000c28
-	 Idx     81 -> GlyphOffset 0x00000c5c
-	 Idx     82 -> GlyphOffset 0x00000c98
-	 Idx     83 -> GlyphOffset 0x00000ce4
-	 Idx     84 -> GlyphOffset 0x00000d38
-	 Idx     85 -> GlyphOffset 0x00000d68
-	 Idx     86 -> GlyphOffset 0x00000d98
-	 Idx     87 -> GlyphOffset 0x00000dc8
-	 Idx     88 -> GlyphOffset 0x00000e08
-	 Idx     89 -> GlyphOffset 0x00000e48
-	 Idx     90 -> GlyphOffset 0x00000ea8
-	 Idx     91 -> GlyphOffset 0x00000ee8
-	 Idx     92 -> GlyphOffset 0x00000f18
-	 Idx     93 -> GlyphOffset 0x00000f48
-	 Idx     94 -> GlyphOffset 0x00000f88
-	 Idx     95 -> GlyphOffset 0x00000fb8
-	 Idx     96 -> GlyphOffset 0x00000ff8
-	 Idx     97 -> GlyphOffset 0x00001018
-	 Idx     98 -> GlyphOffset 0x00001048
-	 Idx     99 -> GlyphOffset 0x0000108c
-	 Idx    100 -> GlyphOffset 0x000010c8
-	 Idx    101 -> GlyphOffset 0x000010f8
-	 Idx    102 -> GlyphOffset 0x00001134
-	 Idx    103 -> GlyphOffset 0x00001188
-	 Idx    104 -> GlyphOffset 0x000011d0
-	 Idx    105 -> GlyphOffset 0x00001224
-	 Idx    106 -> GlyphOffset 0x0000125c
-	 Idx    107 -> GlyphOffset 0x0000127c
-	 Idx    108 -> GlyphOffset 0x000012ac
-	 Idx    109 -> GlyphOffset 0x000012fc
-	 Idx    110 -> GlyphOffset 0x0000131c
-	 Idx    111 -> GlyphOffset 0x0000135c
-	 Idx    112 -> GlyphOffset 0x0000138c
-	 Idx    113 -> GlyphOffset 0x000013c0
-	 Idx    114 -> GlyphOffset 0x000013fc
-	 Idx    115 -> GlyphOffset 0x00001448
-	 Idx    116 -> GlyphOffset 0x00001478
-	 Idx    117 -> GlyphOffset 0x000014a8
-	 Idx    118 -> GlyphOffset 0x000014f0
-	 Idx    119 -> GlyphOffset 0x00001520
-	 Idx    120 -> GlyphOffset 0x00001560
-	 Idx    121 -> GlyphOffset 0x000015a0
-	 Idx    122 -> GlyphOffset 0x00001600
-	 Idx    123 -> GlyphOffset 0x00001648
-	 Idx    124 -> GlyphOffset 0x00001678
-	 Idx    125 -> GlyphOffset 0x000016b8
-	 Idx    126 -> GlyphOffset 0x000016ec
-	 Idx    127 -> GlyphOffset 0x0000172c
-	 Idx    128 -> GlyphOffset 0x0000175c
-	 Ended at 0x0000175c
+	 Idx     60 -> GlyphOffset 0x000006e4
+	 Idx     61 -> GlyphOffset 0x00000714
+	 Idx     62 -> GlyphOffset 0x00000774
+	 Idx     63 -> GlyphOffset 0x000007a8
+	 Idx     64 -> GlyphOffset 0x00000808
+	 Idx     65 -> GlyphOffset 0x0000084c
+	 Idx     66 -> GlyphOffset 0x000008cc
+	 Idx     67 -> GlyphOffset 0x00000910
+	 Idx     68 -> GlyphOffset 0x00000964
+	 Idx     69 -> GlyphOffset 0x00000994
+	 Idx     70 -> GlyphOffset 0x000009d8
+	 Idx     71 -> GlyphOffset 0x00000a18
+	 Idx     72 -> GlyphOffset 0x00000a50
+	 Idx     73 -> GlyphOffset 0x00000a88
+	 Idx     74 -> GlyphOffset 0x00000ac8
+	 Idx     75 -> GlyphOffset 0x00000b08
+	 Idx     76 -> GlyphOffset 0x00000b38
+	 Idx     77 -> GlyphOffset 0x00000b88
+	 Idx     78 -> GlyphOffset 0x00000bb0
+	 Idx     79 -> GlyphOffset 0x00000bf0
+	 Idx     80 -> GlyphOffset 0x00000c20
+	 Idx     81 -> GlyphOffset 0x00000c54
+	 Idx     82 -> GlyphOffset 0x00000c90
+	 Idx     83 -> GlyphOffset 0x00000cdc
+	 Idx     84 -> GlyphOffset 0x00000d30
+	 Idx     85 -> GlyphOffset 0x00000d60
+	 Idx     86 -> GlyphOffset 0x00000d90
+	 Idx     87 -> GlyphOffset 0x00000dc0
+	 Idx     88 -> GlyphOffset 0x00000e00
+	 Idx     89 -> GlyphOffset 0x00000e40
+	 Idx     90 -> GlyphOffset 0x00000ea0
+	 Idx     91 -> GlyphOffset 0x00000ee0
+	 Idx     92 -> GlyphOffset 0x00000f10
+	 Idx     93 -> GlyphOffset 0x00000f40
+	 Idx     94 -> GlyphOffset 0x00000f80
+	 Idx     95 -> GlyphOffset 0x00000fb0
+	 Idx     96 -> GlyphOffset 0x00000ff0
+	 Idx     97 -> GlyphOffset 0x00001010
+	 Idx     98 -> GlyphOffset 0x00001040
+	 Idx     99 -> GlyphOffset 0x00001084
+	 Idx    100 -> GlyphOffset 0x000010c0
+	 Idx    101 -> GlyphOffset 0x000010f0
+	 Idx    102 -> GlyphOffset 0x0000112c
+	 Idx    103 -> GlyphOffset 0x00001180
+	 Idx    104 -> GlyphOffset 0x000011c8
+	 Idx    105 -> GlyphOffset 0x0000121c
+	 Idx    106 -> GlyphOffset 0x00001254
+	 Idx    107 -> GlyphOffset 0x00001274
+	 Idx    108 -> GlyphOffset 0x000012a4
+	 Idx    109 -> GlyphOffset 0x000012f4
+	 Idx    110 -> GlyphOffset 0x00001314
+	 Idx    111 -> GlyphOffset 0x00001354
+	 Idx    112 -> GlyphOffset 0x00001384
+	 Idx    113 -> GlyphOffset 0x000013b8
+	 Idx    114 -> GlyphOffset 0x000013f4
+	 Idx    115 -> GlyphOffset 0x00001440
+	 Idx    116 -> GlyphOffset 0x00001470
+	 Idx    117 -> GlyphOffset 0x000014a0
+	 Idx    118 -> GlyphOffset 0x000014e8
+	 Idx    119 -> GlyphOffset 0x00001518
+	 Idx    120 -> GlyphOffset 0x00001558
+	 Idx    121 -> GlyphOffset 0x00001598
+	 Idx    122 -> GlyphOffset 0x000015f8
+	 Idx    123 -> GlyphOffset 0x00001640
+	 Idx    124 -> GlyphOffset 0x00001670
+	 Idx    125 -> GlyphOffset 0x000016b0
+	 Idx    126 -> GlyphOffset 0x000016e4
+	 Idx    127 -> GlyphOffset 0x00001724
+	 Idx    128 -> GlyphOffset 0x00001754
+	 Ended at 0x00001754
 
 'maxp' Table - Maximum Profile
 ------------------------------
@@ -52834,9 +52834,9 @@ Glyph     58.
 Glyph     59.
 	 numberOfContours:	 2
 	 xMin:			 0
-	 yMin:			 100
+	 yMin:			 0
 	 xMax:			 100
-	 yMax:			 400
+	 yMax:			 300
 
 	 EndPoints
 	 ---------
@@ -52847,8 +52847,8 @@ Glyph     59.
 
 	 Flags
 	 -----
-	  0:        XDual                           On
-	  1: YDual  XDual           Y-Short         On
+	  0: YDual  XDual   Repeat  Y-Short         On
+	  1: YDual  XDual   Repeat  Y-Short         On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
@@ -52866,29 +52866,29 @@ Glyph     59.
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    350) -> Abs (      0,    350)
-	  1 Rel (      0,     50) -> Abs (      0,    400)
-	  2 Rel (     50,      0) -> Abs (     50,    400)
-	  3 Rel (     50,      0) -> Abs (    100,    400)
-	  4 Rel (      0,    -50) -> Abs (    100,    350)
-	  5 Rel (      0,    -50) -> Abs (    100,    300)
-	  6 Rel (    -50,      0) -> Abs (     50,    300)
-	  7 Rel (    -50,      0) -> Abs (      0,    300)
-	  8 Rel (      0,   -150) -> Abs (      0,    150)
-	  9 Rel (      0,     50) -> Abs (      0,    200)
-	 10 Rel (     50,      0) -> Abs (     50,    200)
-	 11 Rel (     50,      0) -> Abs (    100,    200)
-	 12 Rel (      0,    -50) -> Abs (    100,    150)
-	 13 Rel (      0,    -50) -> Abs (    100,    100)
-	 14 Rel (    -50,      0) -> Abs (     50,    100)
-	 15 Rel (    -50,      0) -> Abs (      0,    100)
+	  0 Rel (      0,    250) -> Abs (      0,    250)
+	  1 Rel (      0,     50) -> Abs (      0,    300)
+	  2 Rel (     50,      0) -> Abs (     50,    300)
+	  3 Rel (     50,      0) -> Abs (    100,    300)
+	  4 Rel (      0,    -50) -> Abs (    100,    250)
+	  5 Rel (      0,    -50) -> Abs (    100,    200)
+	  6 Rel (    -50,      0) -> Abs (     50,    200)
+	  7 Rel (    -50,      0) -> Abs (      0,    200)
+	  8 Rel (      0,   -150) -> Abs (      0,     50)
+	  9 Rel (      0,     50) -> Abs (      0,    100)
+	 10 Rel (     50,      0) -> Abs (     50,    100)
+	 11 Rel (     50,      0) -> Abs (    100,    100)
+	 12 Rel (      0,    -50) -> Abs (    100,     50)
+	 13 Rel (      0,    -50) -> Abs (    100,      0)
+	 14 Rel (    -50,      0) -> Abs (     50,      0)
+	 15 Rel (    -50,      0) -> Abs (      0,      0)
 
 Glyph     60.
 	 numberOfContours:	 2
 	 xMin:			 0
-	 yMin:			 0
+	 yMin:			 -100
 	 xMax:			 100
-	 yMax:			 400
+	 yMax:			 300
 
 	 EndPoints
 	 ---------
@@ -52899,8 +52899,8 @@ Glyph     60.
 
 	 Flags
 	 -----
-	  0:        XDual                           On
-	  1: YDual  XDual           Y-Short         On
+	  0: YDual  XDual   Repeat  Y-Short         On
+	  1: YDual  XDual   Repeat  Y-Short         On
 	  2: YDual  XDual   Repeat          X-Short On
 	  3: YDual  XDual   Repeat          X-Short On
 	  4:        XDual   Repeat  Y-Short         On
@@ -52918,22 +52918,22 @@ Glyph     60.
 
 	 Coordinates
 	 -----------
-	  0 Rel (      0,    350) -> Abs (      0,    350)
-	  1 Rel (      0,     50) -> Abs (      0,    400)
-	  2 Rel (     50,      0) -> Abs (     50,    400)
-	  3 Rel (     50,      0) -> Abs (    100,    400)
-	  4 Rel (      0,    -50) -> Abs (    100,    350)
-	  5 Rel (      0,    -50) -> Abs (    100,    300)
-	  6 Rel (    -50,      0) -> Abs (     50,    300)
-	  7 Rel (    -50,      0) -> Abs (      0,    300)
-	  8 Rel (      0,   -200) -> Abs (      0,    100)
-	  9 Rel (      0,    100) -> Abs (      0,    200)
-	 10 Rel (     50,      0) -> Abs (     50,    200)
-	 11 Rel (     50,      0) -> Abs (    100,    200)
-	 12 Rel (      0,   -100) -> Abs (    100,    100)
-	 13 Rel (      0,   -100) -> Abs (    100,      0)
-	 14 Rel (    -50,      0) -> Abs (     50,      0)
-	 15 Rel (    -50,      0) -> Abs (      0,      0)
+	  0 Rel (      0,    250) -> Abs (      0,    250)
+	  1 Rel (      0,     50) -> Abs (      0,    300)
+	  2 Rel (     50,      0) -> Abs (     50,    300)
+	  3 Rel (     50,      0) -> Abs (    100,    300)
+	  4 Rel (      0,    -50) -> Abs (    100,    250)
+	  5 Rel (      0,    -50) -> Abs (    100,    200)
+	  6 Rel (    -50,      0) -> Abs (     50,    200)
+	  7 Rel (    -50,      0) -> Abs (      0,    200)
+	  8 Rel (      0,   -200) -> Abs (      0,      0)
+	  9 Rel (      0,    100) -> Abs (      0,    100)
+	 10 Rel (     50,      0) -> Abs (     50,    100)
+	 11 Rel (     50,      0) -> Abs (    100,    100)
+	 12 Rel (      0,   -100) -> Abs (    100,      0)
+	 13 Rel (      0,   -100) -> Abs (    100,   -100)
+	 14 Rel (    -50,      0) -> Abs (     50,   -100)
+	 15 Rel (    -50,      0) -> Abs (      0,   -100)
 
 Glyph     61.
 	 numberOfContours:	 1

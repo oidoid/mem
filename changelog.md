@@ -4,7 +4,6 @@ Versions and bullets are arranged chronologically from latest to oldest.
 
 ## v6.1.0 (unreleased)
 
-- \[mem prop 5x6\] Raise ; and : to match =
 - \[build\] shish-kebab TypeScript filenames
 - \[docs\] Revise some comments
 - \[mem prop 5x6\] Fix q kerning
