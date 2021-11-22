@@ -4,9 +4,6 @@ Proportional and monospaced sans light pixel font family. See the
 **[demo](https://rndmem.com)** or [download the fonts](#fonts) as TTFs and
 sprite sheets. Developed in FontForge and Aseprite.
 
-
-
-
 ## Install
 
 ```bash
