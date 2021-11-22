@@ -4,42 +4,8 @@ Proportional and monospaced sans light pixel font family. See the
 **[demo](https://rndmem.com)** or [download the fonts](#fonts) as TTFs and
 sprite sheets. Developed in FontForge and Aseprite.
 
-## Table of Contents
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
-<!-- code_chunk_output -->
-
-- [Table of Contents](#table-of-contents)
-- [Install](#install)
-- [Files](#files)
-- [Fonts](#fonts)
-  - [mem 5x6](#mem-5x6)
-  - [mem 5x5](#mem-5x5)
-  - [mem 3x5](#mem-3x5)
-  - [mem 4x4](#mem-4x4)
-  - [mem mono 4x4](#mem-mono-4x4)
-  - [mem mono 3x3](#mem-mono-3x3)
-- [Font Metadata](#font-metadata)
-- [Aseprite Metadata](#aseprite-metadata)
-- [Known issues](#known-issues)
-- [Design Principles](#design-principles)
-  - [mem 5x6](#mem-5x6-1)
-- [Development](#development)
-  - [NPM scripts](#npm-scripts)
-  - [Tests](#tests)
-  - [Aseprite](#aseprite)
-  - [System Prerequisites](#system-prerequisites)
-  - [Image Diff](#image-diff)
-  - [Testing the TTF](#testing-the-ttf)
-- [Links](#links)
-  - [Alternatives](#alternatives)
-- [To-Do](#to-dotodomd)
-  - [References](#references)
-- [License](#license)
-  - [GPL-3.0-only](#gpl-30-only)
-
-<!-- /code_chunk_output -->
 
 ## Install
 
