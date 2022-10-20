@@ -113,13 +113,13 @@ See the [to-do](todo.md) for more issues.
 
 ### mem 5x6
 
-- Excellent high- and low-scale (compact) readability, smoothness (pixel clustering), and
-  visual consistency of the whole character set at the expense of form adherence
-  for individual characters. For example, the lowercase o could be rounder but
-  this comes at the cost of making the font noisier and it is very legible
-  square rather than round. As a counterexample, the lowercase g could be
-  smoother but then it looks too similar to the lowercase o so some exceptions
-  are made.
+- Excellent high- and low-scale (compact) readability, smoothness (pixel
+  clustering), and visual consistency of the whole character set at the expense
+  of form adherence for individual characters. For example, the lowercase o
+  could be rounder but this comes at the cost of making the font noisier and it
+  is very legible square rather than round. As a counterexample, the lowercase g
+  could be smoother but then it looks too similar to the lowercase o so some
+  exceptions are made.
 - Favor 3x5 pixels for every capital character.
 - Favor 3x4 pixels for every lowercase character.
 - Every numeric is the same width and height, 3x5 pixels, so that countdowns
@@ -211,20 +211,21 @@ Aseprite which references the TTF files directly.
 
 ## License
 
-© Stephen Niedzielski.
+© oidoid.
 
-### GPL-3.0-only
+### AGPL-3.0-only
 
 This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation, version 3.
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the GNU General Public License for more details.
+PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with
-this program. If not, see <https://www.gnu.org/licenses/>.
+You should have received a copy of the GNU Affero General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ```
 ╭>°╮┬┌─╮╭─╮┬┌─╮

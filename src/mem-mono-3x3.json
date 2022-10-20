@@ -9,6 +9,6 @@
   "defaultKerning": 1,
   "whitespaceKerning": 0,
   "endOfLineKerning": 0,
-  "letterWidth": {},
-  "defaultLetterWidth": 3
+  "charWidth": {},
+  "defaultCharWidth": 3
 }

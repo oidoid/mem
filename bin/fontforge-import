@@ -1,5 +1,4 @@
-#!/usr/bin/env sh
-''''exec fontforge -quiet -script "$0" "$@" #'''
+#!/usr/bin/env -S fontforge -quiet -script
 
 import fontforge
 import json
@@ -20,6 +19,11 @@ def main(sfd, metaFilename, aseprite, svgFilenames):
   font.familyname = meta['name']
   font.fontname = meta['id']
   font.fullname = meta['name']
+  if aseprite:
+    font.familyname = ' (Aseprite)'
+    font.fontname += '-aseprite'
+    font.fullname += ' (Aseprite)'
+
   font.copyright = '© oidoid'
   # Suppress time-based comment and unique ID that hinder build determinism.
   font.comment = None
@@ -86,15 +90,15 @@ def kernGlyph(meta, glyph, aseprite):
     glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(key), ems)
 
 def glyphWidth(meta, char):
-  return letterWidth(meta, char) * pixels_to_ems
+  return charWidth(meta, char) * pixels_to_ems
 
-def letterWidth(meta, char):
-  return meta['letterWidth'].get(char, meta['defaultLetterWidth'])
+def charWidth(meta, char):
+  return meta['charWidth'].get(char, meta['defaultCharWidth'])
 
 # Accepts a filename in the following format mem-fontxxx.svg where xxx is the
 # code without padding.
 def filenameToCharCode(filename):
-  hex = re.sub('dist/char/mem-(?:prop|mono)-\dx\d-([0-9a-f]+)-10x\.svg', r'\1', filename)
+  hex = re.sub('.*dist/char/mem-(?:prop|mono)-\dx\d--([0-9a-f]{2})-10x\.svg', r'\1', filename)
   return int(hex, 16)
 
 def readJSON(filename):

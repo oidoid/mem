@@ -522,7 +522,7 @@
   "defaultKerning": 1,
   "whitespaceKerning": -1,
   "endOfLineKerning": 0,
-  "letterWidth": {
+  "charWidth": {
     " ": 4,
     "!": 1,
     "#": 5,
@@ -548,5 +548,5 @@
     "w": 5,
     "|": 1
   },
-  "defaultLetterWidth": 3
+  "defaultCharWidth": 3
 }

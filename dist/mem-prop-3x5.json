@@ -43,7 +43,7 @@
   "defaultKerning": 1,
   "whitespaceKerning": 0,
   "endOfLineKerning": 0,
-  "letterWidth": {
+  "charWidth": {
     "\n": 0,
     "!": 1,
     "'": 1,
@@ -62,5 +62,5 @@
     "r": 2,
     "|": 1
   },
-  "defaultLetterWidth": 3
+  "defaultCharWidth": 3
 }

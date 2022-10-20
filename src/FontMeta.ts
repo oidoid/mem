@@ -1,18 +1,19 @@
-interface FontMeta {
+/** Font metrics and detail metadata. */
+export interface FontMeta<T extends number = number> {
   /**
    * PostScript font name less than 63 characters and does not contain any of
-   * `(){}[]<>%/ `.
+   * `(){}[]<>%/ `. Eg, "mem-mono-3x3".
    */
-  readonly id: string
+  readonly id: string;
 
-  /** The human readable font name. */
-  readonly name: string
+  /** The human readable font name. Eg, "mem mono 3x3". */
+  readonly name: string;
 
   /**
    * The maximum width of any character in the font in pixels. Usually present
    * in font name. For example, the max width of "mem prop 5x6" is five pixels.
    */
-  readonly cellWidth: number
+  readonly cellWidth: T;
 
   /**
    * The maximum height of any character in the font in pixels, including
@@ -20,22 +21,22 @@ interface FontMeta {
    * max height of "mem prop 5x6" is six pixels. The line height is
    * `cellHeight + leading` or seven pixels.
    */
-  readonly cellHeight: number
+  readonly cellHeight: T;
 
   /** Distance between lines in pixels. */
-  readonly leading: number
+  readonly leading: number;
 
   /**
    * The font's baseline as measured in pixels from the bottom of the cell
    * (`cellHeight`). When nonzero, this is the space available for descenders.
    */
-  readonly baseline: number
+  readonly baseline: T;
 
   /**
-   * Custom distance between letters in pixels. The key is two characters and
-   * the value may be negative.
+   * Variable distance between characters in pixels. The key is two characters
+   * and the value may be negative.
    */
-  readonly kerning: Readonly<Record<string, number>>
+  readonly kerning: Readonly<{ [pair: string]: T }>;
 
   /**
    * Character-to-character kerning pair widths in pixels. When a pair is not
@@ -43,25 +44,25 @@ interface FontMeta {
    * expression `.$`, `whitespaceKerning` is used when the pair matches the
    * regular expression `.\s`, otherwise `defaultKerning` is used.
    */
-  readonly defaultKerning: number
+  readonly defaultKerning: T;
 
   /**
    * Kerning for when *either* the left or right character is a space or tab.
    */
-  readonly whitespaceKerning: number
+  readonly whitespaceKerning: T;
 
   /** Kerning for when the right character is a newline. */
-  readonly endOfLineKerning: number
+  readonly endOfLineKerning: T;
 
   /**
    * Character width in pixels. When a character is not present,
-   * `defaultLetterWidth` is used.
+   * `defaultCharWidth` is used.
    */
-  readonly letterWidth: Readonly<Record<string, number>>
+  readonly charWidth: Readonly<{ [char: string]: T }>;
 
   /**
-   * Character width in pixels. When a character is not present,
-   * `defaultLetterWidth` is used.
+   * Character width in pixels. When a character is not present in `charWidth`,
+   * `defaultCharWidth` is used.
    */
-  readonly defaultLetterWidth: number
+  readonly defaultCharWidth: T;
 }

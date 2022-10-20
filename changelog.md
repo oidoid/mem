@@ -2,8 +2,9 @@
 
 Versions and bullets are arranged chronologically from latest to oldest.
 
-## v6.1.0 (unreleased)
+## v7.0.0 (unreleased)
 
+- Migrate to Deno
 - \[build\] shish-kebab TypeScript filenames
 - \[docs\] Revise some comments
 - \[mem prop 5x6\] Fix q kerning
@@ -17,7 +18,8 @@ Versions and bullets are arranged chronologically from latest to oldest.
 - \[docs\] Rename oddoid to oidoid
 - \[demo\]\[fix\] Fix link
 - \[demo\] Add Dracula example
-- \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten semicolon, lower colon and semicolon
+- \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten semicolon, lower
+  colon and semicolon
 - \[docs\] Improve download link specificity
 - \[mem prop 5x6\]\[mem prop 5x5\]\[mem prop 3x5\] straighten comma
 - \[build\] Export TypeScript definitions
@@ -61,7 +63,7 @@ Versions and bullets are arranged chronologically from latest to oldest.
 
 - \[dev\]\[fix\] Chrome font rendering in demo
 - \[dev\] overhaul demo
-- \[mem prop 5x6\]\[update\] smooth / and \
+- \[mem prop 5x6\]\[update\] smooth / and \\
 - \[dev\]\[fix\] NPM keywords
 - \[dev\] add GitHub banner
 - \[mem prop 5x6\]\[update\] add CP437 glyphs; raise serif on 1; add leg to R;
