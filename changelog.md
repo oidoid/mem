@@ -2,7 +2,7 @@
 
 Versions and bullets are arranged chronologically from latest to oldest.
 
-## v7.0.0 (unreleased)
+## v7.0.0
 
 - Migrate to Deno
 - \[build\] shish-kebab TypeScript filenames

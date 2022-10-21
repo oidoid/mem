@@ -6,9 +6,8 @@ sprite sheets. Developed in FontForge and Aseprite.
 
 ## Install
 
-```bash
-npm i --save-prefix= mem-font
-```
+mem is a Deno TypeScript project. Add `https://deno.land/x/mem/mod.ts` to your
+import modules and reference the `https://deno.land/x/mem/mods.json` import map.
 
 See the [changelog](changelog.md) for release notes.
 
