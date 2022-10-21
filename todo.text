@@ -1,3 +1,4 @@
+Figure out how date is creeping into the build artifacts.
 Move website to subdirectory.
 
 Clean up the readme. Summarize what's actually available, what works, how (e.g., 7px tall in Aseprite but no kerning or Gimp 7px with kerning). Add that real precise font info.
