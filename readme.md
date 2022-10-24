@@ -40,49 +40,37 @@ with tie-breakers going to greatest width then proportional font.
 
 ### mem 5x6
 
-<a href="dist/mem-prop-5x6-10x-sheet.png">
-  <img alt="mem 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x-sheet.png" width="560" height="320">
-</a>
+![mem 5x6 10x spritesheet](dist/mem-prop-5x6-10x-sheet.png)
 
 **[Download](dist/mem-prop-5x6.ttf)**
 
 ### mem 5x5
 
-<a href="dist/mem-prop-5x5-10x-sheet.png">
-  <img alt="mem 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x-sheet.png" width="560" height="280">
-</a>
+![mem 5x5 10x spritesheet](dist/mem-prop-5x5-10x-sheet.png)
 
 **[Download](dist/mem-prop-5x5.ttf)**
 
 ### mem 3x5
 
-<a href="dist/mem-prop-3x5-10x-sheet.png">
-  <img alt="mem 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x-sheet.png" width="400" height="280">
-</a>
+![mem 3x5 10x spritesheet](dist/mem-prop-3x5-10x-sheet.png)
 
 **[Download](dist/mem-prop-3x5.ttf)**
 
 ### mem 4x4
 
-<a href="dist/mem-prop-4x4-10x-sheet.png">
-  <img alt="mem 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x-sheet.png" width="480" height="240">
-</a>
+![mem 4x4 10x spritesheet](dist/mem-prop-4x4-10x-sheet.png)
 
 **[Download](dist/mem-prop-4x4.ttf)**
 
 ### mem mono 4x4
 
-<a href="dist/mem-mono-4x4-10x-sheet.png">
-  <img alt="mem mono 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
-</a>
+![mem mono 4x4 10x spritesheet](dist/mem-mono-4x4-10x-sheet.png)
 
 **[Download](dist/mem-mono-4x4.ttf)**
 
 ### mem mono 3x3
 
-<a href="dist/mem-mono-3x3-10x-sheet.png">
-  <img alt="mem mono 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
-</a>
+![mem mono 3x3 10x spritesheet](dist/mem-mono-3x3-10x-sheet.png)
 
 **[Download](dist/mem-mono-3x3.ttf)**
 
@@ -130,40 +118,10 @@ See the [to-do](todo.md) for more issues.
 
 ## Development
 
-### NPM scripts
-
-The development workflow is based around the `start` NPM script:
-
-```lang=sh
-npm -s start
-```
-
-However, you must manually call `npm -s run build` to see any font changes.
-
-- `install` / `i`: install project dependencies.
-- `test` / `t`: run all tests. See [tests](#tests).
-- `run format`: apply lint fixes automatically where available.
-- `version`: increment the version and publish a new release. See
-  [versioning](#versioning).
-
-💡 Tip: add `-s` to omit verbose command echoing. E.g., `npm -s i` or
-`npm -s run format`.
-
-Undocumented scripts are considered internal utilities and not expressly
-supported workflows.
-
-### Tests
-
-- Font metadata JSON is type-checked with TypeScript to ensure it conforms to
-  the shape expected.
-- Additional properties can leak in but the advertised API must be true.
-
 ### Aseprite
 
 Aseprite is open-source and excellent for pixel graphics. A big chunk of this
 repo is making a workflow from Aseprite through FontForge.
-
-GIMP was used up through v4.0.0 but I like Aseprite a lot better for pixeling.
 
 ### System Prerequisites
 
@@ -171,8 +129,9 @@ GIMP was used up through v4.0.0 but I like Aseprite a lot better for pixeling.
 - [FontForge](https://fontforge.org) v20190801
 - [Potrace](http://potrace.sourceforge.net) v1.16
 - True Type Font File Dumper (ttfdump) v2019.20190605.51237-3build2
+- [Watchexec](https://watchexec.github.io)
 
-You can install the latter three on Ubuntu with
+You can install the first three on Debian with
 `sudo apt install fontforge potrace texlive-binaries`.
 
 ### Image Diff
@@ -183,7 +142,7 @@ configuration. One possible setup is described in
 
 ### Testing the TTF
 
-On Ubuntu, symlink the TTFs in dist to ~/.fonts. You may need to regenerate your
+On Debian, symlink the TTFs in dist to ~/.fonts. You may need to regenerate your
 font cache depending on the change made: `fc-cache -f -v`. The latter seems
 necessary for GIMP (and takes effect on next any text layout change) but not
 Aseprite which references the TTF files directly.

@@ -2,6 +2,10 @@
 
 Versions and bullets are arranged chronologically from latest to oldest.
 
+## v7.0.4
+
+- \[docs\] Rework readme for deno.land/x
+
 ## v7.0.3
 
 - \[build\] Ignore ttfdumps for Deno size limits
