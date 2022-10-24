@@ -296,7 +296,6 @@ textarea.demo-box {
   border-color: var(--border-color-control-panel--focus);
 }
 
-/* prettier-ignore */
 #mem-prop-5x6-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-5x6-radio'],
 #mem-prop-5x5-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-5x5-radio'],
 #mem-prop-3x5-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-3x5-radio'],
