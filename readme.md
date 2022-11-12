@@ -94,7 +94,7 @@ Additional information spritesheet interpretation. See the
 - [Live Server](https://github.com/tapio/live-server) now appears unmaintained.
   Caching must be disabled via browser Dev Tools for changes to appear.
 
-See the [to-do](todo.md) for more issues.
+See the [to-do](to-do.text) for more issues.
 
 ## Design Principles
 
