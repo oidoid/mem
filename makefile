@@ -40,7 +40,7 @@ build: \
 
 .PHONY: build\:watch
 build\:watch:
-  watchexec -i dist '$(MAKE) --silent build'
+  watchexec -i dist '$(make) build'
 
 .PHONY: dev
 dev: build\:watch dev\:serve

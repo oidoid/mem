@@ -118,6 +118,19 @@ See the [to-do](to-do.text) for more issues.
 
 ## Development
 
+### Make targets
+
+You must install [oidlib](https://github.com/oidoid/oidlib) first.
+
+The development workflow is based around the `dev` make target:
+
+```lang=sh
+make dev
+```
+
+- **`dev`**: build, serve, and reload changes on-the-fly.
+- **`build`**: generate all artifacts.
+
 ### Aseprite
 
 Aseprite is open-source and excellent for pixel graphics. A big chunk of this
