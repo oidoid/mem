@@ -24,7 +24,7 @@ sixteens := 0 1 2 3 4 5 6 7
 sequence := $(foreach sixteen,$(sixteens),$(foreach unit,$(units),$(sixteen)$(unit)))
 # $1 font stem like mem-prop-5x6
 # $2 extension like bmp or svg
-get_char_files = $(sequence:%=$(char_dir)/$(1)--%-10x.$(2))
+get_char_files = $(sequence:%=$(char_dir)/$(1)-%-10x.$(2))
 fonts := $(aseprite_files:$(src_dir)/%.aseprite=%)
 
 .PHONY: build
@@ -146,15 +146,25 @@ $(char_dir)/%.svg: $(char_dir)/%.bmp | $(char_dir)/
 #   otherwise.
 # - The bmps use the index 0 background color (without transparency) so that
 #   should be white for potrace.
+#
+# This is regrettably tricky. Given a font of mem-mono-4x4:
+# - Output files from Aseprite by tag like
+#   dist/char/mem-mono-4x4-MemMono4x4-3a-10x.bmp.
+# - Glob for dist/char/mem-mono-4x4-*-10x.bmp.
+# - Replace the tag prefix dist/char/mem-mono-4x4-MemMono4x4- with
+#   dist/char/mem-mono-4x4.
 # $1 font (eg, mem-prop-5x6)
 define 10x_bmp_char_template =
 $$(call get_char_files,$(1),bmp)&: $$(src_dir)/$(1).aseprite | $$(char_dir)/
   $$(aseprite) \
-    --filename-format '$$(char_dir)/{tag}-10x.bmp' \
+    --filename-format '$$(char_dir)/$(1)-{tag}-10x.bmp' \
     --inner-padding 10 \
     '$$<' \
     --scale 10 \
     --save-as /dev/null
+  for file in $$(char_dir)/$(1)-*-10x.bmp; do
+    $(mv) "$$$$file" "$$(char_dir)/$(1)$$$${file#$$(char_dir)/$(1)-Mem???????}"
+  done
 endef
 $(foreach font,$(fonts),$(eval $(call 10x_bmp_char_template,$(font))))
 

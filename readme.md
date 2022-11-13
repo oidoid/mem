@@ -120,7 +120,7 @@ See the [to-do](to-do.text) for more issues.
 
 ### Make targets
 
-You must install [oidlib](https://github.com/oidoid/oidlib) first.
+You must install oidlib first, part of oidsdk.
 
 The development workflow is based around the `dev` make target:
 
@@ -130,6 +130,12 @@ make dev
 
 - **`dev`**: build, serve, and reload changes on-the-fly.
 - **`build`**: generate all artifacts.
+
+💡 Tip: add `-s` to omit verbose command echoing. E.g., `npm -s i` or
+`npm -s run format`.
+
+Undocumented targets are considered internal utilities and not expressly
+supported workflows.
 
 ### Aseprite
 

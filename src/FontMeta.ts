@@ -2,7 +2,7 @@
 export interface FontMeta<T extends number = number> {
   /**
    * PostScript font name less than 63 characters and does not contain any of
-   * `(){}[]<>%/ `. Eg, "mem-mono-3x3".
+   * `(){}[]<>%/ `. Eg, "MemMono3x3".
    */
   readonly id: string;
 

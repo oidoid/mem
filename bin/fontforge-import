@@ -21,7 +21,7 @@ def main(sfd, metaFilename, aseprite, svgFilenames):
   font.fullname = meta['name']
   if aseprite:
     font.familyname = ' (Aseprite)'
-    font.fontname += '-aseprite'
+    font.fontname += 'Aseprite'
     font.fullname += ' (Aseprite)'
 
   font.copyright = '© oidoid'
@@ -98,7 +98,7 @@ def charWidth(meta, char):
 # Accepts a filename in the following format mem-fontxxx.svg where xxx is the
 # code without padding.
 def filenameToCharCode(filename):
-  hex = re.sub('.*dist/char/mem-(?:prop|mono)-\dx\d--([0-9a-f]{2})-10x\.svg', r'\1', filename)
+  hex = re.sub('.*dist/char/mem-(?:prop|mono)-\dx\d-([0-9a-f]{2})-10x\.svg', r'\1', filename)
   return int(hex, 16)
 
 def readJSON(filename):

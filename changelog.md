@@ -2,6 +2,10 @@
 
 Versions and bullets are arranged chronologically from latest to oldest.
 
+## v8.0.0
+
+- \[build\] Use TitleCase tags.
+
 ## v7.0.4
 
 - \[docs\] Rework readme for deno.land/x
