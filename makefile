@@ -68,12 +68,12 @@ $(dist_dir)/%.ttfdump: $(dist_dir)/%.ttf | $(dist_dir)/
 # Generate a FontForge font from the SVGs.
 # $1 font
 define sfd_template =
-$$(dist_dir)/$(1).sfd: $$(call get_char_files,$(1),svg) | $$(dist_dir)/
+$$(dist_dir)/$(1).sfd: $$(call get_char_files,$(1),svg) package.json | $$(dist_dir)/
   bin/fontforge-import \
     '$$@' \
     '$$(src_dir)/$(1).json' \
     False \
-    $$^ 2> /dev/null
+    $$(call get_char_files,$(1),svg) 2> /dev/null
 
   # Strip the creation and modification times for repeatable builds.
   sed -ri 's%(Creation|Modification)Time: [0-9]+%\1Time: 0%' '$$@'
@@ -82,12 +82,12 @@ $(foreach font,$(fonts),$(eval $(call sfd_template,$(font))))
 
 # $1 font
 define sfd_aseprite_template =
-$$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) | $$(dist_dir)/
+$$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) package.json | $$(dist_dir)/
   bin/fontforge-import \
     '$$@' \
     '$$(src_dir)/$(1).json' \
     True \
-    $$^ 2> /dev/null
+    $$(call get_char_files,$(1),svg) 2> /dev/null
   sed -ri 's%(Creation|Modification)Time: [0-9]+%\1Time: 0%' '$$@'
 endef
 $(foreach font,$(fonts),$(eval $(call sfd_aseprite_template,$(font))))
