@@ -44,7 +44,7 @@ bundle: | $(dist_dir)/
   $(deno) bundle --config='$(deno_config)' mod.ts '$(dist_dir)/mem.js'
 
 .PHONY: watch\:build
-watch\:build:; watchexec --ignore='*/dist/*' '$(make) build'
+watch\:build:; watchexec --ignore='*/$(dist_dir)/*' '$(make) build'
 
 .PHONY: watch
 watch: watch\:build serve
