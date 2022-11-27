@@ -29,6 +29,7 @@ fonts := $(aseprite_files:$(src_dir)/%.aseprite=%)
 
 .PHONY: build
 build: \
+  bundle \
   $(ttf_files) \
   $(ttfdump_files) \
   $(sfd_files) \
@@ -38,16 +39,27 @@ build: \
   $(10x_sheet_json_files) \
   $(dist_metafont_files)
 
-.PHONY: build\:watch
-build\:watch:
-  watchexec -i dist '$(make) build'
+.PHONY: bundle
+bundle: | $(dist_dir)/
+  $(deno) bundle --config='$(deno_config)' mod.ts '$(dist_dir)/mem.js'
 
-.PHONY: dev
-dev: build\:watch dev\:serve
+.PHONY: watch\:build
+watch\:build:; watchexec -i dist '$(make) build'
 
-.PHONY: dev\:serve
-dev\:serve: | $(dist_dir)/
-  $(live-server)
+.PHONY: watch
+watch: watch\:build serve
+
+.PHONY: serve
+serve: | $(dist_dir)/; $(live-server)
+
+.PHONY: test
+test: test\:format test\:lint build
+
+.PHONY: test\:format
+test\:format:; $(deno) fmt --check --config='$(deno_config)'
+
+.PHONY: test\:lint
+test\:lint:; $(deno) lint --config='$(deno_config)' $(if $(value v),,--quiet)
 
 # Generate a TrueType font.
 # $1 font

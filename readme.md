@@ -82,7 +82,7 @@ metrics.
 ## Aseprite Metadata
 
 Additional information spritesheet interpretation. See the
-[aseprite-atlas definition](https://github.com/oidoid/aseprite-atlas/blob/master/src/types/Aseprite.ts).
+[atlas-pack definition](https://github.com/oidoid/atlas-pack/blob/master/src/types/Aseprite.ts).
 
 ## Known issues
 
@@ -122,17 +122,14 @@ See the [to-do](to-do.text) for more issues.
 
 You must install oidlib first, part of oidsdk.
 
-The development workflow is based around the `dev` make target:
+The development workflow is based around the `watch` make target:
 
 ```lang=sh
-make dev
+make watch
 ```
 
-- **`dev`**: build, serve, and reload changes on-the-fly.
+- **`watch`**: build, serve, and reload changes on-the-fly.
 - **`build`**: generate all artifacts.
-
-💡 Tip: add `-s` to omit verbose command echoing. E.g., `npm -s i` or
-`npm -s run format`.
 
 Undocumented targets are considered internal utilities and not expressly
 supported workflows.
