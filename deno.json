@@ -17,5 +17,6 @@
     "files": { "exclude": ["dist"] },
     "rules": { "exclude": ["no-empty-interface", "no-namespace"] }
   },
+  "lock": false,
   "test": { "files": { "exclude": ["dist"] } }
 }
