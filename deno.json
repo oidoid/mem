@@ -15,7 +15,9 @@
   "importMap": "mods.json",
   "lint": {
     "files": { "exclude": ["dist"] },
-    "rules": { "exclude": ["no-empty-interface", "no-namespace"] }
+    "rules": {
+      "exclude": ["no-empty-interface", "no-inferrable-types", "no-namespace"]
+    }
   },
   "lock": false,
   "test": { "files": { "exclude": ["dist"] } }
