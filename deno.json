@@ -10,7 +10,7 @@
   },
   "fmt": {
     "files": { "exclude": ["dist"] },
-    "options": { "singleQuote": true }
+    "options": { "semiColons": false, "singleQuote": true }
   },
   "importMap": "mods.json",
   "lint": {
