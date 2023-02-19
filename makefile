@@ -27,6 +27,8 @@ sequence := $(foreach sixteen,$(sixteens),$(foreach unit,$(units),$(sixteen)$(un
 get_char_files = $(sequence:%=$(char_dir)/$(1)-%-10x.$(2))
 fonts := $(aseprite_files:$(src_dir)/%.aseprite=%)
 
+format_args ?=
+
 .PHONY: build
 build: \
   bundle \
@@ -52,11 +54,11 @@ watch: watch\:build serve
 .PHONY: serve
 serve: | $(dist_dir)/; $(live-server)
 
-.PHONY: test
-test: test\:format test\:lint build
-
 .PHONY: test\:format
-test\:format:; $(deno) fmt --check --config='$(deno_config)'
+test\:format: format_args += --check
+
+.PHONY: format
+format:; $(deno) fmt --config='$(deno_config)' $(format_args)
 
 .PHONY: test\:lint
 test\:lint:; $(deno) lint --config='$(deno_config)' $(if $(value v),,--quiet)
