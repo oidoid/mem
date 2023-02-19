@@ -45,23 +45,23 @@ build: \
 bundle: | $(dist_dir)/
   $(deno) bundle --config='$(deno_config)' mod.ts '$(dist_dir)/mem.js'
 
-.PHONY: watch\:build
-watch\:build:; watchexec --ignore='*/$(dist_dir)/*' '$(make) build'
+.PHONY: watch-build
+watch-build:; watchexec --ignore='*/$(dist_dir)/*' '$(make) build'
 
 .PHONY: watch
-watch: watch\:build serve
+watch: watch-build serve
 
 .PHONY: serve
 serve: | $(dist_dir)/; $(live-server)
 
-.PHONY: test\:format
-test\:format: format_args += --check
+.PHONY: test-format
+test-format: format_args += --check
 
 .PHONY: format
 format:; $(deno) fmt --config='$(deno_config)' $(format_args)
 
-.PHONY: test\:lint
-test\:lint:; $(deno) lint --config='$(deno_config)' $(if $(value v),,--quiet)
+.PHONY: test-lint
+test-lint:; $(deno) lint --config='$(deno_config)' $(if $(value v),,--quiet)
 
 # Generate a TrueType font.
 # $1 font
