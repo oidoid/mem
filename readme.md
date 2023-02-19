@@ -120,7 +120,7 @@ See the [to-do](to-do.text) for more issues.
 
 ### Make targets
 
-You must install oidlib first, part of oidsdk.
+You must install ooz first, part of oidkit.
 
 The development workflow is based around the `watch` make target:
 
