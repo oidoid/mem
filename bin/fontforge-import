@@ -21,7 +21,7 @@ def main(sfd, metaFilename, aseprite, svgFilenames):
   font.fullname = meta['name']
   if aseprite:
     font.familyname = ' (Aseprite)'
-    font.fontname += 'Aseprite'
+    font.fontname += '-aseprite'
     font.fullname += ' (Aseprite)'
 
   font.copyright = '© oidoid'
