@@ -54,6 +54,9 @@ watch: watch-build serve
 .PHONY: serve
 serve: | $(dist_dir)/; $(live-server)
 
+.PHONY: test
+test: test-format test-lint build
+
 .PHONY: test-format
 test-format: format_args += --check
 
