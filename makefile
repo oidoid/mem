@@ -119,6 +119,7 @@ $(dist_dir)/%.json: $(src_dir)/%.json | $(dist_dir)/
 # - Characters are each padded by 1 pixel.
 $(sheet_dir)/%-sheet.png $(sheet_dir)/%-sheet.json&: $(src_dir)/%.aseprite | $(sheet_dir)/
   $(aseprite) \
+    --filename-format='{title}--{tag}--{frame}' \
     --list-tags \
     --inner-padding 1 \
     --sheet-pack \
@@ -127,6 +128,7 @@ $(sheet_dir)/%-sheet.png $(sheet_dir)/%-sheet.json&: $(src_dir)/%.aseprite | $(s
     --data '$(sheet_dir)/$*-sheet.json' \
     --sheet-columns 16 \
     --sheet-rows 16 \
+    --tagname-format='{title}--{tag}' \
     '$<'
 
 # Render a 10x spritesheet PNG and its Aseprite metadata JSON.
@@ -136,6 +138,7 @@ $(sheet_dir)/%-sheet.png $(sheet_dir)/%-sheet.json&: $(src_dir)/%.aseprite | $(s
 # - All padding is 10x to match the rendering scale.
 $(sheet_dir)/%-10x-sheet.png $(sheet_dir)/%-10x-sheet.json&: $(src_dir)/%.aseprite | $(sheet_dir)/
   $(aseprite) \
+    --filename-format='{title}--{tag}--{frame}' \
     --list-tags \
     --inner-padding 10 \
     --sheet-pack \
@@ -144,6 +147,7 @@ $(sheet_dir)/%-10x-sheet.png $(sheet_dir)/%-10x-sheet.json&: $(src_dir)/%.asepri
     --data '$(sheet_dir)/$*-10x-sheet.json' \
     --sheet-columns 16 \
     --sheet-rows 16 \
+    --tagname-format='{title}--{tag}' \
     '$<' \
     --scale 10
 
@@ -165,8 +169,6 @@ $(char_dir)/%.svg: $(char_dir)/%.bmp | $(char_dir)/
 # - Output files from Aseprite by tag like
 #   dist/char/mem-mono-4x4-MemMono4x4-3a-10x.bmp.
 # - Glob for dist/char/mem-mono-4x4-*-10x.bmp.
-# - Replace the tag prefix dist/char/mem-mono-4x4-MemMono4x4- with
-#   dist/char/mem-mono-4x4.
 # $1 font (eg, mem-prop-5x6)
 define 10x_bmp_char_template =
 $$(call get_char_files,$(1),bmp)&: $$(src_dir)/$(1).aseprite | $$(char_dir)/
@@ -175,10 +177,8 @@ $$(call get_char_files,$(1),bmp)&: $$(src_dir)/$(1).aseprite | $$(char_dir)/
     --inner-padding 10 \
     '$$<' \
     --scale 10 \
-    --save-as /dev/null
-  for file in $$(char_dir)/$(1)-*-10x.bmp; do
-    $(mv) "$$$$file" "$$(char_dir)/$(1)$$$${file#$$(char_dir)/$(1)-Mem???????}"
-  done
+    --save-as /dev/null \
+    --tagname-format='{title}--{tag}'
 endef
 $(foreach font,$(fonts),$(eval $(call 10x_bmp_char_template,$(font))))
 

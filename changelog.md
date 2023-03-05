@@ -2,6 +2,10 @@
 
 Versions and bullets are arranged chronologically from latest to oldest.
 
+## v9.0.0
+
+- \[build\] Revise Aseprite tag format
+
 ## v8.0.2
 
 - \[build\] Add TypeScript build recipes; rename dev recipe to watch.
