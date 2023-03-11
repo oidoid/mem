@@ -85,7 +85,7 @@ $(dist_dir)/%.ttfdump: $(dist_dir)/%.ttf | $(dist_dir)/
 # Generate a FontForge font from the SVGs.
 # $1 font
 define sfd_template =
-$$(dist_dir)/$(1).sfd: $$(call get_char_files,$(1),svg) package.json | $$(dist_dir)/
+$$(dist_dir)/$(1).sfd: $$(call get_char_files,$(1),svg) deno.json | $$(dist_dir)/
   bin/fontforge-import \
     '$$@' \
     '$$(src_dir)/$(1).json' \
@@ -99,7 +99,7 @@ $(foreach font,$(fonts),$(eval $(call sfd_template,$(font))))
 
 # $1 font
 define sfd_aseprite_template =
-$$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) package.json | $$(dist_dir)/
+$$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) deno.json | $$(dist_dir)/
   bin/fontforge-import \
     '$$@' \
     '$$(src_dir)/$(1).json' \

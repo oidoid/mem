@@ -1,5 +1,4 @@
 {
-  // https://deno.land/manual@main/typescript/configuration
   "compilerOptions": {
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
@@ -12,7 +11,7 @@
     "files": { "exclude": ["dist"] },
     "options": { "semiColons": false, "singleQuote": true }
   },
-  "importMap": "mods.json",
+  "imports": { "@/mem": "./mod.ts" },
   "lint": {
     "files": { "exclude": ["dist"] },
     "rules": {
@@ -20,5 +19,7 @@
     }
   },
   "lock": false,
-  "test": { "files": { "exclude": ["dist"] } }
+  "name": "mem",
+  "test": { "files": { "exclude": ["dist"] } },
+  "version": "9.0.0"
 }

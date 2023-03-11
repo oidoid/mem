@@ -11,7 +11,7 @@ pixels_to_ems = 100
 
 def main(sfd, metaFilename, aseprite, svgFilenames):
   meta = readJSON(metaFilename)
-  package = readJSON('package.json')
+  package = readJSON('deno.json')
 
   font = fontforge.font()
 
