@@ -15,7 +15,12 @@
   "lint": {
     "files": { "exclude": ["dist"] },
     "rules": {
-      "exclude": ["no-empty-interface", "no-inferrable-types", "no-namespace"]
+      "exclude": [
+        "no-empty-interface",
+        "no-misused-new",
+        "no-inferrable-types",
+        "no-namespace"
+      ]
     }
   },
   "lock": false,
