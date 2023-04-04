@@ -124,13 +124,13 @@ $(sheet_dir)/%-sheet.png $(sheet_dir)/%-sheet.json&: $(src_dir)/%.aseprite | $(s
   $(aseprite) \
     --filename-format='{title}--{tag}--{frame}' \
     --list-tags \
-    --inner-padding 1 \
+    --inner-padding=1 \
     --sheet-pack \
-    --sheet-type rows \
-    --sheet '$(sheet_dir)/$*-sheet.png' \
-    --data '$(sheet_dir)/$*-sheet.json' \
-    --sheet-columns 16 \
-    --sheet-rows 16 \
+    --sheet-type=rows \
+    --sheet='$(sheet_dir)/$*-sheet.png' \
+    --data='$(sheet_dir)/$*-sheet.json' \
+    --sheet-columns=16 \
+    --sheet-rows=16 \
     --tagname-format='{title}--{tag}' \
     '$<'
 
@@ -143,16 +143,16 @@ $(sheet_dir)/%-10x-sheet.png $(sheet_dir)/%-10x-sheet.json&: $(src_dir)/%.asepri
   $(aseprite) \
     --filename-format='{title}--{tag}--{frame}' \
     --list-tags \
-    --inner-padding 10 \
+    --inner-padding=10 \
     --sheet-pack \
-    --sheet-type rows \
-    --sheet '$(sheet_dir)/$*-10x-sheet.png' \
-    --data '$(sheet_dir)/$*-10x-sheet.json' \
-    --sheet-columns 16 \
-    --sheet-rows 16 \
+    --sheet-type=rows \
+    --sheet='$(sheet_dir)/$*-10x-sheet.png' \
+    --data='$(sheet_dir)/$*-10x-sheet.json' \
+    --sheet-columns=16 \
+    --sheet-rows=16 \
     --tagname-format='{title}--{tag}' \
     '$<' \
-    --scale 10
+    --scale=10
 
 # Convert each bmp to an SVG.
 $(char_dir)/%.svg: $(char_dir)/%.bmp | $(char_dir)/
@@ -176,12 +176,13 @@ $(char_dir)/%.svg: $(char_dir)/%.bmp | $(char_dir)/
 define 10x_bmp_char_template =
 $$(call get_char_files,$(1),bmp)&: $$(src_dir)/$(1).aseprite | $$(char_dir)/
   $$(aseprite) \
-    --filename-format '$$(char_dir)/$(1)-{tag}-10x.bmp' \
-    --inner-padding 10 \
+    --filename-format='$$(char_dir)/$(1)-{tag}-10x.bmp' \
+    --inner-padding=10 \
+    --split-tags \
+    --tagname-format='{title}--{tag}' \
     '$$<' \
-    --scale 10 \
-    --save-as /dev/null \
-    --tagname-format='{title}--{tag}'
+    --scale=10 \
+    --save-as=/dev/null
 endef
 $(foreach font,$(fonts),$(eval $(call 10x_bmp_char_template,$(font))))
 
