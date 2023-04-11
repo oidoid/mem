@@ -14,14 +14,7 @@
   "imports": { "@/mem": "./mod.ts" },
   "lint": {
     "files": { "exclude": ["dist"] },
-    "rules": {
-      "exclude": [
-        "no-empty-interface",
-        "no-misused-new",
-        "no-inferrable-types",
-        "no-namespace"
-      ]
-    }
+    "rules": { "exclude": ["no-empty-interface", "no-misused-new"] }
   },
   "lock": false,
   "name": "mem",
