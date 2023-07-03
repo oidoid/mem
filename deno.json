@@ -2,22 +2,11 @@
   "compilerOptions": {
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "useUnknownInCatchVariables": true
+    "noUncheckedIndexedAccess": true
   },
-  "fmt": {
-    "files": { "exclude": ["dist"] },
-    "options": { "semiColons": false, "singleQuote": true }
-  },
-  "imports": { "@/mem": "./mod.ts" },
-  "lint": {
-    "files": { "exclude": ["dist"] },
-    "rules": { "exclude": ["no-empty-interface", "no-misused-new"] }
-  },
+  "exclude": ["dist"],
+  "fmt": { "semiColons": false, "singleQuote": true },
   "lock": false,
   "name": "mem",
-  "test": { "files": { "exclude": ["dist"] } },
   "version": "9.0.1"
 }

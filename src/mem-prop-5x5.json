@@ -4,6 +4,7 @@
   "cellWidth": 5,
   "cellHeight": 5,
   "leading": 1,
+  "lineHeight": 6,
   "baseline": 1,
   "kerning": {
     ",'": 0,

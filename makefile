@@ -1,4 +1,4 @@
-include ../ooz/config.make
+include config.make
 
 dist_dir := dist
 char_dir := $(dist_dir)/char

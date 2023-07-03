@@ -2,6 +2,11 @@
 
 Versions and bullets are arranged chronologically from latest to oldest.
 
+## v10.0.0
+
+- \[API\]\[build\] Move FontMeta to Font, add line-height, inline ooz build
+  dependency
+
 ## v9.0.0
 
 - \[build\] Revise Aseprite tag format
