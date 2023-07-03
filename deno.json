@@ -8,5 +8,5 @@
   "fmt": { "semiColons": false, "singleQuote": true },
   "lock": false,
   "name": "mem",
-  "version": "9.0.1"
+  "version": "10.0.0"
 }
