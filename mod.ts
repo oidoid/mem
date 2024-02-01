@@ -6,7 +6,7 @@ import prop5x5 from './src/mem-prop-5x5.json' assert { type: 'json' }
 import prop5x6 from './src/mem-prop-5x6.json' assert { type: 'json' }
 
 /** Font metrics and detail metadata. */
-export interface Font {
+export type Font = {
   /**
    * PostScript font name less than 63 characters and does not contain any of
    * `(){}[]<>%/ `. Matches the font filename stem. Eg, "mem-mono-3x3".
