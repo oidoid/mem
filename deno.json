@@ -3,9 +3,12 @@
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
   "exclude": ["dist"],
   "fmt": { "semiColons": false, "singleQuote": true },
+  "lint": { "rules": { "exclude": ["no-inferrable-types"] } },
   "lock": false,
   "name": "mem",
   "version": "10.0.0"
