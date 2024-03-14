@@ -6,8 +6,9 @@ sprite sheets. Developed in FontForge and Aseprite.
 
 ## Install
 
-mem is a Deno TypeScript project. Add `https://deno.land/x/mem/mod.ts` to your
-import modules and reference the `https://deno.land/x/mem/mods.json` import map.
+```bash
+npm install --save-prefix= mem-font
+```
 
 See the [changelog](changelog.md) for release notes.
 
@@ -40,37 +41,49 @@ with tie-breakers going to greatest width then proportional font.
 
 ### mem 5x6
 
-![mem 5x6 10x spritesheet](dist/mem-prop-5x6-10x-sheet.png)
+<a href="dist/mem-prop-5x6-10x-sheet.png">
+  <img alt="mem 5x6 10x spritesheet" src="dist/mem-prop-5x6-10x-sheet.png" width="560" height="320">
+</a>
 
 **[Download](dist/mem-prop-5x6.ttf)**
 
 ### mem 5x5
 
-![mem 5x5 10x spritesheet](dist/mem-prop-5x5-10x-sheet.png)
+<a href="dist/mem-prop-5x5-10x-sheet.png">
+  <img alt="mem 5x5 10x spritesheet" src="dist/mem-prop-5x5-10x-sheet.png" width="560" height="280">
+</a>
 
 **[Download](dist/mem-prop-5x5.ttf)**
 
 ### mem 3x5
 
-![mem 3x5 10x spritesheet](dist/mem-prop-3x5-10x-sheet.png)
+<a href="dist/mem-prop-3x5-10x-sheet.png">
+  <img alt="mem 3x5 10x spritesheet" src="dist/mem-prop-3x5-10x-sheet.png" width="400" height="280">
+</a>
 
 **[Download](dist/mem-prop-3x5.ttf)**
 
 ### mem 4x4
 
-![mem 4x4 10x spritesheet](dist/mem-prop-4x4-10x-sheet.png)
+<a href="dist/mem-prop-4x4-10x-sheet.png">
+  <img alt="mem 4x4 10x spritesheet" src="dist/mem-prop-4x4-10x-sheet.png" width="480" height="240">
+</a>
 
 **[Download](dist/mem-prop-4x4.ttf)**
 
 ### mem mono 4x4
 
-![mem mono 4x4 10x spritesheet](dist/mem-mono-4x4-10x-sheet.png)
+<a href="dist/mem-mono-4x4-10x-sheet.png">
+  <img alt="mem mono 4x4 10x spritesheet" src="dist/mem-mono-4x4-10x-sheet.png" width="480" height="240">
+</a>
 
 **[Download](dist/mem-mono-4x4.ttf)**
 
 ### mem mono 3x3
 
-![mem mono 3x3 10x spritesheet](dist/mem-mono-3x3-10x-sheet.png)
+<a href="dist/mem-mono-3x3-10x-sheet.png">
+  <img alt="mem mono 3x3 10x spritesheet" src="dist/mem-mono-3x3-10x-sheet.png" width="400" height="200">
+</a>
 
 **[Download](dist/mem-mono-3x3.ttf)**
 
@@ -82,7 +95,7 @@ metrics.
 ## Aseprite Metadata
 
 Additional information spritesheet interpretation. See the
-[atlas-pack definition](https://github.com/oidoid/atlas-pack/blob/master/src/types/Aseprite.ts).
+[atlas-pack definition](https://github.com/oidoid/atlas-pack/blob/main/src/types/Aseprite.ts).
 
 ## Known issues
 
@@ -119,8 +132,6 @@ See the [to-do](to-do.text) for more issues.
 ## Development
 
 ### Make targets
-
-You must install ooz first, part of oidkit.
 
 The development workflow is based around the `watch` make target:
 

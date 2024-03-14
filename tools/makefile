@@ -1,10 +1,11 @@
 include config.make
 
-dist_dir := dist
+dist_dir := ../dist
 char_dir := $(dist_dir)/char
 sheet_dir := $(dist_dir)
-src_dir := src
+src_dir := ../src
 
+package_file := ../package.json
 aseprite_files := $(wildcard $(src_dir)/*.aseprite)
 src_metafont_files := $(aseprite_files:%.aseprite=%.json)
 dist_metafont_files := $(src_metafont_files:$(src_dir)/%=$(dist_dir)/%)
@@ -31,7 +32,6 @@ fmt_args ?=
 
 .PHONY: build
 build: \
-  bundle \
   $(ttf_files) \
   $(ttfdump_files) \
   $(sfd_files) \
@@ -41,30 +41,15 @@ build: \
   $(10x_sheet_json_files) \
   $(dist_metafont_files)
 
-.PHONY: bundle
-bundle: | $(dist_dir)/
-  $(deno) bundle --config='$(deno_config)' mod.ts '$(dist_dir)/mem.js'
-
-.PHONY: watch-build
-watch-build:; watchexec --ignore='*/$(dist_dir)/*' '$(make) build'
-
 .PHONY: watch
 watch: watch-build serve
 
+.PHONY: watch-build
+watch-build:; watchexec --ignore='*/$(dist_dir)/*' --watch=.. '$(make) build'
+
+# I can't get live-server to live reload so just serve + manual reload.
 .PHONY: serve
-serve: | $(dist_dir)/; $(live-server)
-
-.PHONY: test
-test: test-fmt test-lint build
-
-.PHONY: test-fmt
-test-fmt: fmt_args += --check
-
-.PHONY: fmt
-fmt:; $(deno) fmt --config='$(deno_config)' $(fmt_args)
-
-.PHONY: test-lint
-test-lint:; $(deno) lint --config='$(deno_config)' $(if $(value v),,--quiet)
+serve: | $(dist_dir)/; npx esbuild --serve=:1234 --servedir=.. --watch=forever
 
 # Generate a TrueType font.
 # $1 font
@@ -85,8 +70,8 @@ $(dist_dir)/%.ttfdump: $(dist_dir)/%.ttf | $(dist_dir)/
 # Generate a FontForge font from the SVGs.
 # $1 font
 define sfd_template =
-$$(dist_dir)/$(1).sfd: $$(call get_char_files,$(1),svg) deno.json | $$(dist_dir)/
-  bin/fontforge-import \
+$$(dist_dir)/$(1).sfd: $$(call get_char_files,$(1),svg) $$(package_file) $$(src_dir)/$(1).json | $$(dist_dir)/
+  ./fontforge-import \
     '$$@' \
     '$$(src_dir)/$(1).json' \
     False \
@@ -99,8 +84,8 @@ $(foreach font,$(fonts),$(eval $(call sfd_template,$(font))))
 
 # $1 font
 define sfd_aseprite_template =
-$$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) deno.json | $$(dist_dir)/
-  bin/fontforge-import \
+$$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) $$(package_file) $$(src_dir)/$(1).json | $$(dist_dir)/
+  ./fontforge-import \
     '$$@' \
     '$$(src_dir)/$(1).json' \
     True \
@@ -187,16 +172,3 @@ endef
 $(foreach font,$(fonts),$(eval $(call 10x_bmp_char_template,$(font))))
 
 $(dist_dir)/ $(char_dir)/:; $(mkdir) '$@'
-
-.PHONY: clean
-clean:; $(rm) '$(dist_dir)/'
-
-.PHONY: rebuild
-rebuild:
-  $(make) clean
-  $(make) build
-
-.PHONY: retest
-retest:
-  $(make) clean
-  $(make) test

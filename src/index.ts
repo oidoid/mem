@@ -1,9 +1,9 @@
-import mono3x3 from './src/mem-mono-3x3.json' assert { type: 'json' }
-import mono4x4 from './src/mem-mono-4x4.json' assert { type: 'json' }
-import prop3x5 from './src/mem-prop-3x5.json' assert { type: 'json' }
-import prop4x4 from './src/mem-prop-4x4.json' assert { type: 'json' }
-import prop5x5 from './src/mem-prop-5x5.json' assert { type: 'json' }
-import prop5x6 from './src/mem-prop-5x6.json' assert { type: 'json' }
+import mono3x3 from './mem-mono-3x3.json' with {type: 'json'}
+import mono4x4 from './mem-mono-4x4.json' with {type: 'json'}
+import prop3x5 from './mem-prop-3x5.json' with {type: 'json'}
+import prop4x4 from './mem-prop-4x4.json' with {type: 'json'}
+import prop5x5 from './mem-prop-5x5.json' with {type: 'json'}
+import prop5x6 from './mem-prop-5x6.json' with {type: 'json'}
 
 /** Font metrics and detail metadata. */
 export type Font = {
@@ -46,7 +46,7 @@ export type Font = {
    * Variable distance between characters in pixels. The key is two characters
    * and the value may be negative.
    */
-  readonly kerning: Readonly<{ [pair: string]: number }>
+  readonly kerning: {readonly [pair: string]: number}
 
   /**
    * Character-to-character kerning pair widths in pixels. When a pair is not
@@ -68,7 +68,7 @@ export type Font = {
    * Character width in pixels. When a character is not present,
    * `defaultCharWidth` is used.
    */
-  readonly charWidth: Readonly<{ [char: string]: number }>
+  readonly charWidth: {readonly [char: string]: number}
 
   /**
    * Character width in pixels. When a character is not present in `charWidth`,

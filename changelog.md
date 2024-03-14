@@ -2,6 +2,10 @@
 
 Versions and bullets are arranged chronologically from latest to oldest.
 
+## v11.0.0
+
+- Migrate to NPM.
+
 ## v10.0.0
 
 - \[API\]\[build\] Move FontMeta to Font, add line-height, inline ooz build

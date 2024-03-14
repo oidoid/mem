@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    // Enable incremental builds.
+    "composite": true,
+
+    // Maximize type checking.
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "strict": true,
+
+    // Projects add types needed.
+    "types": [],
+
+    // Improve compatibility with compilers that aren't type system aware.
+    "isolatedModules": true,
+
+    // Allow JSON type-checking and imports.
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // Assume library types are checked and compatible.
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+
+    "outDir": "dist",
+
+    // Unpack at root of dist.
+    "rootDir": "src",
+
+    "sourceMap": true,
+
+    "target": "ES2022",
+
+    // Don't transform type-only imports.
+    "verbatimModuleSyntax": true
+  },
+  // https://github.com/Microsoft/TypeScript/issues/25636
+  "include": ["**/*", "**/*.json"],
+  // https://github.com/microsoft/TypeScript/wiki/Performance#misconfigured-include-and-exclude
+  "exclude": ["**/node_modules", "**/.*/"]
+}

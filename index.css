@@ -268,7 +268,8 @@ textarea.demo-box {
   padding: 4px 8px;
   /* Use hand cursor icongraphy. */
   cursor: pointer;
-  transition: background var(--transition-duration),
+  transition:
+    background var(--transition-duration),
     border var(--transition-duration);
 }
 .control-panel__label:hover {
@@ -296,6 +297,7 @@ textarea.demo-box {
   border-color: var(--border-color-control-panel--focus);
 }
 
+/* prettier-ignore */
 #mem-prop-5x6-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-5x6-radio'],
 #mem-prop-5x5-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-5x5-radio'],
 #mem-prop-3x5-radio:checked ~ .dashboard .control-panel__label[for='mem-prop-3x5-radio'],

@@ -34,20 +34,10 @@ endif
 # https://github.com/scop/bash-completion/issues/215.
 .SECONDARY:
 
-# to-do: move outside of ooz.
 aseprite := aseprite --batch
 
 # Preserve all and overwrite.
 cp := cp --archive --force
-
-# Only report warnings and errors.
-# https://github.com/denoland/deno/issues/10558
-# https://github.com/denoland/deno/issues/15828
-# https://github.com/denoland/deno/issues/8890
-deno := deno $(if $(value V),,--quiet)
-
-# https://github.com/denoland/deno/issues/16395.
-deno_config ?= deno.json
 
 # Overwrite destination.
 ln := ln --force
@@ -60,15 +50,6 @@ mv := mv --force
 
 # Delete hierarchy if present.
 rm := rm --force --recursive
-
-# to-do: find Deno alternative.
-# https://github.com/denoland/deno/issues/16321
-# esbuild doesn't support a Deno config (Deno-ism) or import maps (requires
-# package management) and didn't seem to live reload.
-# https://esbuild.github.io/api/#live-reload
-# esbuild_watch := deno run --allow-all https://deno.land/x/esbuild@v0.17.0/mod.js --watch
-# tail -f /dev/null | $(esbuild_watch) --servedir='$(dist_dir)'
-live-server := npx live-server --no-browser
 
 # Silence sub-makes.
 make = $(MAKE) $(if $(value V),,--quiet)
