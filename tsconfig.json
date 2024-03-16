@@ -38,11 +38,13 @@
 
     "target": "ES2022",
 
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+
     // Don't transform type-only imports.
     "verbatimModuleSyntax": true
   },
   // https://github.com/Microsoft/TypeScript/issues/25636
   "include": ["**/*", "**/*.json"],
   // https://github.com/microsoft/TypeScript/wiki/Performance#misconfigured-include-and-exclude
-  "exclude": ["**/node_modules", "**/.*/"]
+  "exclude": ["dist/**/*", "**/node_modules", "**/.*/"]
 }
