@@ -46,5 +46,5 @@
   // https://github.com/Microsoft/TypeScript/issues/25636
   "include": ["**/*", "**/*.json"],
   // https://github.com/microsoft/TypeScript/wiki/Performance#misconfigured-include-and-exclude
-  "exclude": ["dist/**/*", "**/node_modules", "**/.*/"]
+  "exclude": ["dist", "node_modules", ".*/"]
 }
