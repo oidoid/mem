@@ -59,6 +59,6 @@
     "version": "npm test && git add dist"
   },
   "type": "module",
-  "types": "src/index.ts",
+  "types": "dist/index.d.ts",
   "version": "11.0.0-0"
 }
