@@ -50,7 +50,7 @@
     "build": "tsc --build && make --directory=tools --no-print-directory build",
     "clean": "rm -rf dist",
     "format": "npm run formatter -- --write",
-    "formatter": "prettier --cache --log-level warn './**/*.{css,html,json,md,ts}'",
+    "formatter": "prettier --cache --log-level warn './**/*.{css,html,json,md,ts,yaml}'",
     "preversion": "[ -z \"$(git status -z)\" ]",
     "prepublishOnly": "! git symbolic-ref --quiet HEAD || git push --follow-tags origin \"$(git branch --show-current)\"",
     "start": "make --directory=tools --no-print-directory watch",
