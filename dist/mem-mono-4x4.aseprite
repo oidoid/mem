@@ -1,0 +1,15 @@
+{
+  "id": "mem-mono-4x4",
+  "name": "mem mono 4x4",
+  "cellWidth": 4,
+  "cellHeight": 4,
+  "leading": 1,
+  "lineHeight": 5,
+  "baseline": 0,
+  "kerning": {},
+  "defaultKerning": 1,
+  "whitespaceKerning": 0,
+  "endOfLineKerning": 0,
+  "charWidth": {},
+  "defaultCharWidth": 4
+}

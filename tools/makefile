@@ -8,6 +8,7 @@ src_dir := ../src
 package_file := ../package.json
 aseprite_files := $(wildcard $(src_dir)/*.aseprite)
 src_metafont_files := $(aseprite_files:%.aseprite=%.json)
+dist_aseprite_files := $(aseprite_files:$(src_dir)/%=$(dist_dir)/%)
 dist_metafont_files := $(src_metafont_files:$(src_dir)/%=$(dist_dir)/%)
 sfd_files := \
   $(aseprite_files:$(src_dir)/%.aseprite=$(dist_dir)/%.sfd) \
@@ -39,6 +40,7 @@ build: \
   $(sheet_json_files) \
   $(10x_sheet_png_files) \
   $(10x_sheet_json_files) \
+  $(dist_aseprite_files) \
   $(dist_metafont_files)
 
 .PHONY: watch
@@ -94,9 +96,9 @@ $$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) $$(package_file
 endef
 $(foreach font,$(fonts),$(eval $(call sfd_aseprite_template,$(font))))
 
-# Copy the font metadata JSON files directly into the dist folder without
-# alteration.
-$(dist_dir)/%.json: $(src_dir)/%.json | $(dist_dir)/
+# Copy the font Aseprite and metadata JSON files directly into the dist folder
+# without alteration.
+$(dist_dir)/%.aseprite $(dist_dir)/%.json: $(src_dir)/%.json | $(dist_dir)/
   $(cp) '$<' '$@'
 
 # Render a 1x spritesheet PNG and its Aseprite metadata JSON. Use an implicit
