@@ -98,7 +98,9 @@ $(foreach font,$(fonts),$(eval $(call sfd_aseprite_template,$(font))))
 
 # Copy the font Aseprite and metadata JSON files directly into the dist folder
 # without alteration.
-$(dist_dir)/%.aseprite $(dist_dir)/%.json: $(src_dir)/%.json | $(dist_dir)/
+$(dist_dir)/%.aseprite: $(src_dir)/%.aseprite | $(dist_dir)/
+  $(cp) '$<' '$@'
+$(dist_dir)/%.json: $(src_dir)/%.json | $(dist_dir)/
   $(cp) '$<' '$@'
 
 # Render a 1x spritesheet PNG and its Aseprite metadata JSON. Use an implicit
