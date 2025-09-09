@@ -8,7 +8,7 @@
   "baseline": 0,
   "kerning": {},
   "defaultKerning": 1,
-  "whitespaceKerning": 0,
+  "defaultWhitespaceKerning": 0,
   "endOfLineKerning": 0,
   "charWidth": {},
   "defaultCharWidth": 3

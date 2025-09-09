@@ -77,7 +77,7 @@ def kernGlyph(meta, glyph, aseprite):
     if chr(key) == '\n':
       defaultVal = meta['endOfLineKerning']
     elif chr(key).isspace():
-      defaultVal = meta['whitespaceKerning']
+      defaultVal = meta['defaultWhitespaceKerning']
     else:
       defaultVal = meta['defaultKerning']
     kerning = meta['kerning'].get(chr(glyph.unicode) + chr(key), defaultVal)

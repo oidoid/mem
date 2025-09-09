@@ -38,14 +38,15 @@ export type Font = {
     /**
      * character-to-character kerning pair widths in pixels. when a pair is not
      * present, `endOfLineKerning` is used when the pair matches the regular
-     * expression `.$`, `whitespaceKerning` is used when the pair matches the
-     * regular expression `.\s`, otherwise `defaultKerning` is used.
+     * expression `.$`, `defaultWhitespaceKerning` is used when the pair matches
+     * the regular expression `.\s?|\s?.`, otherwise `defaultKerning` is used.
      */
     defaultKerning: number;
     /**
-     * kerning for when *either* the left or right character is a space or tab.
+     * default kerning for when *either* the left or right character is a space or
+     * tab.
      */
-    whitespaceKerning: number;
+    defaultWhitespaceKerning: number;
     /** kerning for when the right character is a newline. */
     endOfLineKerning: number;
     /**

@@ -37,7 +37,7 @@
         "ys": 0
     },
     "defaultKerning": 1,
-    "whitespaceKerning": 0,
+    "defaultWhitespaceKerning": 0,
     "endOfLineKerning": 0,
     "charWidth": {
         "\n": 1,
