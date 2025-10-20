@@ -10,9 +10,7 @@ aseprite_files := $(wildcard $(src_dir)/*.aseprite)
 src_metafont_files := $(aseprite_files:%.aseprite=%.json)
 dist_aseprite_files := $(aseprite_files:$(src_dir)/%=$(dist_dir)/%)
 dist_metafont_files := $(src_metafont_files:$(src_dir)/%=$(dist_dir)/%)
-sfd_files := \
-  $(aseprite_files:$(src_dir)/%.aseprite=$(dist_dir)/%.sfd) \
-  $(aseprite_files:$(src_dir)/%.aseprite=$(dist_dir)/%-aseprite.sfd)
+sfd_files := $(aseprite_files:$(src_dir)/%.aseprite=$(dist_dir)/%.sfd)
 ttf_files := $(sfd_files:%.sfd=%.ttf)
 ttfdump_files := $(sfd_files:%.sfd=%.ttfdump)
 sheet_png_files := $(aseprite_files:$(src_dir)/%.aseprite=$(dist_dir)/%-sheet.png)
@@ -63,12 +61,10 @@ $$(dist_dir)/$(1).ttf: $$(dist_dir)/$(1).sfd | $$(dist_dir)/
   " 2> /dev/null
 endef
 $(foreach font,$(fonts),$(eval $(call ttf_template,$(font))))
-$(foreach font,$(fonts),$(eval $(call ttf_template,$(font)-aseprite)))
 
 $(dist_dir)/%.ttfdump: $(dist_dir)/%.ttf | $(dist_dir)/
   ttfdump -o '$@' '$<'
 
-# to-do: consolidate with Aseprite template below.
 # Generate a FontForge font from the SVGs.
 # $1 font
 define sfd_template =
@@ -76,25 +72,12 @@ $$(dist_dir)/$(1).sfd: $$(call get_char_files,$(1),svg) $$(package_file) $$(src_
   ./fontforge-import \
     '$$@' \
     '$$(src_dir)/$(1).json' \
-    False \
     $$(call get_char_files,$(1),svg) 2> /dev/null
 
   # Strip the creation and modification times for repeatable builds.
   sed -ri 's%(Creation|Modification)Time: [0-9]+%\1Time: 0%' '$$@'
 endef
 $(foreach font,$(fonts),$(eval $(call sfd_template,$(font))))
-
-# $1 font
-define sfd_aseprite_template =
-$$(dist_dir)/$(1)-aseprite.sfd: $$(call get_char_files,$(1),svg) $$(package_file) $$(src_dir)/$(1).json | $$(dist_dir)/
-  ./fontforge-import \
-    '$$@' \
-    '$$(src_dir)/$(1).json' \
-    True \
-    $$(call get_char_files,$(1),svg) 2> /dev/null
-  sed -ri 's%(Creation|Modification)Time: [0-9]+%\1Time: 0%' '$$@'
-endef
-$(foreach font,$(fonts),$(eval $(call sfd_aseprite_template,$(font))))
 
 # Copy the font Aseprite and metadata JSON files directly into the dist folder
 # without alteration.

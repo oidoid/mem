@@ -17,8 +17,7 @@ See the [changelog](changelog.md) for release notes.
 - **\*.ttf**: TrueType font file. The format is
   `mem-<variable width>-<width>x<height>` where "variable width" is `prop` for
   proportional or `mono` for monospaced, and width and height are cell width and
-  height in pixels. Files containing "-aseprite" in their name have their
-  kerning multiplied for correct rendering in Aseprite.
+  height in pixels.
 - **\*.json**: font metadata (kerning and other metrics for games).
 - **\*-sheet.png**: 1x spritesheet (for games)
 - **\*-sheet.json**: 1x Aseprite metadata (for games)
@@ -27,8 +26,7 @@ See the [changelog](changelog.md) for release notes.
   diffing).
 - \*-10x-sheet.json: Aseprite metadata for the 10x spritesheet.
 - \*.ttfdump: True Type Font File Dumper dumps for each TTF (for debugging and
-  tracking changes). Files containing "-aseprite" in their name have their
-  kerning multiplied for correct rendering in Aseprite.
+  tracking changes).
 
 See also [font metadata](#font-metadata) and
 [Aseprite metadata](#aseprite-metadata) sections below.

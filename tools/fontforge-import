@@ -9,7 +9,7 @@ import sys
 # an em is 600. I guess it's a ratio.
 pixels_to_ems = 100
 
-def main(sfd, metaFilename, aseprite, svgFilenames):
+def main(sfd, metaFilename, svgFilenames):
   meta = readJSON(metaFilename)
   package = readJSON('../package.json')
 
@@ -19,10 +19,6 @@ def main(sfd, metaFilename, aseprite, svgFilenames):
   font.familyname = meta['name']
   font.fontname = meta['id']
   font.fullname = meta['name']
-  if aseprite:
-    font.familyname = ' (Aseprite)'
-    font.fontname += '-aseprite'
-    font.fullname += ' (Aseprite)'
 
   font.copyright = '© oidoid'
   # Suppress time-based comment and unique ID that hinder build determinism.
@@ -49,7 +45,7 @@ def main(sfd, metaFilename, aseprite, svgFilenames):
 
   for key in range(128):
     glyph = font.createChar(key)
-    kernGlyph(meta, glyph, aseprite)
+    kernGlyph(meta, glyph)
 
   font.ascent += -meta['baseline'] * pixels_to_ems
   font.descent = max(meta['baseline'], meta['leading']) * pixels_to_ems
@@ -72,7 +68,7 @@ def main(sfd, metaFilename, aseprite, svgFilenames):
 
   font.save(sfd)
 
-def kernGlyph(meta, glyph, aseprite):
+def kernGlyph(meta, glyph):
   for key in range(128):
     if chr(key) == '\n':
       defaultVal = meta['endOfLineKerning']
@@ -82,10 +78,6 @@ def kernGlyph(meta, glyph, aseprite):
       defaultVal = meta['defaultKerning']
     kerning = meta['kerning'].get(chr(glyph.unicode) + chr(key), defaultVal)
     ems = pixels_to_ems * kerning
-
-    # Workaround for Aseprite only.
-    if aseprite:
-      ems *= meta['cellHeight']
 
     glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(key), ems)
 
@@ -108,6 +100,5 @@ def readJSON(filename):
 if __name__ == '__main__':
   sfd = sys.argv[1]
   metaFilename = sys.argv[2]
-  aseprite = sys.argv[3] == 'True'
-  svgFilenames = sys.argv[4:]
-  main(sfd, metaFilename, aseprite, svgFilenames)
+  svgFilenames = sys.argv[3:]
+  main(sfd, metaFilename, svgFilenames)
