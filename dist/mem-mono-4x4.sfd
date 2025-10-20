@@ -366,24 +366,24 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 300 m 1
- 0 400 l 1
- 50 400 l 1
+100 300 m 1
  100 400 l 1
- 100 300 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 300 l 1
+ 200 200 l 1
+ 150 200 l 1
  100 200 l 1
- 50 200 l 1
- 0 200 l 1
- 0 300 l 1
-0 50 m 1
- 0 100 l 1
- 50 100 l 1
+ 100 300 l 1
+100 50 m 1
  100 100 l 1
- 100 50 l 1
+ 150 100 l 1
+ 200 100 l 1
+ 200 50 l 1
+ 200 0 l 1
+ 150 0 l 1
  100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 50 l 1
+ 100 50 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -635,31 +635,31 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 350 m 1
- 100 400 l 1
- 150 400 l 1
+200 350 m 1
  200 400 l 1
- 200 350 l 1
+ 250 400 l 1
+ 300 400 l 1
+ 300 350 l 1
+ 300 300 l 1
+ 250 300 l 1
  200 300 l 1
- 150 300 l 1
- 100 300 l 1
- 100 200 l 1
- 100 100 l 1
- 150 100 l 1
+ 200 200 l 1
  200 100 l 1
- 200 50 l 1
+ 250 100 l 1
+ 300 100 l 1
+ 300 50 l 1
+ 300 0 l 1
+ 250 0 l 1
  200 0 l 1
- 150 0 l 1
- 100 0 l 1
- 100 50 l 1
+ 200 50 l 1
+ 200 100 l 1
+ 150 100 l 1
  100 100 l 1
- 50 100 l 1
- 0 100 l 1
- 0 200 l 1
- 0 300 l 1
- 50 300 l 1
+ 100 200 l 1
  100 300 l 1
- 100 350 l 1
+ 150 300 l 1
+ 200 300 l 1
+ 200 350 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -672,31 +672,31 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 350 m 1
- 0 400 l 1
- 50 400 l 1
+100 350 m 1
  100 400 l 1
- 100 350 l 1
- 100 300 l 1
- 150 300 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 350 l 1
  200 300 l 1
- 200 200 l 1
+ 250 300 l 1
+ 300 300 l 1
+ 300 200 l 1
+ 300 100 l 1
+ 250 100 l 1
  200 100 l 1
- 150 100 l 1
- 100 100 l 1
- 100 50 l 1
+ 200 50 l 1
+ 200 0 l 1
+ 150 0 l 1
  100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 50 l 1
- 0 100 l 1
- 50 100 l 1
+ 100 50 l 1
  100 100 l 1
- 100 200 l 1
+ 150 100 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 150 300 l 1
  100 300 l 1
- 50 300 l 1
- 0 300 l 1
- 0 350 l 1
+ 100 350 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -799,23 +799,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 150 m 1
- 100 200 l 1
- 150 200 l 1
+200 150 m 1
  200 200 l 1
- 200 150 l 1
+ 250 200 l 1
+ 300 200 l 1
+ 300 150 l 1
+ 300 100 l 1
+ 250 100 l 1
  200 100 l 1
- 150 100 l 1
- 100 100 l 1
- 100 50 l 1
+ 200 50 l 1
+ 200 0 l 1
+ 150 0 l 1
  100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 50 l 1
- 0 100 l 1
- 50 100 l 1
+ 100 50 l 1
  100 100 l 1
- 100 150 l 1
+ 150 100 l 1
+ 200 100 l 1
+ 200 150 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -830,11 +830,11 @@ Fore
 SplineSet
 0 50 m 1
  0 100 l 1
- 150 100 l 1
- 300 100 l 1
- 300 50 l 1
- 300 0 l 1
- 150 0 l 1
+ 200 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
+ 200 0 l 1
  0 0 l 1
  0 50 l 1
 EndSplineSet
@@ -849,15 +849,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 50 m 1
- 0 100 l 1
- 50 100 l 1
+100 50 m 1
  100 100 l 1
- 100 50 l 1
+ 150 100 l 1
+ 200 100 l 1
+ 200 50 l 1
+ 200 0 l 1
+ 150 0 l 1
  100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 50 l 1
+ 100 50 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -917,30 +917,30 @@ Fore
 SplineSet
 100 350 m 1
  100 400 l 1
- 200 400 l 1
- 300 400 l 1
- 300 250 l 1
+ 250 400 l 1
+ 400 400 l 1
+ 400 250 l 1
+ 400 100 l 1
+ 350 100 l 1
  300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
- 200 0 l 1
- 100 0 l 1
+ 300 50 l 1
+ 300 0 l 1
+ 150 0 l 1
  0 0 l 1
  0 150 l 1
  0 300 l 1
  50 300 l 1
  100 300 l 1
  100 350 l 1
-200 200 m 1
+300 200 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 200 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 200 l 1
+ 300 100 l 1
+ 300 200 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -955,13 +955,21 @@ Fore
 SplineSet
 100 350 m 1
  100 400 l 1
- 150 400 l 1
  200 400 l 1
- 200 200 l 1
+ 300 400 l 1
+ 300 250 l 1
+ 300 100 l 1
+ 350 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
  200 0 l 1
- 150 0 l 1
- 100 0 l 1
+ 0 0 l 1
+ 0 50 l 1
+ 0 100 l 1
+ 50 100 l 1
  100 100 l 1
+ 100 150 l 1
  100 200 l 1
  50 200 l 1
  0 200 l 1
@@ -984,27 +992,27 @@ Fore
 SplineSet
 0 350 m 1
  0 400 l 1
- 100 400 l 1
  200 400 l 1
- 200 300 l 1
+ 400 400 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
- 100 200 l 1
- 100 150 l 1
- 100 100 l 1
- 150 100 l 1
+ 200 150 l 1
  200 100 l 1
- 200 50 l 1
+ 300 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
  200 0 l 1
- 100 0 l 1
  0 0 l 1
  0 100 l 1
  0 200 l 1
- 50 200 l 1
  100 200 l 1
- 100 250 l 1
+ 200 200 l 1
+ 200 250 l 1
+ 200 300 l 1
  100 300 l 1
- 50 300 l 1
  0 300 l 1
  0 350 l 1
 EndSplineSet
@@ -1021,27 +1029,23 @@ Fore
 SplineSet
 0 350 m 1
  0 400 l 1
- 100 400 l 1
- 200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 150 400 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 200 l 1
- 300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 150 l 1
+ 400 0 l 1
  200 0 l 1
- 100 0 l 1
  0 0 l 1
  0 50 l 1
  0 100 l 1
- 100 100 l 1
- 200 100 l 1
- 200 150 l 1
+ 150 100 l 1
+ 300 100 l 1
+ 300 150 l 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
  100 200 l 1
  100 250 l 1
  100 300 l 1
@@ -1066,27 +1070,19 @@ SplineSet
  100 400 l 1
  100 350 l 1
  100 300 l 1
- 150 300 l 1
  200 300 l 1
- 200 350 l 1
- 200 400 l 1
- 250 400 l 1
- 300 400 l 1
- 300 350 l 1
  300 300 l 1
- 350 300 l 1
- 400 300 l 1
- 400 250 l 1
+ 300 350 l 1
+ 300 400 l 1
+ 350 400 l 1
+ 400 400 l 1
  400 200 l 1
- 350 200 l 1
- 300 200 l 1
- 300 100 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 100 l 1
- 200 200 l 1
- 100 200 l 1
+ 300 100 l 1
+ 300 200 l 1
+ 150 200 l 1
  0 200 l 1
  0 300 l 1
 EndSplineSet
@@ -1103,27 +1099,27 @@ Fore
 SplineSet
 0 300 m 1
  0 400 l 1
- 100 400 l 1
  200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 150 300 l 1
- 100 300 l 1
- 100 250 l 1
- 100 200 l 1
- 150 200 l 1
- 200 200 l 1
- 200 100 l 1
+ 400 400 l 1
+ 400 350 l 1
+ 400 300 l 1
+ 350 300 l 1
+ 300 300 l 1
+ 300 250 l 1
+ 300 200 l 1
+ 350 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
  200 0 l 1
- 100 0 l 1
  0 0 l 1
  0 50 l 1
  0 100 l 1
- 50 100 l 1
- 100 100 l 1
- 100 150 l 1
- 100 200 l 1
- 50 200 l 1
+ 150 100 l 1
+ 300 100 l 1
+ 300 150 l 1
+ 300 200 l 1
+ 150 200 l 1
  0 200 l 1
  0 300 l 1
 EndSplineSet
@@ -1144,30 +1140,30 @@ SplineSet
  100 400 l 1
  100 350 l 1
  100 300 l 1
- 150 300 l 1
  200 300 l 1
- 200 250 l 1
- 200 200 l 1
- 250 200 l 1
+ 300 300 l 1
+ 300 250 l 1
  300 200 l 1
- 300 100 l 1
- 300 0 l 1
- 200 0 l 1
+ 350 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 250 0 l 1
  100 0 l 1
  100 50 l 1
  100 100 l 1
  50 100 l 1
  0 100 l 1
  0 250 l 1
-200 150 m 1
+300 150 m 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 150 l 1
+ 300 100 l 1
+ 300 150 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1182,15 +1178,15 @@ Fore
 SplineSet
 0 300 m 1
  0 400 l 1
- 150 400 l 1
- 300 400 l 1
- 300 200 l 1
+ 200 400 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 150 l 1
+ 300 150 l 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
@@ -1209,15 +1205,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 200 m 1
+0 250 m 1
  0 400 l 1
  150 400 l 1
  300 400 l 1
- 300 200 l 1
- 300 0 l 1
- 150 0 l 1
- 0 0 l 1
- 0 200 l 1
+ 300 350 l 1
+ 300 300 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 150 l 1
+ 400 0 l 1
+ 250 0 l 1
+ 100 0 l 1
+ 100 50 l 1
+ 100 100 l 1
+ 50 100 l 1
+ 0 100 l 1
+ 0 250 l 1
 200 250 m 1
  200 300 l 1
  150 300 l 1
@@ -1225,6 +1229,14 @@ SplineSet
  100 250 l 1
  100 200 l 1
  150 200 l 1
+ 200 200 l 1
+ 200 150 l 1
+ 200 100 l 1
+ 250 100 l 1
+ 300 100 l 1
+ 300 150 l 1
+ 300 200 l 1
+ 250 200 l 1
  200 200 l 1
  200 250 l 1
 EndSplineSet
@@ -1241,70 +1253,40 @@ Fore
 SplineSet
 0 300 m 1
  0 400 l 1
- 100 400 l 1
- 200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 150 400 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 150 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 150 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 50 l 1
+ 300 50 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 150 l 1
  100 200 l 1
  50 200 l 1
  0 200 l 1
  0 300 l 1
-200 250 m 1
+300 250 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 250 l 1
+ 300 200 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
 
 StartChar: colon
 Encoding: 58 58 58
-Width: 400
-VWidth: 400
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-0 350 m 1
- 0 400 l 1
- 50 400 l 1
- 100 400 l 1
- 100 350 l 1
- 100 300 l 1
- 50 300 l 1
- 0 300 l 1
- 0 350 l 1
-0 150 m 1
- 0 200 l 1
- 50 200 l 1
- 100 200 l 1
- 100 150 l 1
- 100 100 l 1
- 50 100 l 1
- 0 100 l 1
- 0 150 l 1
-EndSplineSet
-Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
-EndChar
-
-StartChar: semicolon
-Encoding: 59 59 59
 Width: 400
 VWidth: 400
 Flags: W
@@ -1328,15 +1310,45 @@ SplineSet
  200 100 l 1
  150 100 l 1
  100 100 l 1
- 100 50 l 1
- 100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 50 l 1
- 0 100 l 1
- 50 100 l 1
- 100 100 l 1
  100 150 l 1
+EndSplineSet
+Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
+EndChar
+
+StartChar: semicolon
+Encoding: 59 59 59
+Width: 400
+VWidth: 400
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 350 m 1
+ 200 400 l 1
+ 250 400 l 1
+ 300 400 l 1
+ 300 350 l 1
+ 300 300 l 1
+ 250 300 l 1
+ 200 300 l 1
+ 200 350 l 1
+200 150 m 1
+ 200 200 l 1
+ 250 200 l 1
+ 300 200 l 1
+ 300 150 l 1
+ 300 100 l 1
+ 250 100 l 1
+ 200 100 l 1
+ 200 50 l 1
+ 200 0 l 1
+ 150 0 l 1
+ 100 0 l 1
+ 100 50 l 1
+ 100 100 l 1
+ 150 100 l 1
+ 200 100 l 1
+ 200 150 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1349,31 +1361,31 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 250 m 1
- 100 300 l 1
- 150 300 l 1
+200 250 m 1
  200 300 l 1
- 200 250 l 1
+ 250 300 l 1
+ 300 300 l 1
+ 300 250 l 1
+ 300 200 l 1
+ 250 200 l 1
  200 200 l 1
- 150 200 l 1
- 100 200 l 1
- 100 150 l 1
- 100 100 l 1
- 150 100 l 1
+ 200 150 l 1
  200 100 l 1
- 200 50 l 1
+ 250 100 l 1
+ 300 100 l 1
+ 300 50 l 1
+ 300 0 l 1
+ 250 0 l 1
  200 0 l 1
- 150 0 l 1
- 100 0 l 1
- 100 50 l 1
+ 200 50 l 1
+ 200 100 l 1
+ 150 100 l 1
  100 100 l 1
- 50 100 l 1
- 0 100 l 1
- 0 150 l 1
- 0 200 l 1
- 50 200 l 1
+ 100 150 l 1
  100 200 l 1
- 100 250 l 1
+ 150 200 l 1
+ 200 200 l 1
+ 200 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1388,20 +1400,20 @@ Fore
 SplineSet
 0 250 m 1
  0 300 l 1
- 150 300 l 1
- 300 300 l 1
- 300 250 l 1
- 300 200 l 1
- 150 200 l 1
+ 200 300 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 400 200 l 1
+ 200 200 l 1
  0 200 l 1
  0 250 l 1
 0 50 m 1
  0 100 l 1
- 150 100 l 1
- 300 100 l 1
- 300 50 l 1
- 300 0 l 1
- 150 0 l 1
+ 200 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
+ 200 0 l 1
  0 0 l 1
  0 50 l 1
 EndSplineSet
@@ -1416,31 +1428,31 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 250 m 1
- 0 300 l 1
- 50 300 l 1
+100 250 m 1
  100 300 l 1
- 100 250 l 1
- 100 200 l 1
- 150 200 l 1
+ 150 300 l 1
+ 200 300 l 1
+ 200 250 l 1
  200 200 l 1
- 200 150 l 1
+ 250 200 l 1
+ 300 200 l 1
+ 300 150 l 1
+ 300 100 l 1
+ 250 100 l 1
  200 100 l 1
- 150 100 l 1
- 100 100 l 1
- 100 50 l 1
+ 200 50 l 1
+ 200 0 l 1
+ 150 0 l 1
  100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 50 l 1
- 0 100 l 1
- 50 100 l 1
+ 100 50 l 1
  100 100 l 1
- 100 150 l 1
+ 150 100 l 1
+ 200 100 l 1
+ 200 150 l 1
+ 200 200 l 1
+ 150 200 l 1
  100 200 l 1
- 50 200 l 1
- 0 200 l 1
- 0 250 l 1
+ 100 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1455,30 +1467,29 @@ Fore
 SplineSet
 0 300 m 1
  0 400 l 1
- 150 400 l 1
- 300 400 l 1
- 300 250 l 1
+ 200 400 l 1
+ 400 400 l 1
+ 400 250 l 1
+ 400 100 l 1
+ 350 100 l 1
  300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
+ 300 50 l 1
+ 300 0 l 1
+ 250 0 l 1
  200 0 l 1
- 150 0 l 1
- 100 0 l 1
- 100 100 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 250 200 l 1
+ 300 200 l 1
+ 300 250 l 1
+ 300 300 l 1
+ 200 300 l 1
+ 100 300 l 1
+ 100 250 l 1
  100 200 l 1
  50 200 l 1
  0 200 l 1
  0 300 l 1
-200 250 m 1
- 200 300 l 1
- 150 300 l 1
- 100 300 l 1
- 100 250 l 1
- 100 200 l 1
- 150 200 l 1
- 200 200 l 1
- 200 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1547,19 +1558,19 @@ Fore
 SplineSet
 100 350 m 1
  100 400 l 1
- 150 400 l 1
  200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 150 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 150 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 50 l 1
+ 300 50 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
@@ -1570,15 +1581,15 @@ SplineSet
  50 300 l 1
  100 300 l 1
  100 350 l 1
-200 250 m 1
+300 250 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 250 l 1
+ 300 200 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1593,30 +1604,26 @@ Fore
 SplineSet
 0 200 m 1
  0 400 l 1
- 100 400 l 1
- 200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 150 400 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 200 l 1
- 300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 150 l 1
+ 400 0 l 1
  200 0 l 1
- 100 0 l 1
  0 0 l 1
  0 200 l 1
-200 150 m 1
+300 150 m 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 150 l 1
+ 300 100 l 1
+ 300 150 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1629,31 +1636,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 350 m 1
- 100 400 l 1
+0 200 m 1
+ 0 400 l 1
  200 400 l 1
- 300 400 l 1
- 300 350 l 1
- 300 300 l 1
- 200 300 l 1
+ 400 400 l 1
+ 400 350 l 1
+ 400 300 l 1
+ 250 300 l 1
  100 300 l 1
  100 200 l 1
  100 100 l 1
- 200 100 l 1
- 300 100 l 1
- 300 50 l 1
- 300 0 l 1
+ 250 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
  200 0 l 1
- 100 0 l 1
- 100 50 l 1
- 100 100 l 1
- 50 100 l 1
- 0 100 l 1
+ 0 0 l 1
  0 200 l 1
- 0 300 l 1
- 50 300 l 1
- 100 300 l 1
- 100 350 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1668,30 +1667,30 @@ Fore
 SplineSet
 0 200 m 1
  0 400 l 1
- 100 400 l 1
- 200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 150 400 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 200 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 350 100 l 1
  300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
- 200 0 l 1
- 100 0 l 1
+ 300 50 l 1
+ 300 0 l 1
+ 150 0 l 1
  0 0 l 1
  0 200 l 1
-200 200 m 1
+300 200 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 200 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 200 l 1
+ 300 100 l 1
+ 300 200 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1704,31 +1703,27 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 350 m 1
- 100 400 l 1
+0 200 m 1
+ 0 400 l 1
  200 400 l 1
- 300 400 l 1
- 300 350 l 1
+ 400 400 l 1
+ 400 350 l 1
+ 400 300 l 1
+ 350 300 l 1
  300 300 l 1
- 250 300 l 1
- 200 300 l 1
- 200 250 l 1
+ 300 250 l 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 200 100 l 1
- 300 100 l 1
- 300 50 l 1
- 300 0 l 1
- 150 0 l 1
+ 250 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
+ 200 0 l 1
  0 0 l 1
- 0 150 l 1
- 0 300 l 1
- 50 300 l 1
- 100 300 l 1
- 100 350 l 1
+ 0 200 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1743,19 +1738,19 @@ Fore
 SplineSet
 0 200 m 1
  0 400 l 1
- 150 400 l 1
- 300 400 l 1
- 300 350 l 1
- 300 300 l 1
- 200 300 l 1
+ 200 400 l 1
+ 400 400 l 1
+ 400 350 l 1
+ 400 300 l 1
+ 250 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 150 l 1
+ 300 200 l 1
+ 300 150 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
@@ -1817,19 +1812,19 @@ SplineSet
  100 400 l 1
  100 300 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 300 l 1
- 200 400 l 1
- 250 400 l 1
- 300 400 l 1
  300 200 l 1
+ 300 300 l 1
+ 300 400 l 1
+ 350 400 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 50 l 1
+ 300 50 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
@@ -1885,35 +1880,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 350 m 1
- 100 400 l 1
- 200 400 l 1
+300 250 m 1
  300 400 l 1
- 300 250 l 1
- 300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
+ 350 400 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
  200 0 l 1
- 150 0 l 1
- 100 0 l 1
- 100 50 l 1
- 100 100 l 1
- 50 100 l 1
+ 0 0 l 1
  0 100 l 1
- 0 150 l 1
  0 200 l 1
  50 200 l 1
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 200 l 1
- 200 300 l 1
- 150 300 l 1
- 100 300 l 1
- 100 350 l 1
+ 300 100 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -1977,11 +1960,11 @@ SplineSet
  100 400 l 1
  100 250 l 1
  100 100 l 1
- 200 100 l 1
- 300 100 l 1
- 300 50 l 1
- 300 0 l 1
- 150 0 l 1
+ 250 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
+ 200 0 l 1
  0 0 l 1
  0 200 l 1
 EndSplineSet
@@ -2078,40 +2061,24 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 350 m 1
- 100 400 l 1
- 150 400 l 1
+0 200 m 1
+ 0 400 l 1
  200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
- 300 300 l 1
- 300 200 l 1
- 300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
  200 0 l 1
- 150 0 l 1
- 100 0 l 1
- 100 50 l 1
- 100 100 l 1
- 50 100 l 1
- 0 100 l 1
+ 0 0 l 1
  0 200 l 1
- 0 300 l 1
- 50 300 l 1
- 100 300 l 1
- 100 350 l 1
-200 200 m 1
+300 200 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 200 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 200 l 1
+ 300 100 l 1
+ 300 200 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2126,34 +2093,26 @@ Fore
 SplineSet
 0 200 m 1
  0 400 l 1
- 100 400 l 1
  200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
- 300 300 l 1
- 300 250 l 1
- 300 200 l 1
- 250 200 l 1
- 200 200 l 1
- 200 150 l 1
- 200 100 l 1
- 150 100 l 1
+ 400 400 l 1
+ 400 250 l 1
+ 400 100 l 1
+ 250 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
  50 0 l 1
  0 0 l 1
  0 200 l 1
-200 250 m 1
+300 250 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 250 l 1
+ 300 200 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2214,42 +2173,42 @@ Fore
 SplineSet
 0 200 m 1
  0 400 l 1
- 100 400 l 1
- 200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 150 400 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 250 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 400 200 l 1
+ 350 200 l 1
  300 200 l 1
- 250 200 l 1
- 200 200 l 1
- 200 150 l 1
- 200 100 l 1
- 250 100 l 1
+ 300 150 l 1
  300 100 l 1
- 300 50 l 1
+ 350 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 50 l 1
+ 300 50 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
  50 0 l 1
  0 0 l 1
  0 200 l 1
-200 250 m 1
+300 250 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 250 l 1
+ 300 200 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2336,27 +2295,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 250 m 1
+0 200 m 1
  0 400 l 1
  50 400 l 1
  100 400 l 1
  100 250 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 250 l 1
- 200 400 l 1
- 250 400 l 1
+ 300 100 l 1
+ 300 250 l 1
  300 400 l 1
- 300 200 l 1
- 300 0 l 1
+ 350 400 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
  200 0 l 1
- 100 0 l 1
- 100 50 l 1
- 100 100 l 1
- 50 100 l 1
- 0 100 l 1
- 0 250 l 1
+ 0 0 l 1
+ 0 200 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2373,11 +2328,11 @@ SplineSet
  0 400 l 1
  50 400 l 1
  100 400 l 1
- 100 250 l 1
- 100 100 l 1
- 150 100 l 1
- 200 100 l 1
- 200 250 l 1
+ 100 300 l 1
+ 100 200 l 1
+ 150 200 l 1
+ 200 200 l 1
+ 200 300 l 1
  200 400 l 1
  250 400 l 1
  300 400 l 1
@@ -2459,27 +2414,27 @@ SplineSet
  300 300 l 1
  250 300 l 1
  200 300 l 1
+ 200 250 l 1
  200 200 l 1
- 200 100 l 1
- 250 100 l 1
+ 250 200 l 1
+ 300 200 l 1
  300 100 l 1
- 300 50 l 1
  300 0 l 1
  250 0 l 1
  200 0 l 1
- 200 50 l 1
  200 100 l 1
- 150 100 l 1
+ 200 200 l 1
+ 150 200 l 1
+ 100 200 l 1
  100 100 l 1
- 100 50 l 1
  100 0 l 1
  50 0 l 1
  0 0 l 1
- 0 50 l 1
  0 100 l 1
- 50 100 l 1
- 100 100 l 1
+ 0 200 l 1
+ 50 200 l 1
  100 200 l 1
+ 100 250 l 1
  100 300 l 1
  50 300 l 1
  0 300 l 1
@@ -2500,11 +2455,11 @@ SplineSet
  0 400 l 1
  50 400 l 1
  100 400 l 1
+ 100 350 l 1
  100 300 l 1
- 100 200 l 1
- 150 200 l 1
- 200 200 l 1
+ 150 300 l 1
  200 300 l 1
+ 200 350 l 1
  200 400 l 1
  250 400 l 1
  300 400 l 1
@@ -2562,23 +2517,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 200 m 1
- 0 400 l 1
+100 200 m 1
  100 400 l 1
  200 400 l 1
- 200 350 l 1
+ 300 400 l 1
+ 300 350 l 1
+ 300 300 l 1
+ 250 300 l 1
  200 300 l 1
- 150 300 l 1
- 100 300 l 1
- 100 200 l 1
- 100 100 l 1
- 150 100 l 1
+ 200 200 l 1
  200 100 l 1
- 200 50 l 1
+ 250 100 l 1
+ 300 100 l 1
+ 300 50 l 1
+ 300 0 l 1
  200 0 l 1
  100 0 l 1
- 0 0 l 1
- 0 200 l 1
+ 100 200 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2636,23 +2591,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 350 m 1
- 0 400 l 1
+100 350 m 1
  100 400 l 1
  200 400 l 1
- 200 200 l 1
+ 300 400 l 1
+ 300 200 l 1
+ 300 0 l 1
  200 0 l 1
  100 0 l 1
- 0 0 l 1
- 0 50 l 1
- 0 100 l 1
- 50 100 l 1
+ 100 50 l 1
  100 100 l 1
- 100 200 l 1
+ 150 100 l 1
+ 200 100 l 1
+ 200 200 l 1
+ 200 300 l 1
+ 150 300 l 1
  100 300 l 1
- 50 300 l 1
- 0 300 l 1
- 0 350 l 1
+ 100 350 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2704,11 +2659,11 @@ Fore
 SplineSet
 0 50 m 1
  0 100 l 1
- 150 100 l 1
- 300 100 l 1
- 300 50 l 1
- 300 0 l 1
- 150 0 l 1
+ 200 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
+ 200 0 l 1
  0 0 l 1
  0 50 l 1
 EndSplineSet
@@ -2723,23 +2678,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 350 m 1
- 0 400 l 1
- 50 400 l 1
+100 350 m 1
  100 400 l 1
- 100 350 l 1
- 100 300 l 1
- 150 300 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 350 l 1
  200 300 l 1
- 200 250 l 1
+ 250 300 l 1
+ 300 300 l 1
+ 300 250 l 1
+ 300 200 l 1
+ 250 200 l 1
  200 200 l 1
- 150 200 l 1
- 100 200 l 1
- 100 250 l 1
+ 200 250 l 1
+ 200 300 l 1
+ 150 300 l 1
  100 300 l 1
- 50 300 l 1
- 0 300 l 1
- 0 350 l 1
+ 100 350 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2800,30 +2755,30 @@ SplineSet
  100 400 l 1
  100 350 l 1
  100 300 l 1
- 150 300 l 1
  200 300 l 1
- 200 250 l 1
- 200 200 l 1
- 250 200 l 1
+ 300 300 l 1
+ 300 250 l 1
  300 200 l 1
- 300 150 l 1
+ 350 200 l 1
+ 400 200 l 1
+ 400 150 l 1
+ 400 100 l 1
+ 350 100 l 1
  300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
- 200 0 l 1
- 100 0 l 1
+ 300 50 l 1
+ 300 0 l 1
+ 150 0 l 1
  0 0 l 1
  0 200 l 1
-200 150 m 1
+300 150 m 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 150 l 1
+ 300 100 l 1
+ 300 150 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2836,31 +2791,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 250 m 1
- 100 300 l 1
+0 150 m 1
+ 0 300 l 1
  200 300 l 1
- 300 300 l 1
- 300 250 l 1
- 300 200 l 1
- 200 200 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 400 200 l 1
+ 250 200 l 1
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 200 100 l 1
- 300 100 l 1
- 300 50 l 1
- 300 0 l 1
+ 250 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
  200 0 l 1
- 100 0 l 1
- 100 50 l 1
- 100 100 l 1
- 50 100 l 1
- 0 100 l 1
+ 0 0 l 1
  0 150 l 1
- 0 200 l 1
- 50 200 l 1
- 100 200 l 1
- 100 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2873,13 +2820,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-200 350 m 1
- 200 400 l 1
- 250 400 l 1
+300 350 m 1
  300 400 l 1
- 300 200 l 1
- 300 0 l 1
- 200 0 l 1
+ 350 400 l 1
+ 400 400 l 1
+ 400 200 l 1
+ 400 0 l 1
+ 250 0 l 1
  100 0 l 1
  100 50 l 1
  100 100 l 1
@@ -2891,18 +2838,18 @@ SplineSet
  100 200 l 1
  100 250 l 1
  100 300 l 1
- 150 300 l 1
  200 300 l 1
- 200 350 l 1
-200 150 m 1
+ 300 300 l 1
+ 300 350 l 1
+300 150 m 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 150 l 1
+ 300 100 l 1
+ 300 150 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2917,23 +2864,23 @@ Fore
 SplineSet
 100 350 m 1
  100 400 l 1
- 150 400 l 1
  200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 250 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 400 200 l 1
+ 350 200 l 1
  300 200 l 1
- 250 200 l 1
- 200 200 l 1
- 200 150 l 1
- 200 100 l 1
- 250 100 l 1
+ 300 150 l 1
  300 100 l 1
- 300 50 l 1
- 300 0 l 1
- 200 0 l 1
+ 350 100 l 1
+ 400 100 l 1
+ 400 50 l 1
+ 400 0 l 1
+ 250 0 l 1
  100 0 l 1
  100 50 l 1
  100 100 l 1
@@ -2944,15 +2891,15 @@ SplineSet
  50 300 l 1
  100 300 l 1
  100 350 l 1
-200 250 m 1
+300 250 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 250 l 1
+ 300 200 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -2967,19 +2914,19 @@ Fore
 SplineSet
 100 350 m 1
  100 400 l 1
- 150 400 l 1
- 200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 150 300 l 1
+ 250 400 l 1
+ 400 400 l 1
+ 400 350 l 1
+ 400 300 l 1
+ 250 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 150 l 1
+ 300 200 l 1
+ 300 150 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
@@ -3012,15 +2959,15 @@ SplineSet
  100 300 l 1
  100 200 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 150 l 1
- 200 200 l 1
- 250 200 l 1
- 300 200 l 1
  300 100 l 1
- 300 0 l 1
- 200 0 l 1
+ 300 150 l 1
+ 300 200 l 1
+ 350 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 250 0 l 1
  100 0 l 1
  100 50 l 1
  100 100 l 1
@@ -3049,15 +2996,15 @@ SplineSet
  100 400 l 1
  100 300 l 1
  100 200 l 1
- 200 200 l 1
- 300 200 l 1
- 300 100 l 1
+ 250 200 l 1
+ 400 200 l 1
+ 400 100 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 50 l 1
+ 300 50 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
@@ -3076,24 +3023,24 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 350 m 1
- 0 400 l 1
- 50 400 l 1
+100 350 m 1
  100 400 l 1
- 100 350 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 350 l 1
+ 200 300 l 1
+ 150 300 l 1
  100 300 l 1
- 50 300 l 1
- 0 300 l 1
- 0 350 l 1
-0 100 m 1
- 0 200 l 1
- 50 200 l 1
+ 100 350 l 1
+100 100 m 1
  100 200 l 1
- 100 100 l 1
+ 150 200 l 1
+ 200 200 l 1
+ 200 100 l 1
+ 200 0 l 1
+ 150 0 l 1
  100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 100 l 1
+ 100 100 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -3106,17 +3053,17 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-200 250 m 1
- 200 400 l 1
- 250 400 l 1
+300 250 m 1
  300 400 l 1
- 300 250 l 1
+ 350 400 l 1
+ 400 400 l 1
+ 400 250 l 1
+ 400 100 l 1
+ 350 100 l 1
  300 100 l 1
- 250 100 l 1
- 200 100 l 1
- 200 50 l 1
+ 300 50 l 1
+ 300 0 l 1
  200 0 l 1
- 150 0 l 1
  100 0 l 1
  100 50 l 1
  100 100 l 1
@@ -3128,9 +3075,9 @@ SplineSet
  100 200 l 1
  100 150 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 250 l 1
+ 300 100 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -3188,23 +3135,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 250 m 1
- 0 400 l 1
- 50 400 l 1
+100 250 m 1
  100 400 l 1
- 100 250 l 1
- 100 100 l 1
- 150 100 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 250 l 1
  200 100 l 1
- 200 50 l 1
+ 250 100 l 1
+ 300 100 l 1
+ 300 50 l 1
+ 300 0 l 1
+ 250 0 l 1
  200 0 l 1
- 150 0 l 1
- 100 0 l 1
- 100 50 l 1
+ 200 50 l 1
+ 200 100 l 1
+ 150 100 l 1
  100 100 l 1
- 50 100 l 1
- 0 100 l 1
- 0 250 l 1
+ 100 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -3260,19 +3207,15 @@ Fore
 SplineSet
 0 150 m 1
  0 300 l 1
- 100 300 l 1
  200 300 l 1
- 200 250 l 1
- 200 200 l 1
- 250 200 l 1
- 300 200 l 1
- 300 100 l 1
+ 400 300 l 1
+ 400 150 l 1
+ 400 0 l 1
+ 350 0 l 1
  300 0 l 1
- 250 0 l 1
- 200 0 l 1
- 200 100 l 1
+ 300 100 l 1
+ 300 200 l 1
  200 200 l 1
- 150 200 l 1
  100 200 l 1
  100 100 l 1
  100 0 l 1
@@ -3339,19 +3282,19 @@ Fore
 SplineSet
 100 350 m 1
  100 400 l 1
- 150 400 l 1
  200 400 l 1
- 200 350 l 1
- 200 300 l 1
- 250 300 l 1
+ 300 400 l 1
+ 300 350 l 1
  300 300 l 1
- 300 250 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 250 l 1
+ 400 200 l 1
+ 350 200 l 1
  300 200 l 1
- 250 200 l 1
- 200 200 l 1
- 200 150 l 1
+ 300 150 l 1
+ 300 100 l 1
  200 100 l 1
- 150 100 l 1
  100 100 l 1
  100 50 l 1
  100 0 l 1
@@ -3362,15 +3305,15 @@ SplineSet
  50 300 l 1
  100 300 l 1
  100 350 l 1
-200 250 m 1
+300 250 m 1
+ 300 300 l 1
  200 300 l 1
- 150 300 l 1
  100 300 l 1
  100 250 l 1
  100 200 l 1
- 150 200 l 1
  200 200 l 1
- 200 250 l 1
+ 300 200 l 1
+ 300 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -3530,15 +3473,15 @@ SplineSet
  100 300 l 1
  100 200 l 1
  100 100 l 1
- 150 100 l 1
  200 100 l 1
- 200 200 l 1
- 200 300 l 1
- 250 300 l 1
+ 300 100 l 1
+ 300 200 l 1
  300 300 l 1
- 300 150 l 1
- 300 0 l 1
- 200 0 l 1
+ 350 300 l 1
+ 400 300 l 1
+ 400 150 l 1
+ 400 0 l 1
+ 250 0 l 1
  100 0 l 1
  100 50 l 1
  100 100 l 1
@@ -3787,15 +3730,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 200 m 1
- 0 400 l 1
- 50 400 l 1
+100 200 m 1
  100 400 l 1
- 100 200 l 1
+ 150 400 l 1
+ 200 400 l 1
+ 200 200 l 1
+ 200 0 l 1
+ 150 0 l 1
  100 0 l 1
- 50 0 l 1
- 0 0 l 1
- 0 200 l 1
+ 100 200 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
@@ -3845,39 +3788,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 250 m 1
+0 250 m 1
+ 0 300 l 1
  100 300 l 1
- 150 300 l 1
  200 300 l 1
  200 250 l 1
  200 200 l 1
  250 200 l 1
  300 200 l 1
- 300 250 l 1
- 300 300 l 1
- 350 300 l 1
- 400 300 l 1
- 400 250 l 1
- 400 200 l 1
- 350 200 l 1
- 300 200 l 1
  300 150 l 1
  300 100 l 1
- 250 100 l 1
  200 100 l 1
- 200 150 l 1
- 200 200 l 1
- 150 200 l 1
- 100 200 l 1
- 100 150 l 1
  100 100 l 1
- 50 100 l 1
- 0 100 l 1
- 0 150 l 1
- 0 200 l 1
- 50 200 l 1
+ 100 150 l 1
  100 200 l 1
- 100 250 l 1
+ 50 200 l 1
+ 0 200 l 1
+ 0 250 l 1
 EndSplineSet
 Kerns2: 127 100 "kern-lut" 126 100 "kern-lut" 125 100 "kern-lut" 124 100 "kern-lut" 123 100 "kern-lut" 122 100 "kern-lut" 121 100 "kern-lut" 120 100 "kern-lut" 119 100 "kern-lut" 118 100 "kern-lut" 117 100 "kern-lut" 116 100 "kern-lut" 115 100 "kern-lut" 114 100 "kern-lut" 113 100 "kern-lut" 112 100 "kern-lut" 111 100 "kern-lut" 110 100 "kern-lut" 109 100 "kern-lut" 108 100 "kern-lut" 107 100 "kern-lut" 106 100 "kern-lut" 105 100 "kern-lut" 104 100 "kern-lut" 103 100 "kern-lut" 102 100 "kern-lut" 101 100 "kern-lut" 100 100 "kern-lut" 99 100 "kern-lut" 98 100 "kern-lut" 97 100 "kern-lut" 96 100 "kern-lut" 95 100 "kern-lut" 94 100 "kern-lut" 93 100 "kern-lut" 92 100 "kern-lut" 91 100 "kern-lut" 90 100 "kern-lut" 89 100 "kern-lut" 88 100 "kern-lut" 87 100 "kern-lut" 86 100 "kern-lut" 85 100 "kern-lut" 84 100 "kern-lut" 83 100 "kern-lut" 82 100 "kern-lut" 81 100 "kern-lut" 80 100 "kern-lut" 79 100 "kern-lut" 78 100 "kern-lut" 77 100 "kern-lut" 76 100 "kern-lut" 75 100 "kern-lut" 74 100 "kern-lut" 73 100 "kern-lut" 72 100 "kern-lut" 71 100 "kern-lut" 70 100 "kern-lut" 69 100 "kern-lut" 68 100 "kern-lut" 67 100 "kern-lut" 66 100 "kern-lut" 65 100 "kern-lut" 64 100 "kern-lut" 63 100 "kern-lut" 62 100 "kern-lut" 61 100 "kern-lut" 60 100 "kern-lut" 59 100 "kern-lut" 58 100 "kern-lut" 57 100 "kern-lut" 56 100 "kern-lut" 55 100 "kern-lut" 54 100 "kern-lut" 53 100 "kern-lut" 52 100 "kern-lut" 51 100 "kern-lut" 50 100 "kern-lut" 49 100 "kern-lut" 48 100 "kern-lut" 47 100 "kern-lut" 46 100 "kern-lut" 45 100 "kern-lut" 44 100 "kern-lut" 43 100 "kern-lut" 42 100 "kern-lut" 41 100 "kern-lut" 40 100 "kern-lut" 39 100 "kern-lut" 38 100 "kern-lut" 37 100 "kern-lut" 36 100 "kern-lut" 35 100 "kern-lut" 34 100 "kern-lut" 33 100 "kern-lut" 32 0 "kern-lut" 31 0 "kern-lut" 30 0 "kern-lut" 29 0 "kern-lut" 28 0 "kern-lut" 27 100 "kern-lut" 26 100 "kern-lut" 25 100 "kern-lut" 24 100 "kern-lut" 23 100 "kern-lut" 22 100 "kern-lut" 21 100 "kern-lut" 20 100 "kern-lut" 19 100 "kern-lut" 18 100 "kern-lut" 17 100 "kern-lut" 16 100 "kern-lut" 15 100 "kern-lut" 14 100 "kern-lut" 13 0 "kern-lut" 12 0 "kern-lut" 11 0 "kern-lut" 10 0 "kern-lut" 9 0 "kern-lut" 8 100 "kern-lut" 7 100 "kern-lut" 6 100 "kern-lut" 5 100 "kern-lut" 4 100 "kern-lut" 3 100 "kern-lut" 2 100 "kern-lut" 1 100 "kern-lut" 0 100 "kern-lut"
 EndChar
