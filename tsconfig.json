@@ -1,38 +1,48 @@
 {
   "compilerOptions": {
-    // Enable incremental builds.
+    // enable incremental builds.
     "composite": true,
 
-    // Maximize type checking.
+    // enable type-stripping.
+    "allowImportingTsExtensions": true,
+
+    // only allow type-strippable syntax.
+    "erasableSyntaxOnly": true,
+
+    // maximize type checking.
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
+    "noUncheckedSideEffectImports": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "resolveJsonModule": true,
     "strict": true,
 
-    // Projects add types needed.
+    // projects add types needed.
+    "lib": ["ES2022"],
     "types": [],
 
-    // Improve compatibility with compilers that aren't type system aware.
+    "isolatedDeclarations": true, // require explicit types.
+
+    // improve compatibility with compilers that aren't type system aware.
     "isolatedModules": true,
 
-    // Allow JSON type-checking and imports.
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "esModuleInterop": true, // use ESM.
 
-    // Assume library types are checked and compatible.
+    // allow JSON type-checking and imports.
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    "rewriteRelativeImportExtensions": true, // rewrite .ts imports to .js.
+
+    "rootDir": "src", // unpack at root of dist.
+
+    // assume library types are checked and compatible.
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-
-    "outDir": "dist",
-
-    // Unpack at root of dist.
-    "rootDir": "src",
 
     "sourceMap": true,
 
@@ -40,11 +50,11 @@
 
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
 
-    // Don't transform type-only imports.
+    "outDir": "dist",
+
+    // don't transform type-only imports.
     "verbatimModuleSyntax": true
   },
-  // https://github.com/Microsoft/TypeScript/issues/25636
-  "include": ["**/*", "**/*.json"],
-  // https://github.com/microsoft/TypeScript/wiki/Performance#misconfigured-include-and-exclude
-  "exclude": ["dist", "node_modules", ".*/"]
+  "include": ["./", "**/*.json"],
+  "exclude": ["dist/", "node_modules/"]
 }
