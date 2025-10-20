@@ -64,5 +64,5 @@
     "version": "npm test && git add dist"
   },
   "type": "module",
-  "version": "11.0.0-6"
+  "version": "11.0.0-7"
 }
