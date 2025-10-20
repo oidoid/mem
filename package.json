@@ -10,9 +10,12 @@
   "engines": {
     "node": ">=22.6"
   },
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "files": [
     "dist",
-    "!dist/**/tsconfig.tsbuildinfo"
+    "!dist/tsconfig.tsbuildinfo"
   ],
   "homepage": "https://rndmem.com",
   "keywords": [
@@ -31,7 +34,6 @@
     "sans"
   ],
   "license": "AGPL-3.0-only",
-  "main": "dist/index.js",
   "name": "mem-font",
   "prettier": {
     "arrowParens": "avoid",
@@ -41,6 +43,9 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "none"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
