@@ -11,21 +11,21 @@ export type Font = {
      * the maximum width of any character in the font in pixels. usually present
      * in font name. eg, the max width of "mem prop 5x6" is five pixels.
      */
-    cellWidth: number;
+    cellW: number;
     /**
      * the maximum height of any character in the font in pixels, including
      * descenders but not leading. usually present in font name. eg, the max
      * height of "mem prop 5x6" is six pixels. the line height is
-     * `cellHeight + leading` or seven pixels.
+     * `cellH + leading` or seven pixels.
      */
-    cellHeight: number;
+    cellH: number;
     /** distance between lines in pixels. */
     leading: number;
-    /** `cellHeight + leading`. */
-    lineHeight: number;
+    /** `cellH + leading`. */
+    lineH: number;
     /**
      * the font's baseline as measured in pixels from the bottom of the cell
-     * (`cellHeight`). when nonzero, this is the space available for descenders.
+     * (`cellH`). when nonzero, this is the space available for descenders.
      */
     baseline: number;
     /**
@@ -50,17 +50,21 @@ export type Font = {
     /** kerning for when the right character is a newline. */
     endOfLineKerning: number;
     /**
-     * character width in pixels. When a character is not present,
-     * `defaultCharWidth` is used.
+     * character width in pixels. When a character is not present, `defaultCharW`
+     * is used.
      */
-    charWidth: {
+    charW: {
         [char: string]: number;
     };
     /**
-     * character width in pixels. when a character is not present in `charWidth`,
-     * `defaultCharWidth` is used.
+     * character width in pixels. when a character is not present in `charW`,
+     * `defaultCharW` is used.
      */
-    defaultCharWidth: number;
+    defaultCharW: number;
+    /** whether a character descends below the baseline. */
+    descends: {
+        [char: string]: boolean;
+    };
 };
 export declare const memMono3x3: Font;
 export declare const memMono4x4: Font;

@@ -26,7 +26,7 @@ def main(sfd, metaFilename, svgFilenames):
   font.xuid = None
 
   # Import glyphs with decent eequal to zero
-  font.ascent = meta['cellHeight'] * pixels_to_ems
+  font.ascent = meta['cellH'] * pixels_to_ems
   font.descent = 0
 
   font.addLookup('kern', 'gpos_pair', 0, [['kern', [["dflt", ["dflt"]]]]])
@@ -34,7 +34,7 @@ def main(sfd, metaFilename, svgFilenames):
 
   for key in range(128):
     glyph = font.createChar(key)
-    glyph.width = glyphWidth(meta, chr(key))
+    glyph.width = glyphW(meta, chr(key))
 
   for svgFilename in svgFilenames:
     char = filenameToCharCode(svgFilename)
@@ -81,11 +81,11 @@ def kernGlyph(meta, glyph):
 
     glyph.addPosSub('kern-lut', fontforge.nameFromUnicode(key), ems)
 
-def glyphWidth(meta, char):
-  return charWidth(meta, char) * pixels_to_ems
+def glyphW(meta, char):
+  return charW(meta, char) * pixels_to_ems
 
-def charWidth(meta, char):
-  return meta['charWidth'].get(char, meta['defaultCharWidth'])
+def charW(meta, char):
+  return meta['charW'].get(char, meta['defaultCharW'])
 
 # Accepts a filename in the following format mem-fontxxx.svg where xxx is the
 # code without padding.
