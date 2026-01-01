@@ -1,0 +1,6 @@
+{
+  "extends": ["@oidoid/config/biome"],
+  "files": {
+    "maxSize": 2200000
+  }
+}

@@ -72,3 +72,4 @@ export declare const memProp3x5: Font;
 export declare const memProp4x4: Font;
 export declare const memProp5x5: Font;
 export declare const memProp5x6: Font;
+//# sourceMappingURL=index.d.ts.map

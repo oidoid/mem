@@ -1,60 +1,14 @@
 {
+  "extends": "@oidoid/config/tsconfig",
   "compilerOptions": {
-    // enable incremental builds.
-    "composite": true,
-
-    // enable type-stripping.
-    "allowImportingTsExtensions": true,
-
-    // only allow type-strippable syntax.
-    "erasableSyntaxOnly": true,
-
-    // maximize type checking.
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "exactOptionalPropertyTypes": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitOverride": true,
-    "noUncheckedIndexedAccess": true,
-    "noUncheckedSideEffectImports": true,
-    "noUnusedLocals": true,
-    "resolveJsonModule": true,
-    "strict": true,
-
-    // projects add types needed.
-    "lib": ["ES2022"],
-    "types": [],
-
-    "isolatedDeclarations": true, // require explicit types.
-
-    // improve compatibility with compilers that aren't type system aware.
-    "isolatedModules": true,
-
-    "esModuleInterop": true, // use ESM.
-
-    // allow JSON type-checking and imports.
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-
-    "rewriteRelativeImportExtensions": true, // rewrite .ts imports to .js.
-
-    "rootDir": "src", // unpack at root of dist.
-
-    // assume library types are checked and compatible.
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-
-    "sourceMap": true,
-
-    "target": "ES2022",
-
-    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
-
-    "outDir": "dist",
-
-    // don't transform type-only imports.
-    "verbatimModuleSyntax": true
+    "outDir": "dist/",
+    "rootDir": "src",
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
-  "include": ["./", "**/*.json"],
-  "exclude": ["dist/", "node_modules/"]
+  "exclude": [
+    "node_modules/",
+    "dist/",
+    "${configDir}/**/*.test.*",
+    "${configDir}/**/test/"
+  ]
 }

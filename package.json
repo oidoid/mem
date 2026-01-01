@@ -3,18 +3,19 @@
   "bugs": "https://github.com/oidoid/mem/issues",
   "description": "proportional and monospaced sans light pixel font family.",
   "devDependencies": {
-    "esbuild": "0.25.11",
-    "prettier": "3.6.2",
+    "@biomejs/biome": "2.3.10",
+    "@oidoid/config": "0.0.3",
+    "esbuild": "0.27.2",
     "typescript": "5.9.3"
   },
   "engines": {
-    "node": ">=22.6"
+    "node": ">=24.0"
   },
   "exports": {
     ".": "./dist/index.js"
   },
   "files": [
-    "dist",
+    "dist/",
     "!dist/tsconfig.tsbuildinfo"
   ],
   "homepage": "https://rndmem.com",
@@ -35,15 +36,6 @@
   ],
   "license": "AGPL-3.0-only",
   "name": "mem-font",
-  "prettier": {
-    "arrowParens": "avoid",
-    "bracketSpacing": false,
-    "jsxSingleQuote": true,
-    "proseWrap": "always",
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "none"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -52,15 +44,12 @@
     "url": "git+https://github.com/oidoid/mem.git"
   },
   "scripts": {
-    "build": "tsc --build && make --directory=tools --no-print-directory build",
-    "clean": "rm -rf dist",
-    "format": "npm run formatter -- --write",
-    "formatter": "prettier --cache --log-level warn './**/*.{css,html,json,md,ts,yaml}'",
+    "build": "tsc --build && make --directory=tools/ --no-print-directory build",
+    "clean": "rm -rf dist/",
     "preversion": "[ -z \"$(git status -z)\" ]",
     "prepublishOnly": "! git symbolic-ref --quiet HEAD || git push --follow-tags origin \"$(git branch --show-current)\"",
-    "start": "make --directory=tools --no-print-directory watch",
-    "test": "npm run test:format && npm run build",
-    "test:format": "npm run formatter -- --check",
+    "start": "make --directory=tools/ --no-print-directory watch",
+    "test": "lint && npm run build",
     "version": "npm test && git add dist"
   },
   "type": "module",
