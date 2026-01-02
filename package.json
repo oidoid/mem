@@ -50,7 +50,7 @@
     "prepublishOnly": "! git symbolic-ref --quiet HEAD || git push --follow-tags origin \"$(git branch --show-current)\"",
     "start": "make --directory=tools/ --no-print-directory watch",
     "test": "lint && npm run build",
-    "version": "npm test && git add dist"
+    "version": "npm test && git add dist/"
   },
   "type": "module",
   "version": "11.0.0-10"
