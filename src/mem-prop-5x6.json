@@ -545,6 +545,7 @@
   "defaultWhitespaceKerning": -1,
   "endOfLineKerning": 0,
   "charW": {
+    "\u0000": 1,
     " ": 4,
     "!": 1,
     "#": 5,

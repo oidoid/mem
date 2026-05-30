@@ -63,7 +63,7 @@ BeginChars: 256 128
 
 StartChar: uni0000
 Encoding: 0 0 0
-Width: 300
+Width: 100
 VWidth: 500
 Flags: W
 LayerCount: 2
