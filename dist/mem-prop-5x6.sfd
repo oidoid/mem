@@ -4,7 +4,7 @@ FullName: mem 5x6
 FamilyName: mem 5x6
 Weight: Regular
 Copyright: © oidoid
-Version: 11.0.0-10
+Version: 11.0.0-11
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -162,7 +162,7 @@ EndChar
 
 StartChar: uni000B
 Encoding: 11 11 11
-Width: 300
+Width: 200
 VWidth: 500
 Flags: W
 LayerCount: 2
